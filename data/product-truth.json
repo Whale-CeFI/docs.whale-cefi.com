@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0.0",
+  "release_status": "official-release",
+  "canonical_domain": "whale-cefi.com",
+  "canonical_documentation_origin": "https://docs.whale-cefi.com",
+  "effective_at": "2026-07-29T00:00:00+03:00",
+  "material_decisions": {
+    "product_brand": "Whale CeFi",
+    "stewardship_entity": "Whale Foundation",
+    "stewardship_entity_registration_status": "officially-registered",
+    "location": "Abu Dhabi, United Arab Emirates",
+    "locked_reward_model": "fixed-contractual",
+    "flexible_reward_model": "prospective-variable",
+    "rate_unit": "monthly-reward-rate",
+    "minimum_deposit_usd_equivalent": 50,
+    "platform_deposit_fee": 0,
+    "platform_withdrawal_fee": 0,
+    "auditors": [
+      "Eter",
+      "Hashlock"
+    ]
+  }
+}

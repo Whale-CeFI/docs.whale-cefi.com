@@ -1,0 +1,1349 @@
+{
+  "generated_at": "2026-07-29T00:00:00+03:00",
+  "documents": [
+    {
+      "source": "README.md",
+      "url": "https://docs.whale-cefi.com",
+      "title": "Whale CeFi Documentation",
+      "description": "Understand the product before you move an asset. Verify the evidence before you trust a claim. Keep final authority in human hands."
+    },
+    {
+      "source": "start-here.md",
+      "url": "https://docs.whale-cefi.com/start-here",
+      "title": "Start Here",
+      "description": "Crypto can feel difficult because several systems are usually compressed into a single word. A wallet is not a blockchain. A token symbol is not a complete asset identity. A displayed balance is not the same thing as…"
+    },
+    {
+      "source": "start-here/crypto-without-jargon.md",
+      "url": "https://docs.whale-cefi.com/start-here/crypto-without-jargon",
+      "title": "Crypto without Jargon",
+      "description": "You do not need to become a blockchain engineer to use a digital asset safely. You only need a reliable mental model for the few decisions that can move value."
+    },
+    {
+      "source": "start-here/wallets-networks-and-addresses.md",
+      "url": "https://docs.whale-cefi.com/start-here/wallets-networks-and-addresses",
+      "title": "Wallets, Networks, and Addresses",
+      "description": "These three ideas appear together, but they answer different questions."
+    },
+    {
+      "source": "start-here/your-first-deposit.md",
+      "url": "https://docs.whale-cefi.com/start-here/your-first-deposit",
+      "title": "Your First Deposit",
+      "description": "Sign in through the official Whale CeFi entry point. Select the asset first, then the network. The system shows only routes admitted by the current asset registry."
+    },
+    {
+      "source": "start-here/choosing-a-plan.md",
+      "url": "https://docs.whale-cefi.com/start-here/choosing-a-plan",
+      "title": "Choosing a Plan",
+      "description": "A higher percentage is only one part of the decision. The useful question is: what exactly am I accepting in exchange for this reward?"
+    },
+    {
+      "source": "start-here/open-and-track-a-position.md",
+      "url": "https://docs.whale-cefi.com/start-here/open-and-track-a-position",
+      "title": "Open and Track a Position",
+      "description": "Opening a position converts an available balance into a versioned financial obligation. It is not just a button state."
+    },
+    {
+      "source": "start-here/maturity-and-withdrawal.md",
+      "url": "https://docs.whale-cefi.com/start-here/maturity-and-withdrawal",
+      "title": "Maturity and Withdrawal",
+      "description": "Maturity, position closure, and blockchain withdrawal are related but separate events."
+    },
+    {
+      "source": "start-here/safety-checklist.md",
+      "url": "https://docs.whale-cefi.com/start-here/safety-checklist",
+      "title": "Safety Checklist",
+      "description": "Most preventable losses begin with a rushed confirmation. Use this checklist before moving value."
+    },
+    {
+      "source": "start-here/beginner-faq.md",
+      "url": "https://docs.whale-cefi.com/start-here/beginner-faq",
+      "title": "Beginner FAQ",
+      "description": "The required route depends on the product surface and supported deposit method. When an external wallet is used, it remains responsible for signing the transfer. Whale CeFi never needs the wallet's seed phrase."
+    },
+    {
+      "source": "account-and-access.md",
+      "url": "https://docs.whale-cefi.com/account-and-access",
+      "title": "Account and Access",
+      "description": "Account security begins before a deposit. This section explains registration, identity verification, authentication, recovery, device controls, sessions, notifications, and the conditions that can limit account access."
+    },
+    {
+      "source": "account-and-access/create-an-account.md",
+      "url": "https://docs.whale-cefi.com/account-and-access/create-an-account",
+      "title": "Create an Account",
+      "description": "An account gives you a controlled identity inside Whale CeFi. It is the place where eligibility, product consent, balances, positions, progression, support cases, and security events are associated with one verified…"
+    },
+    {
+      "source": "account-and-access/identity-verification.md",
+      "url": "https://docs.whale-cefi.com/account-and-access/identity-verification",
+      "title": "Identity Verification",
+      "description": "Identity verification establishes whether a person or organisation is eligible for a specific Whale CeFi service. It supports sanctions controls, fraud prevention, account recovery, transaction review, legal…"
+    },
+    {
+      "source": "account-and-access/authentication-and-sessions.md",
+      "url": "https://docs.whale-cefi.com/account-and-access/authentication-and-sessions",
+      "title": "Authentication and Sessions",
+      "description": "Authentication proves control of an account session. It is deliberately separate from product consent, wallet signing, custody approval, and administrative authority."
+    },
+    {
+      "source": "account-and-access/account-recovery.md",
+      "url": "https://docs.whale-cefi.com/account-and-access/account-recovery",
+      "title": "Account Recovery",
+      "description": "Recovery restores account access without silently transferring financial authority to an attacker. It is therefore slower and more evidence-heavy than an ordinary login."
+    },
+    {
+      "source": "account-and-access/notifications-and-confirmations.md",
+      "url": "https://docs.whale-cefi.com/account-and-access/notifications-and-confirmations",
+      "title": "Notifications and Confirmations",
+      "description": "Notifications make material state changes visible outside the screen where they occurred. They are evidence and safety controls, not marketing decoration."
+    },
+    {
+      "source": "account-and-access/account-restrictions-and-appeals.md",
+      "url": "https://docs.whale-cefi.com/account-and-access/account-restrictions-and-appeals",
+      "title": "Account Restrictions and Appeals",
+      "description": "Whale CeFi can restrict a capability when law, sanctions policy, security risk, fraud evidence, unresolved identity, product eligibility, asset-route safety, or an operational incident requires it."
+    },
+    {
+      "source": "earning-with-whale-cefi.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi",
+      "title": "Earning with Whale CeFi",
+      "description": "Understand what Whale CeFi does, what happens to an asset and which decisions remain yours."
+    },
+    {
+      "source": "earning-with-whale-cefi/current-rate-card.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/current-rate-card",
+      "title": "Current Rate Card",
+      "description": "This page explains the customer-visible rates for the current USDT and USDC campaign configuration. Rates are expressed as a reward rate per month, not APR and not APY."
+    },
+    {
+      "source": "earning-with-whale-cefi/product-model.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/product-model",
+      "title": "Product Model",
+      "description": "The product boundary between account experience, financial obligation, custody and external networks."
+    },
+    {
+      "source": "earning-with-whale-cefi/end-to-end-user-journey.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/end-to-end-user-journey",
+      "title": "End-to-End User Journey",
+      "description": "A short mental model of the product, financial records, infrastructure, security and intelligence layer."
+    },
+    {
+      "source": "earning-with-whale-cefi/deposits-and-credit-finality.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/deposits-and-credit-finality",
+      "title": "Deposits and Credit Finality",
+      "description": "What to check before sending an asset, how confirmation works and when a balance becomes available."
+    },
+    {
+      "source": "earning-with-whale-cefi/plan-catalogue.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/plan-catalogue",
+      "title": "Plan Catalogue",
+      "description": "A precise comparison of availability, rate treatment, accrual and closure."
+    },
+    {
+      "source": "earning-with-whale-cefi/rates-and-reward-mathematics.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/rates-and-reward-mathematics",
+      "title": "Rates and Reward Mathematics",
+      "description": "This page defines the unit, calculation, versioning, display, and rounding rules behind Whale CeFi reward rates."
+    },
+    {
+      "source": "earning-with-whale-cefi/position-review-and-consent.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/position-review-and-consent",
+      "title": "Position Review and Consent",
+      "description": "The immutable review object a user sees and accepts before a position can be opened."
+    },
+    {
+      "source": "earning-with-whale-cefi/reward-sources.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/reward-sources",
+      "title": "Reward Sources",
+      "description": "How each plan separates economic yield, incentives, fees, costs and platform-funded support."
+    },
+    {
+      "source": "earning-with-whale-cefi/material-risks.md",
+      "url": "https://docs.whale-cefi.com/earning-with-whale-cefi/material-risks",
+      "title": "Material Risks",
+      "description": "The main ways value, access or timing can be affected and how each risk is controlled."
+    },
+    {
+      "source": "points-and-progression.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression",
+      "title": "Points and Progression",
+      "description": "Whale CeFi uses progression to make valid product activity, learning, and long-term participation visible. The system includes XP, levels, tasks, daily rewards, streaks, chests, achievements, referrals, leaderboards,…"
+    },
+    {
+      "source": "points-and-progression/guide-overview.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/guide-overview",
+      "title": "Gamification Guide",
+      "description": "Whale CeFi uses a progression layer to make product activity, learning, and long-term participation easier to understand."
+    },
+    {
+      "source": "points-and-progression/progression-principles.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/progression-principles",
+      "title": "Progression Principles",
+      "description": "Progress must be connected to an eligible action, verified account state, approved learning result, or published reward event. Creating noise, repeating an ineligible action, or simulating activity does not create a…"
+    },
+    {
+      "source": "points-and-progression/xp.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/xp",
+      "title": "XP",
+      "description": "XP is Whale CeFi’s progression score. It records eligible participation across the platform."
+    },
+    {
+      "source": "points-and-progression/levels.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/levels",
+      "title": "Levels",
+      "description": "Levels represent cumulative confirmed XP. They organise progression and discovery without changing customer balances, legal rights, withdrawal priority, risk disclosure, security controls, or product suitability."
+    },
+    {
+      "source": "points-and-progression/tasks.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/tasks",
+      "title": "Tasks",
+      "description": "Tasks are versioned objectives connected to eligible product activity, learning, referrals, profile setup, or seasonal events. A task is complete only when its underlying event reaches the required final state."
+    },
+    {
+      "source": "points-and-progression/daily-bonus-and-streaks.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/daily-bonus-and-streaks",
+      "title": "Daily Bonus and Streaks",
+      "description": "The daily bonus is a light progression mechanic. It rewards a valid return to the platform without requiring a deposit, trade, plan opening, or other financial risk."
+    },
+    {
+      "source": "points-and-progression/chests.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/chests",
+      "title": "Chests",
+      "description": "Chests are controlled reward containers awarded through progression, tasks, achievements, seasons, daily events, or approved purchases. The result is probabilistic, so the configuration is disclosed before a chest is…"
+    },
+    {
+      "source": "points-and-progression/rewards-and-boosts.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/rewards-and-boosts",
+      "title": "Rewards and Boosts",
+      "description": "Reward pools may contain progression, profile, utility, access, or financial-value items where approved."
+    },
+    {
+      "source": "points-and-progression/achievements.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/achievements",
+      "title": "Achievements",
+      "description": "Achievements are permanent or long-lived recognition milestones associated with specific eligible behaviour or learning. Unlike a level, which summarises total XP, an achievement identifies what the user actually…"
+    },
+    {
+      "source": "points-and-progression/referrals.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/referrals",
+      "title": "Referrals",
+      "description": "The referral system recognises valid network growth. It is not intended to reward artificial account creation, self-referral, purchased identities, or activity that exists only to manufacture rewards."
+    },
+    {
+      "source": "points-and-progression/leaderboards-and-seasons.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/leaderboards-and-seasons",
+      "title": "Leaderboards and Seasons",
+      "description": "Leaderboards display standing in selected, published categories. They are designed for visibility and engagement; they do not reveal every internal fraud or moderation signal."
+    },
+    {
+      "source": "points-and-progression/learn-to-earn.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/learn-to-earn",
+      "title": "Learn-to-Earn",
+      "description": "Learn-to-Earn is the intended bridge between education, verified competency, and progression."
+    },
+    {
+      "source": "points-and-progression/credentials-and-access.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/credentials-and-access",
+      "title": "Credentials and Access",
+      "description": "Whale CeFi may use verified progression or learning results to unlock selected content, capacity, recognition, or product access where approved."
+    },
+    {
+      "source": "points-and-progression/fair-use-and-anti-abuse.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/fair-use-and-anti-abuse",
+      "title": "Fair Use and Anti-Abuse",
+      "description": "Gamification is available to real users acting within the platform rules."
+    },
+    {
+      "source": "points-and-progression/eligibility-timing-and-corrections.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/eligibility-timing-and-corrections",
+      "title": "Eligibility, Timing, and Corrections",
+      "description": "Progression depends on both the visible objective and the underlying eligible event."
+    },
+    {
+      "source": "points-and-progression/reviews-appeals-and-support.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/reviews-appeals-and-support",
+      "title": "Reviews, Appeals, and Support",
+      "description": "A legitimate user should have a clear path when an eligible action appears not to have counted."
+    },
+    {
+      "source": "points-and-progression/privacy-and-public-profiles.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/privacy-and-public-profiles",
+      "title": "Privacy and Public Profiles",
+      "description": "Progression data can reveal financial behaviour, account activity, social connections, learning history, and inferred experience. It must be treated as governed user data."
+    },
+    {
+      "source": "points-and-progression/risks-legal-notes-and-change-log.md",
+      "url": "https://docs.whale-cefi.com/points-and-progression/risks-legal-notes-and-change-log",
+      "title": "Risks, Legal Notes, and Change Log",
+      "description": "Progression helps users understand participation; it does not remove product, security, legal, tax, or financial risk."
+    },
+    {
+      "source": "weni-native-intelligence.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence",
+      "title": "WENI — Native Intelligence",
+      "description": "Whale CeFi AI Agent is a crypto-native mentor and intelligence system. It understands the person using it — their experience, their goal, the evidence available, and the way they make sense of the market."
+    },
+    {
+      "source": "weni-native-intelligence/what-the-ai-agent-is.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/what-the-ai-agent-is",
+      "title": "What the AI Agent Is",
+      "description": "Whale CeFi AI Agent is the user-facing intelligence product. WENI — the native intelligence system for Whale CeFi — is the wider governed intelligence system that supports it."
+    },
+    {
+      "source": "weni-native-intelligence/why-intelligence-is-the-next-layer.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/why-intelligence-is-the-next-layer",
+      "title": "Why Intelligence Is the Next Layer",
+      "description": "Crypto does not suffer from a shortage of information. It suffers from fragmented evidence, inconsistent terminology, changing state, adversarial content, and irreversible actions."
+    },
+    {
+      "source": "weni-native-intelligence/who-it-is-for.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/who-it-is-for",
+      "title": "Who It Is For",
+      "description": "The same market creates different problems for different people. WENI operates on one evidence base with different levels of explanation and workflow support."
+    },
+    {
+      "source": "weni-native-intelligence/what-the-agent-can-do.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-can-do",
+      "title": "What the Agent Can Do",
+      "description": "Capabilities are published as explicit classes. Availability is published per release, region, product, asset, protocol, interface, and user tier."
+    },
+    {
+      "source": "weni-native-intelligence/what-the-agent-cannot-do.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-cannot-do",
+      "title": "What the Agent Cannot Do",
+      "description": "Whale CeFi AI Agent does not become an invisible authority over user assets."
+    },
+    {
+      "source": "weni-native-intelligence/weni-system-architecture.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/weni-system-architecture",
+      "title": "WENI System Architecture",
+      "description": "WENI operates as a governed intelligence system rather than one model with unlimited access."
+    },
+    {
+      "source": "weni-native-intelligence/data-graphs-and-truth-resolution.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/data-graphs-and-truth-resolution",
+      "title": "Data Graphs and Truth Resolution",
+      "description": "WENI’s data architecture separates three connected but non-interchangeable structures."
+    },
+    {
+      "source": "weni-native-intelligence/evidence-and-provenance.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/evidence-and-provenance",
+      "title": "Evidence and Provenance",
+      "description": "WENI operates on the principle that every statement carries enough context to be inspected."
+    },
+    {
+      "source": "weni-native-intelligence/confidence-conflict-and-freshness.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/confidence-conflict-and-freshness",
+      "title": "Confidence, Conflict, and Freshness",
+      "description": "Risk, confidence, evidence quality, and action eligibility are distinct and remain separately visible."
+    },
+    {
+      "source": "weni-native-intelligence/reasoning-and-deterministic-services.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/reasoning-and-deterministic-services",
+      "title": "Reasoning and Deterministic Services",
+      "description": "WENI separates tasks that benefit from probabilistic reasoning from tasks that require repeatable calculation or hard enforcement."
+    },
+    {
+      "source": "weni-native-intelligence/the-dynamic-interface.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/the-dynamic-interface",
+      "title": "The Dynamic Interface",
+      "description": "WENI is not limited to a chat window. The interface assembles the right combination of explanation, evidence, calculation, simulation, risk, and action controls for the current task."
+    },
+    {
+      "source": "weni-native-intelligence/personalisation-and-memory.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/personalisation-and-memory",
+      "title": "Personalisation and Memory",
+      "description": "WENI adapts to the person using it without quietly rewriting truth or retaining more data than necessary."
+    },
+    {
+      "source": "weni-native-intelligence/privacy-security-and-threat-model.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/privacy-security-and-threat-model",
+      "title": "Privacy, Security, and Threat Model",
+      "description": "An intelligence system that reads market, wallet, account, document, or enterprise context creates security and privacy responsibilities beyond a normal chatbot."
+    },
+    {
+      "source": "weni-native-intelligence/the-iron-boundary.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/the-iron-boundary",
+      "title": "The Iron Boundary",
+      "description": "The Iron Boundary is the non-negotiable separation between intelligence and asset authority."
+    },
+    {
+      "source": "weni-native-intelligence/explain-prepare-approve.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/explain-prepare-approve",
+      "title": "Explain, Prepare, Approve",
+      "description": "The action model uses distinct verbs because each verb carries different authority."
+    },
+    {
+      "source": "weni-native-intelligence/controlled-action-workflow.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/controlled-action-workflow",
+      "title": "Controlled Action Workflow",
+      "description": "How evidence and reasoning become an unsigned proposal that stops before human authorization."
+    },
+    {
+      "source": "weni-native-intelligence/the-user-journey.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/the-user-journey",
+      "title": "The User Journey",
+      "description": "The system identifies what the person is trying to understand or do, which asset or protocol is involved, the relevant time horizon, and whether the request is educational, analytical, or action-oriented."
+    },
+    {
+      "source": "weni-native-intelligence/evaluation-and-model-governance.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/evaluation-and-model-governance",
+      "title": "Evaluation and Model Governance",
+      "description": "Continuous assurance for factuality, numerical accuracy, tool safety, privacy, and authority preservation."
+    },
+    {
+      "source": "weni-native-intelligence/learn-to-earn-intelligence.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/learn-to-earn-intelligence",
+      "title": "Learn-to-Earn Intelligence",
+      "description": "Learn-to-Earn connects education, demonstrated competency, and progression without turning a quiz into a claim of financial expertise."
+    },
+    {
+      "source": "weni-native-intelligence/access-tiers-and-enterprise-use.md",
+      "url": "https://docs.whale-cefi.com/weni-native-intelligence/access-tiers-and-enterprise-use",
+      "title": "Access Tiers and Enterprise Use",
+      "description": "The access model varies capacity, latency, data depth, workflow tooling, and commercial support. It never creates different truth or removes baseline safety."
+    },
+    {
+      "source": "security-and-custody.md",
+      "url": "https://docs.whale-cefi.com/security-and-custody",
+      "title": "Security and Custody",
+      "description": "Segregated vaults, policy-bound signing, and reconciliation without conflating custody with customer entitlement."
+    },
+    {
+      "source": "security-and-custody/proof-of-reserves-and-liabilities.md",
+      "url": "https://docs.whale-cefi.com/security-and-custody/proof-of-reserves-and-liabilities",
+      "title": "Proof of Reserves and Liabilities",
+      "description": "A same-epoch proof that binds customer liabilities, controlled reserves, encumbrances, and wallet authority."
+    },
+    {
+      "source": "security-and-custody/transaction-policy.md",
+      "url": "https://docs.whale-cefi.com/security-and-custody/transaction-policy",
+      "title": "Transaction Policy",
+      "description": "The deterministic rules that constrain every custody and on-chain asset movement."
+    },
+    {
+      "source": "security-and-custody/administrative-zero-trust.md",
+      "url": "https://docs.whale-cefi.com/security-and-custody/administrative-zero-trust",
+      "title": "Administrative Zero Trust",
+      "description": "Administrative and workload access is governed by identity, device posture, purpose, time and approval rather than network location. Consumer authentication, staff federation, cloud administration, Kubernetes access,…"
+    },
+    {
+      "source": "security-and-custody/web-mobile-admin-and-api-security.md",
+      "url": "https://docs.whale-cefi.com/security-and-custody/web-mobile-admin-and-api-security",
+      "title": "Web, Mobile, Admin, and API Security",
+      "description": "Each client surface carries a different threat model. Browser edge delivery, React Native/Expo mobile storage, privileged administration and institutional APIs require distinct authentication, session, integrity,…"
+    },
+    {
+      "source": "security-and-custody/data-protection-and-geographic-controls.md",
+      "url": "https://docs.whale-cefi.com/security-and-custody/data-protection-and-geographic-controls",
+      "title": "Data Protection and Geographic Controls",
+      "description": "Compliance architecture maps legal entity, product, data, custody, user region, and permitted action to enforceable controls. KYC, sanctions, privacy, retention, and geographic restrictions are driven by approved…"
+    },
+    {
+      "source": "yield-and-financial-transparency.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency",
+      "title": "Yield and Financial Transparency",
+      "description": "Whale CeFi recognizes yield only when value has been produced by an approved source or released from an already funded budget. A reward promise is a liability. A forecast is not funding."
+    },
+    {
+      "source": "yield-and-financial-transparency/source-attribution.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/source-attribution",
+      "title": "Source Attribution",
+      "description": "Yield is disclosed by source, not hidden inside one blended percentage."
+    },
+    {
+      "source": "yield-and-financial-transparency/yield-waterfall.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/yield-waterfall",
+      "title": "Yield Waterfall",
+      "description": "The waterfall converts realized external economics into distributable reward without crossing the principal boundary."
+    },
+    {
+      "source": "yield-and-financial-transparency/rates-capacity-and-prefunding.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/rates-capacity-and-prefunding",
+      "title": "Rates, Capacity, and Prefunding",
+      "description": "A displayed rate becomes available for a new position only after the product proves that it has sufficient approved capacity and reward funding for the obligation it is about to accept."
+    },
+    {
+      "source": "yield-and-financial-transparency/liquidity-shortfall-and-resolution.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/liquidity-shortfall-and-resolution",
+      "title": "Liquidity, Shortfall, and Resolution",
+      "description": "Solvency and liquidity answer different questions. Solvency asks whether recognized assets cover liabilities. Liquidity asks whether the right asset can be delivered at the required time without unacceptable loss."
+    },
+    {
+      "source": "yield-and-financial-transparency/ledger-reconciliation-and-proof.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/ledger-reconciliation-and-proof",
+      "title": "Ledger, Reconciliation, and Proof",
+      "description": "Reward economics become trustworthy only when the financial record, controlled assets, blockchain state, and proof scope agree."
+    },
+    {
+      "source": "yield-and-financial-transparency/canonical-asset-and-account-model.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/canonical-asset-and-account-model",
+      "title": "Canonical Asset and Account Model",
+      "description": "Every financial record depends on a canonical definition of entity, account, asset, network, quantity, precision and liability. The model prevents symbol ambiguity and separates user liability, platform asset,…"
+    },
+    {
+      "source": "yield-and-financial-transparency/double-entry-ledger-service.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/double-entry-ledger-service",
+      "title": "Double-Entry Ledger Service",
+      "description": "The Accounting Ledger Service is the internal financial source of record. Every economic event posts a balanced, immutable journal transaction; balances are projections of entries, not independently mutable fields."
+    },
+    {
+      "source": "yield-and-financial-transparency/deposit-credit-and-financial-finality.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/deposit-credit-and-financial-finality",
+      "title": "Deposit Credit and Financial Finality",
+      "description": "A deposit becomes an internal user liability only after the platform has identified the canonical asset, observed the transfer, applied the chain-specific finality policy, validated custody evidence and posted a…"
+    },
+    {
+      "source": "yield-and-financial-transparency/withdrawal-and-user-exit-safety.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/withdrawal-and-user-exit-safety",
+      "title": "Withdrawal and User Exit Safety",
+      "description": "Withdrawals reverse the deposit path under stricter authority. The platform authenticates intent, reserves the liability, screens policy, obtains custody approval, broadcasts the exact authorised transfer, observes…"
+    },
+    {
+      "source": "yield-and-financial-transparency/reward-funding-yield-and-accrual.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/reward-funding-yield-and-accrual",
+      "title": "Reward Funding, Yield, and Accrual",
+      "description": "The user-facing rate, the accrued reward liability and the economic source that funds it are separate controlled objects. Current plans use monthly reward rates with daily accrual; every amount is reproducible from a…"
+    },
+    {
+      "source": "yield-and-financial-transparency/reconciliation-and-exception-management.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/reconciliation-and-exception-management",
+      "title": "Reconciliation and Exception Management",
+      "description": "Reconciliation proves that internal obligations are supported by external assets and expected movements. It compares ledger control accounts with chain and custody evidence, explains timing differences, assigns…"
+    },
+    {
+      "source": "yield-and-financial-transparency/settlement-finality-and-financial-exceptions.md",
+      "url": "https://docs.whale-cefi.com/yield-and-financial-transparency/settlement-finality-and-financial-exceptions",
+      "title": "Settlement Finality and Financial Exceptions",
+      "description": "Settlement is a state machine, not a boolean. Whale CeFi distinguishes requested, observed, included, finalised, custody-confirmed, ledger-posted, reconciled, failed, replaced, reversed and disputed states across…"
+    },
+    {
+      "source": "smart-contracts.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts",
+      "title": "Smart Contracts",
+      "description": "A compartmentalized on-chain system that replaces the privileged monolithic staking contract."
+    },
+    {
+      "source": "smart-contracts/contract-modules-and-interfaces.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/contract-modules-and-interfaces",
+      "title": "Contract Modules and Interfaces",
+      "description": "The responsibility, inputs, outputs, and authority ceiling of each production contract."
+    },
+    {
+      "source": "smart-contracts/on-chain-position-state-machine.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/on-chain-position-state-machine",
+      "title": "On-Chain Position State Machine",
+      "description": "The valid states, transitions, and terminal conditions for flexible and locked positions."
+    },
+    {
+      "source": "smart-contracts/token-integration-safety.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/token-integration-safety",
+      "title": "Token Integration Safety",
+      "description": "How the contract system handles non-standard ERC-20 behavior without creating unbacked claims."
+    },
+    {
+      "source": "smart-contracts/smart-contract-invariants.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/smart-contract-invariants",
+      "title": "Smart-Contract Invariants",
+      "description": "Properties that hold across every transaction sequence, including adversarial and failure paths."
+    },
+    {
+      "source": "smart-contracts/governance-roles-and-upgrades.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/governance-roles-and-upgrades",
+      "title": "Governance, Roles, and Upgrades",
+      "description": "Delayed, independently approved authority with immutable asset-bearing vaults and explicit migration."
+    },
+    {
+      "source": "smart-contracts/pause-and-emergency-exit.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/pause-and-emergency-exit",
+      "title": "Pause and Emergency Exit",
+      "description": "Scoped incident controls that stop unsafe behavior without turning pause authority into asset authority."
+    },
+    {
+      "source": "smart-contracts/deployment-identity.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/deployment-identity",
+      "title": "Deployment Identity",
+      "description": "The verifiable chain from reviewed source to the exact runtime code and authority state."
+    },
+    {
+      "source": "smart-contracts/audit-findings-and-remediation.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/audit-findings-and-remediation",
+      "title": "Audit Findings and Remediation",
+      "description": "Whale CeFi preserves a finding from original report through remediation, regression testing, independent retest, and deployment coverage."
+    },
+    {
+      "source": "smart-contracts/contract-verification-program.md",
+      "url": "https://docs.whale-cefi.com/smart-contracts/contract-verification-program",
+      "title": "Contract Verification Program",
+      "description": "The layered test, analysis, formal, deployment, and monitoring controls required for every release."
+    },
+    {
+      "source": "advanced-platform-architecture.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture",
+      "title": "Advanced Platform Architecture",
+      "description": "How product intent becomes a financial obligation, an authorized asset movement, and independently verifiable evidence."
+    },
+    {
+      "source": "advanced-platform-architecture/platform-scope-and-system-context.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/platform-scope-and-system-context",
+      "title": "Platform Scope and System Context",
+      "description": "This chapter defines the operating platform beneath Whale CeFi: client surfaces, services, data stores, financial records, blockchain connectivity, custody, contracts, security and release operations. Internal…"
+    },
+    {
+      "source": "advanced-platform-architecture/environment-and-product-surface-matrix.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/environment-and-product-surface-matrix",
+      "title": "Environment and Product Surface Matrix",
+      "description": "Whale CeFi operates distinct web, mobile, conversational, internal-administration, and institutional surfaces under one canonical state contract. Availability resolves per signed production build, region, and capability."
+    },
+    {
+      "source": "advanced-platform-architecture/bounded-contexts-and-service-ownership.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/bounded-contexts-and-service-ownership",
+      "title": "Bounded Contexts and Service Ownership",
+      "description": "The platform is decomposed by business authority rather than by arbitrary technical layers. Identity, portfolio, transaction, ledger, rewards, staking, custody integration and compliance each own a narrow state model…"
+    },
+    {
+      "source": "advanced-platform-architecture/trust-boundaries-and-data-classification.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/trust-boundaries-and-data-classification",
+      "title": "Trust Boundaries and Data Classification",
+      "description": "Zero trust is implemented as explicit identities, least privilege, authenticated service calls, purpose-bound data and separate control planes. Public blockchain data becomes governed user data when it is linked,…"
+    },
+    {
+      "source": "advanced-platform-architecture/operational-authority-and-segregation-of-duties.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/operational-authority-and-segregation-of-duties",
+      "title": "Operational Authority and Segregation of Duties",
+      "description": "Operational safety depends on who can propose, approve, deploy, pause, reconcile and recover. Automated systems detect and veto within policy; they never become an additional custody signer or sole financial authority."
+    },
+    {
+      "source": "advanced-platform-architecture/cloud-organization-and-landing-zone.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/cloud-organization-and-landing-zone",
+      "title": "Cloud Organization and Landing Zone",
+      "description": "The cloud platform foundation isolates production, non-production, security, logging and shared services. Organisation policies, central identity, immutable logging and controlled network connectivity establish the…"
+    },
+    {
+      "source": "advanced-platform-architecture/multi-region-kubernetes-runtime.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/multi-region-kubernetes-runtime",
+      "title": "Multi-Region Kubernetes Runtime",
+      "description": "Production services run on independent managed Kubernetes clusters in primary and recovery regions, each spanning three availability zones. Stateless services operate active-active; financial authorities use fenced…"
+    },
+    {
+      "source": "advanced-platform-architecture/network-ingress-and-egress.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/network-ingress-and-egress",
+      "title": "Network Ingress and Egress",
+      "description": "Network architecture separates public edge, private application services, financial workloads, data stores and administrative control. Egress is treated as an explicit capability because unrestricted outbound traffic…"
+    },
+    {
+      "source": "advanced-platform-architecture/compute-classes-and-scheduling.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/compute-classes-and-scheduling",
+      "title": "Compute Classes and Scheduling",
+      "description": "Whale CeFi uses different compute classes for deterministic on-chain services, Go business services, specialised workloads and event-driven triggers. Each class receives explicit latency, isolation, scaling,…"
+    },
+    {
+      "source": "advanced-platform-architecture/synchronous-apis-and-service-communication.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/synchronous-apis-and-service-communication",
+      "title": "Synchronous APIs and Service Communication",
+      "description": "REST, gRPC, WebSockets and internal streaming endpoints are selected by interaction contract. Every call is authenticated, versioned, bounded by deadline and safe to retry according to its semantics."
+    },
+    {
+      "source": "advanced-platform-architecture/configuration-secrets-and-software-supply-chain.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/configuration-secrets-and-software-supply-chain",
+      "title": "Configuration, Secrets, and Software Supply Chain",
+      "description": "Configuration, credentials, images and dependencies are production artefacts. The platform requires signed builds, immutable versions, secret rotation, admission controls and traceability from source commit to…"
+    },
+    {
+      "source": "advanced-platform-architecture/transactional-and-time-series-authority.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/transactional-and-time-series-authority",
+      "title": "Transactional and Time-Series Authority",
+      "description": "PostgreSQL is the transactional source for financial and product records, with TimescaleDB for governed time-series workloads. Schema ownership, constraints, isolation, high availability, backup and recovery define…"
+    },
+    {
+      "source": "advanced-platform-architecture/event-mesh-and-delivery-semantics.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/event-mesh-and-delivery-semantics",
+      "title": "Event Mesh and Delivery Semantics",
+      "description": "Kafka carries immutable domain events for balances, XP, tasks and operational workflows. It is a transport and history plane; the financial journal remains independently authoritative unless a formally governed…"
+    },
+    {
+      "source": "advanced-platform-architecture/cache-and-analytical-state-planes.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/cache-and-analytical-state-planes",
+      "title": "Cache and Analytical State Planes",
+      "description": "Redis serves ephemeral sessions, locks, rate controls and short-lived context; ClickHouse serves analytical projections and abuse detection. Neither system may become the unacknowledged source of financial truth."
+    },
+    {
+      "source": "advanced-platform-architecture/identity-authentication-and-wallet-linkage.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/identity-authentication-and-wallet-linkage",
+      "title": "Identity, Authentication, and Wallet Linkage",
+      "description": "A UUIDv4 is an internal identifier, not a privacy control by itself. Whale CeFi isolates PII, authentication identities, and wallet relationships through explicit mapping stores, consent, cryptographic proof, and…"
+    },
+    {
+      "source": "advanced-platform-architecture/blockchain-connectivity-and-asset-registry.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/blockchain-connectivity-and-asset-registry",
+      "title": "Blockchain Connectivity and Asset Registry",
+      "description": "The platform operates authenticated connectivity for EVM and Solana network families through isolated adapters and a governed asset registry. A governed asset registry binds chain, canonical address, decimals, token…"
+    },
+    {
+      "source": "advanced-platform-architecture/observability-auditability-and-slos.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/observability-auditability-and-slos",
+      "title": "Observability, Auditability, and SLOs",
+      "description": "Observability explains whether users, balances, and settlement are safe — not merely whether workloads are running. Metrics, logs, traces, audit events and business invariants share correlation identities while…"
+    },
+    {
+      "source": "advanced-platform-architecture/high-availability-and-disaster-recovery.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/high-availability-and-disaster-recovery",
+      "title": "High Availability and Disaster Recovery",
+      "description": "Whale CeFi operates independent primary and recovery regions, each distributed across three availability zones. Zonal failover, regional continuity, data recovery, and business resumption use explicit RTO and RPO…"
+    },
+    {
+      "source": "advanced-platform-architecture/incident-response-and-circuit-breakers.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/incident-response-and-circuit-breakers",
+      "title": "Incident Response and Circuit Breakers",
+      "description": "Incident response is a controlled state transition across detection, containment, financial authority, custody, contracts, communications, recovery and evidence preservation. Circuit breakers are scoped capabilities,…"
+    },
+    {
+      "source": "advanced-platform-architecture/ci-cd-and-release-engineering.md",
+      "url": "https://docs.whale-cefi.com/advanced-platform-architecture/ci-cd-and-release-engineering",
+      "title": "CI/CD and Release Engineering",
+      "description": "Release engineering turns reviewed source into an attributable production state. Repositories, dependencies, tests, artefacts, infrastructure, database migrations, contract deployments and client builds are versioned…"
+    },
+    {
+      "source": "controlled-specifications.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications",
+      "title": "Controlled Technical Specifications",
+      "description": "This section preserves the full engineering depth behind the reader-facing documentation. It is organised as two controlled papers:"
+    },
+    {
+      "source": "controlled-specifications/platform-infrastructure-and-financial-core.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform-infrastructure-and-financial-core",
+      "title": "Platform Infrastructure and Financial Core",
+      "description": "The controlled platform paper covers authority boundaries, cloud runtime, service ownership, data planes, identity, blockchain connectivity, the double-entry financial core, custody, contracts, resilience, security,…"
+    },
+    {
+      "source": "controlled-specifications/platform/01-infrastructure-scope-and-system-context.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/01-infrastructure-scope-and-system-context",
+      "title": "Infrastructure Scope and System Context",
+      "description": "01 This paper defines the operating platform beneath Whale CeFi: client surfaces, services, data stores, financial records, blockchain connectivity, custody, contracts, security and release operations…"
+    },
+    {
+      "source": "controlled-specifications/platform/02-environment-and-product-surface-matrix.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/02-environment-and-product-surface-matrix",
+      "title": "Environment and Product-Surface Matrix",
+      "description": "02 Whale CeFi operates multiple surfaces at different maturity levels. Production web, production mobile, developing conversational UI, internal administration and production B2B access must never be collapsed…"
+    },
+    {
+      "source": "controlled-specifications/platform/03-bounded-contexts-and-service-ownership.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/03-bounded-contexts-and-service-ownership",
+      "title": "Bounded Contexts and Service Ownership",
+      "description": "03 The platform is decomposed by business authority rather than by arbitrary technical layers. Identity, portfolio, transaction, ledger, rewards, staking, custody integration and compliance each own a narrow…"
+    },
+    {
+      "source": "controlled-specifications/platform/04-trust-boundaries-and-data-classification.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/04-trust-boundaries-and-data-classification",
+      "title": "Trust Boundaries and Data Classification",
+      "description": "04 Zero trust is implemented as explicit identities, least privilege, authenticated service calls, purpose-bound data and separate control planes. Public blockchain data becomes governed user data when it is…"
+    },
+    {
+      "source": "controlled-specifications/platform/05-operational-authority-and-segregation-of-duties.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/05-operational-authority-and-segregation-of-duties",
+      "title": "Operational Authority and Segregation of Duties",
+      "description": "05 Operational safety depends on who can propose, approve, deploy, pause, reconcile and recover. Automated systems may detect and veto; they should not silently become an additional custody signer or sole…"
+    },
+    {
+      "source": "controlled-specifications/platform/06-cloud-organisation-accounts-and-landing-zone.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/06-cloud-organisation-accounts-and-landing-zone",
+      "title": "Cloud Organisation, Accounts, and Landing Zone",
+      "description": "06 The AWS foundation isolates production, non-production, security, logging and shared services. Organisation policies, central identity, immutable logging and controlled network connectivity establish the…"
+    },
+    {
+      "source": "controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology",
+      "title": "Multi-AZ Kubernetes Runtime Topology",
+      "description": "07 Production services are reported on managed Kubernetes across three availability zones in eu-central-1. Availability requires topology-aware scheduling, Pod disruption control, autoscaling, workload…"
+    },
+    {
+      "source": "controlled-specifications/platform/08-network-ingress-and-egress-architecture.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/08-network-ingress-and-egress-architecture",
+      "title": "Network, Ingress, and Egress Architecture",
+      "description": "08 Network architecture separates public edge, private application services, financial workloads, data stores and administrative control. Egress is treated as an explicit capability because unrestricted…"
+    },
+    {
+      "source": "controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries",
+      "title": "Compute Classes, Scheduling, and Serverless Boundaries",
+      "description": "09 Whale CeFi uses different compute classes for deterministic on-chain services, Go business services, specialised workloads and event-driven triggers. Each class receives explicit latency, isolation…"
+    },
+    {
+      "source": "controlled-specifications/platform/10-synchronous-apis-and-service-communication.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/10-synchronous-apis-and-service-communication",
+      "title": "Synchronous APIs and Service Communication",
+      "description": "Controlled Platform chapter 10: normative API communication rules, service boundaries, failure controls and acceptance evidence for Whale CeFi."
+    },
+    {
+      "source": "controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain",
+      "title": "Configuration, Secrets, and Software Supply Chain",
+      "description": "Configuration, credentials, images and dependencies are production artefacts. The platform requires signed builds, immutable versions, secret rotation, admission controls and traceability from source commit…"
+    },
+    {
+      "source": "controlled-specifications/platform/12-postgresql-and-time-series-authority.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/12-postgresql-and-time-series-authority",
+      "title": "PostgreSQL and Time-Series Authority",
+      "description": "PostgreSQL is reported as the transactional source for financial and product records, with TimescaleDB for governed time-series workloads. Schema ownership, constraints, isolation, high availability, backup…"
+    },
+    {
+      "source": "controlled-specifications/platform/13-event-mesh-and-delivery-semantics.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/13-event-mesh-and-delivery-semantics",
+      "title": "Event Mesh and Delivery Semantics",
+      "description": "Kafka carries immutable domain events for balances, XP, tasks and operational workflows. It is a transport and history plane; the financial journal remains independently authoritative unless a formally…"
+    },
+    {
+      "source": "controlled-specifications/platform/14-cache-and-analytical-state-planes.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/14-cache-and-analytical-state-planes",
+      "title": "Cache and Analytical State Planes",
+      "description": "Redis serves ephemeral sessions, locks, rate controls and short-lived context; ClickHouse serves analytical projections and abuse detection. Neither system may become the unacknowledged source of financial…"
+    },
+    {
+      "source": "controlled-specifications/platform/15-account-identity-authentication-and-wallet-linkage.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/15-account-identity-authentication-and-wallet-linkage",
+      "title": "Account Identity, Authentication, and Wallet Linkage",
+      "description": "A UUIDv4 is an internal identifier, not a privacy control by itself. Whale CeFi must isolate PII, authentication identities and wallet relationships through explicit mapping stores, consent, cryptographic…"
+    },
+    {
+      "source": "controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry",
+      "title": "Blockchain Connectivity, RPC, and Asset Registry",
+      "description": "The platform reports Ethereum, Arbitrum, Optimism and Base support with active Solana connectivity and analysis. A governed asset registry binds chain, canonical address, decimals, token behaviour, action eligibility…"
+    },
+    {
+      "source": "controlled-specifications/platform/17-canonical-asset-and-account-model.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/17-canonical-asset-and-account-model",
+      "title": "Canonical Asset and Account Model",
+      "description": "Every financial record depends on a canonical definition of entity, account, asset, network, quantity, precision and liability. The model prevents symbol ambiguity and separates user liability, platform…"
+    },
+    {
+      "source": "controlled-specifications/platform/18-double-entry-ledger-service.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/18-double-entry-ledger-service",
+      "title": "Double-Entry Ledger Service",
+      "description": "The Accounting Ledger Service is the internal financial source of record. Every economic event posts a balanced, immutable journal transaction; balances are projections of entries, not independently mutable…"
+    },
+    {
+      "source": "controlled-specifications/platform/19-deposit-lifecycle-and-credit-finality.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/19-deposit-lifecycle-and-credit-finality",
+      "title": "Deposit Lifecycle and Credit Finality",
+      "description": "A deposit becomes an internal user liability only after the platform has identified the canonical asset, observed the transfer, applied the chain-specific finality policy, validated custody evidence and…"
+    },
+    {
+      "source": "controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety",
+      "title": "Withdrawal Lifecycle and User-Exit Safety",
+      "description": "Withdrawals reverse the deposit path under stricter authority. The platform must authenticate intent, reserve the liability, screen policy, obtain custody approval, broadcast the exact authorised transfer…"
+    },
+    {
+      "source": "controlled-specifications/platform/21-product-yield-reward-funding-and-accrual.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/21-product-yield-reward-funding-and-accrual",
+      "title": "Product Yield, Reward Funding, and Accrual",
+      "description": "The user-facing rate, the accrued reward liability and the economic source that funds it are separate controlled objects. Current plans use monthly reward rates with daily accrual; every amount must be…"
+    },
+    {
+      "source": "controlled-specifications/platform/22-reconciliation-and-exception-management.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/22-reconciliation-and-exception-management",
+      "title": "Reconciliation and Exception Management",
+      "description": "Reconciliation proves that internal obligations are supported by external assets and expected movements. It compares ledger control accounts with chain and custody evidence, explains timing differences…"
+    },
+    {
+      "source": "controlled-specifications/platform/23-settlement-finality-and-financial-exceptions.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/23-settlement-finality-and-financial-exceptions",
+      "title": "Settlement Finality and Financial Exceptions",
+      "description": "Settlement is a state machine, not a boolean. Whale CeFi distinguishes requested, observed, included, finalised, custody-confirmed, ledger-posted, reconciled, failed, replaced, reversed and disputed states…"
+    },
+    {
+      "source": "controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture",
+      "title": "MPC, Vault, and Custody Policy Architecture",
+      "description": "The staking contour is reported as hybrid custody using approved MPC custody provider infrastructure. Vault segregation, MPC policy, operator roles, transaction screening and reconciliation define the actual…"
+    },
+    {
+      "source": "controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity",
+      "title": "Smart-Contract Architecture and Deployment Identity",
+      "description": "Whale CeFi staking contracts are reported to use a UUPS upgradeability pattern. Safe operation requires exact source-to-bytecode identity, initialisation control, storage-layout compatibility, role…"
+    },
+    {
+      "source": "controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls",
+      "title": "Upgrade, Timelock, Pause, and Governance Controls",
+      "description": "Privileged contract operations must be slower, more observable and more independently approved than routine user activity. A reported 48-hour timelock creates review time only when proposals are decoded…"
+    },
+    {
+      "source": "controlled-specifications/platform/27-independent-audit-evidence-and-finding-closure.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/27-independent-audit-evidence-and-finding-closure",
+      "title": "Independent Audit Evidence and Finding Closure",
+      "description": "The supplied independent auditor artefact is real review evidence and is appended unmodified. Its own summary reports nine findings - one Major, three Medium, four Minor and one Informational - with zero…"
+    },
+    {
+      "source": "controlled-specifications/platform/28-identity-access-and-administrative-zero-trust.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/28-identity-access-and-administrative-zero-trust",
+      "title": "Identity, Access, and Administrative Zero Trust",
+      "description": "Administrative and workload access is governed by identity, device posture, purpose, time and approval rather than network location. Consumer authentication, staff federation, cloud administration, Kubernetes…"
+    },
+    {
+      "source": "controlled-specifications/platform/29-observability-auditability-and-service-level-objectives.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/29-observability-auditability-and-service-level-objectives",
+      "title": "Observability, Auditability, and Service-Level Objectives",
+      "description": "Observability must explain whether users, balances and settlement are safe - not merely whether pods are running. Metrics, logs, traces, audit events and business invariants share correlation identities while…"
+    },
+    {
+      "source": "controlled-specifications/platform/30-high-availability-failover-and-disaster-recovery.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/30-high-availability-failover-and-disaster-recovery",
+      "title": "High Availability, Failover, and Disaster Recovery",
+      "description": "Three availability zones in Frankfurt provide regional high availability, not geographic disaster recovery. Whale CeFi separates zonal failover, regional continuity, data recovery and business resumption…"
+    },
+    {
+      "source": "controlled-specifications/platform/31-incident-response-and-circuit-breaker-architecture.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/31-incident-response-and-circuit-breaker-architecture",
+      "title": "Incident Response and Circuit-Breaker Architecture",
+      "description": "Incident response is a controlled state transition across detection, containment, financial authority, custody, contracts, communications, recovery and evidence preservation. Circuit breakers are scoped…"
+    },
+    {
+      "source": "controlled-specifications/platform/32-web-mobile-admin-and-api-security.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/32-web-mobile-admin-and-api-security",
+      "title": "Web, Mobile, Admin, and API Security",
+      "description": "Each client surface carries a different threat model. Browser edge delivery, React Native/Expo mobile storage, privileged administration and institutional APIs require distinct authentication, session…"
+    },
+    {
+      "source": "controlled-specifications/platform/33-environment-ci-cd-and-release-engineering.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/33-environment-ci-cd-and-release-engineering",
+      "title": "Environment, CI/CD, and Release Engineering",
+      "description": "Release engineering turns reviewed source into an attributable production state. Repositories, dependencies, tests, artefacts, infrastructure, database migrations, contract deployments and client builds are…"
+    },
+    {
+      "source": "controlled-specifications/platform/34-data-protection-compliance-and-geographic-controls.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/34-data-protection-compliance-and-geographic-controls",
+      "title": "Data Protection, Compliance, and Geographic Controls",
+      "description": "Compliance architecture maps legal entity, product, data, custody, user region and permitted action to enforceable controls. KYC, sanctions, privacy, retention and geographic restrictions must be driven by…"
+    },
+    {
+      "source": "controlled-specifications/platform/35-release-scope-and-acceptance.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/35-release-scope-and-acceptance",
+      "title": "Release Scope and Acceptance",
+      "description": "Release readiness is governed by a signed capability matrix and completed evidence gates rather than by a calendar date. Release scope is converted from a date into a signed capability matrix: surfaces…"
+    },
+    {
+      "source": "controlled-specifications/platform/36-diligence-evidence-residual-risk-and-decision-record.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/platform/36-diligence-evidence-residual-risk-and-decision-record",
+      "title": "Diligence Evidence, Residual Risk, and Decision Record",
+      "description": "A top-tier architecture dossier ends with falsifiable evidence, not adjectives. Every material claim maps to source, owner, environment, deployed identity, test, exception and approval; gaps remain visible as…"
+    },
+    {
+      "source": "controlled-specifications/weni-model-and-system-architecture.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni-model-and-system-architecture",
+      "title": "WENI Model and System Architecture",
+      "description": "The controlled WENI paper covers model lineage, domain adaptation, evidence graphs, deterministic services, the Iron Boundary, multimodal intake, policy, action preparation, memory, learning, interface behaviour,…"
+    },
+    {
+      "source": "controlled-specifications/weni/01-the-decision-quality-problem-in-web3.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/01-the-decision-quality-problem-in-web3",
+      "title": "The Decision-Quality Problem in Web3",
+      "description": "01 The failure WENI addresses is not lack of information. It is the collapse of decision quality when fragmented, time-sensitive and adversarial evidence meets irreversible financial action. A conversational…"
+    },
+    {
+      "source": "controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries",
+      "title": "Product Constitution and Non-Negotiable Boundaries",
+      "description": "02 The product constitution is the highest-order design control. It defines what no model, operator, commercial tier or partner integration may override: no private-key access, no autonomous signing, no…"
+    },
+    {
+      "source": "controlled-specifications/weni/03-system-definition-and-canonical-nomenclature.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/03-system-definition-and-canonical-nomenclature",
+      "title": "System Definition and Canonical Nomenclature",
+      "description": "03 WENI names the complete Whale CeFi-controlled intelligence and governance stack. The Whale CeFi AI Agent is a user-facing product surface. The WENI model artefact, Cognitive Execution Graph, deterministic…"
+    },
+    {
+      "source": "controlled-specifications/weni/04-user-analyst-and-institutional-workflows.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/04-user-analyst-and-institutional-workflows",
+      "title": "User, Analyst, and Institutional Workflows",
+      "description": "04 One evidence state must support very different cognitive and organisational contexts. WENI changes explanation density, control sequencing and approval integration without changing the underlying material…"
+    },
+    {
+      "source": "controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer",
+      "title": "Proprietary Moat, Ownership, and Technology Transfer",
+      "description": "05 Whale CeFi’s moat is the compound system: crypto-specific model adaptation, proprietary evidence and behavioural datasets, Cognitive Execution Graph, deterministic controls, policy, evaluation and observed…"
+    },
+    {
+      "source": "controlled-specifications/weni/06-weni-model-lineage-and-identity.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/06-weni-model-lineage-and-identity",
+      "title": "WENI Model Lineage and Identity",
+      "description": "06 The canonical lineage begins with a licensed foundation checkpoint and ends with a signed WENI deployment artefact. Every transformation must be reproducible and rights-aware: domain CPT, PEFT, DPO…"
+    },
+    {
+      "source": "controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training",
+      "title": "Domain Corpus and Continuous Pre-Training",
+      "description": "07 Domain adaptation succeeds only when the corpus represents how Web3 actually fails: proxy upgrades, bytecode patterns, transaction traces, liquidity events, exploit families, protocol documents, audits and…"
+    },
+    {
+      "source": "controlled-specifications/weni/08-peft-and-adapter-composition.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/08-peft-and-adapter-composition",
+      "title": "PEFT and Adapter Composition",
+      "description": "08 Parameter-efficient adaptation is treated as a controlled method family, not a magic compression claim. The chosen technique, targeted modules, trainable parameter count, composition, merging, quantisation…"
+    },
+    {
+      "source": "controlled-specifications/weni/09-dpo-and-financial-safety-alignment.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/09-dpo-and-financial-safety-alignment",
+      "title": "DPO and Financial-Safety Alignment",
+      "description": "09 DPO shapes learned preferences: retrieve instead of invent, clarify instead of guess, abstain when evidence is insufficient and preserve user authority. These are soft behavioural tendencies; deterministic…"
+    },
+    {
+      "source": "controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity",
+      "title": "Model Lifecycle, MLOps, and Release Integrity",
+      "description": "A WENI model release is a controlled software supply-chain event. Training, evaluation, packaging, signing, staged rollout, monitoring, incident response and rollback must be joined by one immutable…"
+    },
+    {
+      "source": "controlled-specifications/weni/11-representation-grafting-and-confidential-compute.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/11-representation-grafting-and-confidential-compute",
+      "title": "Representation Grafting and Confidential Compute",
+      "description": "Representation Grafting is Whale CeFi’s internal architecture for connecting contract-permitted non-public partner representations or truncated artefacts to Whale CeFi-controlled domain components…"
+    },
+    {
+      "source": "controlled-specifications/weni/12-evidence-graph-and-truth-hierarchy.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/12-evidence-graph-and-truth-hierarchy",
+      "title": "Evidence Graph and Truth Hierarchy",
+      "description": "WENI does not ask a model to decide what is true from a bag of documents. It creates typed Evidence Envelopes and resolves authority fact by fact: chain state, contract code, price, protocol claim, user…"
+    },
+    {
+      "source": "controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality",
+      "title": "Chain Ingestion, Pending State, and Finality",
+      "description": "Ethereum, EVM L2s and additional supported networks expose different pending-state, sequencer and finality semantics. WENI normalises them into chain-specific evidence without pretending that public mempool visibility…"
+    },
+    {
+      "source": "controlled-specifications/weni/14-protocol-and-smart-contract-evidence.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/14-protocol-and-smart-contract-evidence",
+      "title": "Protocol and Smart-Contract Evidence",
+      "description": "Contract safety requires more than source retrieval. WENI resolves proxies and implementations, compiler metadata, bytecode, privileged roles, upgrade history, token behaviour, external calls and…"
+    },
+    {
+      "source": "controlled-specifications/weni/15-market-oracle-and-social-intelligence.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/15-market-oracle-and-social-intelligence",
+      "title": "Market, Oracle, and Social Intelligence",
+      "description": "Prices and market risk are resolved from liquidity-aware, time-aligned evidence. Social streams are behavioural signals, never authoritative price or protocol facts. WENI retains disagreement rather than…"
+    },
+    {
+      "source": "controlled-specifications/weni/16-global-private-and-decision-graph-separation.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/16-global-private-and-decision-graph-separation",
+      "title": "Global, Private, and Decision Graph Separation",
+      "description": "The Cognitive Execution Graph is implemented as separated authorities: a global evidence graph, a private user intelligence graph and a decision/audit graph. Their relationship is permissioned and…"
+    },
+    {
+      "source": "controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts",
+      "title": "Secure Multimodal Intake and Intent Contracts",
+      "description": "Text, voice, screen, documents, contract code and authorised account context enter through different consent and trust classes. WENI converts ambiguous expression into a typed Intent Contract that remains a…"
+    },
+    {
+      "source": "controlled-specifications/weni/18-weni-domain-planner-and-tool-orchestrator.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/18-weni-domain-planner-and-tool-orchestrator",
+      "title": "WENI Domain Planner and Tool Orchestrator",
+      "description": "The planner decomposes a confirmed goal into bounded research, retrieval, calculation, analysis, simulation and policy tasks. It cannot directly construct or submit a transaction and cannot call an…"
+    },
+    {
+      "source": "controlled-specifications/weni/19-deterministic-computation-services.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/19-deterministic-computation-services",
+      "title": "Deterministic Computation Services",
+      "description": "Authoritative arithmetic is removed from free-form model generation. Versioned Rust/Go services operate over pinned, validated inputs and return reproducible calculations with units, precision, rounding…"
+    },
+    {
+      "source": "controlled-specifications/weni/20-contract-analysis-and-adversarial-simulation.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/20-contract-analysis-and-adversarial-simulation",
+      "title": "Contract Analysis and Adversarial Simulation",
+      "description": "Candidate actions are challenged before policy or presentation. Static and dynamic contract analysis, forked-state simulation and specialised critics search for privilege, token, routing, MEV, liquidity and…"
+    },
+    {
+      "source": "controlled-specifications/weni/21-hard-policy-engine-and-fail-closed-decisions.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/21-hard-policy-engine-and-fail-closed-decisions",
+      "title": "Hard Policy Engine and Fail-Closed Decisions",
+      "description": "The Hard Policy Engine translates product, security, jurisdictional and risk constraints into signed policy-as-code. Its outputs are typed and enforceable: allow research, require clarification, require…"
+    },
+    {
+      "source": "controlled-specifications/weni/22-deterministic-action-builder-and-the-iron-boundary.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/22-deterministic-action-builder-and-the-iron-boundary",
+      "title": "Deterministic Action Builder and the Iron Boundary",
+      "description": "Only a deterministic, chain-specific builder may turn policy-approved typed parameters into transaction data. An independent decoder reconstructs human-readable effects; simulation and payload hashes bind…"
+    },
+    {
+      "source": "controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints",
+      "title": "Bifurcated Verifiability and ZK Action Constraints",
+      "description": "The fast deterministic path and the proof path solve different problems. Rust/Go services provide responsive calculations; the production ZK Action-Constraint Proof establishes that committed code processed…"
+    },
+    {
+      "source": "controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui",
+      "title": "Epistemic Interface and Dynamic Cognitive UI",
+      "description": "WENI’s interface is an epistemic instrument: it shows what is known, from where, at what state, with what uncertainty, which policy applied and how long an action remains valid. The model selects approved…"
+    },
+    {
+      "source": "controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent",
+      "title": "Sovereign Cognitive Memory and Consent",
+      "description": "WENI memory combines explicit profile data, verified competency, episodic summaries and vector retrieval under user control. Memory is permissioned, purpose-limited and inspectable; it is not an unlimited…"
+    },
+    {
+      "source": "controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse",
+      "title": "Learn-to-Earn, Credentials, and Anti-Abuse",
+      "description": "Learn-to-Earn is a competency system, not a click-farm. Adaptive tasks, evidence-backed grading, progression and Whale CeFi credentials must measure demonstrated knowledge while resisting Sybil, collusion…"
+    },
+    {
+      "source": "controlled-specifications/weni/27-one-truth-multiple-cognitive-projections.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/27-one-truth-multiple-cognitive-projections",
+      "title": "One Truth, Multiple Cognitive Projections",
+      "description": "Tier-0, active, professional and enterprise users consume the same governed evidence through different projections. WENI changes language, density and control sequencing; it never hides material risk or…"
+    },
+    {
+      "source": "controlled-specifications/weni/28-product-surfaces-and-frontend-topology.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/28-product-surfaces-and-frontend-topology",
+      "title": "Product Surfaces and Frontend Topology",
+      "description": "Whale CeFi exposes one governed system through production web surfaces, a production mobile application, the WENI streaming interface, internal administration and a production institutional interface. Shared…"
+    },
+    {
+      "source": "controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure",
+      "title": "Microservices, Event Mesh, and Data Infrastructure",
+      "description": "The reported production direction uses bounded-context Rust and Go services on managed Kubernetes across multiple availability zones, with Kafka, PostgreSQL/TimescaleDB, Redis and ClickHouse. Reliability…"
+    },
+    {
+      "source": "controlled-specifications/weni/30-double-entry-ledger-and-reconciliation.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/30-double-entry-ledger-and-reconciliation",
+      "title": "Double-Entry Ledger and Reconciliation",
+      "description": "The Accounting Ledger Service is the internal financial source of record; chain and custody systems provide external settlement evidence. Every monetary movement creates balanced, immutable journal entries…"
+    },
+    {
+      "source": "controlled-specifications/weni/31-custody-contract-governance-and-audit-evidence.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/31-custody-contract-governance-and-audit-evidence",
+      "title": "Custody, Contract Governance, and Audit Evidence",
+      "description": "Whale CeFi separates the non-custodial WENI action-preparation boundary from the reported hybrid-custody staking contour. approved MPC custody provider-based key policy, contract administration, upgrades…"
+    },
+    {
+      "source": "controlled-specifications/weni/32-resilience-incident-response-and-recovery.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/32-resilience-incident-response-and-recovery",
+      "title": "Resilience, Incident Response, and Recovery",
+      "description": "Whale CeFi requires controlled degradation across chain ingestion, inference, policy, ledger, custody and user surfaces. Failover is valuable only when it preserves correctness and does not convert…"
+    },
+    {
+      "source": "controlled-specifications/weni/33-threat-model-and-security-assurance.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/33-threat-model-and-security-assurance",
+      "title": "Threat Model and Security Assurance",
+      "description": "WENI’s threat model spans models, data, tools, chain state, contracts, cloud, custody, identities, users and insiders. Security assurance maps every control to an asset, threat, trust boundary, detection path…"
+    },
+    {
+      "source": "controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance",
+      "title": "Evaluation, CSSR, and Comparative Performance",
+      "description": "The reported advantage is evaluated as compound system performance on crypto workflows, not as a universal intelligence score. CSSR counts a case as successful only when every required evidence, safety…"
+    },
+    {
+      "source": "controlled-specifications/weni/35-release-acceptance-and-capability-control.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/35-release-acceptance-and-capability-control",
+      "title": "Release Acceptance and Capability Control",
+      "description": "Release readiness is governed by a signed capability matrix and completed evidence gates rather than by a calendar date. Release 1 is the Whale CeFi-controlled WENI model-and-system stack with strict human…"
+    },
+    {
+      "source": "controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control.md",
+      "url": "https://docs.whale-cefi.com/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control",
+      "title": "Governance, Legal Perimeter, and Disclosure Control",
+      "description": "Technical architecture cannot decide legal classification by wording. Explanation, ranking, recommendation, routing, custody, transfer and execution are assessed per service, entity, jurisdiction and user…"
+    },
+    {
+      "source": "evidence-center.md",
+      "url": "https://docs.whale-cefi.com/evidence-center",
+      "title": "Evidence Center",
+      "description": "The Evidence Center connects each material Whale CeFi claim to a record that can be inspected, versioned, and independently checked."
+    },
+    {
+      "source": "evidence-center/product-version-register.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/product-version-register",
+      "title": "Product Version Register",
+      "description": "Every position is bound to an immutable product version. The version record contains product ID, asset and network scope, minimum and maximum principal, rate nature, rate unit, exact term reward, accrual display…"
+    },
+    {
+      "source": "evidence-center/reserves-and-liabilities.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/reserves-and-liabilities",
+      "title": "Reserves and Liabilities",
+      "description": "Proof of reserves is meaningful only when reserves, customer liabilities, encumbrances, and observation time refer to the same scope."
+    },
+    {
+      "source": "evidence-center/funding-and-capacity.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/funding-and-capacity",
+      "title": "Funding and Capacity",
+      "description": "Whale CeFi opens new fixed reward obligations only within approved funding and capacity limits."
+    },
+    {
+      "source": "evidence-center/audit-center.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/audit-center",
+      "title": "Audit Center",
+      "description": "The Audit Center connects each security review to exact code, remediation, retesting, and deployments. An auditor’s logo or report title alone is not deployment assurance."
+    },
+    {
+      "source": "evidence-center/deployment-registry.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/deployment-registry",
+      "title": "Deployment Registry",
+      "description": "The Deployment Registry is the bridge between documentation, source code, audited scope, and live bytecode."
+    },
+    {
+      "source": "evidence-center/asset-registry.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/asset-registry",
+      "title": "Asset Registry",
+      "description": "An asset symbol is not a complete asset identity. Whale CeFi identifies an asset by network namespace, chain reference, native or token standard, contract where applicable, decimals, custody route, confirmation…"
+    },
+    {
+      "source": "evidence-center/service-status-and-incidents.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/service-status-and-incidents",
+      "title": "Service Status and Incidents",
+      "description": "Service status reports the current state of login, verification, deposits by route, withdrawals by route, position opening, reward posting, WENI, API, progression, and support."
+    },
+    {
+      "source": "evidence-center/weni-system-card.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/weni-system-card",
+      "title": "WENI System Card",
+      "description": "The WENI System Card identifies the exact model-and-system release that supports a documented capability."
+    },
+    {
+      "source": "evidence-center/release-manifest.md",
+      "url": "https://docs.whale-cefi.com/evidence-center/release-manifest",
+      "title": "Release Manifest",
+      "description": "A release is approved only for an exact documentation and product state."
+    },
+    {
+      "source": "developers-and-reference.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference",
+      "title": "Developers and Reference",
+      "description": "Permanent pages, schemas, registries and retrieval rules that make Whale CeFi documentation discoverable and attributable."
+    },
+    {
+      "source": "developers-and-reference/machine-readable-contracts.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/machine-readable-contracts",
+      "title": "Machine-Readable Contracts",
+      "description": "Schemas and interface definitions that make the documentation testable by services, auditors, and automated controls."
+    },
+    {
+      "source": "developers-and-reference/deployment-registry.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/deployment-registry",
+      "title": "Deployment Registry",
+      "description": "The machine-readable index of every production contract, service release, authority snapshot, and evidence relationship."
+    },
+    {
+      "source": "developers-and-reference/asset-registry.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/asset-registry",
+      "title": "Asset Registry",
+      "description": "Supported assets, routes, confirmation rules, precision and product availability."
+    },
+    {
+      "source": "developers-and-reference/audit-center.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/audit-center",
+      "title": "Audit Integration Reference",
+      "description": "This reference defines how software, registries, and diligence workflows consume Whale CeFi audit evidence without turning a report title into an unsupported assurance claim."
+    },
+    {
+      "source": "developers-and-reference/governance-and-responsibility.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/governance-and-responsibility",
+      "title": "Governance and Responsibility",
+      "description": "How product, finance, security, custody, AI, risk and legal authority remain separated."
+    },
+    {
+      "source": "developers-and-reference/risk-register.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/risk-register",
+      "title": "Risk Register",
+      "description": "How product, market, liquidity, custody, contract, operational and AI risks are governed."
+    },
+    {
+      "source": "developers-and-reference/incident-response.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/incident-response",
+      "title": "Incident Response",
+      "description": "The exact operational states used when safety, availability or financial integrity is uncertain."
+    },
+    {
+      "source": "developers-and-reference/service-status.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/service-status",
+      "title": "Service Status",
+      "description": "Current capability state, dependency health, incident history and reconciliation condition."
+    },
+    {
+      "source": "developers-and-reference/security-contact-and-disclosure.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/security-contact-and-disclosure",
+      "title": "Security Contact and Disclosure",
+      "description": "How researchers and users report vulnerabilities, account compromise and suspected fraud."
+    },
+    {
+      "source": "developers-and-reference/glossary.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/glossary",
+      "title": "Glossary",
+      "description": "Plain definitions for the words used across Whale CeFi product, finance, infrastructure and AI documentation."
+    },
+    {
+      "source": "developers-and-reference/technical-references.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/technical-references",
+      "title": "Technical References",
+      "description": "Primary standards and specifications used by the canonical architecture."
+    },
+    {
+      "source": "developers-and-reference/change-history.md",
+      "url": "https://docs.whale-cefi.com/developers-and-reference/change-history",
+      "title": "Change History",
+      "description": "A chronological record of product, calculation, contract, policy, audit and documentation changes."
+    },
+    {
+      "source": "legal-and-support.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support",
+      "title": "Legal and Support",
+      "description": "This section identifies the organisations behind Whale CeFi, the customer’s legal relationship, asset rights, service eligibility, privacy perimeter, risk disclosures, complaints process, and official contact routes."
+    },
+    {
+      "source": "legal-and-support/entity-and-service-register.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/entity-and-service-register",
+      "title": "Entity and Service Register",
+      "description": "Whale CeFi uses an explicit service map so the user can identify which legal person is responsible for each capability."
+    },
+    {
+      "source": "legal-and-support/customer-relationship-and-asset-rights.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/customer-relationship-and-asset-rights",
+      "title": "Customer Relationship and Asset Rights",
+      "description": "The legal state of an asset changes only through a clearly disclosed product event."
+    },
+    {
+      "source": "legal-and-support/eligibility-and-geographic-access.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/eligibility-and-geographic-access",
+      "title": "Eligibility and Geographic Access",
+      "description": "Availability is determined by the intersection of customer type, country, entity, product classification, asset, network, sanctions policy, verification state, and operational capability."
+    },
+    {
+      "source": "legal-and-support/risk-disclosure.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/risk-disclosure",
+      "title": "Risk Disclosure",
+      "description": "You can lose some or all of your principal and any expected reward. Whale CeFi earning products are not bank deposits and are not covered by deposit insurance unless an exact verified policy explicitly states otherwise."
+    },
+    {
+      "source": "legal-and-support/privacy-and-data-protection.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/privacy-and-data-protection",
+      "title": "Privacy and Data Protection",
+      "description": "Whale CeFi separates account, verification, financial, blockchain, security, progression, support, analytics, and WENI data by purpose and authority."
+    },
+    {
+      "source": "legal-and-support/complaints-and-appeals.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/complaints-and-appeals",
+      "title": "Complaints and Appeals",
+      "description": "A complaint is different from general support, a security incident, a fraud report, an account-restriction appeal, or a privacy request. Each route has a distinct owner and response clock."
+    },
+    {
+      "source": "legal-and-support/contact-routes.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/contact-routes",
+      "title": "Contact Routes",
+      "description": "Use the route that matches the issue. Do not rely on unsolicited direct messages, Telegram administrators, or addresses on a non-canonical domain."
+    },
+    {
+      "source": "legal-and-support/document-and-terms-control.md",
+      "url": "https://docs.whale-cefi.com/legal-and-support/document-and-terms-control",
+      "title": "Document and Terms Control",
+      "description": "Every material document has an identifier, version, effective time, owner, approval scope, hash, superseded version, and change summary."
+    }
+  ]
+}

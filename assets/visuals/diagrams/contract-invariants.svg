@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Contract Invariant Map</title>
+  <desc id="desc">Safety properties are tested across every state transition and privileged path.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#10232D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061018"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2F93A8"/>
+    </marker>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".42"/>
+  <circle cx="1440" cy="80" r="180" fill="#2F93A8" opacity=".07" filter="url(#soft)"/>
+  <g>
+    <text x="90" y="82" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" letter-spacing="3">SYSTEM VIEW / CONTRACT-INVARIANTS</text>
+    <text x="90" y="150" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="650">Contract Invariant Map</text>
+    <text x="90" y="192" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="20">Safety properties are tested across every state transition and privileged path.</text>
+    <line x1="90" y1="222" x2="1510" y2="222" stroke="#34505C" stroke-width="1"/>
+  </g>
+  <rect x="120" y="705" width="1360" height="34" rx="10" fill="#102733" stroke="#2F93A8"/><rect x="117.5" y="395" width="245" height="310" rx="16" fill="#0B1B25" stroke="#69D2E7" stroke-width="2"/>
+      <circle cx="240" cy="457" r="19" fill="#69D2E7" opacity=".9"/>
+      <text x="240" y="525" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Principal</text><text x="240" y="551" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">conservation</text><rect x="397.5" y="340" width="245" height="365" rx="16" fill="#0B1B25" stroke="#69D2E7" stroke-width="2"/>
+      <circle cx="520" cy="402" r="19" fill="#69D2E7" opacity=".9"/>
+      <text x="520" y="470" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Reward bounds</text><rect x="677.5" y="395" width="245" height="310" rx="16" fill="#0B1B25" stroke="#69D2E7" stroke-width="2"/>
+      <circle cx="800" cy="457" r="19" fill="#69D2E7" opacity=".9"/>
+      <text x="800" y="525" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Role isolation</text><rect x="957.5" y="340" width="245" height="365" rx="16" fill="#0B1B25" stroke="#D7A75F" stroke-width="2"/>
+      <circle cx="1080" cy="402" r="19" fill="#D7A75F" opacity=".9"/>
+      <text x="1080" y="470" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Exit availability</text><rect x="1237.5" y="395" width="245" height="310" rx="16" fill="#0B1B25" stroke="#69D2E7" stroke-width="2"/>
+      <circle cx="1360" cy="457" r="19" fill="#69D2E7" opacity=".9"/>
+      <text x="1360" y="525" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Upgrade integrity</text>
+  <line x1="90" y1="842" x2="1510" y2="842" stroke="#34505C" stroke-width="1"/>
+  <text x="90" y="872" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8">DOCUMENTATION VISUAL / HUMAN-READABLE / SOURCE-BOUND</text>
+</svg>

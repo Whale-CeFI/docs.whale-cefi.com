@@ -1,0 +1,22 @@
+{
+  "release_id": "WHALE-CEFI-DOCS-V5.0",
+  "version": "5.0.0",
+  "status": "released",
+  "public_release_status": "released",
+  "canonical_domain": "whale-cefi.com",
+  "canonical_documentation_origin": "https://docs.whale-cefi.com",
+  "effective_at": "2026-07-29T00:00:00+03:00",
+  "legal_stewardship_entity": "Whale Foundation",
+  "approved_publication_targets": [
+    "github-main",
+    "gitbook-production",
+    "docs.whale-cefi.com"
+  ],
+  "release_assurance": [
+    "owner-approved",
+    "documentation-qa-passed",
+    "entity-map-approved",
+    "legal-and-product-copy-approved",
+    "security-and-weni-controls-approved"
+  ]
+}

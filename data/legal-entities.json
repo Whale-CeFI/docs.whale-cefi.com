@@ -1,0 +1,34 @@
+{
+  "schema_version": "2.0.0",
+  "status": "current-approved-entity-map",
+  "effective_at": "2026-07-29T00:00:00+03:00",
+  "records": [
+    {
+      "legal_name": "Whale Foundation",
+      "jurisdiction": "Abu Dhabi, United Arab Emirates",
+      "role": "brand-ip-governance-and-ecosystem-stewardship",
+      "registration_status": "officially-registered",
+      "registration_number": null,
+      "official_register": null,
+      "public_identifier_disclosure": "maintained-in-authoritative-corporate-record"
+    },
+    {
+      "legal_name": "Whale CeFi Services Ltd",
+      "jurisdiction": "Abu Dhabi, United Arab Emirates",
+      "role": "customer-contracting-and-product-operation",
+      "operational_status": "current",
+      "registration_number": null,
+      "official_register": null,
+      "public_identifier_disclosure": "maintained-in-authoritative-corporate-record"
+    },
+    {
+      "legal_name": "Whale CeFi Custody SPV Ltd",
+      "jurisdiction": "Abu Dhabi, United Arab Emirates",
+      "role": "segregated-custody-and-settlement-perimeter",
+      "operational_status": "current",
+      "registration_number": null,
+      "official_register": null,
+      "public_identifier_disclosure": "maintained-in-authoritative-corporate-record"
+    }
+  ]
+}

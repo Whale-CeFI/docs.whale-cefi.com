@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "timezone": "UTC",
+  "levels": [
+    {
+      "level": 1,
+      "name": "Plankton",
+      "xp_threshold": 0
+    },
+    {
+      "level": 2,
+      "name": "Minnow",
+      "xp_threshold": 2100
+    },
+    {
+      "level": 3,
+      "name": "Puffer",
+      "xp_threshold": 5900
+    },
+    {
+      "level": 4,
+      "name": "Dolphin",
+      "xp_threshold": 11600
+    },
+    {
+      "level": 5,
+      "name": "Orca",
+      "xp_threshold": 19200
+    },
+    {
+      "level": 6,
+      "name": "Blue Whale",
+      "xp_threshold": 29400
+    },
+    {
+      "level": 7,
+      "name": "Shark",
+      "xp_threshold": 44100
+    },
+    {
+      "level": 8,
+      "name": "Leviathan",
+      "xp_threshold": 62800
+    },
+    {
+      "level": 9,
+      "name": "Kraken",
+      "xp_threshold": 87300
+    },
+    {
+      "level": 10,
+      "name": "Megalodon",
+      "xp_threshold": 120000
+    }
+  ],
+  "chest_outcome_percent": {
+    "bronze": {
+      "common": 70,
+      "rare": 25,
+      "epic": 5,
+      "legendary": 0,
+      "mythic": 0
+    },
+    "epic": {
+      "common": 55,
+      "rare": 30,
+      "epic": 12,
+      "legendary": 3,
+      "mythic": 0
+    },
+    "legendary": {
+      "common": 40,
+      "rare": 35,
+      "epic": 20,
+      "legendary": 5,
+      "mythic": 0
+    },
+    "mythic": {
+      "common": 0,
+      "rare": 40,
+      "epic": 35,
+      "legendary": 20,
+      "mythic": 5
+    }
+  }
+}

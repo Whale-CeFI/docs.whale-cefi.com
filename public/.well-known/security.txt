@@ -1,0 +1,6 @@
+Contact: mailto:security@whale-cefi.com
+Contact: https://whale-cefi.com/security/report
+Policy: https://whale-cefi.com/security/disclosure-policy
+Preferred-Languages: en, ru
+Canonical: https://whale-cefi.com/.well-known/security.txt
+Expires: 2027-07-28T00:00:00Z

@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "effective_at": "2026-07-29T00:00:00Z",
+  "canonical_domain": "whale-cefi.com",
+  "records": [
+    {
+      "symbol": "1INCH",
+      "network": "ethereum-mainnet",
+      "kind": "token",
+      "contract": "registry-managed",
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "ADA",
+      "network": "cardano-mainnet",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "ARB",
+      "network": "arbitrum-one",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "AVAX",
+      "network": "avalanche-c-chain",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "BNB",
+      "network": "bnb-smart-chain",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "CAKE",
+      "network": "bnb-smart-chain",
+      "kind": "token",
+      "contract": "registry-managed",
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "DOGE",
+      "network": "dogecoin-mainnet",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "ETH",
+      "network": "ethereum-mainnet",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "LINK",
+      "network": "ethereum-mainnet",
+      "kind": "token",
+      "contract": "registry-managed",
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "OP",
+      "network": "optimism-mainnet",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "POL",
+      "network": "polygon-pos",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "SOL",
+      "network": "solana-mainnet",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "USDC",
+      "network": "solana-mainnet",
+      "kind": "token",
+      "contract": "registry-managed",
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "USDT",
+      "network": "tron-mainnet",
+      "kind": "token",
+      "contract": "registry-managed",
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    },
+    {
+      "symbol": "XRP",
+      "network": "xrpl-mainnet",
+      "kind": "native",
+      "contract": null,
+      "status": "target-active",
+      "minimum_deposit_usd_equivalent": 50,
+      "exact_route_evidence": "required-before-live-release"
+    }
+  ]
+}

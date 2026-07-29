@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Whale CeFi Asset Route",
+  "type": "object",
+  "required": [
+    "symbol",
+    "network",
+    "kind",
+    "status"
+  ],
+  "properties": {
+    "symbol": {
+      "type": "string",
+      "minLength": 2
+    },
+    "network": {
+      "type": "string",
+      "minLength": 3
+    },
+    "kind": {
+      "enum": [
+        "native",
+        "token"
+      ]
+    },
+    "contract": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "target-active",
+        "active",
+        "restricted",
+        "deposit-only",
+        "withdrawal-only",
+        "suspended",
+        "retired"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

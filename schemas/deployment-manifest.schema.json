@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Whale CeFi Deployment Manifest",
+  "type": "object",
+  "required": [
+    "network",
+    "chain_id",
+    "module",
+    "address",
+    "source_commit",
+    "runtime_bytecode_hash",
+    "status"
+  ],
+  "properties": {
+    "network": {
+      "type": "string"
+    },
+    "chain_id": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "module": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "runtime_bytecode_hash": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "active",
+        "restricted",
+        "deprecated",
+        "exit-only",
+        "retired"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

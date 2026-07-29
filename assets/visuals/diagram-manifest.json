@@ -1,0 +1,390 @@
+{
+  "generatedAt": "2026-07-23T20:03:42.190Z",
+  "count": 48,
+  "diagrams": [
+    {
+      "id": "authority-domains",
+      "filename": "authority-domains.svg",
+      "title": "Authority Domains",
+      "type": "hub",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "iron-boundary",
+      "filename": "iron-boundary.svg",
+      "title": "The Iron Boundary",
+      "type": "boundary",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "audit-remediation",
+      "filename": "audit-remediation.svg",
+      "title": "Finding Closure Path",
+      "type": "flow",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "contract-invariants",
+      "filename": "contract-invariants.svg",
+      "title": "Contract Invariant Map",
+      "type": "pillars",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "deployment-identity",
+      "filename": "deployment-identity.svg",
+      "title": "Deployment Identity Chain",
+      "type": "chain",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "position-state",
+      "filename": "position-state.svg",
+      "title": "Position State Machine",
+      "type": "state",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "deposit-lifecycle",
+      "filename": "deposit-lifecycle.svg",
+      "title": "Deposit Lifecycle",
+      "type": "flow",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "deposit-status",
+      "filename": "deposit-status.svg",
+      "title": "Deposit Status",
+      "type": "dashboard",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "credit-finality",
+      "filename": "credit-finality.svg",
+      "title": "Credit Finality",
+      "type": "gates",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "withdrawal-lifecycle",
+      "filename": "withdrawal-lifecycle.svg",
+      "title": "Withdrawal Lifecycle",
+      "type": "flow",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "withdrawal-status",
+      "filename": "withdrawal-status.svg",
+      "title": "Withdrawal Status",
+      "type": "dashboard",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "exit-safety",
+      "filename": "exit-safety.svg",
+      "title": "User Exit Safety",
+      "type": "split",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "runtime-topology",
+      "filename": "runtime-topology.svg",
+      "title": "Runtime Topology",
+      "type": "topology",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "data-authority",
+      "filename": "data-authority.svg",
+      "title": "Data Authority Matrix",
+      "type": "matrix",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "canonical-asset-model",
+      "filename": "canonical-asset-model.svg",
+      "title": "Canonical Asset and Account Model",
+      "type": "layers",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "asset-identity",
+      "filename": "asset-identity.svg",
+      "title": "Canonical Asset Identity",
+      "type": "stack",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "route-match",
+      "filename": "route-match.svg",
+      "title": "Route Match",
+      "type": "gates",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "token-adapter",
+      "filename": "token-adapter.svg",
+      "title": "Token Adapter Controls",
+      "type": "flow",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "custody-zones",
+      "filename": "custody-zones.svg",
+      "title": "Custody Zones",
+      "type": "zones",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "contract-domains",
+      "filename": "contract-domains.svg",
+      "title": "Contract Domain Architecture",
+      "type": "hub",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "custody-authorization",
+      "filename": "custody-authorization.svg",
+      "title": "Custody Authorization",
+      "type": "quorum",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "governance-timelock",
+      "filename": "governance-timelock.svg",
+      "title": "Governance and Timelock",
+      "type": "flow",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "pause-and-exit",
+      "filename": "pause-and-exit.svg",
+      "title": "Scoped Pause and Exit",
+      "type": "split",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "chart-of-accounts",
+      "filename": "chart-of-accounts.svg",
+      "title": "Chart of Accounts",
+      "type": "tree",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "reconciliation",
+      "filename": "reconciliation.svg",
+      "title": "Reconciliation and Exceptions",
+      "type": "triangle",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "exception-dashboard",
+      "filename": "exception-dashboard.svg",
+      "title": "Exception Management",
+      "type": "dashboard",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "settlement-finality",
+      "filename": "settlement-finality.svg",
+      "title": "Settlement Finality",
+      "type": "state",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "three-way-reconciliation",
+      "filename": "three-way-reconciliation.svg",
+      "title": "Three-Way Reconciliation",
+      "type": "triangle",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "coverage-limits",
+      "filename": "coverage-limits.svg",
+      "title": "Capacity and Prefunding",
+      "type": "capacity",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "reward-source-isolation",
+      "filename": "reward-source-isolation.svg",
+      "title": "Reward-Source Isolation",
+      "type": "streams",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "reward-funding",
+      "filename": "reward-funding.svg",
+      "title": "Reward Funding and Accrual",
+      "type": "waterfall",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "proof-epoch",
+      "filename": "proof-epoch.svg",
+      "title": "Proof Epoch",
+      "type": "sync",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "gross-to-user-waterfall",
+      "filename": "gross-to-user-waterfall.svg",
+      "title": "Gross-to-User Waterfall",
+      "type": "waterfall",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "product-review",
+      "filename": "product-review.svg",
+      "title": "Product Review Object",
+      "type": "checklist",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "personalisation",
+      "filename": "personalisation.svg",
+      "title": "Adaptive Explanation",
+      "type": "split",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "position-statement",
+      "filename": "position-statement.svg",
+      "title": "Position Statement",
+      "type": "ledger",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "finance-dashboard",
+      "filename": "finance-dashboard.svg",
+      "title": "Financial Control View",
+      "type": "dashboard",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "proof-verification",
+      "filename": "proof-verification.svg",
+      "title": "Proof Verification",
+      "type": "checklist",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "evidence-provenance",
+      "filename": "evidence-provenance.svg",
+      "title": "Evidence and Provenance",
+      "type": "chain",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "weni-approval",
+      "filename": "weni-approval.svg",
+      "title": "Unsigned Proposal",
+      "type": "boundary",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "incident-status",
+      "filename": "incident-status.svg",
+      "title": "Incident Status",
+      "type": "dashboard",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "weni-control-plane",
+      "filename": "weni-control-plane.svg",
+      "title": "WENI Control Plane",
+      "type": "layers",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "controlled-action",
+      "filename": "controlled-action.svg",
+      "title": "Controlled Action Workflow",
+      "type": "flow",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "weni-evidence",
+      "filename": "weni-evidence.svg",
+      "title": "WENI Evidence View",
+      "type": "evidence",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "user-verification-flow",
+      "filename": "user-verification-flow.svg",
+      "title": "From Choice to Verification",
+      "type": "flow",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "position-lifecycle",
+      "filename": "position-lifecycle.svg",
+      "title": "Position Lifecycle",
+      "type": "state",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "yield-waterfall",
+      "filename": "yield-waterfall.svg",
+      "title": "Ordered Yield Waterfall",
+      "type": "waterfall",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "reconciliation-decision",
+      "filename": "reconciliation-decision.svg",
+      "title": "Reconciliation Decision",
+      "type": "triangle",
+      "width": 1600,
+      "height": 900
+    }
+  ]
+}

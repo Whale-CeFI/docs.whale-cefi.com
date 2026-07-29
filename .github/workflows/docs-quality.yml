@@ -1,0 +1,39 @@
+name: Validate documentation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docs-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate documentation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Verify derived indexes
+        run: node scripts/rebuild-derived.mjs --check
+
+      - name: Validate current Whale CeFi canon
+        run: python3 scripts/validate-whale-docs.py . --enforce-current-canon
+
+      - name: Validate release integrity
+        run: node scripts/qa-release.mjs

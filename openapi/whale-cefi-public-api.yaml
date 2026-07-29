@@ -1,0 +1,38 @@
+openapi: 3.1.0
+info:
+  title: Whale CeFi Public Evidence API
+  version: 3.0.0
+  description: Read-only contracts for product, asset, deployment, proof, status, and WENI evidence.
+servers:
+  - url: https://whale-cefi.com/api/public
+paths:
+  /product-versions:
+    get:
+      operationId: listProductVersions
+      responses:
+        "200":
+          description: Versioned product catalogue
+          content:
+            application/json:
+              schema:
+                type: object
+  /assets:
+    get:
+      operationId: listAssetRoutes
+      responses:
+        "200":
+          description: Canonical asset and network routes
+          content:
+            application/json:
+              schema:
+                type: object
+  /proof-epochs:
+    get:
+      operationId: listProofEpochs
+      responses:
+        "200":
+          description: Published proof epochs
+          content:
+            application/json:
+              schema:
+                type: object

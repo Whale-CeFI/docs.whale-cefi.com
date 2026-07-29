@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Whale CeFi Proof Epoch",
+  "type": "object",
+  "required": [
+    "epoch_id",
+    "observed_at",
+    "liability_root",
+    "reserve_manifest_hash",
+    "encumbrance_manifest_hash",
+    "previous_epoch"
+  ],
+  "properties": {
+    "epoch_id": {
+      "type": "string"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "liability_root": {
+      "type": "string"
+    },
+    "reserve_manifest_hash": {
+      "type": "string"
+    },
+    "encumbrance_manifest_hash": {
+      "type": "string"
+    },
+    "previous_epoch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "whale-cefi-canonical-documentation",
+  "private": true,
+  "version": "5.0.0",
+  "type": "module",
+  "scripts": {
+    "build:indexes": "node scripts/rebuild-derived.mjs",
+    "check:indexes": "node scripts/rebuild-derived.mjs --check",
+    "check:canon": "python3 scripts/validate-whale-docs.py . --enforce-current-canon",
+    "check:release": "node scripts/qa-release.mjs",
+    "check": "npm run check:indexes && npm run check:canon && npm run check:release"
+  }
+}

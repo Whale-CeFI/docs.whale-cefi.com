@@ -1,0 +1,30 @@
+asyncapi: 3.0.0
+info:
+  title: Whale CeFi Public Status Events
+  version: 3.0.0
+  description: Public event contract for product, status, incident, proof, and registry changes.
+channels:
+  statusChanged:
+    address: status.changed
+    messages:
+      statusChanged:
+        payload:
+          type: object
+          required: [event_id, component, previous_status, new_status, effective_at]
+          properties:
+            event_id:
+              type: string
+            component:
+              type: string
+            previous_status:
+              type: string
+            new_status:
+              type: string
+            effective_at:
+              type: string
+              format: date-time
+operations:
+  receiveStatusChanged:
+    action: receive
+    channel:
+      $ref: "#/channels/statusChanged"

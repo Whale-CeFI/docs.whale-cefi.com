@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current-audit-program",
+  "records": [
+    {
+      "auditor": "Eter",
+      "scope": "Whale CeFi smart contracts and deployment control plane",
+      "closure_model": "report-remediation-regression-retest-deployment",
+      "artifact_hash": null,
+      "covered_deployments": []
+    },
+    {
+      "auditor": "Hashlock",
+      "scope": "Whale CeFi contract repository and protocol invariants",
+      "closure_model": "report-remediation-regression-retest-deployment",
+      "artifact_hash": null,
+      "covered_deployments": []
+    }
+  ]
+}

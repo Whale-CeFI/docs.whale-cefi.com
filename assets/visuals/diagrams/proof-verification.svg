@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Proof Verification</title>
+  <desc id="desc">Scope, epoch, liabilities, reserves, encumbrances, authority, and result are reviewed together.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#10232D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061018"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2F93A8"/>
+    </marker>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".42"/>
+  <circle cx="1440" cy="80" r="180" fill="#2F93A8" opacity=".07" filter="url(#soft)"/>
+  <g>
+    <text x="90" y="82" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" letter-spacing="3">SYSTEM VIEW / PROOF-VERIFICATION</text>
+    <text x="90" y="150" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="650">Proof Verification</text>
+    <text x="90" y="192" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="20">Scope, epoch, liabilities, reserves, encumbrances, authority, and result are reviewed together.</text>
+    <line x1="90" y1="222" x2="1510" y2="222" stroke="#34505C" stroke-width="1"/>
+  </g>
+  <rect x="110" y="270" width="655" height="88" rx="14" fill="#0B1B25" stroke="#34505C"/>
+      <circle cx="154" cy="314" r="17" fill="#69D2E7"/>
+      <path d="M 146 314 L 152 320 L 164 306" stroke="#061018" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="192" y="323" text-anchor="start" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Scope</text><rect x="835" y="270" width="655" height="88" rx="14" fill="#0B1B25" stroke="#34505C"/>
+      <circle cx="879" cy="314" r="17" fill="#69D2E7"/>
+      <path d="M 871 314 L 877 320 L 889 306" stroke="#061018" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="917" y="323" text-anchor="start" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Epoch</text><rect x="110" y="386" width="655" height="88" rx="14" fill="#0B1B25" stroke="#34505C"/>
+      <circle cx="154" cy="430" r="17" fill="#69D2E7"/>
+      <path d="M 146 430 L 152 436 L 164 422" stroke="#061018" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="192" y="439" text-anchor="start" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Liability root</text><rect x="835" y="386" width="655" height="88" rx="14" fill="#0B1B25" stroke="#34505C"/>
+      <circle cx="879" cy="430" r="17" fill="#69D2E7"/>
+      <path d="M 871 430 L 877 436 L 889 422" stroke="#061018" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="917" y="439" text-anchor="start" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Reserve evidence</text><rect x="110" y="502" width="655" height="88" rx="14" fill="#0B1B25" stroke="#34505C"/>
+      <circle cx="154" cy="546" r="17" fill="#69D2E7"/>
+      <path d="M 146 546 L 152 552 L 164 538" stroke="#061018" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="192" y="555" text-anchor="start" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Encumbrances</text><rect x="835" y="502" width="655" height="88" rx="14" fill="#0B1B25" stroke="#34505C"/>
+      <circle cx="879" cy="546" r="17" fill="#69D2E7"/>
+      <path d="M 871 546 L 877 552 L 889 538" stroke="#061018" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="917" y="555" text-anchor="start" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Wallet authority</text><rect x="110" y="618" width="655" height="88" rx="14" fill="#0B1B25" stroke="#34505C"/>
+      <circle cx="154" cy="662" r="17" fill="#7BC2A5"/>
+      <path d="M 146 662 L 152 668 L 164 654" stroke="#061018" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="192" y="671" text-anchor="start" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="600">Verification result</text>
+  <line x1="90" y1="842" x2="1510" y2="842" stroke="#34505C" stroke-width="1"/>
+  <text x="90" y="872" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8">DOCUMENTATION VISUAL / HUMAN-READABLE / SOURCE-BOUND</text>
+</svg>

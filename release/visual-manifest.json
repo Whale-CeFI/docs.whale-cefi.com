@@ -1,0 +1,740 @@
+{
+  "brand": "Whale CeFi",
+  "version": "2.0",
+  "generatedAt": "2026-07-23T20:06:53.340Z",
+  "visualDirection": "Institutional oceanography with human-controlled authority",
+  "logoPolicy": "No legacy logo or generated substitute is included",
+  "assetCount": 58,
+  "heroCount": 10,
+  "diagramCount": 48,
+  "placementCount": 75,
+  "uniqueUsedAssets": 58,
+  "unusedAssets": [],
+  "assets": [
+    {
+      "file": "assets/visuals/heroes/01-whale-cefi-introduction.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/02-product-journey.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/03-financial-core.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/04-platform-infrastructure.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/05-custody-boundary.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/06-weni-human-control.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/09-evidence-archive.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/10-asset-lifecycle.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/12-contract-assurance.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/heroes/20-incident-command.png",
+      "width": 1672,
+      "height": 941,
+      "format": "png"
+    },
+    {
+      "file": "assets/visuals/diagrams/asset-identity.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/audit-remediation.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/authority-domains.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/canonical-asset-model.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/chart-of-accounts.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/contract-domains.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/contract-invariants.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/controlled-action.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/coverage-limits.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/credit-finality.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/custody-authorization.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/custody-zones.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/data-authority.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/deployment-identity.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/deposit-lifecycle.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/deposit-status.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/evidence-provenance.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/exception-dashboard.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/exit-safety.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/finance-dashboard.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/governance-timelock.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/gross-to-user-waterfall.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/incident-status.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/iron-boundary.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/pause-and-exit.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/personalisation.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/position-lifecycle.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/position-state.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/position-statement.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/product-review.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/proof-epoch.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/proof-verification.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/reconciliation-decision.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/reconciliation.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/reward-funding.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/reward-source-isolation.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/route-match.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/runtime-topology.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/settlement-finality.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/three-way-reconciliation.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/token-adapter.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/user-verification-flow.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/weni-approval.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/weni-control-plane.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/weni-evidence.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/withdrawal-lifecycle.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/withdrawal-status.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/yield-waterfall.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    }
+  ],
+  "placements": [
+    {
+      "file": "README.md",
+      "alt": "Whale CeFi — a guided path through the system",
+      "target": "./assets/visuals/heroes/01-whale-cefi-introduction.png"
+    },
+    {
+      "file": "README.md",
+      "alt": "End-to-end user journey",
+      "target": "./assets/visuals/heroes/10-asset-lifecycle.png"
+    },
+    {
+      "file": "start-here.md",
+      "alt": "The first descent",
+      "target": "./assets/visuals/heroes/02-product-journey.png"
+    },
+    {
+      "file": "start-here/crypto-without-jargon.md",
+      "alt": "Canonical asset identity",
+      "target": "../assets/visuals/diagrams/asset-identity.svg"
+    },
+    {
+      "file": "start-here/crypto-without-jargon.md",
+      "alt": "From choice to verification",
+      "target": "../assets/visuals/diagrams/user-verification-flow.svg"
+    },
+    {
+      "file": "start-here/wallets-networks-and-addresses.md",
+      "alt": "Network, asset, and authority must match",
+      "target": "../assets/visuals/diagrams/route-match.svg"
+    },
+    {
+      "file": "start-here/your-first-deposit.md",
+      "alt": "Deposit lifecycle",
+      "target": "../assets/visuals/diagrams/deposit-lifecycle.svg"
+    },
+    {
+      "file": "start-here/your-first-deposit.md",
+      "alt": "Deposit status interface",
+      "target": "../assets/visuals/diagrams/deposit-status.svg"
+    },
+    {
+      "file": "start-here/choosing-a-plan.md",
+      "alt": "Rate review interface",
+      "target": "../assets/visuals/diagrams/product-review.svg"
+    },
+    {
+      "file": "start-here/open-and-track-a-position.md",
+      "alt": "Position confirmation",
+      "target": "../assets/visuals/diagrams/product-review.svg"
+    },
+    {
+      "file": "start-here/open-and-track-a-position.md",
+      "alt": "Position lifecycle",
+      "target": "../assets/visuals/diagrams/position-lifecycle.svg"
+    },
+    {
+      "file": "start-here/open-and-track-a-position.md",
+      "alt": "Position statement",
+      "target": "../assets/visuals/diagrams/position-statement.svg"
+    },
+    {
+      "file": "start-here/maturity-and-withdrawal.md",
+      "alt": "Withdrawal lifecycle",
+      "target": "../assets/visuals/diagrams/withdrawal-lifecycle.svg"
+    },
+    {
+      "file": "start-here/maturity-and-withdrawal.md",
+      "alt": "Withdrawal status interface",
+      "target": "../assets/visuals/diagrams/withdrawal-status.svg"
+    },
+    {
+      "file": "earning-with-whale-cefi.md",
+      "alt": "Product Overview",
+      "target": "./assets/visuals/heroes/02-product-journey.png"
+    },
+    {
+      "file": "earning-with-whale-cefi/product-model.md",
+      "alt": "Product Model",
+      "target": "../assets/visuals/diagrams/product-review.svg"
+    },
+    {
+      "file": "earning-with-whale-cefi/end-to-end-user-journey.md",
+      "alt": "End-to-End User Journey",
+      "target": "../assets/visuals/heroes/10-asset-lifecycle.png"
+    },
+    {
+      "file": "earning-with-whale-cefi/deposits-and-credit-finality.md",
+      "alt": "Deposits and Credit Finality",
+      "target": "../assets/visuals/diagrams/credit-finality.svg"
+    },
+    {
+      "file": "earning-with-whale-cefi/deposits-and-credit-finality.md",
+      "alt": "Deposits and Credit Finality — system view 2",
+      "target": "../assets/visuals/diagrams/deposit-lifecycle.svg"
+    },
+    {
+      "file": "earning-with-whale-cefi/rates-and-reward-mathematics.md",
+      "alt": "Rates and Reward Mathematics",
+      "target": "../assets/visuals/diagrams/gross-to-user-waterfall.svg"
+    },
+    {
+      "file": "earning-with-whale-cefi/rates-and-reward-mathematics.md",
+      "alt": "Rate review interface",
+      "target": "../assets/visuals/diagrams/product-review.svg"
+    },
+    {
+      "file": "earning-with-whale-cefi/position-review-and-consent.md",
+      "alt": "Plan confirmation",
+      "target": "../assets/visuals/diagrams/product-review.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency.md",
+      "alt": "Reward-source isolation",
+      "target": "./assets/visuals/diagrams/reward-source-isolation.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/source-attribution.md",
+      "alt": "Every reward source remains traceable",
+      "target": "../assets/visuals/diagrams/evidence-provenance.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/yield-waterfall.md",
+      "alt": "Gross-to-user waterfall",
+      "target": "../assets/visuals/diagrams/gross-to-user-waterfall.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/yield-waterfall.md",
+      "alt": "Ordered yield waterfall",
+      "target": "../assets/visuals/diagrams/yield-waterfall.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/rates-capacity-and-prefunding.md",
+      "alt": "Rates are reviewed together with capacity and funding",
+      "target": "../assets/visuals/diagrams/coverage-limits.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/liquidity-shortfall-and-resolution.md",
+      "alt": "Coverage limits close exposure before obligations outrun funding",
+      "target": "../assets/visuals/diagrams/coverage-limits.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/ledger-reconciliation-and-proof.md",
+      "alt": "Three-way reconciliation",
+      "target": "../assets/visuals/diagrams/three-way-reconciliation.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/ledger-reconciliation-and-proof.md",
+      "alt": "Reconciliation decision",
+      "target": "../assets/visuals/diagrams/reconciliation-decision.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/canonical-asset-and-account-model.md",
+      "alt": "Canonical Asset and Account Model",
+      "target": "../assets/visuals/diagrams/canonical-asset-model.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/double-entry-ledger-service.md",
+      "alt": "Double-Entry Ledger Service",
+      "target": "../assets/visuals/heroes/03-financial-core.png"
+    },
+    {
+      "file": "yield-and-financial-transparency/double-entry-ledger-service.md",
+      "alt": "Double-Entry Ledger Service — system view 2",
+      "target": "../assets/visuals/diagrams/chart-of-accounts.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/withdrawal-and-user-exit-safety.md",
+      "alt": "Withdrawal and User Exit Safety",
+      "target": "../assets/visuals/diagrams/exit-safety.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/withdrawal-and-user-exit-safety.md",
+      "alt": "Withdrawal and User Exit Safety — system view 2",
+      "target": "../assets/visuals/diagrams/withdrawal-lifecycle.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/reward-funding-yield-and-accrual.md",
+      "alt": "Reward Funding, Yield, and Accrual",
+      "target": "../assets/visuals/diagrams/reward-funding.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/reward-funding-yield-and-accrual.md",
+      "alt": "Reward Funding, Yield, and Accrual — system view 2",
+      "target": "../assets/visuals/diagrams/reward-source-isolation.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/reward-funding-yield-and-accrual.md",
+      "alt": "Reward Funding, Yield, and Accrual — system view 3",
+      "target": "../assets/visuals/diagrams/finance-dashboard.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/reconciliation-and-exception-management.md",
+      "alt": "Reconciliation and Exception Management",
+      "target": "../assets/visuals/diagrams/reconciliation.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/reconciliation-and-exception-management.md",
+      "alt": "Reconciliation and Exception Management — system view 2",
+      "target": "../assets/visuals/diagrams/exception-dashboard.svg"
+    },
+    {
+      "file": "yield-and-financial-transparency/settlement-finality-and-financial-exceptions.md",
+      "alt": "Settlement Finality and Financial Exceptions",
+      "target": "../assets/visuals/diagrams/settlement-finality.svg"
+    },
+    {
+      "file": "weni-native-intelligence.md",
+      "alt": "WENI — intelligence with human-controlled authority",
+      "target": "./assets/visuals/heroes/06-weni-human-control.png"
+    },
+    {
+      "file": "weni-native-intelligence/weni-system-architecture.md",
+      "alt": "WENI control plane",
+      "target": "../assets/visuals/diagrams/weni-control-plane.svg"
+    },
+    {
+      "file": "weni-native-intelligence/evidence-and-provenance.md",
+      "alt": "Evidence and Provenance",
+      "target": "../assets/visuals/diagrams/evidence-provenance.svg"
+    },
+    {
+      "file": "weni-native-intelligence/personalisation-and-memory.md",
+      "alt": "Personalisation and Memory",
+      "target": "../assets/visuals/diagrams/personalisation.svg"
+    },
+    {
+      "file": "weni-native-intelligence/the-iron-boundary.md",
+      "alt": "Intelligence stops before signing authority",
+      "target": "../assets/visuals/diagrams/iron-boundary.svg"
+    },
+    {
+      "file": "weni-native-intelligence/controlled-action-workflow.md",
+      "alt": "Controlled Action Workflow",
+      "target": "../assets/visuals/diagrams/controlled-action.svg"
+    },
+    {
+      "file": "weni-native-intelligence/controlled-action-workflow.md",
+      "alt": "WENI evidence view",
+      "target": "../assets/visuals/diagrams/weni-evidence.svg"
+    },
+    {
+      "file": "weni-native-intelligence/controlled-action-workflow.md",
+      "alt": "Unsigned WENI proposal",
+      "target": "../assets/visuals/diagrams/weni-approval.svg"
+    },
+    {
+      "file": "weni-native-intelligence/evaluation-and-model-governance.md",
+      "alt": "Evaluation and Model Governance",
+      "target": "../assets/visuals/heroes/06-weni-human-control.png"
+    },
+    {
+      "file": "security-and-custody.md",
+      "alt": "Custody Architecture",
+      "target": "./assets/visuals/heroes/05-custody-boundary.png"
+    },
+    {
+      "file": "security-and-custody.md",
+      "alt": "Custody zones",
+      "target": "./assets/visuals/diagrams/custody-zones.svg"
+    },
+    {
+      "file": "security-and-custody.md",
+      "alt": "Custody authorization",
+      "target": "./assets/visuals/diagrams/custody-authorization.svg"
+    },
+    {
+      "file": "security-and-custody.md",
+      "alt": "Custody approval interface",
+      "target": "./assets/visuals/diagrams/weni-approval.svg"
+    },
+    {
+      "file": "security-and-custody/proof-of-reserves-and-liabilities.md",
+      "alt": "Proof epoch",
+      "target": "../assets/visuals/diagrams/proof-epoch.svg"
+    },
+    {
+      "file": "security-and-custody/proof-of-reserves-and-liabilities.md",
+      "alt": "Proof verification interface",
+      "target": "../assets/visuals/diagrams/proof-verification.svg"
+    },
+    {
+      "file": "smart-contracts.md",
+      "alt": "Protocol Architecture",
+      "target": "./assets/visuals/heroes/12-contract-assurance.png"
+    },
+    {
+      "file": "smart-contracts.md",
+      "alt": "Contract domain architecture",
+      "target": "./assets/visuals/diagrams/contract-domains.svg"
+    },
+    {
+      "file": "smart-contracts/on-chain-position-state-machine.md",
+      "alt": "On-Chain Position State Machine",
+      "target": "../assets/visuals/diagrams/position-state.svg"
+    },
+    {
+      "file": "smart-contracts/on-chain-position-state-machine.md",
+      "alt": "Position state machine",
+      "target": "../assets/visuals/diagrams/position-state.svg"
+    },
+    {
+      "file": "smart-contracts/token-integration-safety.md",
+      "alt": "Token adapter controls",
+      "target": "../assets/visuals/diagrams/token-adapter.svg"
+    },
+    {
+      "file": "smart-contracts/smart-contract-invariants.md",
+      "alt": "Contract invariant map",
+      "target": "../assets/visuals/diagrams/contract-invariants.svg"
+    },
+    {
+      "file": "smart-contracts/governance-roles-and-upgrades.md",
+      "alt": "Governance and timelock",
+      "target": "../assets/visuals/diagrams/governance-timelock.svg"
+    },
+    {
+      "file": "smart-contracts/pause-and-emergency-exit.md",
+      "alt": "Pause and Emergency Exit",
+      "target": "../assets/visuals/diagrams/incident-status.svg"
+    },
+    {
+      "file": "smart-contracts/pause-and-emergency-exit.md",
+      "alt": "Scoped pause and exit",
+      "target": "../assets/visuals/diagrams/pause-and-exit.svg"
+    },
+    {
+      "file": "smart-contracts/deployment-identity.md",
+      "alt": "Deployment identity chain",
+      "target": "../assets/visuals/diagrams/deployment-identity.svg"
+    },
+    {
+      "file": "smart-contracts/audit-findings-and-remediation.md",
+      "alt": "Audit Findings and Remediation",
+      "target": "../assets/visuals/diagrams/proof-verification.svg"
+    },
+    {
+      "file": "smart-contracts/audit-findings-and-remediation.md",
+      "alt": "Audit remediation map",
+      "target": "../assets/visuals/diagrams/audit-remediation.svg"
+    },
+    {
+      "file": "advanced-platform-architecture.md",
+      "alt": "Canonical System Model",
+      "target": "./assets/visuals/diagrams/authority-domains.svg"
+    },
+    {
+      "file": "advanced-platform-architecture.md",
+      "alt": "Whale CeFi authority domains",
+      "target": "./assets/visuals/diagrams/authority-domains.svg"
+    },
+    {
+      "file": "advanced-platform-architecture/platform-scope-and-system-context.md",
+      "alt": "Platform Scope and System Context",
+      "target": "../assets/visuals/heroes/04-platform-infrastructure.png"
+    },
+    {
+      "file": "advanced-platform-architecture/platform-scope-and-system-context.md",
+      "alt": "Platform Scope and System Context — system view 2",
+      "target": "../assets/visuals/diagrams/runtime-topology.svg"
+    },
+    {
+      "file": "advanced-platform-architecture/transactional-and-time-series-authority.md",
+      "alt": "Transactional and Time-Series Authority",
+      "target": "../assets/visuals/diagrams/data-authority.svg"
+    },
+    {
+      "file": "advanced-platform-architecture/high-availability-and-disaster-recovery.md",
+      "alt": "High Availability and Disaster Recovery",
+      "target": "../assets/visuals/heroes/20-incident-command.png"
+    },
+    {
+      "file": "developers-and-reference/machine-readable-contracts.md",
+      "alt": "Machine-Readable Contracts",
+      "target": "../assets/visuals/heroes/09-evidence-archive.png"
+    }
+  ]
+}

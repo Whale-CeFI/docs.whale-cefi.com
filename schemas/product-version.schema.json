@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Whale CeFi Product Version",
+  "type": "object",
+  "required": [
+    "product_id",
+    "assets",
+    "rate_nature",
+    "monthly_rate"
+  ],
+  "properties": {
+    "product_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "term_days": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "monthly_rate": {
+      "type": "string",
+      "pattern": "^\\d+(\\.\\d+)?$"
+    },
+    "term_reward_rate": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d+(\\.\\d+)?$"
+    },
+    "rate_nature": {
+      "enum": [
+        "fixed-contractual",
+        "prospective-variable"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

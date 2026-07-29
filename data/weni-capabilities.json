@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "WENI-TARGET-1",
+  "capabilities": [
+    {
+      "capability": "explain_position",
+      "status": "target-active",
+      "authority": "read-only"
+    },
+    {
+      "capability": "compare_plan_terms",
+      "status": "target-active",
+      "authority": "deterministic-registry"
+    },
+    {
+      "capability": "retrieve_evidence",
+      "status": "target-active",
+      "authority": "read-only"
+    },
+    {
+      "capability": "calculate_reward",
+      "status": "target-active",
+      "authority": "deterministic-tool"
+    },
+    {
+      "capability": "simulate_route",
+      "status": "target-active",
+      "authority": "sandboxed"
+    },
+    {
+      "capability": "prepare_unsigned_payload",
+      "status": "target-active",
+      "authority": "unsigned-only"
+    },
+    {
+      "capability": "hold_private_key",
+      "status": "never-permitted",
+      "authority": "none"
+    },
+    {
+      "capability": "approve_transaction",
+      "status": "never-permitted",
+      "authority": "none"
+    },
+    {
+      "capability": "alter_ledger",
+      "status": "never-permitted",
+      "authority": "none"
+    },
+    {
+      "capability": "override_eligibility",
+      "status": "never-permitted",
+      "authority": "none"
+    }
+  ]
+}
