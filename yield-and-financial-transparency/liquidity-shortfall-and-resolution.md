@@ -1,15 +1,19 @@
 ---
-title: "Liquidity, Shortfall, and Resolution"
-description: "Solvency and liquidity answer different questions. Solvency asks whether recognized assets cover liabilities. Liquidity asks whether the right asset can be delivered at the required time without unacceptable loss."
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/liquidity-shortfall-and-resolution"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Liquidity, Shortfall, and Resolution
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/liquidity-shortfall-and-resolution
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Solvency and liquidity answer different questions. Solvency asks whether
+  recognized assets cover liabilities. Liquidity asks whether the right asset
+  can be delivered at the required time without unacc
 ---
 
 # Liquidity, Shortfall, and Resolution
 
-![Coverage limits close exposure before obligations outrun funding](../assets/visuals/diagrams/coverage-limits.svg)
+![Coverage limits close exposure before obligations outrun funding](../.gitbook/assets/coverage-limits.svg)
 
 Solvency and liquidity answer different questions. Solvency asks whether recognized assets cover liabilities. Liquidity asks whether the right asset can be delivered at the required time without unacceptable loss.
 

@@ -1,19 +1,23 @@
 ---
-title: "Withdrawal and User Exit Safety"
-description: "Withdrawals reverse the deposit path under stricter authority. The platform authenticates intent, reserves the liability, screens policy, obtains custody approval, broadcasts the exact authorised transfer, observes…"
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/withdrawal-and-user-exit-safety"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Withdrawal and User Exit Safety
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/withdrawal-and-user-exit-safety
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Withdrawals reverse the deposit path under stricter authority. The platform
+  authenticates intent, reserves the liability, screens policy, obtains custody
+  approval, broadcasts the exact authorised tran
 ---
 
 # Withdrawal and User Exit Safety
 
 Withdrawals reverse the deposit path under stricter authority. The platform authenticates intent, reserves the liability, screens policy, obtains custody approval, broadcasts the exact authorised transfer, observes finality, and settles the ledger without trapping legitimate user exits during an incident.
 
-![Withdrawal and User Exit Safety](../assets/visuals/diagrams/exit-safety.svg)
+![Withdrawal and User Exit Safety](../.gitbook/assets/exit-safety.svg)
 
-![Withdrawal and User Exit Safety — system view 2](../assets/visuals/diagrams/withdrawal-lifecycle.svg)
+![Withdrawal and User Exit Safety — system view 2](../.gitbook/assets/withdrawal-lifecycle.svg)
 
 ## Control model
 

@@ -1,10 +1,13 @@
 ---
-title: "Ledger, Reconciliation, and Proof"
-description: "Reward economics become trustworthy only when the financial record, controlled assets, blockchain state, and proof scope agree."
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/ledger-reconciliation-and-proof"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Ledger, Reconciliation, and Proof
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/ledger-reconciliation-and-proof
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Reward economics become trustworthy only when the financial record, controlled
+  assets, blockchain state, and proof scope agree.
 ---
 
 # Ledger, Reconciliation, and Proof
@@ -27,9 +30,9 @@ Pending, final, reversed, disputed, and corrected states use distinct journals a
 
 ## Three-way reconciliation
 
-![Three-way reconciliation](../assets/visuals/diagrams/three-way-reconciliation.svg)
+![Three-way reconciliation](../.gitbook/assets/three-way-reconciliation.svg)
 
-![Reconciliation decision](../assets/visuals/diagrams/reconciliation-decision.svg)
+![Reconciliation decision](../.gitbook/assets/reconciliation-decision.svg)
 
 Reconciliation runs by asset, network, vault, strategy, product cohort, and operation identity. Tolerances are explicit, time-bounded, and never used to absorb a persistent deficit.
 

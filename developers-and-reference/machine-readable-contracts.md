@@ -1,17 +1,20 @@
 ---
-title: "Machine-Readable Contracts"
-description: "Schemas and interface definitions that make the documentation testable by services, auditors, and automated controls."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/machine-readable-contracts"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Machine-Readable Contracts
+canonical: >-
+  https://docs.whale-cefi.com/developers-and-reference/machine-readable-contracts
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Schemas and interface definitions that make the documentation testable by
+  services, auditors, and automated controls.
 ---
 
 # Machine-Readable Contracts
 
 Schemas and interface definitions that make the documentation testable by services, auditors, and automated controls.
 
-![Machine-Readable Contracts](../assets/visuals/heroes/09-evidence-archive.png)
+![Machine-Readable Contracts](../.gitbook/assets/09-evidence-archive.png)
 
 Narrative documentation explains intent. Machine-readable contracts define fields, types, enumerations, constraints, and version relationships.
 

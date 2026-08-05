@@ -1,10 +1,13 @@
 ---
-title: "Asset Registry"
-description: "An asset symbol is not a complete asset identity. Whale CeFi identifies an asset by network namespace, chain reference, native or token standard, contract where applicable, decimals, custody route, confirmation…"
-canonical: "https://docs.whale-cefi.com/evidence-center/asset-registry"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Asset Registry
+canonical: https://docs.whale-cefi.com/evidence-center/asset-registry
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  An asset symbol is not a complete asset identity. Whale CeFi identifies an
+  asset by network namespace, chain reference, native or token standard,
+  contract where applicable, decimals, custody route, co
 ---
 
 # Asset Registry

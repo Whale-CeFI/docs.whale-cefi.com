@@ -1,17 +1,19 @@
 ---
-title: "The Iron Boundary"
-description: "The Iron Boundary is the non-negotiable separation between intelligence and asset authority."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/the-iron-boundary"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: The Iron Boundary
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/the-iron-boundary
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The Iron Boundary is the non-negotiable separation between intelligence and
+  asset authority.
 ---
 
 # The Iron Boundary
 
 The Iron Boundary is the non-negotiable separation between intelligence and asset authority.
 
-![Intelligence stops before signing authority](../assets/visuals/diagrams/iron-boundary.svg)
+![Intelligence stops before signing authority](../.gitbook/assets/iron-boundary.svg)
 
 WENI may be permitted to:
 

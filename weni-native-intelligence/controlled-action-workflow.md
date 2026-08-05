@@ -1,21 +1,24 @@
 ---
-title: "Controlled Action Workflow"
-description: "How evidence and reasoning become an unsigned proposal that stops before human authorization."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/controlled-action-workflow"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Controlled Action Workflow
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/controlled-action-workflow
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  How evidence and reasoning become an unsigned proposal that stops before human
+  authorization.
 ---
 
 # Controlled Action Workflow
 
 How evidence and reasoning become an unsigned proposal that stops before human authorization.
 
-![Controlled Action Workflow](../assets/visuals/diagrams/controlled-action.svg)
+![Controlled Action Workflow](../.gitbook/assets/controlled-action.svg)
 
 WENI can move from explanation to preparation without acquiring execution authority.
 
-![WENI evidence view](../assets/visuals/diagrams/weni-evidence.svg)
+![WENI evidence view](../.gitbook/assets/weni-evidence.svg)
 
 ## Lifecycle
 
@@ -31,7 +34,7 @@ WENI can move from explanation to preparation without acquiring execution author
 10. **Human review** — the wallet or institutional approval chain independently decodes and authorizes the payload.
 11. **Execution observation** — WENI may explain the resulting transaction but cannot submit an undisclosed substitute.
 
-![Unsigned WENI proposal](../assets/visuals/diagrams/weni-approval.svg)
+![Unsigned WENI proposal](../.gitbook/assets/weni-approval.svg)
 
 ## Iron Boundary
 

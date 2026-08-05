@@ -1,10 +1,13 @@
 ---
-title: "Levels"
-description: "Levels represent cumulative confirmed XP. They organise progression and discovery without changing customer balances, legal rights, withdrawal priority, risk disclosure, security controls, or product suitability."
-canonical: "https://docs.whale-cefi.com/points-and-progression/levels"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Levels
+canonical: https://docs.whale-cefi.com/points-and-progression/levels
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Levels represent cumulative confirmed XP. They organise progression and
+  discovery without changing customer balances, legal rights, withdrawal
+  priority, risk disclosure, security controls, or product
 ---
 
 # Levels
@@ -13,18 +16,18 @@ Levels represent cumulative confirmed XP. They organise progression and discover
 
 ## Level registry
 
-| Level | Name | XP threshold |
-|---:|---|---:|
-| 1 | Plankton | 0 |
-| 2 | Minnow | 2,100 |
-| 3 | Puffer | 5,900 |
-| 4 | Dolphin | 11,600 |
-| 5 | Orca | 19,200 |
-| 6 | Blue Whale | 29,400 |
-| 7 | Shark | 44,100 |
-| 8 | Leviathan | 62,800 |
-| 9 | Kraken | 87,300 |
-| 10 | Megalodon | 120,000 |
+| Level | Name       | XP threshold |
+| ----: | ---------- | -----------: |
+|     1 | Plankton   |            0 |
+|     2 | Minnow     |        2,100 |
+|     3 | Puffer     |        5,900 |
+|     4 | Dolphin    |       11,600 |
+|     5 | Orca       |       19,200 |
+|     6 | Blue Whale |       29,400 |
+|     7 | Shark      |       44,100 |
+|     8 | Leviathan  |       62,800 |
+|     9 | Kraken     |       87,300 |
+|    10 | Megalodon  |      120,000 |
 
 Only confirmed XP counts. If XP is reversed, the level is recalculated from the corrected ledger. A user retains the permanent record of previously completed achievements, while access that expressly requires a current level follows the corrected state.
 

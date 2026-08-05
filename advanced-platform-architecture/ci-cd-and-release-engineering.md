@@ -1,10 +1,14 @@
 ---
-title: "CI/CD and Release Engineering"
-description: "Release engineering turns reviewed source into an attributable production state. Repositories, dependencies, tests, artefacts, infrastructure, database migrations, contract deployments and client builds are versioned…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/ci-cd-and-release-engineering"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: CI/CD and Release Engineering
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/ci-cd-and-release-engineering
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Release engineering turns reviewed source into an attributable production
+  state. Repositories, dependencies, tests, artefacts, infrastructure, database
+  migrations, contract deployments and client buil
 ---
 
 # CI/CD and Release Engineering

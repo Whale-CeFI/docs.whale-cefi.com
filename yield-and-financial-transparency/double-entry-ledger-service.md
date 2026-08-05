@@ -1,19 +1,23 @@
 ---
-title: "Double-Entry Ledger Service"
-description: "The Accounting Ledger Service is the internal financial source of record. Every economic event posts a balanced, immutable journal transaction; balances are projections of entries, not independently mutable fields."
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/double-entry-ledger-service"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Double-Entry Ledger Service
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/double-entry-ledger-service
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The Accounting Ledger Service is the internal financial source of record.
+  Every economic event posts a balanced, immutable journal transaction; balances
+  are projections of entries, not independently m
 ---
 
 # Double-Entry Ledger Service
 
 The Accounting Ledger Service is the internal financial source of record. Every economic event posts a balanced, immutable journal transaction; balances are projections of entries, not independently mutable fields.
 
-![Double-Entry Ledger Service](../assets/visuals/heroes/03-financial-core.png)
+![Double-Entry Ledger Service](../.gitbook/assets/03-financial-core.png)
 
-![Double-Entry Ledger Service — system view 2](../assets/visuals/diagrams/chart-of-accounts.svg)
+![Double-Entry Ledger Service — system view 2](../.gitbook/assets/chart-of-accounts.svg)
 
 ## Control model
 

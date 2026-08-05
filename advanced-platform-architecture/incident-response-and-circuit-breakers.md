@@ -1,10 +1,14 @@
 ---
-title: "Incident Response and Circuit Breakers"
-description: "Incident response is a controlled state transition across detection, containment, financial authority, custody, contracts, communications, recovery and evidence preservation. Circuit breakers are scoped capabilities,…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/incident-response-and-circuit-breakers"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Incident Response and Circuit Breakers
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/incident-response-and-circuit-breakers
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Incident response is a controlled state transition across detection,
+  containment, financial authority, custody, contracts, communications, recovery
+  and evidence preservation. Circuit breakers are scop
 ---
 
 # Incident Response and Circuit Breakers

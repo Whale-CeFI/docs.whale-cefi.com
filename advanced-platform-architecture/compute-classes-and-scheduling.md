@@ -1,10 +1,14 @@
 ---
-title: "Compute Classes and Scheduling"
-description: "Whale CeFi uses different compute classes for deterministic on-chain services, Go business services, specialised workloads and event-driven triggers. Each class receives explicit latency, isolation, scaling,…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/compute-classes-and-scheduling"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Compute Classes and Scheduling
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/compute-classes-and-scheduling
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Whale CeFi uses different compute classes for deterministic on-chain services,
+  Go business services, specialised workloads and event-driven triggers. Each
+  class receives explicit latency, isolation, s
 ---
 
 # Compute Classes and Scheduling

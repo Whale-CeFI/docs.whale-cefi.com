@@ -1,10 +1,13 @@
 ---
-title: "Identity Verification"
-description: "Identity verification establishes whether a person or organisation is eligible for a specific Whale CeFi service. It supports sanctions controls, fraud prevention, account recovery, transaction review, legal…"
-canonical: "https://docs.whale-cefi.com/account-and-access/identity-verification"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Identity Verification
+canonical: https://docs.whale-cefi.com/account-and-access/identity-verification
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Identity verification establishes whether a person or organisation is eligible
+  for a specific Whale CeFi service. It supports sanctions controls, fraud
+  prevention, account recovery, transaction review
 ---
 
 # Identity Verification
@@ -13,15 +16,15 @@ Identity verification establishes whether a person or organisation is eligible f
 
 ## Verification states
 
-| State | Meaning | What the user can do |
-|---|---|---|
-| Not started | Required information has not been submitted | Review public documentation |
-| In progress | Documents or checks are being processed | Continue allowed non-financial setup |
-| Action required | Information is missing, expired, or unreadable | Correct the stated issue |
-| Verified | Current checks passed for the stated scope | Use capabilities allowed by the eligibility matrix |
-| Limited | Only named capabilities or limits are available | Follow the displayed restriction |
-| Under review | A deterministic or specialist review is open | Wait for the case outcome |
-| Expired | A required record must be refreshed | Complete reverification |
+| State           | Meaning                                         | What the user can do                               |
+| --------------- | ----------------------------------------------- | -------------------------------------------------- |
+| Not started     | Required information has not been submitted     | Review public documentation                        |
+| In progress     | Documents or checks are being processed         | Continue allowed non-financial setup               |
+| Action required | Information is missing, expired, or unreadable  | Correct the stated issue                           |
+| Verified        | Current checks passed for the stated scope      | Use capabilities allowed by the eligibility matrix |
+| Limited         | Only named capabilities or limits are available | Follow the displayed restriction                   |
+| Under review    | A deterministic or specialist review is open    | Wait for the case outcome                          |
+| Expired         | A required record must be refreshed             | Complete reverification                            |
 
 Verification is scoped. Passing an identity check does not guarantee every product, asset, network, rate, limit, or region.
 

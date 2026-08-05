@@ -1,17 +1,17 @@
 ---
-title: "Wallets, Networks, and Addresses"
-description: "These three ideas appear together, but they answer different questions."
-canonical: "https://docs.whale-cefi.com/start-here/wallets-networks-and-addresses"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Wallets, Networks, and Addresses
+canonical: https://docs.whale-cefi.com/start-here/wallets-networks-and-addresses
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: These three ideas appear together, but they answer different questions.
 ---
 
 # Wallets, Networks, and Addresses
 
 These three ideas appear together, but they answer different questions.
 
-![Network, asset, and authority must match](../assets/visuals/diagrams/route-match.svg)
+![Network, asset, and authority must match](../.gitbook/assets/route-match.svg)
 
 ## Wallet: who can authorize?
 

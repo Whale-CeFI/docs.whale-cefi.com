@@ -1,17 +1,19 @@
 ---
-title: "Yield Waterfall"
-description: "The waterfall converts realized external economics into distributable reward without crossing the principal boundary."
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/yield-waterfall"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Yield Waterfall
+canonical: https://docs.whale-cefi.com/yield-and-financial-transparency/yield-waterfall
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The waterfall converts realized external economics into distributable reward
+  without crossing the principal boundary.
 ---
 
 # Yield Waterfall
 
 The waterfall converts realized external economics into distributable reward without crossing the principal boundary.
 
-![Gross-to-user waterfall](../assets/visuals/diagrams/gross-to-user-waterfall.svg)
+![Gross-to-user waterfall](../.gitbook/assets/gross-to-user-waterfall.svg)
 
 ## Epoch calculation
 
@@ -47,7 +49,7 @@ Where (D) is the reward liability due under the product version. A non-zero (\De
 
 ## Ordered waterfall
 
-![Ordered yield waterfall](../assets/visuals/diagrams/yield-waterfall.svg)
+![Ordered yield waterfall](../.gitbook/assets/yield-waterfall.svg)
 
 ## Revenue recognition
 

@@ -1,15 +1,16 @@
 ---
-title: "Source Attribution"
-description: "Yield is disclosed by source, not hidden inside one blended percentage."
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/source-attribution"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Source Attribution
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/source-attribution
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: Yield is disclosed by source, not hidden inside one blended percentage.
 ---
 
 # Source Attribution
 
-![Every reward source remains traceable](../assets/visuals/diagrams/evidence-provenance.svg)
+![Every reward source remains traceable](../.gitbook/assets/evidence-provenance.svg)
 
 Yield is disclosed by source, not hidden inside one blended percentage.
 

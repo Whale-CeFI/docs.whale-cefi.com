@@ -1,17 +1,20 @@
 ---
-title: "Evaluation and Model Governance"
-description: "Continuous assurance for factuality, numerical accuracy, tool safety, privacy, and authority preservation."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/evaluation-and-model-governance"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Evaluation and Model Governance
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/evaluation-and-model-governance
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Continuous assurance for factuality, numerical accuracy, tool safety, privacy,
+  and authority preservation.
 ---
 
 # Evaluation and Model Governance
 
 Continuous assurance for factuality, numerical accuracy, tool safety, privacy, and authority preservation.
 
-![Evaluation and Model Governance](../assets/visuals/heroes/06-weni-human-control.png)
+![Evaluation and Model Governance](../.gitbook/assets/06-weni-human-control.png)
 
 WENI is released as a complete system — model, adapters, tools, evidence pipeline, policy, interface, and operational controls. A model checkpoint cannot pass release on conversational quality alone.
 

@@ -1,10 +1,13 @@
 ---
-title: "Achievements"
-description: "Achievements are permanent or long-lived recognition milestones associated with specific eligible behaviour or learning. Unlike a level, which summarises total XP, an achievement identifies what the user actually…"
-canonical: "https://docs.whale-cefi.com/points-and-progression/achievements"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Achievements
+canonical: https://docs.whale-cefi.com/points-and-progression/achievements
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Achievements are permanent or long-lived recognition milestones associated
+  with specific eligible behaviour or learning. Unlike a level, which summarises
+  total XP, an achievement identifies what the u
 ---
 
 # Achievements
@@ -13,29 +16,29 @@ Achievements are permanent or long-lived recognition milestones associated with 
 
 Achievement categories may include:
 
-- first actions and onboarding milestones;
-- eligible deposit or plan milestones;
-- portfolio and product-use patterns;
-- responsible behaviour and account longevity;
-- progression milestones;
-- referral development;
-- learning and verified competency;
-- seasonal or leaderboard performance;
-- chest or collection milestones;
-- and special platform events.
+* first actions and onboarding milestones;
+* eligible deposit or plan milestones;
+* portfolio and product-use patterns;
+* responsible behaviour and account longevity;
+* progression milestones;
+* referral development;
+* learning and verified competency;
+* seasonal or leaderboard performance;
+* chest or collection milestones;
+* and special platform events.
 
 ## Achievement card
 
 Every card should include:
 
-- name and description;
-- rarity;
-- locked, tracking, pending, or unlocked state;
-- visible progress where appropriate;
-- completion date;
-- whether the achievement is permanent, seasonal, or revocable;
-- reward, if any;
-- and the percentage of eligible users who have unlocked it where that statistic is reliable.
+* name and description;
+* rarity;
+* locked, tracking, pending, or unlocked state;
+* visible progress where appropriate;
+* completion date;
+* whether the achievement is permanent, seasonal, or revocable;
+* reward, if any;
+* and the percentage of eligible users who have unlocked it where that statistic is reliable.
 
 ## Rarity
 

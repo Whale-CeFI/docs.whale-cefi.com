@@ -1,17 +1,19 @@
 ---
-title: "End-to-End User Journey"
-description: "A short mental model of the product, financial records, infrastructure, security and intelligence layer."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi/end-to-end-user-journey"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: End-to-End User Journey
+canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/end-to-end-user-journey
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  A short mental model of the product, financial records, infrastructure,
+  security and intelligence layer.
 ---
 
 # End-to-End User Journey
 
 A short mental model of the product, financial records, infrastructure, security and intelligence layer.
 
-![End-to-End User Journey](../assets/visuals/heroes/10-asset-lifecycle.png)
+![End-to-End User Journey](../.gitbook/assets/10-asset-lifecycle.png)
 
 Think of Whale CeFi as five connected layers.
 

@@ -1,10 +1,12 @@
 ---
-title: "Open and Track a Position"
-description: "Opening a position converts an available balance into a versioned financial obligation. It is not just a button state."
-canonical: "https://docs.whale-cefi.com/start-here/open-and-track-a-position"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Open and Track a Position
+canonical: https://docs.whale-cefi.com/start-here/open-and-track-a-position
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Opening a position converts an available balance into a versioned financial
+  obligation. It is not just a button state.
 ---
 
 # Open and Track a Position
@@ -24,7 +26,7 @@ The review screen answers eight questions in plain language:
 7. Which fees or adjustments apply?
 8. Which material risks remain?
 
-![Position confirmation](../assets/visuals/diagrams/product-review.svg)
+![Position confirmation](../.gitbook/assets/product-review.svg)
 
 ## Confirmation binds a stable object
 
@@ -32,13 +34,13 @@ Your approval is attached to an exact review object. A change to the amount, net
 
 ## What happens after confirmation
 
-![Position lifecycle](../assets/visuals/diagrams/position-lifecycle.svg)
+![Position lifecycle](../.gitbook/assets/position-lifecycle.svg)
 
 The ledger reserves principal, creates the position liability, attaches the accepted product version, and begins eligible accrual only after the acceptance boundary completes.
 
 ## Reading the position statement
 
-![Position statement](../assets/visuals/diagrams/position-statement.svg)
+![Position statement](../.gitbook/assets/position-statement.svg)
 
 The statement keeps four amounts separate:
 

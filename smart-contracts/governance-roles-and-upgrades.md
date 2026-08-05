@@ -1,10 +1,12 @@
 ---
-title: "Governance, Roles, and Upgrades"
-description: "Delayed, independently approved authority with immutable asset-bearing vaults and explicit migration."
-canonical: "https://docs.whale-cefi.com/smart-contracts/governance-roles-and-upgrades"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Governance, Roles, and Upgrades
+canonical: https://docs.whale-cefi.com/smart-contracts/governance-roles-and-upgrades
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Delayed, independently approved authority with immutable asset-bearing vaults
+  and explicit migration.
 ---
 
 # Governance, Roles, and Upgrades
@@ -13,7 +15,7 @@ Delayed, independently approved authority with immutable asset-bearing vaults an
 
 Privileged operations are slower, more observable, and more independently approved than routine user actions.
 
-![Governance and timelock](../assets/visuals/diagrams/governance-timelock.svg)
+![Governance and timelock](../.gitbook/assets/governance-timelock.svg)
 
 ## Role topology
 

@@ -1,10 +1,13 @@
 ---
-title: "Position Review and Consent"
-description: "The immutable review object a user sees and accepts before a position can be opened."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi/position-review-and-consent"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Position Review and Consent
+canonical: >-
+  https://docs.whale-cefi.com/earning-with-whale-cefi/position-review-and-consent
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The immutable review object a user sees and accepts before a position can be
+  opened.
 ---
 
 # Position Review and Consent
@@ -13,7 +16,7 @@ The immutable review object a user sees and accepts before a position can be ope
 
 The final confirmation screen is a cryptographically identified review object, not a transient rendering. It contains every material term needed to reproduce the position and evaluate the action later.
 
-![Plan confirmation](../assets/visuals/diagrams/product-review.svg)
+![Plan confirmation](../.gitbook/assets/product-review.svg)
 
 ## Review object
 

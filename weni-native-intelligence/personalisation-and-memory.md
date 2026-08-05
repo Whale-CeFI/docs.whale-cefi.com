@@ -1,17 +1,20 @@
 ---
-title: "Personalisation and Memory"
-description: "WENI adapts to the person using it without quietly rewriting truth or retaining more data than necessary."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/personalisation-and-memory"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Personalisation and Memory
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/personalisation-and-memory
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  WENI adapts to the person using it without quietly rewriting truth or
+  retaining more data than necessary.
 ---
 
 # Personalisation and Memory
 
 WENI adapts to the person using it without quietly rewriting truth or retaining more data than necessary.
 
-![Personalisation and Memory](../assets/visuals/diagrams/personalisation.svg)
+![Personalisation and Memory](../.gitbook/assets/personalisation.svg)
 
 ## What may be personalised
 

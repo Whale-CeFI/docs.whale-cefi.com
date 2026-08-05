@@ -1,10 +1,12 @@
 ---
-title: "Maturity and Withdrawal"
-description: "Maturity, position closure, and blockchain withdrawal are related but separate events."
-canonical: "https://docs.whale-cefi.com/start-here/maturity-and-withdrawal"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Maturity and Withdrawal
+canonical: https://docs.whale-cefi.com/start-here/maturity-and-withdrawal
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Maturity, position closure, and blockchain withdrawal are related but separate
+  events.
 ---
 
 # Maturity and Withdrawal
@@ -21,7 +23,7 @@ A flexible position follows the closure rule shown at confirmation. Applicable n
 
 ## The withdrawal lifecycle
 
-![Withdrawal lifecycle](../assets/visuals/diagrams/withdrawal-lifecycle.svg)
+![Withdrawal lifecycle](../.gitbook/assets/withdrawal-lifecycle.svg)
 
 1. **Requested** — you choose the asset, network, destination, and amount.
 2. **Reviewed** — the interface shows fees, limits, and the exact destination.
@@ -31,7 +33,7 @@ A flexible position follows the closure rule shown at confirmation. Applicable n
 6. **Finalized** — the network-specific finality rule is met.
 7. **Reconciled** — the ledger obligation and external asset movement agree.
 
-![Withdrawal status interface](../assets/visuals/diagrams/withdrawal-status.svg)
+![Withdrawal status interface](../.gitbook/assets/withdrawal-status.svg)
 
 ## Check the destination twice
 

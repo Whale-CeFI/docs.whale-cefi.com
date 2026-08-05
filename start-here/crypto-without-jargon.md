@@ -1,10 +1,13 @@
 ---
-title: "Crypto without Jargon"
-description: "You do not need to become a blockchain engineer to use a digital asset safely. You only need a reliable mental model for the few decisions that can move value."
-canonical: "https://docs.whale-cefi.com/start-here/crypto-without-jargon"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Crypto without Jargon
+canonical: https://docs.whale-cefi.com/start-here/crypto-without-jargon
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  You do not need to become a blockchain engineer to use a digital asset safely.
+  You only need a reliable mental model for the few decisions that can move
+  value.
 ---
 
 # Crypto without Jargon
@@ -39,13 +42,13 @@ network + chain ID + contract address + decimals + token behavior
 
 Two tokens can display the same symbol while existing on different networks or under different contracts. Whale CeFi therefore validates the full route rather than trusting the symbol alone.
 
-![Canonical asset identity](../assets/visuals/diagrams/asset-identity.svg)
+![Canonical asset identity](../.gitbook/assets/asset-identity.svg)
 
 ## Where Whale CeFi fits
 
 Whale CeFi does not replace the blockchain. It adds the parts a financial product needs: accepted terms, account controls, accounting, custody policy, reward attribution, risk limits, reconciliation, statements, and support.
 
-![From choice to verification](../assets/visuals/diagrams/user-verification-flow.svg)
+![From choice to verification](../.gitbook/assets/user-verification-flow.svg)
 
 ## The distinction that prevents many mistakes
 

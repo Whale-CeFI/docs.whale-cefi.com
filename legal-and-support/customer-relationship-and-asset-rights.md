@@ -1,30 +1,42 @@
 ---
-title: "Customer Relationship and Asset Rights"
-description: "The legal state of an asset changes only through a clearly disclosed product event."
-canonical: "https://docs.whale-cefi.com/legal-and-support/customer-relationship-and-asset-rights"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Customer Relationship and Asset Rights
+canonical: >-
+  https://docs.whale-cefi.com/legal-and-support/customer-relationship-and-asset-rights
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The legal state of a digital asset changes strictly through an explicit,
+  user-confirmed product lifecycle event.
 ---
 
 # Customer Relationship and Asset Rights
 
-The legal state of an asset changes only through a clearly disclosed product event.
-
 ## Before a plan opens
 
-A credited asset remains in the custody state defined by the Client Agreement. The user can see whether legal title, beneficial ownership, segregation, and withdrawal rights remain with the user.
+Prior to activating an earning plan, credited funds remain in standard custodial holding managed by our registered operator, Pulpo Fintech, S.A. de C.V. (PSAD-0023), in coordination with institutional custody provided by Coinbase Custody Trust Company, LLC. Legal title, account segregation, and full withdrawal execution rights remain directly with the user.
 
 ## When an earning position opens
 
-The review states whether the arrangement is custody, agency, lending, or another legally approved relationship; whether title remains with the customer or transfers; how assets may be used; pooling and segregation; rehypothecation; counterparties; insurance; insolvency treatment; claim priority; loss allocation; and exit rights.
+When a user activates a Flexible or Locked Earning Plan (30, 90, 180, 365 days), the assets enter a regulated managed liquidity framework.
 
-No page uses “your assets remain yours” as a universal slogan if the earning contract creates a creditor relationship.
+* **Legal Status:** The arrangement operates as a contractually defined yield position under the primary Client Agreement executed with Pulpo Fintech.
+* **Asset Utilization:** Assets are pooled into approved yield strategies subject to strict risk parameters (maximum 80% LTV, no uncollateralized lending).
+* **Marketing Transparency:** No platform page uses generic terms like "your assets never leave your wallet" if the underlying plan creates a contractual creditor claim.
 
 ## Product consent object
 
-The accepted record contains product version, contracting entity, asset identity, principal, legal position, permitted use, reward obligation, maturity, exit rules, risk version, terms hash, timestamp, and user confirmation.
+Every activated plan generates an immutable digital proof record containing:
+
+* Product version and active legal terms hash.
+* Contracting entity: Pulpo Fintech, S.A. de C.V. (PSAD-0023).
+* Asset identifier, principal amount, and APY rate locking.
+* Maturity date, exit liquidity window, and timestamped user confirmation.
 
 ## Insolvency and loss
 
-CeFi earning products are not bank deposits and are not protected by deposit insurance unless a specific verified policy says otherwise. Depending on the legal arrangement, the customer can become a secured or unsecured creditor and can lose some or all principal and expected reward.
+Whale CeFi earning positions are digital asset strategies and are not protected by traditional government bank deposit insurance.
+
+* **Fiduciary Isolation:** Asset reserves managed through Coinbase Custody are structurally segregated and held on a fiduciary basis.
+* **Loss Mitigation:** In the event of market anomaly or third-party protocol default, loss allocation is governed under the designated Whale Dedicated Yield Reserve and the formal insolvency resolution policies of Pulpo Fintech, ensuring client claims are prioritized in accordance with El Salvador digital asset laws (Ley de Emisión de Activos Digitales).
+

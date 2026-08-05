@@ -1,10 +1,12 @@
 ---
-title: "Choosing a Plan"
-description: "A higher percentage is only one part of the decision. The useful question is: what exactly am I accepting in exchange for this reward?"
-canonical: "https://docs.whale-cefi.com/start-here/choosing-a-plan"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Choosing a Plan
+canonical: https://docs.whale-cefi.com/start-here/choosing-a-plan
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  A higher percentage is only one part of the decision. The useful question is:
+  what exactly am I accepting in exchange for this reward?
 ---
 
 # Choosing a Plan
@@ -34,7 +36,7 @@ Before choosing, compare:
 * fees, adjustments, and network costs;
 * material risks and the conditions that can delay settlement.
 
-![Rate review interface](../assets/visuals/diagrams/product-review.svg)
+![Rate review interface](../.gitbook/assets/product-review.svg)
 
 ## Monthly rate does not mean APY
 
@@ -56,4 +58,4 @@ Open the reward-source disclosure. It separates realized external economics from
 
 The final screen binds the amount, asset, network, product version, rate unit, rate value, calculation method, term, fees, risks, source policy, maturity, and exit rule. Any material change expires the review and requires a new confirmation.
 
-Continue to [Plans and Rates](../earning-with-whale-cefi/plan-catalogue) for the current catalogue and [Reward Sources](../earning-with-whale-cefi/reward-sources) for source attribution.
+Continue to [Plans and Rates](../earning-with-whale-cefi/plan-catalogue/) for the current catalogue and [Reward Sources](../earning-with-whale-cefi/reward-sources/) for source attribution.

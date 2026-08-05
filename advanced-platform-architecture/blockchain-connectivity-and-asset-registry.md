@@ -1,10 +1,14 @@
 ---
-title: "Blockchain Connectivity and Asset Registry"
-description: "The platform operates authenticated connectivity for EVM and Solana network families through isolated adapters and a governed asset registry. A governed asset registry binds chain, canonical address, decimals, token…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/blockchain-connectivity-and-asset-registry"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Blockchain Connectivity and Asset Registry
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/blockchain-connectivity-and-asset-registry
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The platform operates authenticated connectivity for EVM and Solana network
+  families through isolated adapters and a governed asset registry. A governed
+  asset registry binds chain, canonical address,
 ---
 
 # Blockchain Connectivity and Asset Registry

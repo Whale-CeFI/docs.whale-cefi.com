@@ -1,10 +1,14 @@
 ---
-title: "Network Ingress and Egress"
-description: "Network architecture separates public edge, private application services, financial workloads, data stores and administrative control. Egress is treated as an explicit capability because unrestricted outbound traffic…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/network-ingress-and-egress"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Network Ingress and Egress
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/network-ingress-and-egress
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Network architecture separates public edge, private application services,
+  financial workloads, data stores and administrative control. Egress is treated
+  as an explicit capability because unrestricted
 ---
 
 # Network Ingress and Egress

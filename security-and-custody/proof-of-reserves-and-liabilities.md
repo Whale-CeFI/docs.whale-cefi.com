@@ -1,10 +1,13 @@
 ---
-title: "Proof of Reserves and Liabilities"
-description: "A same-epoch proof that binds customer liabilities, controlled reserves, encumbrances, and wallet authority."
-canonical: "https://docs.whale-cefi.com/security-and-custody/proof-of-reserves-and-liabilities"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Proof of Reserves and Liabilities
+canonical: >-
+  https://docs.whale-cefi.com/security-and-custody/proof-of-reserves-and-liabilities
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  A same-epoch proof that binds customer liabilities, controlled reserves,
+  encumbrances, and wallet authority.
 ---
 
 # Proof of Reserves and Liabilities
@@ -13,7 +16,7 @@ A same-epoch proof that binds customer liabilities, controlled reserves, encumbr
 
 Proof of Reserves is meaningful only when the asset side and liability side refer to the same scope and observation time. A wallet screenshot or list of addresses is not a solvency proof.
 
-![Proof epoch](../assets/visuals/diagrams/proof-epoch.svg)
+![Proof epoch](../.gitbook/assets/proof-epoch.svg)
 
 ## Proof epoch
 
@@ -31,7 +34,7 @@ Each epoch contains:
 * signed manifest linking all components;
 * previous-epoch hash for continuity.
 
-![Proof verification interface](../assets/visuals/diagrams/proof-verification.svg)
+![Proof verification interface](../.gitbook/assets/proof-verification.svg)
 
 ## Liability commitment
 

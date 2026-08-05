@@ -1,17 +1,21 @@
 ---
-title: "High Availability and Disaster Recovery"
-description: "Whale CeFi operates independent primary and recovery regions, each distributed across three availability zones. Zonal failover, regional continuity, data recovery, and business resumption use explicit RTO and RPO…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/high-availability-and-disaster-recovery"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: High Availability and Disaster Recovery
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/high-availability-and-disaster-recovery
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Whale CeFi operates independent primary and recovery regions, each distributed
+  across three availability zones. Zonal failover, regional continuity, data
+  recovery, and business resumption use explicit
 ---
 
 # High Availability and Disaster Recovery
 
 Whale CeFi operates independent primary and recovery regions, each distributed across three availability zones. Zonal failover, regional continuity, data recovery, and business resumption use explicit RTO and RPO objectives for each critical service and financial authority.
 
-![High Availability and Disaster Recovery](../assets/visuals/heroes/20-incident-command.png)
+![High Availability and Disaster Recovery](../.gitbook/assets/20-incident-command.png)
 
 ## Control model
 

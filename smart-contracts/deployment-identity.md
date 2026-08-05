@@ -1,10 +1,12 @@
 ---
-title: "Deployment Identity"
-description: "The verifiable chain from reviewed source to the exact runtime code and authority state."
-canonical: "https://docs.whale-cefi.com/smart-contracts/deployment-identity"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Deployment Identity
+canonical: https://docs.whale-cefi.com/smart-contracts/deployment-identity
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The verifiable chain from reviewed source to the exact runtime code and
+  authority state.
 ---
 
 # Deployment Identity
@@ -13,7 +15,7 @@ The verifiable chain from reviewed source to the exact runtime code and authorit
 
 A contract name or repository is not deployment identity. The canonical deployment record binds every relevant artifact to one chain address and one activation interval.
 
-![Deployment identity chain](../assets/visuals/diagrams/deployment-identity.svg)
+![Deployment identity chain](../.gitbook/assets/deployment-identity.svg)
 
 ## Signed deployment manifest
 

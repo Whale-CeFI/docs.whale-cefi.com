@@ -1,10 +1,14 @@
 ---
-title: "Event Mesh and Delivery Semantics"
-description: "Kafka carries immutable domain events for balances, XP, tasks and operational workflows. It is a transport and history plane; the financial journal remains independently authoritative unless a formally governed…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/event-mesh-and-delivery-semantics"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Event Mesh and Delivery Semantics
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/event-mesh-and-delivery-semantics
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Kafka carries immutable domain events for balances, XP, tasks and operational
+  workflows. It is a transport and history plane; the financial journal remains
+  independently authoritative unless a formall
 ---
 
 # Event Mesh and Delivery Semantics

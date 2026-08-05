@@ -1,10 +1,12 @@
 ---
-title: "Token Integration Safety"
-description: "How the contract system handles non-standard ERC-20 behavior without creating unbacked claims."
-canonical: "https://docs.whale-cefi.com/smart-contracts/token-integration-safety"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Token Integration Safety
+canonical: https://docs.whale-cefi.com/smart-contracts/token-integration-safety
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  How the contract system handles non-standard ERC-20 behavior without creating
+  unbacked claims.
 ---
 
 # Token Integration Safety
@@ -13,7 +15,7 @@ How the contract system handles non-standard ERC-20 behavior without creating un
 
 Token symbols do not define behavior. Every supported asset is admitted through a dedicated adapter profile and a complete adversarial test suite.
 
-![Token adapter controls](../assets/visuals/diagrams/token-adapter.svg)
+![Token adapter controls](../.gitbook/assets/token-adapter.svg)
 
 ## Transfer semantics
 

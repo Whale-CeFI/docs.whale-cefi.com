@@ -1,10 +1,13 @@
 ---
-title: "Progression Principles"
-description: "Progress must be connected to an eligible action, verified account state, approved learning result, or published reward event. Creating noise, repeating an ineligible action, or simulating activity does not create a…"
-canonical: "https://docs.whale-cefi.com/points-and-progression/progression-principles"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Progression Principles
+canonical: https://docs.whale-cefi.com/points-and-progression/progression-principles
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Progress must be connected to an eligible action, verified account state,
+  approved learning result, or published reward event. Creating noise, repeating
+  an ineligible action, or simulating activity do
 ---
 
 # Progression Principles

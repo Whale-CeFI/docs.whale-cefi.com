@@ -1,21 +1,25 @@
 ---
-title: "Reward Funding, Yield, and Accrual"
-description: "The user-facing rate, the accrued reward liability and the economic source that funds it are separate controlled objects. Current plans use monthly reward rates with daily accrual; every amount is reproducible from a…"
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/reward-funding-yield-and-accrual"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Reward Funding, Yield, and Accrual
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/reward-funding-yield-and-accrual
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The user-facing rate, the accrued reward liability and the economic source
+  that funds it are separate controlled objects. Current plans use monthly
+  reward rates with daily accrual; every amount is rep
 ---
 
 # Reward Funding, Yield, and Accrual
 
 The user-facing rate, the accrued reward liability and the economic source that funds it are separate controlled objects. Current plans use monthly reward rates with daily accrual; every amount is reproducible from a signed product version, attributed to an approved source category, and reconciled without treating user principal as income.
 
-![Reward Funding, Yield, and Accrual](../assets/visuals/diagrams/reward-funding.svg)
+![Reward Funding, Yield, and Accrual](../.gitbook/assets/reward-funding.svg)
 
-![Reward Funding, Yield, and Accrual — system view 2](../assets/visuals/diagrams/reward-source-isolation.svg)
+![Reward Funding, Yield, and Accrual — system view 2](../.gitbook/assets/reward-source-isolation.svg)
 
-![Reward Funding, Yield, and Accrual — system view 3](../assets/visuals/diagrams/finance-dashboard.svg)
+![Reward Funding, Yield, and Accrual — system view 3](../.gitbook/assets/finance-dashboard.svg)
 
 ## Control model
 

@@ -1,17 +1,21 @@
 ---
-title: "Transactional and Time-Series Authority"
-description: "PostgreSQL is the transactional source for financial and product records, with TimescaleDB for governed time-series workloads. Schema ownership, constraints, isolation, high availability, backup and recovery define…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/transactional-and-time-series-authority"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Transactional and Time-Series Authority
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/transactional-and-time-series-authority
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  PostgreSQL is the transactional source for financial and product records, with
+  TimescaleDB for governed time-series workloads. Schema ownership, constraints,
+  isolation, high availability, backup and r
 ---
 
 # Transactional and Time-Series Authority
 
 PostgreSQL is the transactional source for financial and product records, with TimescaleDB for governed time-series workloads. Schema ownership, constraints, isolation, high availability, backup and recovery define the actual authority.
 
-![Transactional and Time-Series Authority](../assets/visuals/diagrams/data-authority.svg)
+![Transactional and Time-Series Authority](../.gitbook/assets/data-authority.svg)
 
 ## Control model
 

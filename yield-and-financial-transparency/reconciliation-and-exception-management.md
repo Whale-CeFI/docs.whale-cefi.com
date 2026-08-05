@@ -1,19 +1,23 @@
 ---
-title: "Reconciliation and Exception Management"
-description: "Reconciliation proves that internal obligations are supported by external assets and expected movements. It compares ledger control accounts with chain and custody evidence, explains timing differences, assigns…"
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/reconciliation-and-exception-management"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Reconciliation and Exception Management
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/reconciliation-and-exception-management
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Reconciliation proves that internal obligations are supported by external
+  assets and expected movements. It compares ledger control accounts with chain
+  and custody evidence, explains timing difference
 ---
 
 # Reconciliation and Exception Management
 
 Reconciliation proves that internal obligations are supported by external assets and expected movements. It compares ledger control accounts with chain and custody evidence, explains timing differences, assigns exceptions and blocks only the affected capability when material uncertainty remains.
 
-![Reconciliation and Exception Management](../assets/visuals/diagrams/reconciliation.svg)
+![Reconciliation and Exception Management](../.gitbook/assets/reconciliation.svg)
 
-![Reconciliation and Exception Management — system view 2](../assets/visuals/diagrams/exception-dashboard.svg)
+![Reconciliation and Exception Management — system view 2](../.gitbook/assets/exception-dashboard.svg)
 
 ## Control model
 

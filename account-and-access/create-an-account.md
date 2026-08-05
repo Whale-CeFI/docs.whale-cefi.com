@@ -1,10 +1,13 @@
 ---
-title: "Create an Account"
-description: "An account gives you a controlled identity inside Whale CeFi. It is the place where eligibility, product consent, balances, positions, progression, support cases, and security events are associated with one verified…"
-canonical: "https://docs.whale-cefi.com/account-and-access/create-an-account"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Create an Account
+canonical: https://docs.whale-cefi.com/account-and-access/create-an-account
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  An account gives you a controlled identity inside Whale CeFi. It is the place
+  where eligibility, product consent, balances, positions, progression, support
+  cases, and security events are associated wi
 ---
 
 # Create an Account
@@ -34,11 +37,11 @@ Registration does not create a deposit, activate a plan, guarantee regional acce
 
 ## Safe first-session checklist
 
-- Verify the browser address and TLS connection.
-- Enable the strongest available second factor.
-- Store recovery material outside the device used for daily access.
-- Review active sessions and trusted devices.
-- Configure security notifications.
-- Learn the difference between an account confirmation and a wallet signature.
+* Verify the browser address and TLS connection.
+* Enable the strongest available second factor.
+* Store recovery material outside the device used for daily access.
+* Review active sessions and trusted devices.
+* Configure security notifications.
+* Learn the difference between an account confirmation and a wallet signature.
 
 Whale CeFi support never needs your wallet seed phrase, private key, full authentication secret, or remote control of your device.

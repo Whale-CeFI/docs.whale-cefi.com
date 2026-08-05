@@ -1,15 +1,17 @@
 ---
-title: "WENI System Architecture"
-description: "WENI operates as a governed intelligence system rather than one model with unlimited access."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/weni-system-architecture"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: WENI System Architecture
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/weni-system-architecture
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  WENI operates as a governed intelligence system rather than one model with
+  unlimited access.
 ---
 
 # WENI System Architecture
 
-![WENI control plane](../assets/visuals/diagrams/weni-control-plane.svg)
+![WENI control plane](../.gitbook/assets/weni-control-plane.svg)
 
 WENI operates as a governed intelligence system rather than one model with unlimited access.
 

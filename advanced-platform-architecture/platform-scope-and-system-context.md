@@ -1,19 +1,23 @@
 ---
-title: "Platform Scope and System Context"
-description: "This chapter defines the operating platform beneath Whale CeFi: client surfaces, services, data stores, financial records, blockchain connectivity, custody, contracts, security and release operations. Internal…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/platform-scope-and-system-context"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Platform Scope and System Context
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/platform-scope-and-system-context
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  This chapter defines the operating platform beneath Whale CeFi: client
+  surfaces, services, data stores, financial records, blockchain connectivity,
+  custody, contracts, security and release operations.
 ---
 
 # Platform Scope and System Context
 
 This chapter defines the operating platform beneath Whale CeFi: client surfaces, services, data stores, financial records, blockchain connectivity, custody, contracts, security and release operations. Internal AI-agent technology is explicitly outside scope.
 
-![Platform Scope and System Context](../assets/visuals/heroes/04-platform-infrastructure.png)
+![Platform Scope and System Context](../.gitbook/assets/04-platform-infrastructure.png)
 
-![Platform Scope and System Context — system view 2](../assets/visuals/diagrams/runtime-topology.svg)
+![Platform Scope and System Context — system view 2](../.gitbook/assets/runtime-topology.svg)
 
 ## Control model
 

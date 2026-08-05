@@ -1,21 +1,23 @@
 ---
-title: "On-Chain Position State Machine"
-description: "The valid states, transitions, and terminal conditions for flexible and locked positions."
-canonical: "https://docs.whale-cefi.com/smart-contracts/on-chain-position-state-machine"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: On-Chain Position State Machine
+canonical: https://docs.whale-cefi.com/smart-contracts/on-chain-position-state-machine
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The valid states, transitions, and terminal conditions for flexible and locked
+  positions.
 ---
 
 # On-Chain Position State Machine
 
 The valid states, transitions, and terminal conditions for flexible and locked positions.
 
-![On-Chain Position State Machine](../assets/visuals/diagrams/position-state.svg)
+![On-Chain Position State Machine](../.gitbook/assets/position-state.svg)
 
 Position state is explicit; timestamps and balances alone are not used to infer an unrecorded transition.
 
-![Position state machine](../assets/visuals/diagrams/position-state.svg)
+![Position state machine](../.gitbook/assets/position-state.svg)
 
 ## States
 

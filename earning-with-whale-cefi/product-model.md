@@ -1,17 +1,19 @@
 ---
-title: "Product Model"
-description: "The product boundary between account experience, financial obligation, custody and external networks."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi/product-model"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Product Model
+canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/product-model
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The product boundary between account experience, financial obligation, custody
+  and external networks.
 ---
 
 # Product Model
 
 The product boundary between account experience, financial obligation, custody and external networks.
 
-![Product Model](../assets/visuals/diagrams/product-review.svg)
+![Product Model](../.gitbook/assets/product-review.svg)
 
 Whale CeFi provides one product surface for supported crypto earning and staking plans. It coordinates account access, deposit credit, plan opening, daily reward accounting, maturity and withdrawal.
 

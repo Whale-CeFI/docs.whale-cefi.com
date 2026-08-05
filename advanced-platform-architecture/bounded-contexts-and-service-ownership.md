@@ -1,10 +1,14 @@
 ---
-title: "Bounded Contexts and Service Ownership"
-description: "The platform is decomposed by business authority rather than by arbitrary technical layers. Identity, portfolio, transaction, ledger, rewards, staking, custody integration and compliance each own a narrow state model…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/bounded-contexts-and-service-ownership"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Bounded Contexts and Service Ownership
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/bounded-contexts-and-service-ownership
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The platform is decomposed by business authority rather than by arbitrary
+  technical layers. Identity, portfolio, transaction, ledger, rewards, staking,
+  custody integration and compliance each own a na
 ---
 
 # Bounded Contexts and Service Ownership

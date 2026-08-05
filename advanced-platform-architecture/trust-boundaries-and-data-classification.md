@@ -1,10 +1,14 @@
 ---
-title: "Trust Boundaries and Data Classification"
-description: "Zero trust is implemented as explicit identities, least privilege, authenticated service calls, purpose-bound data and separate control planes. Public blockchain data becomes governed user data when it is linked,…"
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/trust-boundaries-and-data-classification"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Trust Boundaries and Data Classification
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/trust-boundaries-and-data-classification
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Zero trust is implemented as explicit identities, least privilege,
+  authenticated service calls, purpose-bound data and separate control planes.
+  Public blockchain data becomes governed user data when i
 ---
 
 # Trust Boundaries and Data Classification

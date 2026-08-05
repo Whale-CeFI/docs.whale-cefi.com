@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Capacity and Prefunding</title>
+  <desc id="desc">Exposure closes before the maximum remaining reward can outrun committed coverage.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#10232D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061018"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2F93A8"/>
+    </marker>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".42"/>
+  <circle cx="1440" cy="80" r="180" fill="#2F93A8" opacity=".07" filter="url(#soft)"/>
+  <g>
+    <text x="90" y="82" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" letter-spacing="3">SYSTEM VIEW / COVERAGE-LIMITS</text>
+    <text x="90" y="150" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="650">Capacity and Prefunding</text>
+    <text x="90" y="192" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="20">Exposure closes before the maximum remaining reward can outrun committed coverage.</text>
+    <line x1="90" y1="222" x2="1510" y2="222" stroke="#34505C" stroke-width="1"/>
+  </g>
+  <rect x="180" y="340" width="1240" height="180" rx="20" fill="#0B1B25" stroke="#34505C"/><rect x="180" y="340" width="446" height="180" fill="#2F93A8" opacity=".85"/>
+      <text x="403" y="414" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">Committed</text><text x="403" y="438" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">coverage</text><rect x="626" y="340" width="298" height="180" fill="#D7A75F" opacity=".85"/>
+      <text x="775" y="414" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">Existing</text><text x="775" y="438" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">obligation</text><rect x="924" y="340" width="223" height="180" fill="#D56A6A" opacity=".85"/>
+      <text x="1035.5" y="414" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">New maximum</text><text x="1035.5" y="438" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">reward</text><rect x="1147" y="340" width="124" height="180" fill="#34505C" opacity=".55"/>
+      <text x="1209" y="414" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">Safety buffer</text><rect x="1271" y="340" width="149" height="180" fill="#7BC2A5" opacity=".85"/>
+      <text x="1345.5" y="414" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">Remaining</text><text x="1345.5" y="438" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600">capacity</text><line x1="180" y1="625" x2="1420" y2="625" stroke="#34505C" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="1271.2" cy="625" r="19" fill="#7BC2A5"/>
+    <text x="180" y="675" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="18">Capacity closes before coverage is exhausted.</text>
+  <line x1="90" y1="842" x2="1510" y2="842" stroke="#34505C" stroke-width="1"/>
+  <text x="90" y="872" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8">DOCUMENTATION VISUAL / HUMAN-READABLE / SOURCE-BOUND</text>
+</svg>

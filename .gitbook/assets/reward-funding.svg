@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Reward Funding and Accrual</title>
+  <desc id="desc">Source attribution and prefunding precede accrual; principal never becomes reward funding.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#10232D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061018"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2F93A8"/>
+    </marker>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".42"/>
+  <circle cx="1440" cy="80" r="180" fill="#2F93A8" opacity=".07" filter="url(#soft)"/>
+  <g>
+    <text x="90" y="82" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" letter-spacing="3">SYSTEM VIEW / REWARD-FUNDING</text>
+    <text x="90" y="150" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="45" font-weight="650">Reward Funding and Accrual</text>
+    <text x="90" y="192" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="20">Source attribution and prefunding precede accrual; principal never becomes reward funding.</text>
+    <line x1="90" y1="222" x2="1510" y2="222" stroke="#34505C" stroke-width="1"/>
+  </g>
+  <rect x="180" y="290" width="234" height="340" rx="14" fill="#0B1B25" stroke="#69D2E7" stroke-width="2"/>
+      <text x="297" y="345" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Realized source</text>
+      <line x1="304" y1="400" x2="304" y2="560" stroke="#69D2E7" stroke-width="8" stroke-linecap="round" opacity=".7"/><path d="M 414 460 L 428 536" stroke="#69D2E7" stroke-width="2.5" fill="none"  marker-end="url(#arrow)"/><rect x="428" y="366" width="234" height="302" rx="14" fill="#0B1B25" stroke="#D7A75F" stroke-width="2"/>
+      <text x="545" y="421" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Costs and fees</text>
+      <line x1="552" y1="476" x2="552" y2="612" stroke="#D7A75F" stroke-width="8" stroke-linecap="round" opacity=".7"/><path d="M 662 536 L 676 612" stroke="#D7A75F" stroke-width="2.5" fill="none"  marker-end="url(#arrow)"/><rect x="676" y="442" width="234" height="264" rx="14" fill="#0B1B25" stroke="#D7A75F" stroke-width="2"/>
+      <text x="793" y="497" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Reserve policy</text>
+      <line x1="800" y1="552" x2="800" y2="664" stroke="#D7A75F" stroke-width="8" stroke-linecap="round" opacity=".7"/><path d="M 910 612 L 924 688" stroke="#D7A75F" stroke-width="2.5" fill="none"  marker-end="url(#arrow)"/><rect x="924" y="518" width="234" height="226" rx="14" fill="#0B1B25" stroke="#D7A75F" stroke-width="2"/>
+      <text x="1041" y="573" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Reward funding</text>
+      <line x1="1048" y1="628" x2="1048" y2="716" stroke="#D7A75F" stroke-width="8" stroke-linecap="round" opacity=".7"/><path d="M 1158 688 L 1172 764" stroke="#D7A75F" stroke-width="2.5" fill="none"  marker-end="url(#arrow)"/><rect x="1172" y="594" width="234" height="188" rx="14" fill="#0B1B25" stroke="#7BC2A5" stroke-width="2"/>
+      <text x="1289" y="649" text-anchor="middle" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">User accrual</text>
+      <line x1="1296" y1="704" x2="1296" y2="768" stroke="#7BC2A5" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+  <line x1="90" y1="842" x2="1510" y2="842" stroke="#34505C" stroke-width="1"/>
+  <text x="90" y="872" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.8">DOCUMENTATION VISUAL / HUMAN-READABLE / SOURCE-BOUND</text>
+</svg>

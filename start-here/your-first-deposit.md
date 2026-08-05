@@ -1,17 +1,20 @@
 ---
-title: "Your First Deposit"
-description: "Sign in through the official Whale CeFi entry point. Select the asset first, then the network. The system shows only routes admitted by the current asset registry."
-canonical: "https://docs.whale-cefi.com/start-here/your-first-deposit"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Your First Deposit
+canonical: https://docs.whale-cefi.com/start-here/your-first-deposit
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Sign in through the official Whale CeFi entry point. Select the asset first,
+  then the network. The system shows only routes admitted by the current asset
+  registry.
 ---
 
 # Your First Deposit
 
 A safe deposit is a sequence, not a single transfer.
 
-![Deposit lifecycle](../assets/visuals/diagrams/deposit-lifecycle.svg)
+![Deposit lifecycle](../.gitbook/assets/deposit-lifecycle.svg)
 
 ## 1. Open the deposit screen
 
@@ -31,13 +34,13 @@ A test transfer reduces the cost of a copied-address or wrong-network mistake. I
 
 ## 5. Follow the visible states
 
-![Deposit status interface](../assets/visuals/diagrams/deposit-status.svg)
+![Deposit status interface](../.gitbook/assets/deposit-status.svg)
 
 | State          | Meaning                                      | What you should do                                                   |
 | -------------- | -------------------------------------------- | -------------------------------------------------------------------- |
 | Address issued | The route is ready                           | Verify every field before sending                                    |
 | Detected       | The network has seen the transaction         | Do not send the same transfer again                                  |
-| Confirming     | Finality requirements remain incomplete        | Wait; network conditions determine timing                            |
+| Confirming     | Finality requirements remain incomplete      | Wait; network conditions determine timing                            |
 | Credited       | The ledger has recorded an available balance | Review the amount and transaction reference                          |
 | Reconciled     | Ledger, custody, and chain evidence agree    | The deposit lifecycle is complete                                    |
 | Exception      | A field or external state needs review       | Follow the in-product case record; do not create duplicate transfers |
@@ -56,4 +59,4 @@ A test transfer reduces the cost of a copied-address or wrong-network mistake. I
 The transaction hash is your external receipt. Keep it until the deposit appears as `Reconciled`.
 {% endhint %}
 
-For the deeper system model, continue to [Deposits and Credit Finality](../earning-with-whale-cefi/deposits-and-credit-finality).
+For the deeper system model, continue to [Deposits and Credit Finality](../earning-with-whale-cefi/deposits-and-credit-finality/).

@@ -1,10 +1,13 @@
 ---
-title: "Product Version Register"
-description: "Every position is bound to an immutable product version. The version record contains product ID, asset and network scope, minimum and maximum principal, rate nature, rate unit, exact term reward, accrual display…"
-canonical: "https://docs.whale-cefi.com/evidence-center/product-version-register"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Product Version Register
+canonical: https://docs.whale-cefi.com/evidence-center/product-version-register
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Every position is bound to an immutable product version. The version record
+  contains product ID, asset and network scope, minimum and maximum principal,
+  rate nature, rate unit, exact term reward, accr
 ---
 
 # Product Version Register

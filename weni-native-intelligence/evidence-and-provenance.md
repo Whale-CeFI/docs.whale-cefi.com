@@ -1,17 +1,19 @@
 ---
-title: "Evidence and Provenance"
-description: "WENI operates on the principle that every statement carries enough context to be inspected."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/evidence-and-provenance"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Evidence and Provenance
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/evidence-and-provenance
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  WENI operates on the principle that every statement carries enough context to
+  be inspected.
 ---
 
 # Evidence and Provenance
 
 WENI operates on the principle that every statement carries enough context to be inspected.
 
-![Evidence and Provenance](../assets/visuals/diagrams/evidence-provenance.svg)
+![Evidence and Provenance](../.gitbook/assets/evidence-provenance.svg)
 
 A material evidence object identifies:
 

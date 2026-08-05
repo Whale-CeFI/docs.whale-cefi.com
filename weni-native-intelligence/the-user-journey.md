@@ -1,10 +1,13 @@
 ---
-title: "The User Journey"
-description: "The system identifies what the person is trying to understand or do, which asset or protocol is involved, the relevant time horizon, and whether the request is educational, analytical, or action-oriented."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/the-user-journey"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: The User Journey
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/the-user-journey
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The system identifies what the person is trying to understand or do, which
+  asset or protocol is involved, the relevant time horizon, and whether the
+  request is educational, analytical, or action-orien
 ---
 
 # The User Journey

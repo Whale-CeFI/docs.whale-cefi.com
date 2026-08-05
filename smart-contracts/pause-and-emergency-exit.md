@@ -1,21 +1,23 @@
 ---
-title: "Pause and Emergency Exit"
-description: "Scoped incident controls that stop unsafe behavior without turning pause authority into asset authority."
-canonical: "https://docs.whale-cefi.com/smart-contracts/pause-and-emergency-exit"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Pause and Emergency Exit
+canonical: https://docs.whale-cefi.com/smart-contracts/pause-and-emergency-exit
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Scoped incident controls that stop unsafe behavior without turning pause
+  authority into asset authority.
 ---
 
 # Pause and Emergency Exit
 
 Scoped incident controls that stop unsafe behavior without turning pause authority into asset authority.
 
-![Pause and Emergency Exit](../assets/visuals/diagrams/incident-status.svg)
+![Pause and Emergency Exit](../.gitbook/assets/incident-status.svg)
 
 Emergency control is split by operation, asset, network, product version, and contract module. There is no universal owner switch capable of both freezing and draining the system.
 
-![Scoped pause and exit](../assets/visuals/diagrams/pause-and-exit.svg)
+![Scoped pause and exit](../.gitbook/assets/pause-and-exit.svg)
 
 ## Pause scopes
 

@@ -1,10 +1,12 @@
 ---
-title: "Smart-Contract Invariants"
-description: "Properties that hold across every transaction sequence, including adversarial and failure paths."
-canonical: "https://docs.whale-cefi.com/smart-contracts/smart-contract-invariants"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Smart-Contract Invariants
+canonical: https://docs.whale-cefi.com/smart-contracts/smart-contract-invariants
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Properties that hold across every transaction sequence, including adversarial
+  and failure paths.
 ---
 
 # Smart-Contract Invariants
@@ -13,7 +15,7 @@ Properties that hold across every transaction sequence, including adversarial an
 
 An invariant is stronger than an example test: it must hold for every reachable state under the stated assumptions.
 
-![Contract invariant map](../assets/visuals/diagrams/contract-invariants.svg)
+![Contract invariant map](../.gitbook/assets/contract-invariants.svg)
 
 ## Solvency and accounting
 

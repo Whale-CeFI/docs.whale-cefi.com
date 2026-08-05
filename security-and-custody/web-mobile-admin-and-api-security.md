@@ -1,10 +1,14 @@
 ---
-title: "Web, Mobile, Admin, and API Security"
-description: "Each client surface carries a different threat model. Browser edge delivery, React Native/Expo mobile storage, privileged administration and institutional APIs require distinct authentication, session, integrity,…"
-canonical: "https://docs.whale-cefi.com/security-and-custody/web-mobile-admin-and-api-security"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Web, Mobile, Admin, and API Security
+canonical: >-
+  https://docs.whale-cefi.com/security-and-custody/web-mobile-admin-and-api-security
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Each client surface carries a different threat model. Browser edge delivery,
+  React Native/Expo mobile storage, privileged administration and institutional
+  APIs require distinct authentication, session
 ---
 
 # Web, Mobile, Admin, and API Security

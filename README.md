@@ -1,26 +1,28 @@
 ---
-title: "Whale CeFi Documentation"
-description: "Understand the product before you move an asset. Verify the evidence before you trust a claim. Keep final authority in human hands."
-canonical: "https://docs.whale-cefi.com"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Whale CeFi Documentation
+canonical: https://docs.whale-cefi.com
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Understand the product before you move an asset. Verify the evidence before
+  you trust a claim. Keep final authority in human hands.
 ---
 
 # Whale CeFi Documentation
 
 **Understand the product before you move an asset. Verify the evidence before you trust a claim. Keep final authority in human hands.**
 
-![Whale CeFi system boundary](./assets/visuals/heroes/v3/01-iron-boundary.png)
+![Whale CeFi system boundary](.gitbook/assets/01-iron-boundary.png)
 
 Whale CeFi is a digital-asset earning platform built around explicit product terms, separately recorded principal and rewards, verifiable operating evidence, and WENI - the platform’s human-controlled intelligence layer.
 
 This documentation is designed for four readers at once:
 
-- a first-time crypto user who needs a safe path from account creation to withdrawal;
-- an experienced user comparing plans, rates, networks, and operational risk;
-- an engineer or auditor inspecting state machines, contracts, financial controls, and deployment identity;
-- an institutional team reviewing authority, evidence, security, legal perimeter, and WENI governance.
+* a first-time crypto user who needs a safe path from account creation to withdrawal;
+* an experienced user comparing plans, rates, networks, and operational risk;
+* an engineer or auditor inspecting state machines, contracts, financial controls, and deployment identity;
+* an institutional team reviewing authority, evidence, security, legal perimeter, and WENI governance.
 
 The same facts appear at different depths. A beginner receives a plain-language explanation. A specialist can continue into exact rules, schemas, registries, and evidence. The underlying product fact never changes between those views.
 
@@ -30,17 +32,17 @@ The same facts appear at different depths. A beginner receives a plain-language 
 
 ## Start with the route that matches your question
 
-| I want to… | Begin here |
-|---|---|
-| Understand Whale CeFi in a few minutes | [Start Here](start-here.md) |
-| Secure an account and understand verification | [Account and Access](account-and-access.md) |
-| Compare the current USDT and USDC plans | [Current Rate Card](earning-with-whale-cefi/current-rate-card.md) |
-| Make a first deposit without using the wrong network | [Your First Deposit](start-here/your-first-deposit.md) |
-| Understand XP, levels, tasks, chests, and achievements | [Points and Progression](points-and-progression.md) |
-| Understand what WENI can and cannot do | [WENI - Native Intelligence](weni-native-intelligence.md) |
-| Review custody, risks, audits, and reserves | [Evidence Center](evidence-center.md) |
-| Inspect smart contracts or platform architecture | [Technical Specifications](advanced-platform-architecture.md) |
-| Find the entity, legal relationship, or complaints route | [Legal and Support](legal-and-support.md) |
+| I want to…                                               | Begin here                                                        |
+| -------------------------------------------------------- | ----------------------------------------------------------------- |
+| Understand Whale CeFi in a few minutes                   | [Start Here](start-here/)                                         |
+| Secure an account and understand verification            | [Account and Access](account-and-access/)                         |
+| Compare the current USDT and USDC plans                  | [Current Rate Card](earning-with-whale-cefi/current-rate-card.md) |
+| Make a first deposit without using the wrong network     | [Your First Deposit](start-here/your-first-deposit.md)            |
+| Understand XP, levels, tasks, chests, and achievements   | [Points and Progression](points-and-progression/)                 |
+| Understand what WENI can and cannot do                   | [WENI - Native Intelligence](weni-native-intelligence/)           |
+| Review custody, risks, audits, and reserves              | [Evidence Center](evidence-center/)                               |
+| Inspect smart contracts or platform architecture         | [Technical Specifications](advanced-platform-architecture/)       |
+| Find the entity, legal relationship, or complaints route | [Legal and Support](legal-and-support/)                           |
 
 ## The product in one minute
 

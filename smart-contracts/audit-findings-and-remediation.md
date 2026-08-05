@@ -1,17 +1,19 @@
 ---
-title: "Audit Findings and Remediation"
-description: "Whale CeFi preserves a finding from original report through remediation, regression testing, independent retest, and deployment coverage."
-canonical: "https://docs.whale-cefi.com/smart-contracts/audit-findings-and-remediation"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Audit Findings and Remediation
+canonical: https://docs.whale-cefi.com/smart-contracts/audit-findings-and-remediation
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Whale CeFi preserves a finding from original report through remediation,
+  regression testing, independent retest, and deployment coverage.
 ---
 
 # Audit Findings and Remediation
 
 Whale CeFi preserves a finding from original report through remediation, regression testing, independent retest, and deployment coverage.
 
-![Audit remediation chain](../assets/visuals/diagrams/audit-remediation.svg)
+![Audit remediation chain](../.gitbook/assets/audit-remediation.svg)
 
 ## Assurance sources
 
@@ -23,14 +25,14 @@ A finding can move through reported, accepted, remediating, remediated, retested
 
 Each closure record contains:
 
-- auditor and report identifier;
-- finding ID, severity, description, and affected code;
-- exact scope commit and dependency manifest;
-- remediation pull request and commit;
-- regression and invariant tests;
-- independent retest record where required;
-- deployment address and runtime bytecode hash;
-- residual risk, owner, and expiry for any accepted exception.
+* auditor and report identifier;
+* finding ID, severity, description, and affected code;
+* exact scope commit and dependency manifest;
+* remediation pull request and commit;
+* regression and invariant tests;
+* independent retest record where required;
+* deployment address and runtime bytecode hash;
+* residual risk, owner, and expiry for any accepted exception.
 
 ## Deployment binding
 

@@ -1,17 +1,21 @@
 ---
-title: "Canonical Asset and Account Model"
-description: "Every financial record depends on a canonical definition of entity, account, asset, network, quantity, precision and liability. The model prevents symbol ambiguity and separates user liability, platform asset,…"
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency/canonical-asset-and-account-model"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Canonical Asset and Account Model
+canonical: >-
+  https://docs.whale-cefi.com/yield-and-financial-transparency/canonical-asset-and-account-model
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Every financial record depends on a canonical definition of entity, account,
+  asset, network, quantity, precision and liability. The model prevents symbol
+  ambiguity and separates user liability, platfo
 ---
 
 # Canonical Asset and Account Model
 
 Every financial record depends on a canonical definition of entity, account, asset, network, quantity, precision and liability. The model prevents symbol ambiguity and separates user liability, platform asset, pending settlement, fee, yield and reward states.
 
-![Canonical Asset and Account Model](../assets/visuals/diagrams/canonical-asset-model.svg)
+![Canonical Asset and Account Model](../.gitbook/assets/canonical-asset-model.svg)
 
 ## Control model
 

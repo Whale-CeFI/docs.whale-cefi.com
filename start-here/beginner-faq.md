@@ -1,10 +1,13 @@
 ---
-title: "Beginner FAQ"
-description: "The required route depends on the product surface and supported deposit method. When an external wallet is used, it remains responsible for signing the transfer. Whale CeFi never needs the wallet's seed phrase."
-canonical: "https://docs.whale-cefi.com/start-here/beginner-faq"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Beginner FAQ
+canonical: https://docs.whale-cefi.com/start-here/beginner-faq
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The required route depends on the product surface and supported deposit
+  method. When an external wallet is used, it remains responsible for signing
+  the transfer. Whale CeFi never needs the wallet's se
 ---
 
 # Beginner FAQ

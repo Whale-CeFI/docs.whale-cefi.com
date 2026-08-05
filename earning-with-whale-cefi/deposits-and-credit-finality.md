@@ -1,19 +1,22 @@
 ---
-title: "Deposits and Credit Finality"
-description: "What to check before sending an asset, how confirmation works and when a balance becomes available."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi/deposits-and-credit-finality"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Deposits and Credit Finality
+canonical: >-
+  https://docs.whale-cefi.com/earning-with-whale-cefi/deposits-and-credit-finality
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  What to check before sending an asset, how confirmation works and when a
+  balance becomes available.
 ---
 
 # Deposits and Credit Finality
 
 What to check before sending an asset, how confirmation works and when a balance becomes available.
 
-![Deposits and Credit Finality](../assets/visuals/diagrams/credit-finality.svg)
+![Deposits and Credit Finality](../.gitbook/assets/credit-finality.svg)
 
-![Deposits and Credit Finality — system view 2](../assets/visuals/diagrams/deposit-lifecycle.svg)
+![Deposits and Credit Finality — system view 2](../.gitbook/assets/deposit-lifecycle.svg)
 
 ### Before you send anything
 

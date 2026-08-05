@@ -1,10 +1,14 @@
 ---
-title: "Data Protection and Geographic Controls"
-description: "Compliance architecture maps legal entity, product, data, custody, user region, and permitted action to enforceable controls. KYC, sanctions, privacy, retention, and geographic restrictions are driven by approved…"
-canonical: "https://docs.whale-cefi.com/security-and-custody/data-protection-and-geographic-controls"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Data Protection and Geographic Controls
+canonical: >-
+  https://docs.whale-cefi.com/security-and-custody/data-protection-and-geographic-controls
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Compliance architecture maps legal entity, product, data, custody, user
+  region, and permitted action to enforceable controls. KYC, sanctions, privacy,
+  retention, and geographic restrictions are driven
 ---
 
 # Data Protection and Geographic Controls
