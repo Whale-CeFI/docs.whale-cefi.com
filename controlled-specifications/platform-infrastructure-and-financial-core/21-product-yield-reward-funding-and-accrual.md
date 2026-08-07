@@ -7,88 +7,76 @@ audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-21
 description: >-
-  The user-facing rate, the accrued reward liability and the economic source
-  that funds it are separate controlled objects. Current plans use monthly
-  reward rates with daily accrual; every amount must b
+  Controlled specification for product reward rates, productive yield,
+  growth-support capital, accrual and funding capacity.
 ---
 
 # Product Yield, Reward Funding, and Accrual
 
-**Product Yield, Reward Funding, and Accrual** defines the controlled engineering contract for **Whale CeFi Platform Infrastructure and Financial Core**: normative design, reference architecture, runtime responsibility, failure containment, and acceptance evidence.
-
-{% hint style="info" %}
-**Control rule:** Chapter 21 is part of the 29 July 2026 official release. Its `FM-21-xx` controls and `EVD-21-xx` evidence records are bound to the same released source state and remain continuously reviewable.
-{% endhint %}
+**Product Yield, Reward Funding, and Accrual** defines the controlled engineering contract for Whale CeFi product economics: rate versioning, source attribution, growth-support capital, deterministic accrual, capacity and financial evidence.
 
 ## Core specification
 
 **Claim state:** RELEASED / CONTROLLED SYSTEM SPECIFICATION
 
-The user-facing rate, the accrued reward liability and the economic source that funds it are separate controlled objects. Current plans use monthly reward rates with daily accrual; every amount must be reproducible from a signed product version, attributable to an approved source category and reconciled without treating user principal as income.
+The user-facing rate, accrued reward liability and economic source that funds it are separate controlled objects. A rate can be supported by recognized external strategy income and, where approved, by finite company capital already committed to an incentive cohort. Customer principal is never reward income.
+
+### Economic-role separation
+
+* **Customer:** opens a product position and retains the applicable contractual asset rights. Product use does not create equity ownership in Whale CeFi.
+* **Corporate investor / shareholder:** finances the company under a separate corporate instrument. That financing is company capital, not customer principal.
+* **Growth-support allocation:** a defined portion of company capital that has been formally approved, funded, segregated and reserved for an incentive cohort.
+* **Productive-yield source:** an approved external route that generates economic income from network, protocol, lending, liquidity, spread or contractual activity.
 
 ### Normative design rules
 
-* Monthly reward rate is never relabelled APR or APY; Locked positions retain the accepted rate version and Flexible changes are prospective and notice-controlled.
-* Accrual, funding and payment remain distinct: every credit links to a source category, and customer principal or later subscriptions are never classified as reward income.
-* Protocol/network income, strategy result and treasury, operational-reserve or marketing subsidy use separate accounts, evidence and disclosure.
-* The calculation specification defines day count, timezone, partial days, compounding, precision, rounding, credit cadence, maturity and reversal treatment before release.
-* XP, chests, referral points and other progression remain outside the financial reward ledger unless a separate legal entitlement is created.
-
-### Boundary / not claimed
-
-Earlier universal claims of protocol-derived-only reward and a fixed performance fee are not treated as current product facts. They require product-specific approval and evidence before use. OWNER FACTS 2026-07-21 + CURRENT PRODUCT TERMS
+* Monthly reward rate is never relabelled APR or APY.
+* Locked positions retain the accepted rate version; Flexible changes are prospective and notice-controlled.
+* Accrual, source funding and payment remain separate ledger states.
+* Productive external yield and company-funded growth support use different source accounts and evidence.
+* Corporate financing is not counted as reward coverage until a specific funded allocation is committed to a cohort.
+* Customer principal, later subscriptions, future fundraising and projected token appreciation are excluded from reward-source calculations.
+* Rate capacity must consider active TVL, remaining incentive runway, realized yield, liquidity, counterparty capacity, reserves, maturity concentration and stress limits.
+* Growth in TVL can cause new-position rates to normalize because a finite support budget is spread across a larger capital base; no fixed public TVL-to-rate formula is implied.
 
 ## Reference architecture
 
-| Layer | Component            | Responsibility                                                                |
-| ----- | -------------------- | ----------------------------------------------------------------------------- |
-| L5    | Plan position        | Asset, eligible principal, Flexible or Locked term and accepted rate version. |
-| L4    | Accrual engine       | Deterministic daily calculation from an explicitly monthly reward rate.       |
-| L3    | Source attribution   | Network, protocol, strategy or separately approved subsidy bucket.            |
-| L2    | Funding control      | Recognised source assets and budgets compared with user reward liability.     |
-| L1    | Financial ledger     | Accrued, payable, settled, reversed and disputed reward states.               |
-| L0    | Statement + evidence | User-visible amount linked to formula, source class and settlement state.     |
+| Layer | Component                    | Responsibility                                                              |
+| ----- | ---------------------------- | --------------------------------------------------------------------------- |
+| L6    | Plan position                | Asset, eligible principal, term and accepted rate version                   |
+| L5    | Accrual engine               | Deterministic calculation from the signed product version                   |
+| L4    | Productive-yield attribution | Network, staking, lending, liquidity, spread or contractual strategy income |
+| L3    | Growth-support attribution   | Committed company-funded incentive allocation and remaining runway          |
+| L2    | Funding and capacity control | Coverage versus reward liability, TVL, liquidity and stress limits          |
+| L1    | Financial ledger             | Accrued, payable, settled, reversed and disputed reward states              |
+| L0    | Statement + evidence         | User-visible amount linked to formula, source class and settlement state    |
 
-## Control contract
+## Capacity rule
 
-Each component receives a narrow responsibility, typed inputs, and an observable control invariant. Natural-language output never upgrades a component's authority.
+A new fixed-rate obligation is accepted only when eligible forward coverage exceeds the remaining reward commitment plus operating, liquidity and stress buffers.
 
-| Component            | Responsibility / input                                                        | Control invariant                                                                                                                                                           |
-| -------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Plan position        | Asset, eligible principal, Flexible or Locked term and accepted rate version. | Monthly reward rate is never relabelled APR or APY; Locked positions retain the accepted rate version and Flexible changes are prospective and notice-controlled.           |
-| Accrual engine       | Deterministic daily calculation from an explicitly monthly reward rate.       | Accrual, funding and payment remain distinct: every credit links to a source category, and customer principal or later subscriptions are never classified as reward income. |
-| Source attribution   | Network, protocol, strategy or separately approved subsidy bucket.            | Protocol/network income, strategy result and treasury, operational-reserve or marketing subsidy use separate accounts, evidence and disclosure.                             |
-| Funding control      | Recognised source assets and budgets compared with user reward liability.     | The calculation specification defines day count, timezone, partial days, compounding, precision, rounding, credit cadence, maturity and reversal treatment before release.  |
-| Financial ledger     | Accrued, payable, settled, reversed and disputed reward states.               | XP, chests, referral points and other progression remain outside the financial reward ledger unless a separate legal entitlement is created.                                |
-| Statement + evidence | User-visible amount linked to formula, source class and settlement state.     | Monthly reward rate is never relabelled APR or APY; Locked positions retain the accepted rate version and Flexible changes are prospective and notice-controlled.           |
+Eligible coverage can include realized-yield reserves, committed growth-support capital, approved coverage capital and enforceable receivables after policy haircuts.
 
-**Interface invariant:** Every runtime handoff is versioned, attributable and rejectable. Partial, stale, unlicensed or schema-incompatible output remains an explicit state; it cannot be silently normalised into success.
+Headline financing amounts, unallocated treasury cash and future investment commitments do not qualify by themselves.
 
 ## Failure-mode analysis
 
-A control is incomplete unless the system has a defined state transition when it fails, becomes stale, or loses authority.
-
-| ID         | Failure mode        | Failure effect                                  | Primary control                                 | Required state        |
-| ---------- | ------------------- | ----------------------------------------------- | ----------------------------------------------- | --------------------- |
-| `FM-21-01` | Funding shortfall   | Accrued reward exceeds approved source coverage | Cohort coverage ratio and exposure cap          | **STOP NEW EXPOSURE** |
-| `FM-21-02` | Rate ambiguity      | Systems or users calculate different amounts    | Signed formula and golden cases                 | **BLOCK RELEASE**     |
-| `FM-21-03` | Source mislabelling | Subsidy appears as protocol-derived yield       | Source-specific ledger and disclosure           | **CORRECT + REVIEW**  |
-| `FM-21-04` | Retroactive change  | Accepted entitlement changes silently           | Immutable rate binding and compensating journal | **REJECT**            |
+| Failure mode                | Failure effect                                                              | Primary control                                 | Required state                    |
+| --------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------- |
+| Funding shortfall           | Reward liability exceeds approved source coverage                           | Cohort coverage ratio and exposure cap          | **STOP NEW EXPOSURE**             |
+| Incentive runway exhaustion | Finite growth-support budget no longer supports the offered rate            | Rate and capacity review                        | **NORMALIZE / CLOSE NEW VERSION** |
+| Source mislabelling         | Company-funded support appears as protocol yield                            | Source-specific ledger and disclosure           | **CORRECT + REVIEW**              |
+| Corporate-funding overclaim | Uncommitted or headline investment is presented as available reward capital | Committed-allocation evidence gate              | **REJECT CLAIM**                  |
+| Retroactive change          | Accepted entitlement changes silently                                       | Immutable rate binding and compensating journal | **REJECT**                        |
 
 ## Release evidence
 
-This official release binds each implementation claim to reviewable evidence, reproducible controls, and the deployed source state. Owner approval and independently issued evidence retain separate provenance labels.
+A production release should preserve evidence for:
 
-| ID          | State        | Required evidence                                                                                                                                            |
-| ----------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `EVD-21-01` | **ACCEPTED** | OWNER-CONFIRMED: Fifteen assets, USD 50 minimum, Flexible and 30/90/180/365-day Locked plans, monthly rates and daily accrual.                               |
-| `EVD-21-02` | **ACCEPTED** | Exact day-count, timestamp, compounding, rounding, crediting and maturity specification for every product version.                                           |
-| `EVD-21-03` | **ACCEPTED** | Reward-source register and gross-to-user waterfall for each active asset, plan, cohort and rate version.                                                     |
-| `EVD-21-04` | **ACCEPTED** | Daily user-liability coverage, subsidy budget/runway and proof that customer principal is excluded from reward-source calculations.                          |
-| `EVD-21-05` | **ACCEPTED** | LEGAL-APPROVED: Product classification, rate language, Locked exit rights, Flexible 2.5% early-exit adjustment, source disclosure and regional availability. |
-
-## Related records
-
-* [Controlled Technical Specifications](./)
-* [Evidence Center](../../evidence-center/)
-* [Release Manifest](../../evidence-center/release-manifest.md)
+* current asset-specific rate matrix and product versions;
+* exact accrual and maturity formulas;
+* source register for productive strategies;
+* committed growth-support allocation by cohort, including cap and runway;
+* daily reward-liability coverage and proof that customer principal is excluded;
+* rate-normalization decision history for new product versions;
+* legal approval of customer, corporate-investor and reward-source terminology.

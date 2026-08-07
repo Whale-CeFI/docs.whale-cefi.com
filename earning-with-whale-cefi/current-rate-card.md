@@ -1,63 +1,60 @@
 ---
-title: "Current Rate Card"
-description: "This page explains the customer-visible rates for the current USDT and USDC campaign configuration. Rates are expressed as a reward rate per month, not APR and not APY."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi/current-rate-card"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Current Rate Card
+canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/current-rate-card
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The current customer-visible asset and term rate matrix. Rates are expressed
+  as monthly reward rates, not APR or APY.
 ---
 
 # Current Rate Card
 
-This page explains the customer-visible rates for the current USDT and USDC campaign configuration. Rates are expressed as a **reward rate per month**, not APR and not APY.
+Whale CeFi publishes asset-specific **monthly reward rates**. They are not APR, APY or bank-deposit rates.
 
-## USDT and USDC
+| Asset | Flexible | 30 Days | 90 Days | 180 Days | 365 Days |
+| ----- | -------: | ------: | ------: | -------: | -------: |
+| 1INCH |     5.8% |    6.8% |    9.8% |    11.4% |    12.5% |
+| ADA   |     4.9% |    5.8% |    9.4% |    12.3% |    13.2% |
+| ARB   |     5.3% |    6.3% |    9.5% |    12.2% |    13.5% |
+| AVAX  |     3.5% |    4.1% |    6.2% |     8.5% |    10.1% |
+| BNB   |     3.7% |    4.3% |    6.6% |     8.0% |     9.2% |
+| CAKE  |     5.6% |    6.6% |   10.2% |    13.3% |    14.5% |
+| DOGE  |     4.2% |    5.2% |    7.5% |     9.1% |    10.0% |
+| ETH   |     2.9% |    3.5% |    4.8% |     6.5% |     7.8% |
+| LINK  |     3.7% |    4.4% |    6.8% |     8.8% |     9.9% |
+| OP    |     5.1% |    6.0% |    9.0% |    11.8% |    13.0% |
+| POL   |     5.0% |    5.9% |    8.9% |    11.5% |    12.7% |
+| SOL   |     3.9% |    4.5% |    6.9% |     9.2% |    10.8% |
+| USDC  |     5.5% |    7.1% |    9.3% |    11.8% |    13.6% |
+| USDT  |     5.5% |    7.1% |    9.3% |    11.8% |    13.6% |
+| XRP   |     3.0% |    3.8% |    5.5% |     7.2% |     8.5% |
 
-| Plan | Displayed monthly reward rate | Exact fixed-term reward rate | Exit model |
-|---|---:|---:|---|
-| Flexible | 6.0% per 30-day reward period | Variable by actual holding time | Available at any time; 2.5% principal adjustment before 14 complete days |
-| Locked 30 days | 9.2% | 9.2% of accepted principal | No early exit |
-| Locked 90 days | 12.3% | 36.9% of accepted principal | No early exit |
-| Locked 180 days | 14.7% | 88.2% of accepted principal | No early exit |
-| Locked 365 days | 16.8% | 201.6% of accepted principal | No early exit |
+The exact rate and payout calculation for a specific position are shown before confirmation and bound to that accepted product version.
 
-The exact fixed-term reward is shown before confirmation in both percentage and payout-asset units. A locked position retains the accepted product version for its entire term.
+## Why rates can exceed native staking yield
 
-{% hint style="warning" %}
-These percentages are monthly reward rates. They must not be described as annual percentage rate, annual percentage yield, or a bank-deposit rate.
-{% endhint %}
+The displayed rate is a product reward rate, not a claim that the underlying blockchain itself produces that exact percentage.
 
-## Example with 1,000 USDT
+Funding can combine recognized income from approved staking, lending, protocol-liquidity or other strategy routes with a finite, pre-funded growth-support allocation from company capital. The two sources remain separately recorded and disclosed.
 
-| Plan | Principal | Reward at maturity | Principal + reward |
-|---|---:|---:|---:|
-| 30 days | 1,000 USDT | 92 USDT | 1,092 USDT |
-| 90 days | 1,000 USDT | 369 USDT | 1,369 USDT |
-| 180 days | 1,000 USDT | 882 USDT | 1,882 USDT |
-| 365 days | 1,000 USDT | 2,016 USDT | 3,016 USDT |
+This structure allows an early cohort to receive stronger rates while the platform is bootstrapping participation and TVL. As TVL, cohort size and capacity utilization grow, new-position rates can normalize as the incentive contribution per unit of new capital declines.
 
-The example assumes no auto-reinvestment, no principal change, and settlement in the same asset. It is arithmetic under the stated plan version, not a statement that a user should select the plan.
+No future rate is guaranteed by a particular user count or TVL threshold.
 
-## Flexible calculation
+## Product-version protection
 
-Flexible reward accrues in integer base units using:
+A Locked position retains the rate version accepted at opening. A later change to the public rate card applies to new product versions, not retroactively to an existing Locked position.
 
-`reward = eligible principal × 0.06 × eligible seconds / seconds in 30 days`
+Flexible rates may change only prospectively under the applicable notice and effective-time rules.
 
-The rate can change only for accrual beginning at the effective time in a signed rate record. Already posted reward is not recalculated. If a Flexible position is closed before 14 complete UTC days, the 2.5% early-exit adjustment is applied to principal and shown before confirmation.
+## Minimums, fees and capacity
 
-## Locked calculation
+* Minimum deposit: the equivalent of **USD 50** unless a stricter asset-route record applies.
+* Whale CeFi platform deposit fee: **0**, while the active product terms state so.
+* Whale CeFi platform withdrawal fee: **0**, while the active product terms state so.
+* Network, validator, issuer or third-party charges remain separate.
+* A plan stops accepting new exposure when approved funding, liquidity or capacity limits are reached.
 
-Locked plans use an immutable `term_reward_rate`. Daily display accrual is an informational linear allocation of the exact maturity reward. Rounding remainders are assigned at maturity so the ledger result equals the accepted term amount.
-
-## Minimums, fees, and capacity
-
-- Minimum deposit: the equivalent of **USD 50** unless a stricter asset-route record applies.
-- Whale CeFi platform deposit fee: **0**.
-- Whale CeFi platform withdrawal fee: **0**.
-- Network, validator, issuer, or third-party charges remain separate and are shown before confirmation when knowable.
-- A plan stops accepting new exposure when its approved funding or capacity limit is reached.
-
-## Rate history
-
-The prior USDT and USDC monthly rates were 5.5% Flexible, 7.1% for 30 days, 9.3% for 90 days, 11.8% for 180 days, and 13.6% for 365 days. Rate history does not change an already accepted locked product version.
+For calculation mechanics, see Rates and Reward Mathematics. For source economics, see Reward Sources.
