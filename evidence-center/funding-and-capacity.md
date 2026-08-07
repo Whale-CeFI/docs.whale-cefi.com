@@ -13,43 +13,49 @@ description: >-
 
 Whale CeFi opens new reward obligations only within approved funding and capacity limits.
 
+{% hint style="info" %}
+**Evidence boundary:** this page defines what counts as eligible coverage and what evidence a growth-supported cohort must expose. It does not state a current growth-support amount, investor contribution or runway unless those values are present in the applicable evidence record.
+{% endhint %}
+
 ## Funding waterfall
 
-Eligible funding for a product cohort can include, in order of its applicable policy:
+Eligible funding for a product cohort can include, according to its applicable policy:
 
 1. Realized external income attributable to an approved strategy or counterparty.
-2. A segregated pre-funded growth-support pool committed to the product version.
+2. A segregated pre-funded growth-support pool committed to the product version, where such a pool has been approved and funded.
 3. Explicitly allocated platform coverage capital within the approved risk limit.
 
 Customer principal is not recognized as reward income and cannot settle an older customer reward.
 
 ## What “pre-funded growth support” means
 
-Company financing and customer staking are different things.
+Corporate financing and customer staking are different things.
 
-Capital received by Whale CeFi from shareholders or strategic investors belongs to the company's corporate funding structure. A customer does not become one of those investors by opening a staking or earning position.
+Capital raised by an applicable project or group entity from shareholders or strategic investors belongs to the corporate funding structure of that entity. A customer does not become one of those investors by opening a staking or earning position.
 
-Where the company chooses to use part of its own financed capital to accelerate adoption, the amount must first be:
+Where an applicable entity chooses to use part of its own financed capital to accelerate product adoption, the amount must first be:
 
 * formally approved;
 * actually funded;
 * segregated from customer principal;
 * assigned to a named product or cohort;
 * capped and time-bounded;
-* included in the capacity ledger.
+* included in the relevant funding and capacity record.
 
-Only then can it support an elevated user reward rate.
+Only then can that amount be represented as support for an elevated user reward rate.
 
 ## Why the support is finite
 
-Growth capital is used to help establish an active product base, not to create a permanent promise that every future cohort will receive the same rate.
+A growth-support allocation, when used, is a finite budget for a defined product purpose. It is not a permanent promise that every future cohort will receive the same rate.
 
-As TVL and the number of eligible positions grow, the support available per unit of new capital can fall. New rates are therefore reviewed against incentive runway, external strategy economics, liquidity, reserves and risk capacity.
+As TVL and the number of eligible positions grow, the support available per unit of new capital can fall. New rates can therefore be reviewed against incentive runway, external strategy economics, liquidity, reserves and risk capacity.
 
 No specific future percentage is guaranteed solely by a TVL threshold or user count.
 
 ## Capacity record
 
-The capacity record shows principal liabilities, accrued reward liabilities, realized-yield reserves, immediately liquid reserves, encumbered assets, committed growth-support capital, total and liquid coverage, remaining capacity, remaining incentive runway, observation time, attestation status and stress limits.
+For a cohort that uses growth support, the capacity record should show principal liabilities, accrued reward liabilities, realized-yield reserves, immediately liquid reserves, encumbered assets, the verified committed growth-support amount, total and liquid coverage, remaining capacity, remaining incentive runway, observation time, attestation status and stress limits.
 
-When a threshold is breached, the system blocks new exposure before it changes an existing obligation. Remediation can include capacity reduction, prospective rate normalization, additional approved funding, strategy reduction, exit-only state or a formal incident process.
+If no verified committed allocation is present, the documentation must not imply that investor or corporate financing is currently funding that cohort's reward rate.
+
+When a threshold is breached, the control model blocks new exposure before changing an existing obligation. Remediation can include capacity reduction, prospective rate normalization, additional approved funding, strategy reduction, exit-only state or a formal incident process.

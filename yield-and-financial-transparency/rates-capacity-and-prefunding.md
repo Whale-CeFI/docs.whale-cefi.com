@@ -12,25 +12,29 @@ description: >-
 
 # Rates, Capacity, and Prefunding
 
-A displayed rate becomes available for a new position only after the product proves that it has sufficient approved capacity and reward funding for the obligation it is about to accept.
+A displayed rate becomes available for a new position only after the applicable product controls establish sufficient approved capacity and reward funding for the obligation being accepted.
 
 The current asset-specific rate matrix is published in Rates and Reward Mathematics. Position confirmation remains authoritative for an accepted product version.
+
+{% hint style="info" %}
+**Evidence boundary:** this page defines how a growth-support allocation would enter rate capacity. It is not evidence that a current product has such an allocation. A live allocation requires a funded and versioned record.
+{% endhint %}
 
 ## What supports a rate
 
 Rate coverage can consist of:
 
 1. recognized external income from approved staking, lending, liquidity, market-neutral or contractual strategy routes;
-2. a segregated, pre-funded growth-support allocation committed to the relevant product or cohort;
-3. approved platform coverage capital within defined risk limits.
+2. where applicable, a segregated and verified pre-funded growth-support allocation committed to the relevant product or cohort;
+3. approved coverage capital within defined risk limits.
 
 Customer principal is not reward coverage.
 
 ## Growth-support prefunding
 
-A company may raise capital from shareholders or strategic investors for technology development, operations and growth. Whale CeFi treats that financing as company capital until a specific amount is formally approved for a defined product incentive programme.
+A project or group entity may raise capital from shareholders or strategic investors for technology development, operations and growth. Under the control model, that financing remains corporate capital until a specific amount is formally approved and funded for a defined product incentive programme.
 
-Only that committed allocation can enter the rate-capacity calculation. The system does not count:
+Only that verified committed allocation can enter the rate-capacity calculation. The system must not count:
 
 * the headline size of a financing round;
 * investor commitments not yet funded;
@@ -49,7 +53,7 @@ Before a fixed-rate position is accepted:
 
 where:
 
-* **EFC** is eligible forward coverage for cohort (c): realized-yield reserve, committed growth-support capital, approved coverage capital and legally enforceable receivables after haircut;
+* **EFC** is eligible forward coverage for cohort (c): realized-yield reserve, verified committed growth-support capital where applicable, approved coverage capital and legally enforceable receivables after haircut;
 * **MRC** is the maximum remaining contractual reward commitment of the cohort;
 * **OCB** is the operating, settlement, liquidity and stress-cost buffer.
 
@@ -57,12 +61,12 @@ Uncommitted forecasts and customer principal do not count as eligible reward cov
 
 ## TVL, incentive runway and rate normalization
 
-TVL matters because a finite support pool must cover a growing base of eligible positions. As TVL increases, the incentive contribution available per unit of new capital may decrease.
+Where a finite support pool is used, TVL matters because that pool supports a growing base of eligible positions. As TVL increases, the incentive contribution available per unit of new capital can decrease.
 
-However, Whale CeFi does not use a simplistic rule such as “TVL reaches X, rate becomes Y”. New-position rate decisions are based on the combined state of:
+However, Whale CeFi does not use a simplistic public rule such as “TVL reaches X, rate becomes Y”. New-position rate decisions can be based on the combined state of:
 
 * active TVL and cohort size;
-* remaining committed incentive budget and runway;
+* remaining verified incentive budget and runway;
 * realized and stressed external yield;
 * strategy and counterparty capacity;
 * liquidity and maturity concentration;
@@ -70,7 +74,7 @@ However, Whale CeFi does not use a simplistic rule such as “TVL reaches X, rat
 * reserve and stress buffers;
 * legal and regional constraints.
 
-This is the economic reason an early launch cohort may receive a stronger rate than a later, larger cohort even when both use the same underlying asset.
+This is one economic reason an early launch cohort can receive a stronger rate than a later, larger cohort when a finite incentive allocation is actually present.
 
 ## Capacity is the smallest safe limit
 
@@ -86,8 +90,8 @@ Flexible reward liability is measured continuously. A Flexible rate reduction ca
 
 ## Governance
 
-* Rate proposal, growth-budget allocation, treasury funding, risk approval and publication are separate authorities.
-* A rate increase cannot activate before funding, liquidity and stress reservations pass.
-* Product capacity, accepted principal, reward liability, realized yield, committed support capital and buffers are reconciled at least daily and at every material event.
+* Rate proposal, any growth-budget allocation, treasury funding, risk approval and publication must remain separate authorities.
+* A rate increase should not activate before funding, liquidity and stress reservations pass.
+* Product capacity, accepted principal, reward liability, realized yield, any verified committed support capital and buffers must be reconciled under the applicable operating schedule.
 * A coverage breach blocks new exposure and preserves existing user-visible states.
 * Auto-Reinvest is treated as a new capacity-consuming instruction, not silent compounding.

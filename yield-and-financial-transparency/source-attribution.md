@@ -12,15 +12,19 @@ description: Yield is disclosed by source, not hidden inside one blended percent
 
 Yield is disclosed by source, not hidden inside one blended percentage.
 
-| Source class                               | Economic origin                                                              | Recognition gate                                                                           | Principal risks                                        |
-| ------------------------------------------ | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
-| Native validation                          | Protocol issuance and transaction fees                                       | Reward finalized, attributable, and net of validator costs and slashing                    | Slashing, lockup, validator, network                   |
-| Institutional / overcollateralized lending | Borrower or counterparty interest                                            | Interest settled or contractually receivable under an approved haircut                     | Counterparty, liquidation, oracle, liquidity           |
-| Protocol liquidity                         | Trading, lending or protocol usage fees                                      | Fees realized and withdrawable under the valuation policy                                  | Impermanent loss, depeg, smart contract, concentration |
-| Market-neutral spread                      | Basis, funding or matched spread                                             | Both legs reconciled; hedge and closeout costs recognized                                  | Basis break, exchange, margin, execution               |
-| Contractual economics                      | Rebate or revenue share                                                      | Counterparty statement and cash or asset settlement                                        | Counterparty, dispute, concentration                   |
-| Growth-support allocation                  | Pre-funded company capital specifically committed to an early product cohort | Funds already committed, ring-fenced, capacity-reserved and governed by an approved budget | Budget exhaustion, governance, runway                  |
-| Coverage capital                           | Platform-owned buffer                                                        | Release approved under the shortfall policy                                                | Capital depletion                                      |
+{% hint style="info" %}
+**Source taxonomy, not an active-source claim:** the table below describes source classes that can be permitted by product policy. A source is active for a current product only when the applicable source record and product version identify it. Growth-support capital is a current source only when a funded allocation is evidenced.
+{% endhint %}
+
+| Source class                               | Economic origin                                                         | Recognition gate                                                                            | Principal risks                                        |
+| ------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Native validation                          | Protocol issuance and transaction fees                                  | Reward finalized, attributable, and net of validator costs and slashing                     | Slashing, lockup, validator, network                   |
+| Institutional / overcollateralized lending | Borrower or counterparty interest                                       | Interest settled or contractually receivable under an approved haircut                      | Counterparty, liquidation, oracle, liquidity           |
+| Protocol liquidity                         | Trading, lending or protocol usage fees                                 | Fees realized and withdrawable under the valuation policy                                   | Impermanent loss, depeg, smart contract, concentration |
+| Market-neutral spread                      | Basis, funding or matched spread                                        | Both legs reconciled; hedge and closeout costs recognized                                   | Basis break, exchange, margin, execution               |
+| Contractual economics                      | Rebate or revenue share                                                 | Counterparty statement and cash or asset settlement                                         | Counterparty, dispute, concentration                   |
+| Growth-support allocation                  | Pre-funded corporate capital specifically committed to a product cohort | Funds actually committed, ring-fenced, capacity-reserved and governed by an approved budget | Budget exhaustion, governance, runway                  |
+| Coverage capital                           | Platform-owned or operator-approved buffer                              | Release approved under the applicable shortfall policy                                      | Capital depletion                                      |
 
 ## Productive yield versus growth support
 
@@ -28,33 +32,33 @@ Whale CeFi distinguishes two concepts that are often incorrectly blended in cryp
 
 **Productive yield** is value generated by an approved external strategy, network, protocol or counterparty.
 
-**Growth support** is company capital committed in advance to accelerate product adoption. It may ultimately originate from shareholder or strategic-investor financing received by the company, but it becomes eligible reward funding only after a specific internal allocation has been approved and segregated for the relevant product or cohort.
+**Growth support**, where used, is corporate capital committed in advance to accelerate product adoption. It may ultimately originate from shareholder or strategic-investor financing received by an applicable project or group entity, but it becomes eligible reward funding only after a specific allocation has been approved, funded and segregated for the relevant product or cohort.
 
 A financing announcement by itself is not reward coverage. Uncommitted fundraising, future investment, investor reputation, projected valuation and undeployed corporate cash do not enter the reward calculation.
 
 ## Why an early rate may exceed native staking yield
 
-An asset's native network yield is only one possible component of the product economics. When an early cohort is also supported by a finite growth allocation, the user-facing rate can exceed the native staking return without claiming that the blockchain itself generated the entire amount.
+An asset's native network yield is only one possible component of product economics. When an early cohort has a verified finite growth allocation, the user-facing rate can exceed the native staking return without claiming that the blockchain itself generated the entire amount.
 
 For a funded cohort, the economic bridge is:
 
 **external strategy income + released growth-support allocation − execution costs − losses − reserve requirements = funding available for user reward liabilities**
 
-Each component remains separately visible in the source ledger.
+For such a cohort, each component must remain separately attributable in the source and financial records.
 
 ## TVL and rate normalization
 
-The incentive component has a finite runway. When TVL and the number of eligible positions increase, the growth-support amount available per unit of new capital generally declines unless new approved funding or higher realized external economics offset that growth.
+Where an incentive component is active, it has a finite runway. When TVL and the number of eligible positions increase, the growth-support amount available per unit of new capital can decline unless new approved funding or higher realized external economics offset that growth.
 
-Accordingly, rate governance evaluates TVL together with remaining budget, strategy capacity, liquidity, risk limits, maturity concentration and realized yield. There is no public rule that mechanically maps one TVL number to one guaranteed rate.
+Accordingly, rate governance can evaluate TVL together with remaining budget, strategy capacity, liquidity, risk limits, maturity concentration and realized yield. There is no public rule that mechanically maps one TVL number to one guaranteed rate.
 
 Rate normalization affects newly offered product versions. It does not retroactively rewrite an already accepted Locked rate.
 
 ## The source record
 
-Every approved source has a versioned record containing:
+Every approved active source should have a versioned record containing:
 
-* legal counterparty or protocol identity;
+* legal counterparty or protocol identity where applicable;
 * asset, network, contracts, accounts and custody route;
 * exact income-recognition event;
 * gross and net measurement method;
@@ -72,7 +76,7 @@ Every approved source has a versioned record containing:
 * Borrower or counterparty interest cannot be recognized twice as both accrual and settlement.
 * A disputed, encumbered or illiquid receivable receives a zero or risk-adjusted value under policy.
 * A source failure remains visible. Company-funded support cannot be relabeled as protocol-derived yield.
-* Investor or shareholder financing is recognized as corporate capital first; only an approved, committed allocation can become a growth-support source.
+* Investor or shareholder financing is recognized as corporate capital first; only an approved and funded allocation can become a growth-support source.
 
 ## Prohibited sources
 

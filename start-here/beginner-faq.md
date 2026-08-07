@@ -27,27 +27,29 @@ A token can exist on more than one blockchain. The symbol may be identical while
 
 A position is the accepted record of an amount placed under a specific product version. It binds the asset, term, rate, formula, source policy, fees, risks, maturity and exit rule.
 
-## Am I investing in Whale CeFi when I stake?
+## Am I investing in the Whale CeFi company when I stake?
 
-No. Opening an earning or staking position makes you a customer using a product; it does not by itself make you a shareholder, equity investor or venture investor in Whale CeFi.
+No. Opening an earning or staking position makes you a customer using a product; it does not by itself make you a shareholder, equity investor or venture investor in any Whale CeFi project or group entity.
 
-Corporate investors finance the company through separate agreements. Customer principal remains separate from company investment capital.
+Corporate investors or shareholders, where applicable, finance a company through separate corporate agreements. Customer principal is economically and legally distinct from corporate investment capital under the applicable product structure.
 
-## Where does such a high reward rate come from?
+## Where can a high reward rate come from?
 
-It can come from two separate layers.
+A high product rate can be supported by more than one approved funding layer.
 
-The first is productive external economics: approved staking, validator rewards, lending, protocol liquidity, market-neutral strategies or other disclosed sources that generate actual income.
+The first is **productive external economics**: sources such as approved staking, validator rewards, lending, protocol liquidity, market-neutral strategies or other authorized routes that generate economic income.
 
-The second can be a finite, pre-funded growth allocation from company capital. Part of the capital previously raised by a company can be specifically committed to an early product cohort to support user acquisition, TVL formation and product growth.
+The second, where formally approved and evidenced for the applicable product, can be a **finite pre-funded growth allocation** from corporate capital. Corporate capital may ultimately have been raised from shareholders or strategic investors, but it becomes eligible reward support only after a specific amount is actually funded, segregated and committed to the relevant product or cohort.
 
 That support is not described as “staking yield”. It is a separate incentive source.
+
+This FAQ describes the funding architecture; it does not claim that every current plan uses both layers. The current source mix must be established by the applicable product-version and funding/capacity record.
 
 Customer principal is never treated as the source of another customer's reward.
 
 ## Why might rates fall as Whale CeFi grows?
 
-A growth-support pool is finite. When more users and more TVL share the same programme, the amount of incentive support available per unit of new capital can decrease. Strategy capacity, liquidity, reserves and risk limits also change with scale.
+Where a finite growth-support pool is active, more users and more TVL can reduce the amount of incentive support available per unit of new capital. Strategy capacity, liquidity, reserves and risk limits also change with scale.
 
 For that reason, rates offered to new positions can normalize as the platform grows. There is no guaranteed formula saying that a specific TVL or user count will always produce a specific percentage.
 

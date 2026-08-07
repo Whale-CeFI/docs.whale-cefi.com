@@ -33,15 +33,15 @@ Whale CeFi publishes asset-specific **monthly reward rates**. They are not APR, 
 
 The exact rate and payout calculation for a specific position are shown before confirmation and bound to that accepted product version.
 
-## Why rates can exceed native staking yield
+## Why a product rate can exceed native staking yield
 
-The displayed rate is a product reward rate, not a claim that the underlying blockchain itself produces that exact percentage.
+The displayed rate is a **product reward rate**, not a claim that the underlying blockchain itself produces that exact percentage.
 
-Funding can combine recognized income from approved staking, lending, protocol-liquidity or other strategy routes with a finite, pre-funded growth-support allocation from company capital. The two sources remain separately recorded and disclosed.
+A product rate can be supported by recognized income from approved staking, lending, protocol-liquidity or other authorized strategy routes and, where a verified product funding record provides for it, by a finite pre-funded growth-support allocation from corporate capital.
 
-This structure allows an early cohort to receive stronger rates while the platform is bootstrapping participation and TVL. As TVL, cohort size and capacity utilization grow, new-position rates can normalize as the incentive contribution per unit of new capital declines.
+The rate table alone does not disclose or prove a particular source split. A growth-support component must not be inferred solely because a displayed rate is high. The exact source policy for a current product belongs in its product-version and funding/capacity evidence.
 
-No future rate is guaranteed by a particular user count or TVL threshold.
+Where a finite incentive allocation is active, TVL, cohort size and capacity utilization can contribute to later rate normalization because the support available per unit of new capital can decline. No future rate is guaranteed by a particular user count or TVL threshold.
 
 ## Product-version protection
 
