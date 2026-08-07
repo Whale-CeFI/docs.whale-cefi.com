@@ -20,23 +20,7 @@ Whale CeFi expresses the current plan percentages for supported assets as **mont
 
 ## Current rate parameters
 
-| Asset | Flexible | 30 Days | 90 Days | 180 Days | 365 Days |
-| ----- | -------: | ------: | ------: | -------: | -------: |
-| 1INCH |     5.8% |    6.8% |    9.8% |    11.4% |    12.5% |
-| ADA   |     4.9% |    5.8% |    9.4% |    12.3% |    13.2% |
-| ARB   |     5.3% |    6.3% |    9.5% |    12.2% |    13.5% |
-| AVAX  |     3.5% |    4.1% |    6.2% |     8.5% |    10.1% |
-| BNB   |     3.7% |    4.3% |    6.6% |     8.0% |     9.2% |
-| CAKE  |     5.6% |    6.6% |   10.2% |    13.3% |    14.5% |
-| DOGE  |     4.2% |    5.2% |    7.5% |     9.1% |    10.0% |
-| ETH   |     2.9% |    3.5% |    4.8% |     6.5% |     7.8% |
-| LINK  |     3.7% |    4.4% |    6.8% |     8.8% |     9.9% |
-| OP    |     5.1% |    6.0% |    9.0% |    11.8% |    13.0% |
-| POL   |     5.0% |    5.9% |    8.9% |    11.5% |    12.7% |
-| SOL   |     3.9% |    4.5% |    6.9% |     9.2% |    10.8% |
-| USDC  |     5.5% |    7.1% |    9.3% |    11.8% |    13.6% |
-| USDT  |     5.5% |    7.1% |    9.3% |    11.8% |    13.6% |
-| XRP   |     3.0% |    3.8% |    5.5% |     7.2% |     8.5% |
+<table><thead><tr><th width="92">Asset</th><th align="right">Flexible</th><th align="right">30 Days</th><th align="right">90 Days</th><th align="right">180 Days</th><th align="right">365 Days</th></tr></thead><tbody><tr><td>1INCH</td><td align="right">5.8%</td><td align="right">6.8%</td><td align="right">9.8%</td><td align="right">11.4%</td><td align="right">12.5%</td></tr><tr><td>ADA</td><td align="right">4.9%</td><td align="right">5.8%</td><td align="right">9.4%</td><td align="right">12.3%</td><td align="right">13.2%</td></tr><tr><td>ARB</td><td align="right">5.3%</td><td align="right">6.3%</td><td align="right">9.5%</td><td align="right">12.2%</td><td align="right">13.5%</td></tr><tr><td>AVAX</td><td align="right">3.5%</td><td align="right">4.1%</td><td align="right">6.2%</td><td align="right">8.5%</td><td align="right">10.1%</td></tr><tr><td>BNB</td><td align="right">3.7%</td><td align="right">4.3%</td><td align="right">6.6%</td><td align="right">8.0%</td><td align="right">9.2%</td></tr><tr><td>CAKE</td><td align="right">5.6%</td><td align="right">6.6%</td><td align="right">10.2%</td><td align="right">13.3%</td><td align="right">14.5%</td></tr><tr><td>DOGE</td><td align="right">4.2%</td><td align="right">5.2%</td><td align="right">7.5%</td><td align="right">9.1%</td><td align="right">10.0%</td></tr><tr><td>ETH</td><td align="right">2.9%</td><td align="right">3.5%</td><td align="right">4.8%</td><td align="right">6.5%</td><td align="right">7.8%</td></tr><tr><td>LINK</td><td align="right">3.7%</td><td align="right">4.4%</td><td align="right">6.8%</td><td align="right">8.8%</td><td align="right">9.9%</td></tr><tr><td>OP</td><td align="right">5.1%</td><td align="right">6.0%</td><td align="right">9.0%</td><td align="right">11.8%</td><td align="right">13.0%</td></tr><tr><td>POL</td><td align="right">5.0%</td><td align="right">5.9%</td><td align="right">8.9%</td><td align="right">11.5%</td><td align="right">12.7%</td></tr><tr><td>SOL</td><td align="right">3.9%</td><td align="right">4.5%</td><td align="right">6.9%</td><td align="right">9.2%</td><td align="right">10.8%</td></tr><tr><td>USDC</td><td align="right">5.5%</td><td align="right">7.1%</td><td align="right">9.3%</td><td align="right">11.8%</td><td align="right">13.6%</td></tr><tr><td>USDT</td><td align="right">5.5%</td><td align="right">7.1%</td><td align="right">9.3%</td><td align="right">11.8%</td><td align="right">13.6%</td></tr><tr><td>XRP</td><td align="right">3.0%</td><td align="right">3.8%</td><td align="right">5.5%</td><td align="right">7.2%</td><td align="right">8.5%</td></tr></tbody></table>
 
 The rate applicable to a position is the rate shown for that asset and plan at confirmation and is bound to the accepted product version. The table above is the current published rate matrix; the position confirmation remains authoritative if a later rate version changes.
 
