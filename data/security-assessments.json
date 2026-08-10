@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current-public-disclosure-registry",
+  "records": [
+    {
+      "assessment_id": "WCF-SARV-2026-0810",
+      "title": "Whale CeFi Security Assessment and Remediation Verification",
+      "version": "3.0",
+      "assessment_type": "smart-contract-security-assessment-and-remediation-verification",
+      "assurance_provider": "Whale CeFi Security Engineering",
+      "provider_relationship": "first-party",
+      "independent_third_party_audit": false,
+      "issue_date": "2026-08-10",
+      "baseline_assessment_date": "2025-12-22",
+      "status": "resolved-in-exact-assessed-build",
+      "artifact": {
+        "path": ".gitbook/assets/audits/Whale_CeFi_Security_Assessment_Remediation_Verification_v3.0_2026-08-10.pdf",
+        "media_type": "application/pdf",
+        "pages": 42,
+        "sha256": "c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918"
+      },
+      "scope": {
+        "baseline_commit": "6abbb72e994862c912996b042addd26c8c4510c2",
+        "baseline_source": "src/Stake.sol",
+        "baseline_source_sha256": "983b98a6063225e82fc7d282ed855ddc366b63be3bb2b833ec58c869182edf7e",
+        "remediated_solidity_source_count": 9,
+        "compiler": "0.8.26+commit.8a97fa7a.Emscripten.clang",
+        "optimizer_enabled": true,
+        "optimizer_runs": 200,
+        "evm_version": "Shanghai",
+        "environment": "isolated-revalidation",
+        "chain_id": 31337,
+        "latest_assessed_block": 82,
+        "local_deployed_contract_count": 9,
+        "production_deployment_coverage": []
+      },
+      "finding_summary": {
+        "total": 17,
+        "baseline": 10,
+        "expanded_controls": 7,
+        "resolved": 17,
+        "open": 0,
+        "major": 3,
+        "medium": 7,
+        "minor": 4,
+        "informational": 2,
+        "optimization": 1
+      },
+      "automated_revalidation": {
+        "total_checks": 31,
+        "passed": 31,
+        "failed": 0,
+        "compiler_errors": 0,
+        "compiler_warnings": 0
+      },
+      "scope_limitations": [
+        "Complete custody-account and customer-liability reconciliation",
+        "Production backend and database security",
+        "Identity and KYC controls",
+        "Production oracle freshness and liquidation execution",
+        "Bridge security",
+        "Mobile and web client security except where an explicit listed control applies",
+        "Legal and regulatory compliance",
+        "Production deployment identity and runtime coverage"
+      ],
+      "highest_priority_residual_work": [
+        "Map exact live proxy, implementation, admin, timelock, and treasury identities before claiming deployment assurance",
+        "Reconcile custodian and on-chain assets against the complete customer-liability ledger at one cutoff",
+        "Validate oracle freshness, liquidation execution, backend authorization, and database-event reconciliation",
+        "Operate signer monitoring, incident response, and controlled upgrade procedures"
+      ]
+    }
+  ]
+}

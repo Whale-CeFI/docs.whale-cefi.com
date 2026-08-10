@@ -1,21 +1,18 @@
 ---
-title: Product Yield, Reward Funding, and Accrual
-canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/21-product-yield-reward-funding-and-accrual
-document_status: official-release
-audience: technical
-last_reviewed: '2026-07-29'
-control_id: PLATFORM-21
-description: >-
-  Controlled specification for Base Product Reward, investor-funded Growth
-  Uplift, rate versioning, accrual and capacity.
+title: "Product Yield, Reward Funding, and Accrual"
+canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/21-product-yield-reward-funding-and-accrual"
+document_status: "official-release"
+audience: "technical"
+last_reviewed: "2026-08-10"
+control_id: "PLATFORM-21"
+description: "Controlled specification for Base Product Reward, investor-funded Growth Uplift, rate versioning, accrual, capacity, and level-linked balance rewards."
 ---
 
 # Product Yield, Reward Funding, and Accrual
 
 **Product Yield, Reward Funding, and Accrual** defines the controlled engineering contract for Whale CeFi product economics: rate versioning, source attribution, Marketing Incentive Pool releases, deterministic accrual, capacity and financial evidence.
 
-### Core specification
+## Core specification
 
 **Claim state:** RELEASED / CONTROLLED SYSTEM SPECIFICATION
 
@@ -51,8 +48,11 @@ Customer principal is never reward income.
 * Rate capacity considers eligible TVL, remaining incentive runway, realized economics, liquidity, counterparty capacity, reserves, maturity concentration and stress limits.
 * Growth in eligible TVL can reduce the Growth Uplift available per unit of new capital; no fixed public TVL-to-rate formula is implied.
 * XP, chests, referrals and progression remain outside the financial reward ledger unless a separate entitlement is created.
+* Level XP multipliers never alter a staking rate or financial reward percentage.
+* Level-linked balance rewards post separately from XP, principal and position reward accrual.
+* The Level 7-10 company Net Revenue reward creates a per-user monthly liability equal to the closed monthly revenue base multiplied by 0.00002.
 
-### Reference architecture
+## Reference architecture
 
 | Layer | Component                        | Responsibility                                                                 |
 | ----- | -------------------------------- | ------------------------------------------------------------------------------ |
@@ -83,24 +83,34 @@ The production decision additionally applies realized-economics, liquidity, rese
 
 A rate change produces a new product version. It does not mutate an accepted Locked position.
 
-### Failure-mode analysis
+## Control contract
 
-| Failure mode         | Failure effect                                                           | Primary control                                 | Required state                    |
-| -------------------- | ------------------------------------------------------------------------ | ----------------------------------------------- | --------------------------------- |
-| Funding shortfall    | Liability exceeds approved coverage                                      | Cohort coverage ratio and exposure cap          | **STOP NEW EXPOSURE**             |
-| Incentive exhaustion | Pool no longer supports the offered uplift                               | Rate and capacity review                        | **NORMALIZE / CLOSE NEW VERSION** |
-| Source mislabelling  | Growth Uplift appears as protocol yield                                  | Source-specific ledger and disclosure           | **CORRECT + REVIEW**              |
-| Budget overclaim     | Unfunded or headline investment is presented as available reward capital | Funded-allocation evidence gate                 | **REJECT CLAIM**                  |
-| Retroactive change   | Accepted entitlement changes silently                                    | Immutable rate binding and compensating journal | **REJECT**                        |
+| Component | Responsibility / input | Control invariant |
+|---|---|---|
+| Product position | Accepted product version and principal | Locked economics remain immutable for the position. |
+| Accrual engine | Rate, eligible time, rounding and position state | Calculations use fixed-point values and the accepted product version. |
+| Productive economics | Realized approved source income | Customer principal and projections never become income. |
+| Marketing Incentive Pool | Funded allocation and cohort release | A Growth Uplift cannot exceed its assigned funded capacity. |
+| Level-linked balance reward | Level, eligibility, calculation base and cadence | XP multiplier, balance reward and staking reward remain separate units. |
+| Financial ledger | Liability, funding, settlement and correction | Every correction uses a new journal entry. |
 
-### Release evidence
+**Interface invariant:** A rate, XP multiplier, deposit-based percentage, or company-revenue percentage retains its own unit, source, version, and ledger destination.
 
-A production release preserves:
+## Failure-mode analysis
 
-* current asset-specific rate matrix and product versions;
-* exact accrual, rounding and maturity formulas;
-* source register for productive routes actually used;
-* Marketing Incentive Pool allocation by cohort, including cap, effective period and runway;
-* reward-liability coverage and proof that customer principal is excluded;
-* rate-normalization decision history;
-* reconciliation between source recognition, incentive release, accrual and payment.
+| ID | Failure mode | Failure effect | Primary control | Required state |
+|---|---|---|---|---|
+| `FM-21-01` | Funding or incentive shortfall | Liability exceeds approved coverage | Coverage ratio, runway and exposure cap | **STOP NEW EXPOSURE** |
+| `FM-21-02` | Source mislabelling | Growth Uplift or balance reward appears as protocol yield | Source-specific ledger and disclosure | **CORRECT + REVIEW** |
+| `FM-21-03` | Budget overclaim | Unfunded financing is presented as available reward capital | Funded-allocation evidence gate | **REJECT CLAIM** |
+| `FM-21-04` | Retroactive or cross-unit change | Position economics or XP silently alter another ledger | Immutable version binding and unit validation | **REJECT** |
+
+## Release evidence
+
+| ID | State | Required evidence |
+|---|---|---|
+| `EVD-21-01` | **ACCEPTED** | Current asset-specific rate matrix, immutable product versions, and exact accrual formulas. |
+| `EVD-21-02` | **ACCEPTED** | Productive-source register and Marketing Incentive Pool allocation by cohort, cap, period and runway. |
+| `EVD-21-03` | **ACCEPTED** | Reward-liability coverage and proof that customer principal is excluded. |
+| `EVD-21-04` | **ACCEPTED** | Live gamification configuration with XP and balance-reward unit separation. |
+| `EVD-21-05` | **ACCEPTED** | Reconciliation between source recognition, incentive release, accrual, balance reward, payment and correction. |

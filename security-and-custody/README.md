@@ -1,21 +1,21 @@
 ---
-title: Security and Custody
-canonical: https://docs.whale-cefi.com/security-and-custody
-document_status: official-release
-audience: public
-last_reviewed: '2026-07-29'
-description: >-
-  Segregated vaults, policy-bound signing, and reconciliation without conflating
-  custody with customer entitlement.
+title: "Security and Custody"
+canonical: "https://docs.whale-cefi.com/security-and-custody"
+document_status: "official-release"
+audience: "public"
+last_reviewed: "2026-08-10"
+description: "Security and custody separate source-level assessment evidence, production deployment identity, asset authority, and customer entitlement."
 ---
 
 # Security and Custody
 
-Segregated vaults, policy-bound signing, and reconciliation without conflating custody with customer entitlement.
+Security and custody separate source-level assessment evidence, production deployment identity, asset authority, and customer entitlement.
 
 ![Custody Architecture](../.gitbook/assets/05-custody-boundary.png)
 
 Custody controls private-key authority and external asset movement. The financial ledger controls what Whale CeFi owes. Neither system can replace the other.
+
+The published [Security Assessment and Remediation Verification v3.0](security-assessment-and-remediation-verification.md) records 17 resolved findings and 31 passing checks for its exact internally assessed build. Its isolated chain 31337 scope is not represented as production deployment coverage or as an independent Eter or Hashlock audit.
 
 ![Custody zones](../.gitbook/assets/custody-zones.svg)
 

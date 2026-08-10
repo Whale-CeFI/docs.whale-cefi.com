@@ -1,56 +1,203 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
+  "configuration_id": "WCF-GAMIFICATION-LIVE-2026-08-10",
+  "status": "live",
+  "status_as_of": "2026-08-10",
+  "source_authority": "owner-and-developer-confirmed",
   "timezone": "UTC",
+  "xp_accounting": {
+    "ledger_supports_fractional_xp": true,
+    "level_thresholds_use_exact_internal_xp": true,
+    "interface_decimal_places": 0,
+    "interface_rounding_mode": "HALF_UP",
+    "interface_rounding_changes_ledger": false,
+    "level_multiplier_unit": "xp-only",
+    "confirmed_multiplier_scope": [
+      "daily_xp_claim"
+    ],
+    "other_xp_sources_require_explicit_multiplier_eligibility": true
+  },
+  "balance_reward_accounting": {
+    "separate_from_xp": true,
+    "separate_from_principal": true,
+    "changes_staking_reward_rate": false,
+    "locked_position_rate_impact": "none"
+  },
   "levels": [
     {
       "level": 1,
       "name": "Plankton",
-      "xp_threshold": 0
+      "xp_threshold": 0,
+      "xp_multiplier": "1.00",
+      "daily_xp_claim_base": "10",
+      "daily_xp_claim_credited": "10.00",
+      "daily_xp_claim_display": 10,
+      "balance_reward": {
+        "type": "eligible-deposit-daily-reward",
+        "cadence": "daily",
+        "trigger": "daily-claim",
+        "calculation_base": "eligible-deposit",
+        "rate_percent": "0.005",
+        "rate_decimal": "0.00005"
+      }
     },
     {
       "level": 2,
       "name": "Minnow",
-      "xp_threshold": 2100
+      "xp_threshold": 2100,
+      "xp_multiplier": "1.03",
+      "daily_xp_claim_base": "15",
+      "daily_xp_claim_credited": "15.45",
+      "daily_xp_claim_display": 15,
+      "balance_reward": {
+        "type": "eligible-deposit-daily-reward",
+        "cadence": "daily",
+        "trigger": "daily-claim",
+        "calculation_base": "eligible-deposit",
+        "rate_percent": "0.0075",
+        "rate_decimal": "0.000075"
+      }
     },
     {
       "level": 3,
       "name": "Puffer",
-      "xp_threshold": 5900
+      "xp_threshold": 5900,
+      "xp_multiplier": "1.06",
+      "daily_xp_claim_base": "20",
+      "daily_xp_claim_credited": "21.20",
+      "daily_xp_claim_display": 21,
+      "balance_reward": {
+        "type": "eligible-deposit-daily-reward",
+        "cadence": "daily",
+        "trigger": "daily-claim",
+        "calculation_base": "eligible-deposit",
+        "rate_percent": "0.001",
+        "rate_decimal": "0.00001",
+        "owner_confirmation_note": "The live value is 0.001%, not 0.01%."
+      }
     },
     {
       "level": 4,
       "name": "Dolphin",
-      "xp_threshold": 11600
+      "xp_threshold": 11600,
+      "xp_multiplier": "1.10",
+      "daily_xp_claim_base": "30",
+      "daily_xp_claim_credited": "33.00",
+      "daily_xp_claim_display": 33,
+      "balance_reward": {
+        "type": "eligible-deposit-daily-reward",
+        "cadence": "daily",
+        "trigger": "daily-claim",
+        "calculation_base": "eligible-deposit",
+        "rate_percent": "0.0125",
+        "rate_decimal": "0.000125"
+      }
     },
     {
       "level": 5,
       "name": "Orca",
-      "xp_threshold": 19200
+      "xp_threshold": 19200,
+      "xp_multiplier": "1.15",
+      "daily_xp_claim_base": "40",
+      "daily_xp_claim_credited": "46.00",
+      "daily_xp_claim_display": 46,
+      "balance_reward": {
+        "type": "eligible-deposit-daily-reward",
+        "cadence": "daily",
+        "trigger": "daily-claim",
+        "calculation_base": "eligible-deposit",
+        "rate_percent": "0.015",
+        "rate_decimal": "0.00015"
+      }
     },
     {
       "level": 6,
       "name": "Blue Whale",
-      "xp_threshold": 29400
+      "xp_threshold": 29400,
+      "xp_multiplier": "1.20",
+      "daily_xp_claim_base": "60",
+      "daily_xp_claim_credited": "72.00",
+      "daily_xp_claim_display": 72,
+      "balance_reward": {
+        "type": "eligible-deposit-daily-reward",
+        "cadence": "daily",
+        "trigger": "daily-claim",
+        "calculation_base": "eligible-deposit",
+        "rate_percent": "0.02",
+        "rate_decimal": "0.0002"
+      }
     },
     {
       "level": 7,
       "name": "Shark",
-      "xp_threshold": 44100
+      "xp_threshold": 44100,
+      "xp_multiplier": "1.26",
+      "daily_xp_claim_base": "90",
+      "daily_xp_claim_credited": "113.40",
+      "daily_xp_claim_display": 113,
+      "balance_reward": {
+        "type": "company-net-revenue-monthly-reward",
+        "cadence": "monthly",
+        "calculation_base": "company-net-monthly-revenue",
+        "rate_percent": "0.002",
+        "rate_decimal": "0.00002",
+        "allocation": "per-eligible-user",
+        "shared_pool": false
+      }
     },
     {
       "level": 8,
       "name": "Leviathan",
-      "xp_threshold": 62800
+      "xp_threshold": 62800,
+      "xp_multiplier": "1.33",
+      "daily_xp_claim_base": "120",
+      "daily_xp_claim_credited": "159.60",
+      "daily_xp_claim_display": 160,
+      "balance_reward": {
+        "type": "company-net-revenue-monthly-reward",
+        "cadence": "monthly",
+        "calculation_base": "company-net-monthly-revenue",
+        "rate_percent": "0.002",
+        "rate_decimal": "0.00002",
+        "allocation": "per-eligible-user",
+        "shared_pool": false
+      }
     },
     {
       "level": 9,
       "name": "Kraken",
-      "xp_threshold": 87300
+      "xp_threshold": 87300,
+      "xp_multiplier": "1.41",
+      "daily_xp_claim_base": "150",
+      "daily_xp_claim_credited": "211.50",
+      "daily_xp_claim_display": 212,
+      "balance_reward": {
+        "type": "company-net-revenue-monthly-reward",
+        "cadence": "monthly",
+        "calculation_base": "company-net-monthly-revenue",
+        "rate_percent": "0.002",
+        "rate_decimal": "0.00002",
+        "allocation": "per-eligible-user",
+        "shared_pool": false
+      }
     },
     {
       "level": 10,
       "name": "Megalodon",
-      "xp_threshold": 120000
+      "xp_threshold": 120000,
+      "xp_multiplier": "1.50",
+      "daily_xp_claim_base": "180",
+      "daily_xp_claim_credited": "270.00",
+      "daily_xp_claim_display": 270,
+      "balance_reward": {
+        "type": "company-net-revenue-monthly-reward",
+        "cadence": "monthly",
+        "calculation_base": "company-net-monthly-revenue",
+        "rate_percent": "0.002",
+        "rate_decimal": "0.00002",
+        "allocation": "per-eligible-user",
+        "shared_pool": false
+      }
     }
   ],
   "chest_outcome_percent": {

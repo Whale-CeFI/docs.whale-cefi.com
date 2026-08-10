@@ -4,7 +4,7 @@ description: "Progression helps users understand participation; it does not remo
 canonical: "https://docs.whale-cefi.com/points-and-progression/risks-legal-notes-and-change-log"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 ---
 
 # Risks, Legal Notes, and Change Log
@@ -14,6 +14,9 @@ Progression helps users understand participation; it does not remove product, se
 ## Important distinctions
 
 - XP is a progression score, not money, principal, a security, or a guaranteed asset.
+- The level XP multiplier never changes a staking rate, locked reward, deposit-based percentage, or company-revenue percentage.
+- A Daily XP Claim and a balance reward are separate ledger events even when one user action triggers both.
+- The monthly Level 7-10 reward is calculated per eligible user as 0.002% of company Net Monthly Revenue; it is not a shared pool and is not a percentage of customer principal.
 - A level, credential, or achievement is not proof of investment competence and does not weaken a mandatory safety control.
 - A randomised reward does not guarantee a specific outcome. Published probability describes the configuration across a large number of draws.
 - Referral and leaderboard rewards remain subject to valid attribution, eligibility, finalisation, anti-abuse review, and regional rules.
@@ -36,4 +39,5 @@ Material changes identify the affected mechanic, old and new version, effective 
 
 | Version | Effective time | Change | Existing-user treatment |
 |---|---|---|---|
+| 3.1.0 | 10 August 2026 | Published the live ten-level XP multipliers, Daily XP Claim calculations, fractional-ledger and display-rounding rules, Levels 1-6 deposit-based balance rewards, and Levels 7-10 per-user monthly Net Revenue reward | Exact internal XP remains authoritative; current level and reward eligibility follow configuration `WCF-GAMIFICATION-LIVE-2026-08-10` |
 | 3.0.0 | 29 July 2026, 00:00 UTC | Canonical XP, level, task, chest, referral, season, Learn-to-Earn, privacy, and review model | Existing confirmed XP and completed achievements remain recorded; active mechanics follow their accepted version until completion or published migration |

@@ -1,12 +1,14 @@
 {
-  "release_id": "WHALE-CEFI-DOCS-V5.0",
-  "version": "5.0.0",
+  "release_id": "WHALE-CEFI-DOCS-V5.1",
+  "version": "5.1.0",
   "status": "released",
   "public_release_status": "released",
   "canonical_domain": "whale-cefi.com",
   "canonical_documentation_origin": "https://docs.whale-cefi.com",
-  "effective_at": "2026-07-29T00:00:00+03:00",
-  "legal_stewardship_entity": "Whale Foundation",
+  "effective_at": "2026-08-10T00:00:00Z",
+  "customer_contracting_and_operating_entity": "Pulpo Fintech, S.A. de C.V.",
+  "operator_registration": "PSAD-0023",
+  "governing_jurisdiction": "El Salvador",
   "approved_publication_targets": [
     "github-main",
     "gitbook-production",
@@ -15,7 +17,9 @@
   "release_assurance": [
     "owner-approved",
     "documentation-qa-passed",
-    "entity-map-approved",
+    "entity-service-map-approved",
+    "gamification-configuration-approved",
+    "security-assessment-artifact-hash-verified",
     "legal-and-product-copy-approved",
     "security-and-weni-controls-approved"
   ]

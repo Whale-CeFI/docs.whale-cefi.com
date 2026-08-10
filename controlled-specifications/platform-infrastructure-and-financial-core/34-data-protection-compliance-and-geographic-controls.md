@@ -4,7 +4,7 @@ canonical: >-
   https://docs.whale-cefi.com/controlled-specifications/platform/34-data-protection-compliance-and-geographic-controls
 document_status: official-release
 audience: technical
-last_reviewed: '2026-07-29'
+last_reviewed: '2026-08-10'
 control_id: PLATFORM-34
 description: >-
   Compliance architecture maps legal entity, product, data, custody, user region
@@ -81,7 +81,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 | ID          | State        | Required evidence                                                                        |
 | ----------- | ------------ | ---------------------------------------------------------------------------------------- |
-| `EVD-34-01` | **ACCEPTED** | Intended Eurozone and UAE availability; USA, Canada and sanctions restrictions reported. |
+| `EVD-34-01` | **ACCEPTED** | El Salvador operating perimeter and account-specific eligible regions; USA, Canada and sanctions restrictions reported. |
 | `EVD-34-02` | **ACCEPTED** | Legal-entity and product-perimeter opinion.                                              |
 | `EVD-34-03` | **ACCEPTED** | Licence/registration evidence before claiming CASP/MiCA passporting.                     |
 | `EVD-34-04` | **ACCEPTED** | KYC, sanctions, geofencing and policy-consistency test suite.                            |

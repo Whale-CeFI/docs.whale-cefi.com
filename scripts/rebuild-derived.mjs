@@ -2,20 +2,37 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
-const generatedAt = "2026-07-29T00:00:00+03:00";
+const releaseManifest = JSON.parse(
+  fs.readFileSync(path.join(root, "data", "release-manifest.json"), "utf8"),
+);
+const generatedAt = releaseManifest.effective_at;
+const releaseDateLabel = "10 August 2026";
 const summary = fs.readFileSync(path.join(root, "SUMMARY.md"), "utf8");
 const links = [...summary.matchAll(/\[[^\]]+\]\(([^)]+\.md)\)/g)].map((match) => match[1]);
 
-function unquote(value) {
-  return JSON.parse(`"${value}"`);
-}
-
 function frontmatterValue(frontmatter, key) {
-  const match = frontmatter.match(
-    new RegExp(`^${key}:\\s*"((?:\\\\.|[^"])*)"$`, "m"),
+  const lines = frontmatter.split(/\r?\n/);
+  const index = lines.findIndex((line) =>
+    new RegExp(`^${key}:\\s*`).test(line),
   );
-  if (!match) throw new Error(`Missing ${key} in frontmatter`);
-  return unquote(match[1]);
+  if (index < 0) throw new Error(`Missing ${key} in frontmatter`);
+
+  const raw = lines[index].replace(new RegExp(`^${key}:\\s*`), "").trim();
+  if ([">", ">-", ">+", "|", "|-", "|+"].includes(raw)) {
+    const values = [];
+    for (let cursor = index + 1; cursor < lines.length; cursor += 1) {
+      const line = lines[cursor];
+      if (line && !/^\s/.test(line)) break;
+      if (line.trim()) values.push(line.trim());
+    }
+    return raw.startsWith(">") ? values.join(" ") : values.join("\n");
+  }
+  if (raw.startsWith('"') && raw.endsWith('"')) return JSON.parse(raw);
+  if (raw.startsWith("'") && raw.endsWith("'")) {
+    return raw.slice(1, -1).replaceAll("''", "'");
+  }
+  if (!raw) throw new Error(`Empty ${key} in frontmatter`);
+  return raw;
 }
 
 function searchableText(markdown) {
@@ -92,7 +109,7 @@ outputs.set(
   JSON.stringify(
     {
       project: "Whale CeFi Canonical Documentation",
-      version: "5.0.0",
+      version: releaseManifest.version,
       status: "official-release",
       canonical_origin: "https://docs.whale-cefi.com",
       generated_at: generatedAt,
@@ -121,7 +138,7 @@ outputs.set(
   [
     "# Whale CeFi Documentation",
     "",
-    "> Official Whale CeFi documentation released on 29 July 2026 at https://docs.whale-cefi.com.",
+    `> Official Whale CeFi documentation release ${releaseManifest.version}, effective ${releaseDateLabel}, at https://docs.whale-cefi.com.`,
     "",
     ...routes.map((route) => `- [${route.title}](${route.path})`),
     "",

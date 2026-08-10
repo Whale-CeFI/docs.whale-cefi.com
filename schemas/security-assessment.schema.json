@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Whale CeFi Security Assessment Record",
+  "type": "object",
+  "required": [
+    "assessment_id",
+    "title",
+    "version",
+    "assessment_type",
+    "assurance_provider",
+    "provider_relationship",
+    "issue_date",
+    "status",
+    "artifact",
+    "scope",
+    "finding_summary",
+    "automated_revalidation"
+  ],
+  "properties": {
+    "assessment_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assessment_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assurance_provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provider_relationship": {
+      "enum": [
+        "first-party",
+        "second-party",
+        "independent-third-party"
+      ]
+    },
+    "independent_third_party_audit": {
+      "type": "boolean"
+    },
+    "issue_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifact": {
+      "type": "object",
+      "required": [
+        "path",
+        "media_type",
+        "pages",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "media_type": {
+          "const": "application/pdf"
+        },
+        "pages": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "additionalProperties": true
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "environment",
+        "production_deployment_coverage"
+      ],
+      "properties": {
+        "environment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "production_deployment_coverage": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "finding_summary": {
+      "type": "object"
+    },
+    "automated_revalidation": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

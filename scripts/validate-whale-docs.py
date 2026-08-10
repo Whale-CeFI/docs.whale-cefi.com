@@ -4,10 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
-from decimal import Decimal
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 
@@ -34,12 +35,12 @@ SUPERSEDED_RELEASE_PATTERN = re.compile(
 FORWARD_LOOKING_PATTERN = re.compile(
     "|".join(
         (
-            r"\bfu" + r"ture\b",
             r"\bplan" + r"ned\b",
-            r"\bwi" + r"ll\b",
             r"\bnot " + r"yet\b",
             r"\bclosed-" + r"alpha\b",
             r"\broad" + r"map\b",
+            r"\bcoming\s+soon\b",
+            r"\bwe\s+plan\b",
         )
     ),
     re.IGNORECASE,
@@ -96,6 +97,35 @@ def read_text(path: Path, findings: Findings) -> str:
     except (OSError, UnicodeDecodeError) as exc:
         findings.error(f"Cannot read {path}: {exc}")
         return ""
+
+
+def frontmatter_value(text: str, key: str) -> str | None:
+    match = re.match(r"^---\n([\s\S]*?)\n---\n", text)
+    if not match:
+        return None
+    lines = match.group(1).splitlines()
+    for index, line in enumerate(lines):
+        prefix = f"{key}:"
+        if not line.startswith(prefix):
+            continue
+        raw = line[len(prefix):].strip()
+        if raw in {">", ">-", ">+", "|", "|-", "|+"}:
+            values: list[str] = []
+            for child in lines[index + 1:]:
+                if child and not child[0].isspace():
+                    break
+                if child.strip():
+                    values.append(child.strip())
+            return " ".join(values) if raw.startswith(">") else "\n".join(values)
+        if len(raw) >= 2 and raw[0] == raw[-1] == '"':
+            try:
+                return json.loads(raw)
+            except json.JSONDecodeError:
+                return raw[1:-1]
+        if len(raw) >= 2 and raw[0] == raw[-1] == "'":
+            return raw[1:-1].replace("''", "'")
+        return raw or None
+    return None
 
 
 def load_json(path: Path, findings: Findings) -> object | None:
@@ -188,7 +218,9 @@ def validate_markdown(
             )
 
         if path.resolve() in linked_paths:
-            if 'document_status: "official-release"' not in text:
+            if re.search(r"\bAbu Dhabi\b|\bUnited Arab Emirates\b|\bUAE\b", text):
+                findings.error(f"Superseded Abu Dhabi entity/perimeter language in {relative}")
+            if frontmatter_value(text, "document_status") != "official-release":
                 findings.error(f"Reader page is not marked official-release: {relative}")
             if SUPERSEDED_RELEASE_PATTERN.search(text) or FORWARD_LOOKING_PATTERN.search(text):
                 findings.error(f"Forward-looking or superseded release language in {relative}")
@@ -197,12 +229,16 @@ def validate_markdown(
             if len(h1s) != 1:
                 findings.error(f"Expected exactly one H1 in {relative}; found {len(h1s)}")
 
-            canonical_match = CANONICAL_PATTERN.search(text)
-            if not canonical_match:
+            canonical = frontmatter_value(text, "canonical")
+            if not canonical:
                 findings.warning(f"Reader page has no canonical URL: {relative}")
             else:
-                canonical = canonical_match.group(1)
-                if not canonical.startswith(canonical_origin.rstrip("/") + "/") and canonical != canonical_origin.rstrip("/"):
+                root_landing = relative == Path("README.md") and canonical == "https://whale-cefi.com/documentation"
+                if (
+                    not root_landing
+                    and not canonical.startswith(canonical_origin.rstrip("/") + "/")
+                    and canonical != canonical_origin.rstrip("/")
+                ):
                     findings.error(
                         f"Canonical URL outside '{canonical_origin}' in {relative}: {canonical}"
                     )
@@ -302,26 +338,137 @@ def validate_current_legal_record(root: Path, findings: Findings) -> None:
         findings.error("data/legal-entities.json records must be an array")
         return
 
-    foundation = next(
+    pulpo = next(
         (
             record
             for record in records
-            if isinstance(record, dict) and record.get("legal_name") == "Whale Foundation"
+            if isinstance(record, dict)
+            and record.get("legal_name") == "Pulpo Fintech, S.A. de C.V."
         ),
         None,
     )
-    if foundation is None:
-        findings.error("Current entity map is missing Whale Foundation")
-    elif foundation.get("registration_status") != "officially-registered":
-        findings.error("Whale Foundation is not marked officially registered")
+    if pulpo is None:
+        findings.error("Current entity map is missing Pulpo Fintech, S.A. de C.V.")
+    elif (
+        pulpo.get("registration_number") != "PSAD-0023"
+        or pulpo.get("jurisdiction") != "El Salvador"
+        or pulpo.get("record_type") != "customer-contracting-and-operating-entity"
+    ):
+        findings.error("Pulpo entity record does not match the approved El Salvador service map")
     else:
-        findings.ok("Checked current Whale Foundation entity record")
+        findings.ok("Checked current Pulpo PSAD-0023 entity record")
 
+    superseded_entities = {
+        SUPERSEDED_FOUNDATION_NAME,
+        "Whale Foundation",
+        "Whale CeFi Services Ltd",
+        "Whale CeFi Custody SPV Ltd",
+    }
     if any(
-        isinstance(record, dict) and record.get("legal_name") == SUPERSEDED_FOUNDATION_NAME
+        isinstance(record, dict) and record.get("legal_name") in superseded_entities
         for record in records
     ):
-        findings.error("Superseded stewardship-entity name remains in legal registry")
+        findings.error("Superseded Abu Dhabi entity remains in legal registry")
+
+
+def validate_gamification(root: Path, findings: Findings) -> None:
+    payload = load_json(root / "data" / "gamification-config.json", findings)
+    if not isinstance(payload, dict):
+        return
+    expected = [
+        (1, "Plankton", 0, "1.00", "10", "10.00", 10, "eligible-deposit-daily-reward", "0.005"),
+        (2, "Minnow", 2100, "1.03", "15", "15.45", 15, "eligible-deposit-daily-reward", "0.0075"),
+        (3, "Puffer", 5900, "1.06", "20", "21.20", 21, "eligible-deposit-daily-reward", "0.001"),
+        (4, "Dolphin", 11600, "1.10", "30", "33.00", 33, "eligible-deposit-daily-reward", "0.0125"),
+        (5, "Orca", 19200, "1.15", "40", "46.00", 46, "eligible-deposit-daily-reward", "0.015"),
+        (6, "Blue Whale", 29400, "1.20", "60", "72.00", 72, "eligible-deposit-daily-reward", "0.02"),
+        (7, "Shark", 44100, "1.26", "90", "113.40", 113, "company-net-revenue-monthly-reward", "0.002"),
+        (8, "Leviathan", 62800, "1.33", "120", "159.60", 160, "company-net-revenue-monthly-reward", "0.002"),
+        (9, "Kraken", 87300, "1.41", "150", "211.50", 212, "company-net-revenue-monthly-reward", "0.002"),
+        (10, "Megalodon", 120000, "1.50", "180", "270.00", 270, "company-net-revenue-monthly-reward", "0.002"),
+    ]
+    levels = payload.get("levels")
+    if not isinstance(levels, list) or len(levels) != len(expected):
+        findings.error("Gamification registry must contain the ten live levels")
+        return
+    for index, expected_row in enumerate(expected):
+        level = levels[index]
+        reward = level.get("balance_reward", {})
+        actual_row = (
+            level.get("level"),
+            level.get("name"),
+            level.get("xp_threshold"),
+            level.get("xp_multiplier"),
+            level.get("daily_xp_claim_base"),
+            level.get("daily_xp_claim_credited"),
+            level.get("daily_xp_claim_display"),
+            reward.get("type"),
+            reward.get("rate_percent"),
+        )
+        if actual_row != expected_row:
+            findings.error(f"Gamification level {index + 1} does not match the live canon")
+            continue
+        credited = Decimal(level["daily_xp_claim_base"]) * Decimal(level["xp_multiplier"])
+        if credited != Decimal(level["daily_xp_claim_credited"]):
+            findings.error(f"Gamification level {index + 1} has incorrect exact XP")
+        display = int(credited.quantize(Decimal("1"), rounding=ROUND_HALF_UP))
+        if display != level["daily_xp_claim_display"]:
+            findings.error(f"Gamification level {index + 1} has incorrect display rounding")
+        if Decimal(reward["rate_percent"]) / Decimal("100") != Decimal(reward["rate_decimal"]):
+            findings.error(f"Gamification level {index + 1} has inconsistent reward units")
+    if payload.get("configuration_id") != "WCF-GAMIFICATION-LIVE-2026-08-10":
+        findings.error("Gamification configuration ID is incorrect")
+    else:
+        findings.ok("Checked live gamification calculations")
+
+
+def validate_security_assessment(root: Path, findings: Findings) -> None:
+    payload = load_json(root / "data" / "security-assessments.json", findings)
+    if not isinstance(payload, dict):
+        return
+    records = payload.get("records")
+    if not isinstance(records, list):
+        findings.error("Security assessment records must be an array")
+        return
+    assessment = next(
+        (
+            record
+            for record in records
+            if isinstance(record, dict) and record.get("assessment_id") == "WCF-SARV-2026-0810"
+        ),
+        None,
+    )
+    if assessment is None:
+        findings.error("Security assessment WCF-SARV-2026-0810 is missing")
+        return
+    expected_hash = "c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918"
+    artifact = assessment.get("artifact", {})
+    artifact_path = (root / str(artifact.get("path", ""))).resolve()
+    try:
+        artifact_path.relative_to(root.resolve())
+    except ValueError:
+        findings.error("Security assessment artifact path escapes the repository")
+        return
+    if not artifact_path.is_file():
+        findings.error("Security assessment PDF is missing")
+        return
+    actual_hash = hashlib.sha256(artifact_path.read_bytes()).hexdigest()
+    if artifact.get("sha256") != expected_hash or actual_hash != expected_hash:
+        findings.error("Security assessment PDF hash mismatch")
+    scope = assessment.get("scope", {})
+    results = assessment.get("finding_summary", {})
+    checks = assessment.get("automated_revalidation", {})
+    if (
+        assessment.get("provider_relationship") != "first-party"
+        or assessment.get("independent_third_party_audit") is not False
+        or scope.get("chain_id") != 31337
+        or scope.get("production_deployment_coverage") != []
+        or (results.get("total"), results.get("resolved"), results.get("open")) != (17, 17, 0)
+        or (checks.get("total_checks"), checks.get("passed"), checks.get("failed")) != (31, 31, 0)
+    ):
+        findings.error("Security assessment scope or result metadata is incorrect")
+    else:
+        findings.ok("Checked WCF-SARV-2026-0810 artifact and scope")
 
 
 def print_report(findings: Findings) -> None:
@@ -363,6 +510,8 @@ def main() -> int:
     validate_markdown(root, linked_paths, args.canonical_origin, findings)
     validate_json_files(root, findings)
     validate_product_versions(root, args.enforce_current_canon, findings)
+    validate_gamification(root, findings)
+    validate_security_assessment(root, findings)
     validate_current_legal_record(root, findings)
     print_report(findings)
     return 1 if findings.errors else 0

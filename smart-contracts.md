@@ -4,7 +4,7 @@ description: "A compartmentalized on-chain system that replaces the privileged m
 canonical: "https://docs.whale-cefi.com/smart-contracts"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 ---
 
 # Smart Contracts
@@ -14,6 +14,8 @@ A compartmentalized on-chain system that replaces the privileged monolithic stak
 ![Protocol Architecture](./assets/visuals/heroes/12-contract-assurance.png)
 
 The canonical contract system separates product definition, asset custody, position accounting, reward funding, strategy allocation, emergency control, and governance. No contract combines all of these powers, and no externally owned account can exercise privileged authority alone.
+
+The published [Audit Findings and Remediation](smart-contracts/audit-findings-and-remediation.md) page links assessment `WCF-SARV-2026-0810`, its original PDF, SHA-256, exact-build closure result, and production-coverage boundary.
 
 ![Contract domain architecture](./assets/visuals/diagrams/contract-domains.svg)
 

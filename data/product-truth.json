@@ -1,23 +1,28 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "release_status": "official-release",
   "canonical_domain": "whale-cefi.com",
   "canonical_documentation_origin": "https://docs.whale-cefi.com",
-  "effective_at": "2026-07-29T00:00:00+03:00",
+  "effective_at": "2026-08-10T00:00:00Z",
   "material_decisions": {
     "product_brand": "Whale CeFi",
-    "stewardship_entity": "Whale Foundation",
-    "stewardship_entity_registration_status": "officially-registered",
-    "location": "Abu Dhabi, United Arab Emirates",
+    "product_form": "technology-interface-and-brand",
+    "customer_contracting_and_operating_entity": "Pulpo Fintech, S.A. de C.V.",
+    "operator_registration": "PSAD-0023",
+    "governing_jurisdiction": "El Salvador",
+    "institutional_custody_provider": "Coinbase Custody Trust Company, LLC",
+    "strategic_backing_entity": "Coinbase Ventures, LLC",
     "locked_reward_model": "fixed-contractual",
     "flexible_reward_model": "prospective-variable",
     "rate_unit": "monthly-reward-rate",
     "minimum_deposit_usd_equivalent": 50,
     "platform_deposit_fee": 0,
     "platform_withdrawal_fee": 0,
+    "gamification_configuration": "WCF-GAMIFICATION-LIVE-2026-08-10",
     "auditors": [
       "Eter",
       "Hashlock"
-    ]
+    ],
+    "published_first_party_security_assessment": "WCF-SARV-2026-0810"
   }
 }
