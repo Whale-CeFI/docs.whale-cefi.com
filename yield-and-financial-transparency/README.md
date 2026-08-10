@@ -5,82 +5,143 @@ document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
 description: >-
-  Whale CeFi separates customer principal, productive yield and any verified
-  growth-support funding so that the economic source of a reward can be traced.
+  How Whale CeFi combines productive external economics with an investor-funded
+  Marketing Incentive Pool while keeping customer principal, reward liabilities
+  and platform capital separate.
 ---
 
 # Yield and Financial Transparency
 
-Reward begins with an economic source and a funding decision, not with a percentage on a screen.
+A reward rate begins with an economic source, a budget decision and an accepted product version — not with a percentage placed on a screen.
 
-Whale CeFi separates customer principal, productive external yield, any verified growth-support capital, reward liabilities, reserves and platform revenue. This separation is fundamental to explaining how a product rate can be structured without treating customer deposits as company financing.
+Whale CeFi’s early-growth model is designed around a simple principle: part of the capital that would normally be spent only on advertising and short-lived acquisition is directed into measurable value for the users who actually enter the product, place assets and help form the first durable product cohort.
+
+This does not replace the underlying product economy. It supplements it for a defined early-growth period.
 
 {% hint style="info" %}
-**Evidence boundary:** growth-support capital is a permitted funding mechanism, not a factual claim about the source mix of every current product. A current cohort can be described as growth-supported only when a funded allocation is present in the applicable product-version or capacity evidence.
+**Current model:** Whale CeFi separates productive external economics from an investor-funded Marketing Incentive Pool. The exact source mix, allocation, cap and remaining runway for a product cohort remain versioned product and funding facts; they are not inferred from the displayed rate alone.
 {% endhint %}
 
-## Users and investors are different economic roles
+### The economic model in one line
 
-A user who opens a Whale CeFi earning or staking position is a customer of the product. That action does not make the user an equity investor, shareholder or venture investor in any Whale CeFi project or group entity.
+The user-facing monthly reward rate can contain two separately controlled components:
 
-Corporate financing, where applicable, is raised under separate corporate instruments. Where part of such capital is approved for product bootstrapping, it must be transferred or allocated into a controlled growth-support budget before it can be counted as reward funding.
+**R\_user,v = R\_base,v + R\_growth,v**
 
-Customer principal remains outside that budget.
+where:
 
-## Constitutional separation
+* R\_user,v is the monthly reward rate offered under product version v;
+* R\_base,v is the Base Product Reward supported by approved productive external economics;
+* R\_growth,v is the temporary Growth Uplift released from the Marketing Incentive Pool.
 
-| Economic class            | Meaning                                                                                                          | Permitted use                                                                   |
-| ------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Customer principal        | Asset owed to the user under the applicable product structure                                                    | Custody, approved strategy deployment and settlement back to the entitled user  |
-| Realized external income  | Income generated and recognized from an approved network, protocol, lending, liquidity or institutional strategy | Costs, reserves, user rewards and residual platform revenue under the waterfall |
-| Reward liability          | Amount owed under an active product version                                                                      | Settlement to the entitled user only                                            |
-| Growth-support allocation | Verified finite corporate capital committed before a supported reward obligation is offered                      | Named product, cohort, asset, period and approved programme only                |
-| Coverage capital          | Approved buffer for shortfall and risk treatment                                                                 | Declared shortfall and resolution rules                                         |
-| Platform revenue          | Residual earned after costs, reserves and user obligations                                                       | Corporate use after recognition and reconciliation                              |
+The formula explains the commercial structure. It does not mean that every month’s realized strategy result is mechanically passed through at the same percentage. Product rates are opened only inside approved funding, liquidity, reserve and risk capacity.
 
-## Two-layer reward economics
+### Users and investors have different roles
 
-The user-facing rate may have more than one separately controlled source.
+A user who opens an earning or staking position is a customer of the product. That action does not make the user a shareholder, venture investor or equity holder in a Whale CeFi project or group entity.
 
-### Layer A — productive external economics
+Project investors finance technology, operations and growth through separate corporate arrangements. Under the current early-growth strategy, part of the investor-funded strategic marketing budget is assigned to a controlled Marketing Incentive Pool before it can support user reward obligations.
 
-Depending on the approved route, permitted sources can include native staking, validator rewards, institutional or overcollateralized lending, DeFi lending, protocol liquidity fees, market-neutral basis or funding strategies, contractual rebates and other specifically approved sources. A source is current only when the applicable product and source records identify it.
+Customer principal remains outside that pool.
 
-### Layer B — finite growth support
+### Economic separation
 
-During an early growth phase, a product may supplement productive yield using corporate capital already committed to a defined incentive programme. Such capital may ultimately originate from financing raised by an applicable project or group entity from shareholders or strategic investors, but the financing itself is not automatically a reward pool.
+| Economic class                | Meaning                                                                                          | Permitted use                                                                                       |
+| ----------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Customer principal            | Asset owed to the user under the accepted product structure                                      | Custody, approved deployment and settlement back to the entitled user                               |
+| Productive external economics | Recognized net economics from approved staking, lending, liquidity, spread or contractual routes | Costs, reserves, Base Product Reward and residual platform economics under the applicable waterfall |
+| Marketing Incentive Pool      | Finite investor-funded growth budget formally allocated to eligible product cohorts              | Temporary Growth Uplift for the named asset, cohort, period and product version                     |
+| Reward liability              | Amount owed under an accepted product version                                                    | Settlement to the entitled user only                                                                |
+| Coverage capital              | Approved shortfall and risk buffer                                                               | Declared coverage and resolution rules                                                              |
+| Platform revenue              | Residual economics after user obligations, costs and reserves                                    | Corporate use after recognition and reconciliation                                                  |
 
-Only the amount that has been formally approved, actually funded, segregated and capacity-reserved can be recognized as eligible growth-support funding.
+### Why direct part of the marketing budget to users?
 
-The purpose can be to bootstrap product adoption through measurable participation such as user acquisition, retention, TVL formation, liquidity depth and ecosystem scale. This is economically different from claiming that an underlying protocol naturally generates the full displayed reward rate.
+Traditional acquisition can consume substantial capital before a user receives any product value. Impressions, sponsorships, affiliate payouts and registration bonuses can create traffic without creating informed, active or retained users.
 
-## Why rates can be higher early and lower later
+Whale CeFi uses a user-aligned acquisition model. A defined part of the early-growth budget is released only against real product participation and covered reward obligations. The intended result is that more of the cost of growth reaches the people who actually use the product.
 
-Where a finite growth-support pool is active, it has a finite runway.
+The commercial logic is:
 
-At an early stage, a relatively small eligible capital base can receive a larger incentive contribution per unit of TVL. As participation and TVL expand, the same committed pool can support a larger base and the marginal incentive available to new positions can decline.
+1. project investors fund the strategic growth and marketing budget;
+2. an approved portion is segregated into the Marketing Incentive Pool;
+3. the pool temporarily raises the reward rate available to eligible early cohorts;
+4. stronger early terms support user acquisition, TVL formation, liquidity depth and retention;
+5. the product gains an active base before the wider token and brand campaign;
+6. long-term retention progressively shifts toward WENI, XP, seasons, Learn-to-Earn and ecosystem utility.
 
-The rate-governance process can therefore consider TVL together with realized yield, remaining verified incentive runway, liquidity, strategy capacity, counterparty concentration, maturity profile, reserves, stress tests, custody and legal limits.
+The Growth Uplift is therefore a customer-acquisition instrument expressed through product value. It is not a claim that the underlying blockchain naturally produces the entire displayed percentage.
 
-This can lead to lower rates for new product versions as the platform matures. Whale CeFi does not publish an automatic promise that a particular user count, TVL level or date will produce a specific future percentage.
+### Why early rates can be higher
 
-## Anti-pyramid invariants
+At the beginning of the programme, eligible TVL is smaller. A finite Marketing Incentive Pool can therefore contribute more support per unit of eligible capital.
 
-1. A new user's principal cannot settle an older user's reward.
-2. Principal, reward funding, fees and platform capital occupy distinct ledger accounts and custody scopes.
-3. A fixed reward obligation cannot be created without forward funding coverage.
-4. Productive yield and company-funded support, when both are used, must be disclosed separately.
-5. Unrealized token appreciation, unclaimed emissions, future fundraising or projected strategy profit cannot be credited as realized reward funding.
+A useful planning relationship is:
+
+**Indicative Growth Uplift capacity ≈ allocatable Marketing Incentive Pool for the period ÷ projected eligible TVL for the period**
+
+This is a capacity model, not an automatic public rate formula.
+
+The relevant denominator is eligible TVL, not the raw number of registered accounts. Ten thousand small accounts and ten thousand large positions create very different funding requirements.
+
+### Why rates can normalize as Whale CeFi grows
+
+As eligible TVL and the number of covered positions increase, the same finite pool is distributed across a larger capital base. Unless additional approved budget or stronger realized product economics offsets that growth, the Growth Uplift available to new positions declines.
+
+New-position rate governance therefore evaluates:
+
+* remaining Marketing Incentive Pool and runway;
+* active and projected eligible TVL;
+* realized and stressed external economics;
+* strategy and counterparty capacity;
+* liquidity and maturity concentration;
+* custody, network and execution limits;
+* reserve and stress requirements;
+* operating costs and regional availability.
+
+TVL is an important input, but it does not mechanically set the rate. Whale CeFi does not promise that one user count, TVL threshold or calendar date will always produce a specific percentage.
+
+### Position-version protection
+
+Rate normalization changes newly offered product versions; it does not rewrite an already accepted Locked position.
+
+* An accepted Locked position retains its asset, term, monthly rate, calculation rules and maturity treatment for the accepted term.
+* A later public rate applies to positions opened under the later product version.
+* A Flexible rate can change only prospectively under its notice and effective-time rules.
+* Already posted reward is not recalculated merely because the public rate card changes.
+
+The user does not need to assume that “more TVL” can silently dilute an existing Locked obligation.
+
+### From early incentive to durable ecosystem
+
+The Marketing Incentive Pool is finite by design. It starts the growth loop; it is not intended to be the only reason to remain in the ecosystem.
+
+WENI, XP, seasons, achievements and Learn-to-Earn operate as separate product and progression systems. They do not become financial reward sources unless a specific product rule creates a separate entitlement.
+
+The intended transition is:
+
+1. the early rate attracts the first serious cohorts;
+2. WENI improves understanding and decision quality;
+3. XP and seasons create visible progression;
+4. Learn-to-Earn develops user competence;
+5. community and product utility improve retention;
+6. the Growth Uplift for new positions normalizes as the platform scales.
+
+### Non-negotiable funding invariants
+
+1. A new user’s principal cannot settle an older user’s reward.
+2. Customer principal, productive income, the Marketing Incentive Pool, reward liabilities, fees, reserves and platform capital occupy distinct accounts and control scopes.
+3. A fixed reward obligation cannot be opened without forward funding and capacity coverage.
+4. Productive external economics and Growth Uplift must remain separately attributable.
+5. Future fundraising, projected strategy profit, unliquidated self-issued tokens and expected future deposits are not current reward funding.
 6. Capacity closes when funding, liquidity, solvency, counterparty, custody, network, legal or operational limits are reached.
-7. Referral and gamification rewards use finite, separately identified budgets.
-8. Every correction posts through a new journal; historical reward records are never edited in place.
+7. Referral and gamification budgets remain separate from the financial reward ledger.
+8. Historical reward records are corrected through new journal entries, never rewritten in place.
 
-## Position-level source binding
+### Position-level source binding
 
-Under the controlled architecture, each product position is bound to a versioned funding policy or equivalent source-policy reference. That policy identifies permitted sources, allocation priority, fee split, reserve target, verified committed incentive amount where applicable, capacity reservation, loss treatment, maturity match and change authority.
-
-Because the funding policy is bound to the product version, the original economics should remain reproducible after the public catalogue changes.
+Each product position is bound to a versioned funding and source policy. The policy identifies the permitted productive routes, Marketing Incentive Pool allocation where applicable, allocation priority, reserve target, capacity reservation, loss treatment, maturity match and change authority.
 
 {% hint style="success" %}
-**Source-of-funds test:** a reward should be traceable from the user statement to a ledger journal, funding account, external settlement and, where applicable, an approved release from a verified committed growth-support pool.
+**Source-of-funds test:** a reward should be traceable from the user statement to its rate version, calculation journal, productive-income account and, where applicable, an approved release from the Marketing Incentive Pool.
 {% endhint %}

@@ -7,80 +7,100 @@ audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-21
 description: >-
-  Controlled specification for product reward rates, productive yield,
-  growth-support capital, accrual and funding capacity.
+  Controlled specification for Base Product Reward, investor-funded Growth
+  Uplift, rate versioning, accrual and capacity.
 ---
 
 # Product Yield, Reward Funding, and Accrual
 
-**Product Yield, Reward Funding, and Accrual** defines the controlled engineering contract for Whale CeFi product economics: rate versioning, source attribution, growth-support capital, deterministic accrual, capacity and financial evidence.
+**Product Yield, Reward Funding, and Accrual** defines the controlled engineering contract for Whale CeFi product economics: rate versioning, source attribution, Marketing Incentive Pool releases, deterministic accrual, capacity and financial evidence.
 
-## Core specification
+### Core specification
 
 **Claim state:** RELEASED / CONTROLLED SYSTEM SPECIFICATION
 
-The user-facing rate, accrued reward liability and economic source that funds it are separate controlled objects. A rate can be supported by recognized external strategy income and, where a verified allocation exists, by finite corporate capital committed to an incentive cohort. Customer principal is never reward income.
+The user-facing monthly reward rate, accrued reward liability and sources that fund it are separate controlled objects.
+
+**R\_user,v = R\_base,v + R\_growth,v**
+
+The Base Product Reward is supported by recognized net economics from approved productive routes. The temporary Growth Uplift is released from a finite Marketing Incentive Pool funded from the strategic growth and marketing budget provided by project investors.
+
+Customer principal is never reward income.
 
 {% hint style="warning" %}
-**Specification is not proof of a live allocation.** This chapter defines how growth-support capital must be controlled if it is used. A current claim that a product or cohort is funded by corporate or investor-originated capital requires a separate evidence record identifying the responsible legal entity, funded amount or cap, effective period, remaining runway and reconciliation state.
+**Source evidence remains versioned.** The commercial model is active, while the exact allocation, cap, effective period, release schedule and remaining runway for each cohort must be established by its product and funding records.
 {% endhint %}
 
-### Economic-role separation
+#### Economic-role separation
 
-* **Customer:** opens a product position and retains the applicable contractual asset rights. Product use does not create equity ownership in a Whale CeFi project or group entity.
-* **Corporate investor / shareholder:** finances an applicable company or group entity under a separate corporate instrument. That financing is corporate capital, not customer principal.
-* **Growth-support allocation:** where used, a defined portion of corporate capital that has been formally approved, funded, segregated and reserved for an incentive cohort.
-* **Productive-yield source:** an approved external route that generates economic income from network, protocol, lending, liquidity, spread or contractual activity.
+* **Customer:** opens a product position and retains the applicable contractual asset rights.
+* **Project investor or shareholder:** finances the applicable company or group entity under a separate corporate instrument.
+* **Strategic Growth Budget:** investor-funded capital approved for technology, operations, marketing and ecosystem growth.
+* **Marketing Incentive Pool:** the funded, segregated and assigned portion of that budget available for eligible product cohorts.
+* **Growth Uplift:** the temporary rate component released from the Marketing Incentive Pool.
+* **Productive-economics source:** an approved external route that generates recognized economic income.
 
-### Normative design rules
+#### Normative design rules
 
-* Monthly reward rate is never relabelled APR or APY.
+* The native product unit is monthly reward rate and is never silently relabelled APR or APY.
 * Locked positions retain the accepted rate version; Flexible changes are prospective and notice-controlled.
-* Accrual, source funding and payment remain separate ledger states.
-* Productive external yield and company-funded growth support, when both are used, require different source accounts and evidence.
-* Corporate financing is not counted as reward coverage until a specific funded allocation is committed to a product or cohort.
+* Accrual, source recognition, incentive release and payment remain separate ledger states.
+* Productive external economics and Growth Uplift use separate source accounts and evidence.
+* Project-investor financing enters reward coverage only through a funded Marketing Incentive Pool allocation assigned to a product or cohort.
 * Customer principal, later subscriptions, future fundraising and projected token appreciation are excluded from reward-source calculations.
-* Rate capacity must consider applicable TVL, remaining verified incentive runway, realized yield, liquidity, counterparty capacity, reserves, maturity concentration and stress limits.
-* When a finite support budget is used, growth in TVL can contribute to new-position rate normalization because the support budget is spread across a larger eligible capital base; no fixed public TVL-to-rate formula is implied.
+* Rate capacity considers eligible TVL, remaining incentive runway, realized economics, liquidity, counterparty capacity, reserves, maturity concentration and stress limits.
+* Growth in eligible TVL can reduce the Growth Uplift available per unit of new capital; no fixed public TVL-to-rate formula is implied.
+* XP, chests, referrals and progression remain outside the financial reward ledger unless a separate entitlement is created.
 
-## Reference architecture
+### Reference architecture
 
-| Layer | Component                    | Responsibility                                                                       |
-| ----- | ---------------------------- | ------------------------------------------------------------------------------------ |
-| L6    | Plan position                | Asset, eligible principal, term and accepted rate version                            |
-| L5    | Accrual engine               | Deterministic calculation from the signed product version                            |
-| L4    | Productive-yield attribution | Approved network, staking, lending, liquidity, spread or contractual strategy income |
-| L3    | Growth-support attribution   | Where applicable, verified committed incentive allocation and remaining runway       |
-| L2    | Funding and capacity control | Coverage versus reward liability, TVL, liquidity and stress limits                   |
-| L1    | Financial ledger             | Accrued, payable, settled, reversed and disputed reward states                       |
-| L0    | Statement + evidence         | User-visible amount linked to formula, source class and settlement state             |
+| Layer | Component                        | Responsibility                                                                 |
+| ----- | -------------------------------- | ------------------------------------------------------------------------------ |
+| L7    | Product position                 | Asset, eligible principal, term and accepted rate version                      |
+| L6    | Accrual engine                   | Deterministic calculation from the accepted product version                    |
+| L5    | Productive-economics attribution | Approved network, staking, lending, liquidity, spread or contractual economics |
+| L4    | Marketing Incentive Pool         | Funded allocation, cohort binding, release schedule and runway                 |
+| L3    | Growth Uplift attribution        | Released incentive amount mapped to reward liability                           |
+| L2    | Funding and capacity control     | Coverage versus liability, eligible TVL, liquidity and stress limits           |
+| L1    | Financial ledger                 | Accrued, payable, settled, reversed and disputed reward states                 |
+| L0    | Statement and evidence           | User-visible amount linked to formula, source class and settlement state       |
 
-## Capacity rule
+### Capacity rule
 
-A new fixed-rate obligation is accepted only when eligible forward coverage exceeds the remaining reward commitment plus operating, liquidity and stress buffers.
+A new fixed-rate obligation is accepted only when eligible forward coverage exceeds the maximum remaining reward commitment plus operating, liquidity and stress buffers.
 
-Eligible coverage can include realized-yield reserves, verified committed growth-support capital where applicable, approved coverage capital and enforceable receivables after policy haircuts.
+Eligible forward coverage can include realized-economics reserves, the funded Marketing Incentive Pool allocation, approved coverage capital and enforceable receivables after policy haircuts.
 
-Headline financing amounts, unallocated treasury cash and future investment commitments do not qualify by themselves.
+Headline financing amounts, unallocated treasury cash, future investment commitments and customer principal do not qualify.
 
-## Failure-mode analysis
+### Rate-governance input
 
-| Failure mode                | Failure effect                                                              | Primary control                                 | Required state                    |
-| --------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------- |
-| Funding shortfall           | Reward liability exceeds approved source coverage                           | Cohort coverage ratio and exposure cap          | **STOP NEW EXPOSURE**             |
-| Incentive runway exhaustion | A verified finite support budget no longer supports the offered rate        | Rate and capacity review                        | **NORMALIZE / CLOSE NEW VERSION** |
-| Source mislabelling         | Company-funded support appears as protocol yield                            | Source-specific ledger and disclosure           | **CORRECT + REVIEW**              |
-| Corporate-funding overclaim | Uncommitted or headline investment is presented as available reward capital | Committed-allocation evidence gate              | **REJECT CLAIM**                  |
-| Retroactive change          | Accepted entitlement changes silently                                       | Immutable rate binding and compensating journal | **REJECT**                        |
+For planning purposes:
 
-## Release evidence
+**Indicative Growth Uplift capacity ≈ allocatable incentive budget ÷ projected eligible TVL over the covered period**
 
-A production release that uses the relevant mechanism should preserve evidence for:
+The production decision additionally applies realized-economics, liquidity, reserve, counterparty, maturity, custody, network, legal and operational constraints.
+
+A rate change produces a new product version. It does not mutate an accepted Locked position.
+
+### Failure-mode analysis
+
+| Failure mode         | Failure effect                                                           | Primary control                                 | Required state                    |
+| -------------------- | ------------------------------------------------------------------------ | ----------------------------------------------- | --------------------------------- |
+| Funding shortfall    | Liability exceeds approved coverage                                      | Cohort coverage ratio and exposure cap          | **STOP NEW EXPOSURE**             |
+| Incentive exhaustion | Pool no longer supports the offered uplift                               | Rate and capacity review                        | **NORMALIZE / CLOSE NEW VERSION** |
+| Source mislabelling  | Growth Uplift appears as protocol yield                                  | Source-specific ledger and disclosure           | **CORRECT + REVIEW**              |
+| Budget overclaim     | Unfunded or headline investment is presented as available reward capital | Funded-allocation evidence gate                 | **REJECT CLAIM**                  |
+| Retroactive change   | Accepted entitlement changes silently                                    | Immutable rate binding and compensating journal | **REJECT**                        |
+
+### Release evidence
+
+A production release preserves:
 
 * current asset-specific rate matrix and product versions;
-* exact accrual and maturity formulas;
-* source register for productive strategies actually used;
-* verified committed growth-support allocation by cohort, if any, including responsible entity, cap and runway;
+* exact accrual, rounding and maturity formulas;
+* source register for productive routes actually used;
+* Marketing Incentive Pool allocation by cohort, including cap, effective period and runway;
 * reward-liability coverage and proof that customer principal is excluded;
-* rate-normalization decision history for new product versions where applicable;
-* legal approval of customer, corporate-investor and reward-source terminology.
+* rate-normalization decision history;
+* reconciliation between source recognition, incentive release, accrual and payment.

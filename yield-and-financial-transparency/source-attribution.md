@@ -5,58 +5,58 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: Yield is disclosed by source, not hidden inside one blended percentage.
+description: >-
+  Productive external economics and the investor-funded Growth Uplift are
+  disclosed as separate sources.
 ---
 
 # Source Attribution
 
-Yield is disclosed by source, not hidden inside one blended percentage.
+A product rate is disclosed by economic source rather than hidden inside one blended claim.
 
 {% hint style="info" %}
-**Source taxonomy, not an active-source claim:** the table below describes source classes that can be permitted by product policy. A source is active for a current product only when the applicable source record and product version identify it. Growth-support capital is a current source only when a funded allocation is evidenced.
+**Source rule:** the current early-growth model separates productive external economics from the Marketing Incentive Pool. A product or cohort source is active only when its product-version and funding records identify it.
 {% endhint %}
 
-| Source class                               | Economic origin                                                         | Recognition gate                                                                            | Principal risks                                        |
-| ------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Native validation                          | Protocol issuance and transaction fees                                  | Reward finalized, attributable, and net of validator costs and slashing                     | Slashing, lockup, validator, network                   |
-| Institutional / overcollateralized lending | Borrower or counterparty interest                                       | Interest settled or contractually receivable under an approved haircut                      | Counterparty, liquidation, oracle, liquidity           |
-| Protocol liquidity                         | Trading, lending or protocol usage fees                                 | Fees realized and withdrawable under the valuation policy                                   | Impermanent loss, depeg, smart contract, concentration |
-| Market-neutral spread                      | Basis, funding or matched spread                                        | Both legs reconciled; hedge and closeout costs recognized                                   | Basis break, exchange, margin, execution               |
-| Contractual economics                      | Rebate or revenue share                                                 | Counterparty statement and cash or asset settlement                                         | Counterparty, dispute, concentration                   |
-| Growth-support allocation                  | Pre-funded corporate capital specifically committed to a product cohort | Funds actually committed, ring-fenced, capacity-reserved and governed by an approved budget | Budget exhaustion, governance, runway                  |
-| Coverage capital                           | Platform-owned or operator-approved buffer                              | Release approved under the applicable shortfall policy                                      | Capital depletion                                      |
+| Source class                                | Economic origin                                                               | Recognition gate                                                           | Principal risks                                        |
+| ------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Native validation                           | Protocol issuance and transaction fees                                        | Reward finalized, attributable and net of validator costs and slashing     | Slashing, lockup, validator, network                   |
+| Institutional or overcollateralized lending | Borrower or counterparty interest                                             | Settled or contractually receivable under an approved haircut              | Counterparty, liquidation, oracle, liquidity           |
+| Protocol liquidity                          | Trading, lending or protocol usage fees                                       | Realized and withdrawable under the valuation policy                       | Impermanent loss, depeg, smart contract, concentration |
+| Market-neutral spread                       | Basis, funding or matched spread                                              | Both legs reconciled; hedge and closeout costs recognized                  | Basis break, exchange, margin, execution               |
+| Contractual economics                       | Rebate or revenue share                                                       | Counterparty statement and asset or cash settlement                        | Counterparty, dispute, concentration                   |
+| Marketing Incentive Pool                    | Investor-funded strategic growth budget allocated to eligible product cohorts | Approved, funded, segregated, assigned, capacity-reserved and time-bounded | Budget exhaustion, governance, runway                  |
+| Coverage capital                            | Platform-owned or operator-approved buffer                                    | Release approved under the applicable shortfall policy                     | Capital depletion                                      |
 
-## Productive yield versus growth support
+### Productive economics versus Growth Uplift
 
-Whale CeFi distinguishes two concepts that are often incorrectly blended in crypto marketing.
+**Productive external economics** are recognized net value generated by an approved network, protocol, counterparty or strategy route.
 
-**Productive yield** is value generated by an approved external strategy, network, protocol or counterparty.
+**Growth Uplift** is a temporary product incentive released from the Marketing Incentive Pool. The pool is funded from the project’s investor-backed strategic growth and marketing budget.
 
-**Growth support**, where used, is corporate capital committed in advance to accelerate product adoption. It may ultimately originate from shareholder or strategic-investor financing received by an applicable project or group entity, but it becomes eligible reward funding only after a specific allocation has been approved, funded and segregated for the relevant product or cohort.
+The existence of project financing is not by itself reward coverage. Only the amount that has been approved, actually funded, segregated, assigned to the applicable cohort and reserved against its obligations enters the reward model.
 
-A financing announcement by itself is not reward coverage. Uncommitted fundraising, future investment, investor reputation, projected valuation and undeployed corporate cash do not enter the reward calculation.
+### Why the two sources are combined
 
-## Why an early rate may exceed native staking yield
+A conventional marketing campaign spends capital primarily before the user receives value. Whale CeFi assigns part of the acquisition budget to covered product participation.
 
-An asset's native network yield is only one possible component of product economics. When an early cohort has a verified finite growth allocation, the user-facing rate can exceed the native staking return without claiming that the blockchain itself generated the entire amount.
+For a cohort that uses both components:
 
-For a funded cohort, the economic bridge is:
+**Available reward funding = recognized external economics + released Marketing Incentive Pool − execution costs − losses − required reserves**
 
-**external strategy income + released growth-support allocation − execution costs − losses − reserve requirements = funding available for user reward liabilities**
+This allows an early product rate to exceed the native staking return without claiming that the underlying blockchain generated the entire displayed percentage.
 
-For such a cohort, each component must remain separately attributable in the source and financial records.
+### TVL and rate normalization
 
-## TVL and rate normalization
+The Growth Uplift has a finite runway. When eligible TVL grows, the available pool is distributed across a larger capital base.
 
-Where an incentive component is active, it has a finite runway. When TVL and the number of eligible positions increase, the growth-support amount available per unit of new capital can decline unless new approved funding or higher realized external economics offset that growth.
+Rate governance evaluates TVL together with remaining budget, realized economics, strategy capacity, liquidity, maturity concentration, reserves and risk limits. There is no public rule that mechanically maps one TVL number to one guaranteed rate.
 
-Accordingly, rate governance can evaluate TVL together with remaining budget, strategy capacity, liquidity, risk limits, maturity concentration and realized yield. There is no public rule that mechanically maps one TVL number to one guaranteed rate.
+Normalization changes newly offered product versions. It does not retroactively rewrite an already accepted Locked rate.
 
-Rate normalization affects newly offered product versions. It does not retroactively rewrite an already accepted Locked rate.
+### Source record
 
-## The source record
-
-Every approved active source should have a versioned record containing:
+Every active source has a versioned record containing:
 
 * legal counterparty or protocol identity where applicable;
 * asset, network, contracts, accounts and custody route;
@@ -66,18 +66,18 @@ Every approved active source should have a versioned record containing:
 * liquidity, lockup, withdrawal and settlement horizon;
 * exposure cap and concentration group;
 * valuation source, haircut and stale-data rule;
-* incentive budget, remaining runway and release authority where applicable;
+* Marketing Incentive Pool cap, effective period, remaining runway and release authority where applicable;
 * operational owner and independent risk owner;
 * incident triggers, unwind route and evidence references.
 
-## Recognition rules
+### Recognition rules
 
-* Protocol emissions are measured in their native asset. A volatile reward token does not become stable-value income before the approved realization event.
+* Protocol emissions are measured in their native asset and become distributable only under the approved realization rule.
 * Borrower or counterparty interest cannot be recognized twice as both accrual and settlement.
 * A disputed, encumbered or illiquid receivable receives a zero or risk-adjusted value under policy.
-* A source failure remains visible. Company-funded support cannot be relabeled as protocol-derived yield.
-* Investor or shareholder financing is recognized as corporate capital first; only an approved and funded allocation can become a growth-support source.
+* Growth Uplift cannot be relabelled as protocol-derived yield.
+* Investor funding is corporate capital first; only an approved and funded Marketing Incentive Pool allocation becomes a reward source.
 
-## Prohibited sources
+### Prohibited sources
 
 Incoming customer principal, later customer deposits, circular borrowing, self-issued unliquidated tokens, uncommitted fundraising, referral deposits, projected token appreciation and accounting reclassifications are never valid reward-funding sources.

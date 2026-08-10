@@ -5,57 +5,78 @@ document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
 description: >-
-  Whale CeFi opens new reward obligations only within approved productive-yield,
-  growth-support and capacity limits.
+  Evidence for productive economics, the investor-funded Marketing Incentive
+  Pool, reward liabilities and remaining capacity.
 ---
 
 # Funding and Capacity
 
-Whale CeFi opens new reward obligations only within approved funding and capacity limits.
+Whale CeFi opens new reward obligations only within approved funding, liquidity and risk capacity.
 
 {% hint style="info" %}
-**Evidence boundary:** this page defines what counts as eligible coverage and what evidence a growth-supported cohort must expose. It does not state a current growth-support amount, investor contribution or runway unless those values are present in the applicable evidence record.
+**Current model:** the early-growth programme uses productive external economics together with a finite Marketing Incentive Pool funded from the project’s investor-backed strategic growth budget. Exact cohort allocations and runway remain versioned evidence.
 {% endhint %}
 
-## Funding waterfall
+### Funding waterfall
 
-Eligible funding for a product cohort can include, according to its applicable policy:
+Eligible funding for a product cohort can include:
 
-1. Realized external income attributable to an approved strategy or counterparty.
-2. A segregated pre-funded growth-support pool committed to the product version, where such a pool has been approved and funded.
-3. Explicitly allocated platform coverage capital within the approved risk limit.
+1. recognized net economics attributable to an approved strategy or counterparty;
+2. a funded Marketing Incentive Pool allocation assigned to the product version;
+3. explicitly approved coverage capital within its risk limit.
 
-Customer principal is not recognized as reward income and cannot settle an older customer reward.
+Customer principal is not reward income and cannot settle an older customer’s reward.
 
-## What “pre-funded growth support” means
+### What the Marketing Incentive Pool means
 
-Corporate financing and customer staking are different things.
+Project-investor capital and customer staking are different economic classes.
 
-Capital raised by an applicable project or group entity from shareholders or strategic investors belongs to the corporate funding structure of that entity. A customer does not become one of those investors by opening a staking or earning position.
-
-Where an applicable entity chooses to use part of its own financed capital to accelerate product adoption, the amount must first be:
+A defined portion of the strategic growth and marketing budget becomes eligible product funding only after it has been:
 
 * formally approved;
 * actually funded;
 * segregated from customer principal;
 * assigned to a named product or cohort;
 * capped and time-bounded;
-* included in the relevant funding and capacity record.
+* capacity-reserved against the obligations it can create;
+* included in the applicable funding and reconciliation record.
 
-Only then can that amount be represented as support for an elevated user reward rate.
+The resulting release is the Growth Uplift. It supplements the Base Product Reward for eligible early positions.
 
-## Why the support is finite
+### Why the pool is finite
 
-A growth-support allocation, when used, is a finite budget for a defined product purpose. It is not a permanent promise that every future cohort will receive the same rate.
+The pool is an acquisition and ecosystem-formation budget, not a permanent promise that every future cohort will receive the same rate.
 
-As TVL and the number of eligible positions grow, the support available per unit of new capital can fall. New rates can therefore be reviewed against incentive runway, external strategy economics, liquidity, reserves and risk capacity.
+As eligible TVL increases, the Growth Uplift available per unit of new capital can fall. New rates are therefore reviewed against:
 
-No specific future percentage is guaranteed solely by a TVL threshold or user count.
+* remaining Marketing Incentive Pool and runway;
+* active and projected eligible TVL;
+* realized and stressed external economics;
+* liquidity, reserves and maturity concentration;
+* strategy, counterparty, custody and network capacity;
+* operating and execution costs.
 
-## Capacity record
+No specific future percentage is guaranteed solely by a TVL threshold, user count or date.
 
-For a cohort that uses growth support, the capacity record should show principal liabilities, accrued reward liabilities, realized-yield reserves, immediately liquid reserves, encumbered assets, the verified committed growth-support amount, total and liquid coverage, remaining capacity, remaining incentive runway, observation time, attestation status and stress limits.
+### Position protection
 
-If no verified committed allocation is present, the documentation must not imply that investor or corporate financing is currently funding that cohort's reward rate.
+A threshold breach blocks new exposure before changing an existing obligation.
 
-When a threshold is breached, the control model blocks new exposure before changing an existing obligation. Remediation can include capacity reduction, prospective rate normalization, additional approved funding, strategy reduction, exit-only state or a formal incident process.
+* Existing Locked positions retain their accepted product version.
+* Flexible changes apply only prospectively under the applicable notice rule.
+* Already posted reward is not reversed because a later rate is lower.
+
+### Capacity record
+
+The capacity record shows:
+
+* customer principal liability;
+* accrued and maximum remaining reward liability;
+* realized-economics reserve;
+* released and remaining Marketing Incentive Pool;
+* immediately liquid and encumbered assets;
+* total and liquid coverage;
+* remaining product capacity and incentive runway;
+* observation time, reconciliation state and stress limits.
+
+If the record cannot cover a new obligation, remediation can include prospective rate normalization, capacity reduction, additional approved funding, strategy reduction, exit-only state or a formal incident process.

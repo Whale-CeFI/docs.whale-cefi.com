@@ -6,92 +6,100 @@ document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
 description: >-
-  Rates are opened only within approved productive-yield, incentive, liquidity
-  and risk capacity.
+  How Whale CeFi opens rates within productive-economics, Marketing Incentive
+  Pool, liquidity and risk capacity.
 ---
 
 # Rates, Capacity, and Prefunding
 
-A displayed rate becomes available for a new position only after the applicable product controls establish sufficient approved capacity and reward funding for the obligation being accepted.
+A displayed rate becomes available for a new position only after the applicable product controls establish sufficient funding, liquidity and risk capacity for the obligation being accepted.
 
-The current asset-specific rate matrix is published in Rates and Reward Mathematics. Position confirmation remains authoritative for an accepted product version.
+The current asset-specific matrix is published in Current Rate Card. Position confirmation remains authoritative for the product version accepted by the user.
 
 {% hint style="info" %}
-**Evidence boundary:** this page defines how a growth-support allocation would enter rate capacity. It is not evidence that a current product has such an allocation. A live allocation requires a funded and versioned record.
+**Current model:** the early-growth programme can combine a Base Product Reward with a Growth Uplift released from an investor-funded Marketing Incentive Pool. The exact allocation, cap and runway are versioned funding facts.
 {% endhint %}
 
-## What supports a rate
+### What supports a rate
 
-Rate coverage can consist of:
+Rate capacity can consist of:
 
-1. recognized external income from approved staking, lending, liquidity, market-neutral or contractual strategy routes;
-2. where applicable, a segregated and verified pre-funded growth-support allocation committed to the relevant product or cohort;
+1. recognized net economics from approved staking, lending, liquidity, market-neutral or contractual routes;
+2. a segregated Marketing Incentive Pool allocation committed to the relevant product or cohort;
 3. approved coverage capital within defined risk limits.
 
 Customer principal is not reward coverage.
 
-## Growth-support prefunding
+### Marketing Incentive Pool prefunding
 
-A project or group entity may raise capital from shareholders or strategic investors for technology development, operations and growth. Under the control model, that financing remains corporate capital until a specific amount is formally approved and funded for a defined product incentive programme.
+Project investors finance a strategic budget for technology, operations and growth. Under Whale CeFi’s early-growth model, a defined part of that budget can be assigned to product acquisition through a Marketing Incentive Pool.
 
-Only that verified committed allocation can enter the rate-capacity calculation. The system must not count:
+Before it can support a rate, the allocation must be:
 
-* the headline size of a financing round;
-* investor commitments not yet funded;
-* future fundraising;
-* projected token value;
-* unallocated treasury balances;
-* expected future customer deposits.
+* approved by the applicable authorities;
+* actually funded;
+* segregated from customer principal and general treasury cash;
+* assigned to named assets, product versions or cohorts;
+* capped and time-bounded;
+* capacity-reserved against the obligations it can create.
 
-This prevents a marketing claim about corporate financing from being confused with actual reward coverage.
+The rate-capacity calculation does not count headline investment-round size, unfunded commitments, future fundraising, projected token value, unallocated treasury balances or expected future deposits.
 
-## Prefunding gate for Locked products
+### Prefunding gate for Locked products
 
 Before a fixed-rate position is accepted:
 
-\[ EFC\_c \geq MRC\_c + OCB\_c ]
+**EFC\_c ≥ MRC\_c + OCB\_c**
 
 where:
 
-* **EFC** is eligible forward coverage for cohort (c): realized-yield reserve, verified committed growth-support capital where applicable, approved coverage capital and legally enforceable receivables after haircut;
-* **MRC** is the maximum remaining contractual reward commitment of the cohort;
+* **EFC** is eligible forward coverage for cohort c: realized-economics reserves, the verified Marketing Incentive Pool allocation, approved coverage capital and enforceable receivables after policy haircuts;
+* **MRC** is the maximum remaining contractual reward commitment for the cohort;
 * **OCB** is the operating, settlement, liquidity and stress-cost buffer.
 
-Uncommitted forecasts and customer principal do not count as eligible reward coverage.
+Uncommitted forecasts and customer principal do not count as eligible forward coverage.
 
-## TVL, incentive runway and rate normalization
+### Eligible TVL and Growth Uplift capacity
 
-Where a finite support pool is used, TVL matters because that pool supports a growing base of eligible positions. As TVL increases, the incentive contribution available per unit of new capital can decrease.
+The Growth Uplift is finite. A planning approximation is:
 
-However, Whale CeFi does not use a simplistic public rule such as “TVL reaches X, rate becomes Y”. New-position rate decisions can be based on the combined state of:
+**Growth Uplift capacity per unit ≈ allocatable incentive budget for the period ÷ projected eligible TVL for the period**
 
-* active TVL and cohort size;
-* remaining verified incentive budget and runway;
-* realized and stressed external yield;
+Eligible TVL is the covered principal to which a specific programme applies. Raw registration count is not the denominator.
+
+As eligible TVL grows, the support available per unit of new capital can decrease unless additional approved budget or stronger realized external economics offsets the expansion.
+
+### Rate normalization
+
+Whale CeFi does not use a simplistic promise such as “TVL reaches X, rate becomes Y”. New-position decisions use the combined state of:
+
+* active and projected eligible TVL;
+* remaining Marketing Incentive Pool and runway;
+* realized and stressed external economics;
 * strategy and counterparty capacity;
 * liquidity and maturity concentration;
 * custody, network and execution limits;
 * reserve and stress buffers;
-* legal and regional constraints.
+* operating costs and regional constraints.
 
-This is one economic reason an early launch cohort can receive a stronger rate than a later, larger cohort when a finite incentive allocation is actually present.
+An early cohort can therefore receive a stronger rate than a later, larger cohort. The change is applied through a new product version rather than through dilution of an existing Locked position.
 
-## Capacity is the smallest safe limit
+### Capacity is the smallest safe limit
 
-\[ \text{Capacity} = \min( \text{Funding}, \text{Strategy}, \text{Liquidity}, \text{Counterparty}, \text{Custody}, \text{Network}, \text{Operations}, \text{Legal} ) ]
+**Capacity = minimum of Funding, Strategy, Liquidity, Counterparty, Custody, Network, Operations and Legal capacity**
 
-Each accepted position consumes the applicable capacity. Maturity, verified cancellation, realized strategy income or newly approved committed funding can release capacity. Concurrent requests cannot reserve the same coverage twice.
+Each accepted position consumes the applicable capacity. Maturity, verified cancellation, realized economics or newly approved funded allocation can release capacity. Concurrent requests cannot reserve the same coverage twice.
 
-## Locked and Flexible treatment
+### Locked and Flexible treatment
 
-An accepted Locked position retains its agreed product version for its term, subject to the applicable legal terms. Later rate normalization affects new offers rather than rewriting an existing contractual rate.
+An accepted Locked position retains its asset, term, monthly rate and calculation version until maturity under the accepted product rules. Later normalization applies to new offers.
 
-Flexible reward liability is measured continuously. A Flexible rate reduction can apply only prospectively after the configured notice and effective time. The platform cannot repair a funding gap by reversing already posted reward.
+Flexible reward liability is measured continuously. A Flexible rate reduction applies only prospectively after the configured notice and effective time. Already posted reward is not reversed to repair a later funding gap.
 
-## Governance
+### Governance
 
-* Rate proposal, any growth-budget allocation, treasury funding, risk approval and publication must remain separate authorities.
-* A rate increase should not activate before funding, liquidity and stress reservations pass.
-* Product capacity, accepted principal, reward liability, realized yield, any verified committed support capital and buffers must be reconciled under the applicable operating schedule.
-* A coverage breach blocks new exposure and preserves existing user-visible states.
-* Auto-Reinvest is treated as a new capacity-consuming instruction, not silent compounding.
+* Rate proposal, Marketing Incentive Pool allocation, treasury funding, risk approval and publication remain separate authorities.
+* A rate increase cannot activate before funding, liquidity and stress reservations pass.
+* Product capacity, accepted principal, reward liability, realized economics, Growth Uplift releases and buffers are reconciled separately.
+* A coverage breach blocks new exposure while preserving existing user-visible states.
+* Auto-Reinvest is a new capacity-consuming instruction, not silent compounding.

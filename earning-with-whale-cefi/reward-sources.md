@@ -5,83 +5,118 @@ document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
 description: >-
-  How each plan separates productive yield, growth-support capital, fees, costs
-  and user reward obligations.
+  How Base Product Reward and the investor-funded Growth Uplift combine without
+  treating customer principal as reward income.
 ---
 
 # Reward Sources
 
-Whale CeFi does not describe every displayed reward percentage as “staking yield”. A user-facing reward rate can be supported by more than one economic layer, and each layer must be identified separately when it is used.
+Whale CeFi does not describe every displayed percentage as “staking yield”. The product rate can combine two economically different layers, and those layers must remain separately attributable.
 
-The important distinction is between **productive external yield** and **pre-funded growth support**.
+**Monthly Reward Rate = Base Product Reward + Growth Uplift**
 
 {% hint style="info" %}
-**Evidence status:** the source classes below describe the permitted funding architecture. They do not by themselves prove that every route is active or that a current cohort has a funded growth-support allocation. A current allocation should be described as active only when the applicable product-version or capacity record identifies the responsible entity, funded amount or cap, effective period, remaining runway and reconciliation account.
+**Current early-growth model:** project investors fund a strategic growth and marketing budget. An approved part of that budget is segregated into a Marketing Incentive Pool that can support the temporary Growth Uplift for eligible cohorts. The exact amount, cap, effective period and remaining runway belong to the applicable product and funding record.
 {% endhint %}
 
-## 1. Productive external yield
+### 1. Productive external economics
 
-Eligible customer assets may be deployed only through approved routes. Depending on the asset, product version, jurisdiction, liquidity profile and current risk limits, permitted routes may include:
+The Base Product Reward is supported by recognized net economics from approved routes. Depending on the asset, product version, jurisdiction, liquidity profile and current risk limits, permitted routes can include:
 
 * native proof-of-stake validation and delegated staking;
 * institutional or overcollateralized lending;
-* lending to approved centralized counterparties where permitted;
-* decentralized lending markets;
-* liquidity provision to approved protocols and pools;
-* protocol fee capture and time-bounded incentive programmes;
+* approved centralized or decentralized lending routes;
+* protocol liquidity and fee capture;
 * market-neutral basis, funding or matched-spread strategies;
-* contractual rebates, revenue-share arrangements or other specifically approved institutional economics.
+* contractual rebates, revenue share or other specifically approved institutional economics.
 
-Listing a route here does not mean that it is active for every asset or product version. A route becomes a current source only when the applicable source record and product version authorize it.
+A listed route is not automatically active for every asset. It becomes a current source only when the applicable product version and source record authorize it.
 
-These activities can produce economic income, but the amount is variable and each source has its own risks, lockups, counterparty limits, execution costs and recognition rules.
+External economics are variable. Recognition occurs only after the applicable execution costs, losses, haircuts, liquidity requirements and reserve rules have been applied.
 
-## 2. Pre-funded growth support
+### 2. Investor-funded Marketing Incentive Pool
 
-Where an early product cohort is supported by company-funded incentives, the support must come from a finite pool of corporate capital committed to that product or cohort before the corresponding supported reward obligation is opened.
+The Growth Uplift is not presented as protocol yield. It is released from a finite Marketing Incentive Pool funded from the project’s approved strategic growth budget.
 
-A qualifying allocation may be funded from retained corporate resources or from capital previously raised by the applicable project or group entity from shareholders or strategic investors. The existence or headline size of an investment round does **not** mean that the investment amount is available for user rewards. Only a formally approved, actually funded, segregated and capacity-reserved allocation can enter the reward-funding system.
+The funding path is:
 
-The commercial purpose of such an allocation can be product bootstrapping: instead of directing all acquisition capital only to broad advertising, a defined budget can be used for measurable product participation, early user acquisition, liquidity formation, TVL growth, retention and ecosystem expansion.
+**project-investor capital → approved strategic growth budget → segregated Marketing Incentive Pool → released Growth Uplift → covered user reward liability**
 
-For a cohort that is actually funded this way, the economic bridge can be represented as:
+This chain matters. The existence or headline size of an investment round is not itself reward funding. Capital enters the product funding model only after the relevant amount has been approved, funded, segregated, assigned to a product or cohort and reserved against the obligations it can create.
 
-**recognized external yield + released growth-support allocation = available reward funding, subject to costs, reserves, capacity and risk limits**
+### Why this is a marketing strategy
 
-This explains how a product reward rate can exceed the native staking yield of the underlying asset without claiming that the blockchain itself generated the full displayed percentage.
+A conventional campaign can pay for exposure, clicks, registrations and one-time bonuses while producing little durable product use.
 
-## Users are not project investors
+Whale CeFi’s approach is to direct part of the acquisition budget to verified product participation. The project is not paying only for attention; it is using part of the growth budget to improve the economics received by users who actually enter an eligible position.
 
-A customer who opens an earning or staking position does not become a shareholder, venture investor or equity holder in a Whale CeFi project or group entity merely by using the product. Customer principal remains a customer asset or contractual principal obligation under the applicable product structure. It is not corporate investment capital and is not recognized as corporate revenue.
+The intended benefits are:
 
-New customer principal cannot be used to settle an older customer's reward.
+* acquisition of active rather than merely registered users;
+* formation of the first meaningful TVL and liquidity base;
+* stronger retention through a real product experience;
+* a more informed user cohort before the wider token campaign;
+* lower dependence on short-lived advertising traffic;
+* a base from which WENI, XP, seasons and Learn-to-Earn can create long-term utility.
 
-## Why rates can normalize as the platform grows
+This is incentive-led growth aligned with users, not an assertion that high rates can remain unchanged forever.
 
-Where a finite growth-support allocation is active, its runway is finite. As the eligible user base and TVL increase, the support available per unit of new capital can decline unless new approved funding or stronger realized external economics offset that growth.
+### Economic bridge
 
-TVL can therefore be an important rate-governance input, but it is not the only one. New-position rates may be reviewed against:
+For a cohort that uses both layers, the funding bridge is:
 
-* remaining committed incentive runway;
-* realized and stressed external yield;
-* active TVL and cohort size;
-* strategy and counterparty capacity;
-* liquidity and maturity profile;
-* custody and network limits;
-* reserve and stress requirements;
-* operating and execution costs;
-* legal and regional availability.
+**Available reward funding = recognized external economics + released Marketing Incentive Pool − execution costs − losses − required reserves**
 
-This can lead to lower rates for **new** product versions as the platform matures. Whale CeFi does not publish a guaranteed future rate path or promise that a specific percentage will apply at a specific user count, TVL level or date.
+The user-facing rate is opened only within the resulting funding and capacity envelope.
 
-Already accepted Locked positions retain the rate version agreed at opening. Flexible rates may change only prospectively under the applicable notice and effective-time rules.
+### Users are not project investors
 
-## Source-attribution schedule
+A customer who opens an earning or staking position does not become a shareholder, venture investor or equity holder in a Whale CeFi project or group entity.
 
-Every product version using a source must bind or reference a funding schedule containing the source identifier, legal counterparty or protocol where applicable, asset and network, income-recognition rule, settlement treatment, fee and cost waterfall, incentive allocation where applicable, budget cap, effective dates and reconciliation account.
+Customer principal remains a customer asset or contractual principal obligation under the accepted product structure. It is not corporate investment capital, platform revenue or part of the Marketing Incentive Pool.
 
-Growth-support capital must be recorded separately from protocol or strategy income. Unrealised token value, projected strategy profit, future fundraising and uncommitted corporate capital are not treated as distributable reward funding.
+New customer principal cannot be used to settle an older customer’s reward.
 
-## Sustainability view
+### Why the Growth Uplift decreases for later cohorts
 
-For any cohort using growth-support capital, the funding and capacity record must distinguish realized external income, committed support capital, reward liability, paid reward, liquidity reserve, remaining incentive runway and any uncovered shortfall. A product should stop accepting new exposure when its approved funding, capacity, liquidity or risk rule cannot be met.
+The Marketing Incentive Pool has a finite runway. When eligible TVL grows, the available incentive support is spread across a larger capital base.
+
+An indicative capacity relationship is:
+
+**Indicative Growth Uplift for new positions ≤ allocatable budget ÷ (eligible TVL × covered time horizon)**
+
+where B\_allocatable is the budget available for the relevant period and T is the covered time horizon.
+
+This is not a guaranteed public pricing formula. New-position rates also depend on realized external economics, liquidity, strategy capacity, counterparty exposure, reserves, maturity concentration, operating cost and risk limits.
+
+The key point is that eligible TVL — not the number of sign-ups — determines how much capital the uplift must cover.
+
+### Locked and Flexible treatment
+
+A rate review creates a new product version.
+
+* An already accepted Locked position retains the monthly rate and calculation rules agreed at opening until maturity.
+* A new Locked position uses the product version active when it opens.
+* A Flexible rate can change only for future accrual after the applicable notice and effective time.
+* Posted reward is not reversed because a later rate is lower.
+
+### Source-attribution schedule
+
+Every product version binds or references a funding schedule containing:
+
+* the productive source identifier and recognition rule;
+* legal counterparty or protocol where applicable;
+* asset, network and custody route;
+* gross-to-net cost and reserve waterfall;
+* Marketing Incentive Pool allocation and release authority where applicable;
+* budget cap, effective period and remaining runway;
+* product capacity and reconciliation account;
+* incident and stop-new-exposure triggers.
+
+The Marketing Incentive Pool must be recorded separately from productive income. Future fundraising, projected token value, projected strategy profit and uncommitted treasury balances are not distributable reward funding.
+
+### Sustainability view
+
+For every supported cohort, the funding record distinguishes customer principal, realized external economics, released Growth Uplift, reward liability, paid reward, liquid reserves, remaining incentive runway and uncovered shortfall.
+
+A product stops accepting new exposure when its approved funding, capacity, liquidity or risk rule cannot be met.
