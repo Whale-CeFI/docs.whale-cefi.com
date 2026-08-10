@@ -4,7 +4,7 @@ canonical: >-
   https://docs.whale-cefi.com/security-and-custody/data-protection-and-geographic-controls
 document_status: official-release
 audience: public
-last_reviewed: '2026-07-29'
+last_reviewed: '2026-08-10'
 description: >-
   Compliance architecture maps legal entity, product, data, custody, user
   region, and permitted action to enforceable controls. KYC, sanctions, privacy,
@@ -45,7 +45,7 @@ Compliance architecture maps legal entity, product, data, custody, user region, 
 
 ## Operational evidence
 
-* Eurozone and UAE service scopes are versioned in the eligibility registry; USA, Canada, and sanctions restrictions are enforced at every execution boundary.
+* The El Salvador operating perimeter and every account-specific eligible region are versioned in the eligibility registry; USA, Canada, and sanctions restrictions are enforced at every execution boundary.
 * Legal-entity and product-perimeter opinion.
 * Each regulated capability resolves to the exact licence or registration record relied upon by the contracting entity.
 * KYC, sanctions, geofencing and policy-consistency test suite.

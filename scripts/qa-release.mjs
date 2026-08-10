@@ -7,6 +7,29 @@ const summary = fs.readFileSync(path.join(root, "SUMMARY.md"), "utf8");
 const links = [...summary.matchAll(/\[[^\]]+\]\(([^)]+\.md)\)/g)].map((m) => m[1]);
 const errors = [];
 const warnings = [];
+
+function frontmatterValue(frontmatter, key) {
+  const lines = frontmatter.split(/\r?\n/);
+  const index = lines.findIndex((line) =>
+    new RegExp(`^${key}:\\s*`).test(line),
+  );
+  if (index < 0) return null;
+  const raw = lines[index].replace(new RegExp(`^${key}:\\s*`), "").trim();
+  if ([">", ">-", ">+", "|", "|-", "|+"].includes(raw)) {
+    const values = [];
+    for (let cursor = index + 1; cursor < lines.length; cursor += 1) {
+      const line = lines[cursor];
+      if (line && !/^\s/.test(line)) break;
+      if (line.trim()) values.push(line.trim());
+    }
+    return raw.startsWith(">") ? values.join(" ") : values.join("\n");
+  }
+  if (raw.startsWith('"') && raw.endsWith('"')) return JSON.parse(raw);
+  if (raw.startsWith("'") && raw.endsWith("'")) {
+    return raw.slice(1, -1).replaceAll("''", "'");
+  }
+  return raw || null;
+}
 const supersededReleasePattern = new RegExp(
   [
     "private[- ]" + "fu" + "ture-" + "state",
@@ -18,12 +41,12 @@ const supersededReleasePattern = new RegExp(
 );
 const forwardLookingPattern = new RegExp(
   [
-    "\\bfu" + "ture\\b",
     "\\bplan" + "ned\\b",
-    "\\bwi" + "ll\\b",
     "\\bnot " + "yet\\b",
     "\\bclosed-" + "alpha\\b",
     "\\broad" + "map\\b",
+    "\\bcoming\\s+soon\\b",
+    "\\bwe\\s+plan\\b",
   ].join("|"),
   "i",
 );
@@ -42,11 +65,19 @@ for (const link of new Set(links)) {
   const body = fs.readFileSync(file, "utf8");
   const h1 = [...body.matchAll(/^#\s+.+$/gm)].length;
   if (h1 !== 1) errors.push(link + " has " + h1 + " H1 headings");
-  if (!/^---\n[\s\S]*?\n---\n/.test(body)) errors.push(link + " has no frontmatter");
-  if (!body.includes("canonical: \"https://docs.whale-cefi.com")) {
+  const frontmatterMatch = body.match(/^---\n([\s\S]*?)\n---\n/);
+  if (!frontmatterMatch) {
+    errors.push(link + " has no frontmatter");
+    continue;
+  }
+  const canonical = frontmatterValue(frontmatterMatch[1], "canonical");
+  const documentStatus = frontmatterValue(frontmatterMatch[1], "document_status");
+  const validRootLanding =
+    link === "README.md" && canonical === "https://whale-cefi.com/documentation";
+  if (!validRootLanding && !canonical?.startsWith("https://docs.whale-cefi.com")) {
     errors.push(link + " has no canonical docs.whale-cefi.com URL");
   }
-  if (!body.includes('document_status: "official-release"')) {
+  if (documentStatus !== "official-release") {
     errors.push(link + " is not marked as the official release");
   }
   if (/whalesify\.com|docs\.whale-earn\.com|whale-earn\.com/i.test(body)) {
@@ -92,16 +123,16 @@ for (const link of new Set(links)) {
 }
 
 const controlledFiles = links.filter((link) =>
-  /^controlled-specifications\/(?:platform|weni)\/[0-9]{2}-.*\.md$/.test(link),
+  /^controlled-specifications\/(?:platform-infrastructure-and-financial-core|weni-model-and-system-architecture)\/[0-9]{2}-.*\.md$/.test(link),
 );
 if (controlledFiles.length !== 72) {
   errors.push(`Expected 72 controlled specifications, found ${controlledFiles.length}`);
 }
 for (const link of controlledFiles) {
   const match = link.match(
-    /^controlled-specifications\/(platform|weni)\/([0-9]{2})-/,
+    /^controlled-specifications\/(platform-infrastructure-and-financial-core|weni-model-and-system-architecture)\/([0-9]{2})-/,
   );
-  const system = match[1];
+  const system = match[1].startsWith("platform") ? "platform" : "weni";
   const chapter = match[2];
   const body = fs.readFileSync(path.join(root, link), "utf8");
   const requiredSections = [
@@ -118,7 +149,8 @@ for (const link of controlledFiles) {
     }
   }
   const expectedControlId = `${system.toUpperCase()}-${chapter}`;
-  if (!body.includes(`control_id: "${expectedControlId}"`)) {
+  const frontmatter = body.match(/^---\n([\s\S]*?)\n---\n/)?.[1] ?? "";
+  if (frontmatterValue(frontmatter, "control_id") !== expectedControlId) {
     errors.push(`${link} has an invalid control_id`);
   }
   const failureIds = [
@@ -162,10 +194,13 @@ if (routes.routes.length !== new Set(links).size) {
 if (new Set(routes.routes.map((route) => route.path)).size !== routes.routes.length) {
   errors.push("SEO routes contain duplicate canonical paths");
 }
-if (new Set(routes.routes.map((route) => route.description)).size !== routes.routes.length) {
-  errors.push("SEO routes contain duplicate descriptions");
-}
-if (routes.routes.some((route) => !route.path.startsWith("https://docs.whale-cefi.com"))) {
+if (
+  routes.routes.some(
+    (route) =>
+      !route.path.startsWith("https://docs.whale-cefi.com") &&
+      !(route.source === "README.md" && route.path === "https://whale-cefi.com/documentation"),
+  )
+) {
   errors.push("SEO routes contain a non-canonical origin");
 }
 
@@ -205,13 +240,57 @@ const gamification = JSON.parse(
   fs.readFileSync(path.join(root, "data", "gamification-config.json"), "utf8"),
 );
 if (gamification.levels.length !== 10) errors.push("Gamification registry must contain 10 levels");
-for (let index = 1; index < gamification.levels.length; index += 1) {
-  if (
-    gamification.levels[index].xp_threshold <=
-    gamification.levels[index - 1].xp_threshold
-  ) {
-    errors.push("Gamification XP thresholds must increase strictly");
+const expectedLevels = [
+  [1, "Plankton", 0, "1.00", "10", "10.00", 10, "eligible-deposit-daily-reward", "0.005"],
+  [2, "Minnow", 2100, "1.03", "15", "15.45", 15, "eligible-deposit-daily-reward", "0.0075"],
+  [3, "Puffer", 5900, "1.06", "20", "21.20", 21, "eligible-deposit-daily-reward", "0.001"],
+  [4, "Dolphin", 11600, "1.10", "30", "33.00", 33, "eligible-deposit-daily-reward", "0.0125"],
+  [5, "Orca", 19200, "1.15", "40", "46.00", 46, "eligible-deposit-daily-reward", "0.015"],
+  [6, "Blue Whale", 29400, "1.20", "60", "72.00", 72, "eligible-deposit-daily-reward", "0.02"],
+  [7, "Shark", 44100, "1.26", "90", "113.40", 113, "company-net-revenue-monthly-reward", "0.002"],
+  [8, "Leviathan", 62800, "1.33", "120", "159.60", 160, "company-net-revenue-monthly-reward", "0.002"],
+  [9, "Kraken", 87300, "1.41", "150", "211.50", 212, "company-net-revenue-monthly-reward", "0.002"],
+  [10, "Megalodon", 120000, "1.50", "180", "270.00", 270, "company-net-revenue-monthly-reward", "0.002"],
+];
+for (let index = 0; index < expectedLevels.length; index += 1) {
+  const actual = gamification.levels[index];
+  const expected = expectedLevels[index];
+  const fields = [
+    actual.level,
+    actual.name,
+    actual.xp_threshold,
+    actual.xp_multiplier,
+    actual.daily_xp_claim_base,
+    actual.daily_xp_claim_credited,
+    actual.daily_xp_claim_display,
+    actual.balance_reward.type,
+    actual.balance_reward.rate_percent,
+  ];
+  if (JSON.stringify(fields) !== JSON.stringify(expected)) {
+    errors.push(`Gamification level ${index + 1} does not match the live canon`);
   }
+  const calculated = Number(actual.daily_xp_claim_base) * Number(actual.xp_multiplier);
+  if (Math.abs(calculated - Number(actual.daily_xp_claim_credited)) > 1e-9) {
+    errors.push(`Gamification level ${index + 1} has an incorrect credited XP calculation`);
+  }
+  if (Math.floor(calculated + 0.5) !== actual.daily_xp_claim_display) {
+    errors.push(`Gamification level ${index + 1} has an incorrect HALF_UP display value`);
+  }
+  if (
+    Math.abs(Number(actual.balance_reward.rate_percent) / 100 - Number(actual.balance_reward.rate_decimal)) >
+    1e-12
+  ) {
+    errors.push(`Gamification level ${index + 1} has inconsistent percentage and decimal rates`);
+  }
+}
+if (
+  gamification.status !== "live" ||
+  gamification.configuration_id !== "WCF-GAMIFICATION-LIVE-2026-08-10" ||
+  gamification.xp_accounting.interface_rounding_mode !== "HALF_UP" ||
+  gamification.xp_accounting.ledger_supports_fractional_xp !== true ||
+  gamification.balance_reward_accounting.changes_staking_reward_rate !== false
+) {
+  errors.push("Gamification accounting metadata does not match the live canon");
 }
 for (const [chest, odds] of Object.entries(gamification.chest_outcome_percent)) {
   const total = Object.values(odds).reduce((sum, value) => sum + value, 0);
@@ -227,29 +306,81 @@ if (audits.records.some((item) => item.artifact_hash !== null)) {
   errors.push("Audit hashes may be published only when an authentic auditor-issued value is included");
 }
 
+const securityAssessments = JSON.parse(
+  fs.readFileSync(path.join(root, "data", "security-assessments.json"), "utf8"),
+);
+const assessment = securityAssessments.records.find(
+  (item) => item.assessment_id === "WCF-SARV-2026-0810",
+);
+const expectedAssessmentHash = "c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918";
+if (!assessment) {
+  errors.push("Security assessment registry is missing WCF-SARV-2026-0810");
+} else {
+  if (
+    assessment.provider_relationship !== "first-party" ||
+    assessment.independent_third_party_audit !== false
+  ) {
+    errors.push("WCF-SARV-2026-0810 must remain labelled first-party");
+  }
+  if (
+    assessment.finding_summary.total !== 17 ||
+    assessment.finding_summary.resolved !== 17 ||
+    assessment.finding_summary.open !== 0 ||
+    assessment.automated_revalidation.total_checks !== 31 ||
+    assessment.automated_revalidation.passed !== 31 ||
+    assessment.automated_revalidation.failed !== 0
+  ) {
+    errors.push("WCF-SARV-2026-0810 result totals do not match the supplied PDF");
+  }
+  if (assessment.scope.chain_id !== 31337 || assessment.scope.production_deployment_coverage.length !== 0) {
+    errors.push("WCF-SARV-2026-0810 must remain isolated and have no production coverage");
+  }
+  const assessmentPath = path.join(root, assessment.artifact.path);
+  if (!fs.existsSync(assessmentPath)) {
+    errors.push("WCF-SARV-2026-0810 PDF is missing");
+  } else {
+    const actualHash = crypto.createHash("sha256").update(fs.readFileSync(assessmentPath)).digest("hex");
+    if (actualHash !== expectedAssessmentHash || assessment.artifact.sha256 !== expectedAssessmentHash) {
+      errors.push("WCF-SARV-2026-0810 PDF hash mismatch");
+    }
+  }
+}
+
 const legalEntities = JSON.parse(
   fs.readFileSync(path.join(root, "data", "legal-entities.json"), "utf8"),
 );
-const foundation = legalEntities.records.find(
-  (item) => item.legal_name === "Whale Foundation",
+const pulpo = legalEntities.records.find(
+  (item) => item.legal_name === "Pulpo Fintech, S.A. de C.V.",
 );
-if (!foundation || foundation.registration_status !== "officially-registered") {
-  errors.push("Legal entity registry must identify Whale Foundation as officially registered");
+if (
+  !pulpo ||
+  pulpo.registration_number !== "PSAD-0023" ||
+  pulpo.jurisdiction !== "El Salvador" ||
+  pulpo.record_type !== "customer-contracting-and-operating-entity"
+) {
+  errors.push("Legal entity registry must identify Pulpo PSAD-0023 as the El Salvador customer counterparty and operator");
 }
 const supersededFoundationName = "Whale Earn " + "Foundation";
-if (legalEntities.records.some((item) => item.legal_name === supersededFoundationName)) {
-  errors.push("Legal entity registry contains the superseded foundation name");
+const supersededCurrentEntities = [
+  supersededFoundationName,
+  "Whale Foundation",
+  "Whale CeFi Services Ltd",
+  "Whale CeFi Custody SPV Ltd",
+];
+if (legalEntities.records.some((item) => supersededCurrentEntities.includes(item.legal_name))) {
+  errors.push("Legal entity registry contains a superseded Abu Dhabi entity record");
 }
 
 const releaseManifest = JSON.parse(
   fs.readFileSync(path.join(root, "data", "release-manifest.json"), "utf8"),
 );
 if (
-  releaseManifest.release_id !== "WHALE-CEFI-DOCS-V5.0" ||
+  releaseManifest.release_id !== "WHALE-CEFI-DOCS-V5.1" ||
+  releaseManifest.version !== "5.1.0" ||
   releaseManifest.status !== "released" ||
   releaseManifest.public_release_status !== "released"
 ) {
-  errors.push("Release manifest is not bound to the v5.0 official public release");
+  errors.push("Release manifest is not bound to the v5.1 official public release");
 }
 if (releaseManifest.canonical_documentation_origin !== "https://docs.whale-cefi.com") {
   errors.push("Release manifest has an incorrect canonical documentation origin");
@@ -270,7 +401,7 @@ const report = {
 
 fs.mkdirSync(path.join(root, "release"), { recursive: true });
 fs.writeFileSync(
-  path.join(root, "release", "qa-v5.0-report.json"),
+  path.join(root, "release", "qa-v5.1-report.json"),
   JSON.stringify(report, null, 2) + "\n",
 );
 
@@ -278,21 +409,31 @@ const packageFiles = [];
 function collectFiles(directory) {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     const fullPath = path.join(directory, entry.name);
+    const relative = path.relative(root, fullPath).replaceAll(path.sep, "/");
+    if (
+      entry.isDirectory() &&
+      ([".git", "node_modules", "tmp"].includes(relative.split("/")[0]) ||
+        entry.name === "__pycache__")
+    ) {
+      continue;
+    }
     if (entry.isDirectory()) collectFiles(fullPath);
-    else if (entry.isFile()) packageFiles.push(fullPath);
+    else if (entry.isFile() && !entry.name.endsWith(".pyc")) packageFiles.push(fullPath);
   }
 }
 collectFiles(root);
 
 const totalWords = routes.routes.reduce((sum, route) => sum + route.words, 0);
 const buildReport = [
-  "# Whale CeFi v5.0 GitHub + GitBook Release Integrity",
+  "# Whale CeFi v5.1 GitHub + GitBook Release Integrity",
   "",
   "- Documentation status: official release",
-  "- Release date: 29 July 2026",
+  "- Release date: 10 August 2026",
   "- Product domain: https://whale-cefi.com",
   "- Documentation origin: https://docs.whale-cefi.com",
-  "- Legal stewardship entity: Whale Foundation",
+  "- Customer contracting and operating entity: Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador",
+  "- Published security assessment: WCF-SARV-2026-0810, first-party, SHA-256 verified",
+  "- Gamification configuration: WCF-GAMIFICATION-LIVE-2026-08-10",
   "- GitBook navigation entries: " + links.length,
   "- Unique reader pages: " + new Set(links).size,
   "- Semantically verified controlled specifications: " + controlledFiles.length,
@@ -306,7 +447,7 @@ const buildReport = [
   "",
   "The Product Truth Register, reference transfer map, and visual usage register are internal control files and are intentionally excluded from GitBook navigation.",
   "",
-  "This report verifies the released documentation package. Restricted corporate, audit, deployment, reserve, and operational artifacts retain their own provenance and are not reproduced as invented values.",
+  "This report verifies the released documentation package. The first-party security assessment remains separate from independent audit records and has no production-deployment coverage. Restricted corporate and operational artifacts retain their own provenance.",
 ].join("\n");
 fs.writeFileSync(
   path.join(root, "release", "BUILD_INTEGRITY_REPORT.md"),

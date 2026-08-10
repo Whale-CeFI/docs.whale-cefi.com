@@ -1,15 +1,15 @@
 ---
 title: "Release Manifest"
-description: "A release is approved only for an exact documentation and product state."
+description: "Release v5.1 binds the 10 August 2026 documentation, gamification, entity-service, and security-assessment state."
 canonical: "https://docs.whale-cefi.com/evidence-center/release-manifest"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 ---
 
 # Release Manifest
 
-A release is approved only for an exact documentation and product state.
+Release v5.1 binds the 10 August 2026 documentation, gamification, entity-service, and security-assessment state.
 
 The manifest binds the documentation commit and package hash to the Product Truth snapshot, legal sign-off, finance and solvency review, security review, privacy review, WENI evaluation release, approved regions and capabilities, open exceptions, accountable owners, effective time, and rollback target.
 

@@ -1,44 +1,58 @@
 ---
 title: "Rewards and Boosts"
-description: "Reward pools may contain progression, profile, utility, access, or financial-value items where approved."
+description: "Level XP multipliers, balance rewards, temporary boosts, and other reward items remain separate records with explicit units and calculation rules."
 canonical: "https://docs.whale-cefi.com/points-and-progression/rewards-and-boosts"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 ---
 
 # Rewards and Boosts
 
-Reward pools may contain progression, profile, utility, access, or financial-value items where approved.
+Level XP multipliers, balance rewards, temporary boosts, and other reward items remain separate records with explicit units and calculation rules.
 
-Possible categories include:
+## Live level-linked rewards
 
-- XP;
-- temporary XP multipliers;
-- task-specific or referral boosts;
+The current level configuration contains:
+
+- a permanent XP multiplier while the account remains at the applicable level;
+- a level-specific base Daily XP Claim;
+- a daily eligible-deposit balance reward for Levels 1-6;
+- and an individual monthly company Net Revenue reward for Levels 7-10.
+
+The exact values and formulas are published in [Levels](levels.md).
+
+## Separation from staking rates
+
+An XP multiplier applies only to XP. A balance-reward percentage creates a separate balance entry. Neither mechanism changes a position's Monthly Reward Rate.
+
+A Locked position keeps the exact product version and term reward accepted when the position opened. A Flexible rate change follows its own prospective product-version process. Progression cannot silently rewrite either calculation.
+
+## Other reward categories
+
+An approved reward pool can also contain:
+
+- task-specific XP or referral XP;
+- a time-bounded XP multiplier;
 - profile frames, titles, badges, or visual effects;
 - chest fragments, keys, or collectibles;
-- time-limited access or compute credits;
-- product-related boosts where legal and product terms permit;
-- and occasional wallet or asset bonuses where explicitly disclosed.
+- time-bounded access or compute credits;
+- or a separately disclosed asset or product benefit.
 
-## Every reward must define
+## Required reward record
 
-- what the user receives;
-- when it becomes active;
-- duration or expiry;
-- eligible products and accounts;
-- whether it stacks with another reward;
-- maximum effect;
+Every reward identifies:
+
+- unit and calculation base;
+- eligibility and source event;
+- activation time, cadence, and expiry where applicable;
+- stacking behavior;
+- maximum effect or programme liability rule;
+- funding account;
 - transferability;
-- revocation or correction conditions;
-- tax or legal disclosure where relevant;
-- and what happens if the underlying product is unavailable.
+- reversal and correction conditions;
+- region and account scope;
+- applicable tax or legal disclosure;
+- and the configuration version that produced the result.
 
-## Rate-boost warning
-
-A “rate boost” cannot be treated as decorative copy. It changes a financial calculation or promotional obligation. The source of funding, maximum liability, affected plan, calculation convention, start and end time, regional legality, and interaction with fixed-rate plans must be approved before the reward appears.
-
-## No implied permanent right
-
-A temporary, seasonal, experimental, or promotional benefit should not be written as a lifetime entitlement. If a benefit is intended to be permanent, the economic source, modification authority, termination events, and legal treatment must be expressly approved.
+Temporary, seasonal, experimental, and permanent benefits retain distinct statuses. A label such as `boost`, `cashback`, `share`, or `bonus` never replaces the exact unit and formula.

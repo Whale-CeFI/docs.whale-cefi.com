@@ -1,47 +1,52 @@
 ---
 title: "Audit Integration Reference"
-description: "This reference defines how software, registries, and diligence workflows consume Whale CeFi audit evidence without turning a report title into an unsupported assurance claim."
+description: "This reference defines how consumers resolve audit programmes, first-party security assessments, remediation status, artifact integrity, and deployment coverage."
 canonical: "https://docs.whale-cefi.com/developers-and-reference/audit-center"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 ---
 
 # Audit Integration Reference
 
-This reference defines how software, registries, and diligence workflows consume Whale CeFi audit evidence without turning a report title into an unsupported assurance claim.
+This reference defines how consumers resolve audit programmes, first-party security assessments, remediation status, artifact integrity, and deployment coverage without converting one evidence type into another.
 
-## Canonical record
+## Canonical records
 
-The machine-readable source is [audits.json](../data/audits.json). Each audit record identifies:
+- [audits.json](../data/audits.json) records the independent Eter and Hashlock audit programme.
+- [security-assessments.json](../data/security-assessments.json) records first-party security assessment `WCF-SARV-2026-0810`.
+- [security-assessment.schema.json](../schemas/security-assessment.schema.json) defines the first-party assessment record contract.
+- [Audit Center](../evidence-center/audit-center.md) provides the reader-facing assurance view.
 
-- auditor and exact scope;
-- report version and issue date;
-- repository, commit, package, or deployed bytecode covered;
-- immutable artifact hash;
-- finding totals by severity and original auditor status;
-- remediation commits and regression tests;
-- independent retest artifact;
-- deployment IDs that inherit the reviewed code;
-- exclusions, expiry, and superseding review.
+## Published first-party record
 
-The public [Audit Center](../evidence-center/audit-center.md) is the reader-facing explanation. This page is the integration contract.
+`WCF-SARV-2026-0810` binds:
 
-## Finding lifecycle
+- provider and first-party relationship;
+- issue date and report version;
+- immutable PDF path and SHA-256;
+- baseline commit and source hash;
+- compiler, optimizer, EVM, chain, and block;
+- finding totals and closure status;
+- automated check totals;
+- scope exclusions and residual work;
+- and an empty production-deployment coverage list.
 
-`reported → triaged → remediation-linked → regression-tested → independently-retested → deployment-bound`
-
-An internal closure state never overwrites the original report. “Acknowledged,” “fixed,” “verified,” and “covered by the deployed version” remain separate fields.
+The exact PDF hash is `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918`.
 
 ## Consumer rules
 
-1. Reject a record whose artifact hash, scope, code identity, or issue date is missing.
-2. Do not extend review coverage to a contract, service, chain, proxy, implementation, or deployment that is absent from scope.
-3. Treat a remediation without independent retest as remediated-but-unverified.
-4. Resolve proxy and implementation addresses before displaying deployment coverage.
-5. Preserve superseded records for history while presenting the latest applicable record first.
-6. Fail closed when the audit record and deployment registry disagree.
+1. Verify the artifact hash before displaying any count or conclusion.
+2. Preserve `provider_relationship=first-party`; do not label the record independent.
+3. Display `Resolved` only with the qualifier `in the exact assessed build`.
+4. Treat `production_deployment_coverage=[]` as no production coverage.
+5. Do not inherit local chain 31337 addresses into a production Deployment Registry.
+6. Resolve independent Eter and Hashlock records separately.
+7. Fail closed when source, compiler, runtime, role state, or deployment identity differs from the assessment scope.
+8. Preserve the PDF unchanged; later remediation or deployment records append evidence rather than rewriting it.
 
-## Current assurance set
+## Finding lifecycle
 
-The target-state registry names **Eter** and **Hashlock**. Auditor-issued files, hashes, exact finding statuses, and covered deployment IDs remain mandatory publication inputs; the documentation does not manufacture them.
+`reported -> remediation-linked -> regression-tested -> provider-retested -> deployment-bound`
+
+`Resolved in assessed build` and `deployment-covered` are separate states. A source-level closure remains valid for its exact scope while production assurance stays unclaimed until a matching deployment record exists.

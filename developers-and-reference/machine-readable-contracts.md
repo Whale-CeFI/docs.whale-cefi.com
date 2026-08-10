@@ -1,13 +1,10 @@
 ---
-title: Machine-Readable Contracts
-canonical: >-
-  https://docs.whale-cefi.com/developers-and-reference/machine-readable-contracts
-document_status: official-release
-audience: public
-last_reviewed: '2026-07-29'
-description: >-
-  Schemas and interface definitions that make the documentation testable by
-  services, auditors, and automated controls.
+title: "Machine-Readable Contracts"
+canonical: "https://docs.whale-cefi.com/developers-and-reference/machine-readable-contracts"
+document_status: "official-release"
+audience: "public"
+last_reviewed: "2026-08-10"
+description: "Schemas and interface definitions make the documentation testable by services, reviewers, and automated controls."
 ---
 
 # Machine-Readable Contracts
@@ -20,25 +17,29 @@ Narrative documentation explains intent. Machine-readable contracts define field
 
 ## Included contracts
 
-| Artifact                                  | Purpose                                                                                        |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| `data/supported-assets.json`              | Canonical supported-asset identities and registry status                                       |
-| `data/product-versions.json`              | Effective-dated monthly reward-rate and calculation catalogue                                  |
-| `data/audit-remediation.json`             | Historical finding and canonical remediation mapping                                           |
-| `data/control-invariants.json`            | Executable financial, contract, and intelligence guarantees                                    |
-| `data/system-profile.json`                | Authority domains, completion rule, and hard system boundaries                                 |
-| `content-index.json`                      | Versioned page identity, audience, authority domain, and effective time                        |
-| `search-index.json`                       | Text retrieval index for documentation search and machine readers                              |
-| `llms.txt`                                | Minimal documentation map and machine-readable entry points                                    |
-| `schemas/operation-envelope.schema.json`  | Cross-domain identity and causality for material operations                                    |
-| `schemas/asset-route.schema.json`         | Network-bound asset identity, behavior, precision, capabilities, and finality policy           |
-| `schemas/deployment-manifest.schema.json` | Contract and service deployment identity                                                       |
-| `schemas/evidence-bundle.schema.json`     | Source, observation, transformation, freshness, and conflict lineage                           |
-| `schemas/audit-closure.schema.json`       | Finding history, canonical control, regression proof, retest, monitor, and deployment coverage |
-| `schemas/product-version.schema.json`     | Immutable commercial terms accepted by a position                                              |
-| `schemas/proof-epoch.schema.json`         | Liability, reserve, ownership, and continuity commitment                                       |
-| `openapi/whale-cefi-public-api.yaml`      | Read-only product, registry, status, proof, and position interfaces                            |
-| `asyncapi/whale-cefi-events.yaml`         | Financial, position, proof, and security-control event contracts                               |
+| Artifact | Purpose |
+|---|---|
+| `data/product-truth.json` | Current brand, legal-service, product, gamification, and assurance decisions |
+| `data/legal-entities.json` | Approved entity and service map |
+| `data/supported-assets.json` | Canonical supported-asset symbols and registry status |
+| `data/product-versions.json` | Effective-dated reward-rate and calculation catalogue |
+| `data/gamification-config.json` | Live levels, XP multipliers, Daily XP Claims, rounding, and balance rewards |
+| `data/audits.json` | Independent Eter and Hashlock audit-programme records |
+| `data/security-assessments.json` | Published first-party assessment identity, result, scope, and PDF hash |
+| `data/deployments.json` | Production deployment-coverage registry |
+| `data/proof-epochs.json` | Reserve and liability proof-epoch registry |
+| `data/release-manifest.json` | Current documentation release identity and publication targets |
+| `content-index.json` | Versioned page identity and canonical route map |
+| `search-index.json` | Text retrieval index for documentation search and machine readers |
+| `llms.txt` and `llms-full.txt` | Minimal and full machine-readable documentation surfaces |
+| `schemas/asset-route.schema.json` | Network-bound asset identity and route constraints |
+| `schemas/deployment-manifest.schema.json` | Contract and service deployment identity |
+| `schemas/audit-closure.schema.json` | Finding history and deployment coverage |
+| `schemas/security-assessment.schema.json` | First-party or independent security-assessment artifact contract |
+| `schemas/product-version.schema.json` | Immutable commercial terms accepted by a position |
+| `schemas/proof-epoch.schema.json` | Liability, reserve, ownership, and continuity commitment |
+| `openapi/whale-cefi-public-api.yaml` | Read-only product, registry, status, proof, and position interfaces |
+| `asyncapi/whale-cefi-events.yaml` | Financial, position, proof, and security-control event contracts |
 
 ## Compatibility
 

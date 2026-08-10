@@ -1,18 +1,24 @@
 {
-  "schema_version": "1.0.0",
-  "status": "current-audit-program",
+  "schema_version": "1.1.0",
+  "status": "current-independent-audit-program",
   "records": [
     {
+      "record_id": "eter-independent-audit-program",
       "auditor": "Eter",
+      "provider_relationship": "independent-third-party",
       "scope": "Whale CeFi smart contracts and deployment control plane",
       "closure_model": "report-remediation-regression-retest-deployment",
+      "public_artifact_status": "not-attached-in-this-repository",
       "artifact_hash": null,
       "covered_deployments": []
     },
     {
+      "record_id": "hashlock-independent-audit-program",
       "auditor": "Hashlock",
+      "provider_relationship": "independent-third-party",
       "scope": "Whale CeFi contract repository and protocol invariants",
       "closure_model": "report-remediation-regression-retest-deployment",
+      "public_artifact_status": "not-attached-in-this-repository",
       "artifact_hash": null,
       "covered_deployments": []
     }

@@ -1,34 +1,43 @@
 {
-  "schema_version": "2.0.0",
-  "status": "current-approved-entity-map",
-  "effective_at": "2026-07-29T00:00:00+03:00",
+  "schema_version": "3.0.0",
+  "status": "current-approved-entity-and-service-map",
+  "status_as_of": "2026-08-10",
   "records": [
     {
-      "legal_name": "Whale Foundation",
-      "jurisdiction": "Abu Dhabi, United Arab Emirates",
-      "role": "brand-ip-governance-and-ecosystem-stewardship",
-      "registration_status": "officially-registered",
-      "registration_number": null,
-      "official_register": null,
-      "public_identifier_disclosure": "maintained-in-authoritative-corporate-record"
+      "name": "Whale CeFi",
+      "record_type": "technology-interface-and-brand",
+      "location": "San Salvador, El Salvador",
+      "role": "front-end-interface-and-web3-portal",
+      "operated_by": "Pulpo Fintech, S.A. de C.V.",
+      "standalone_customer_contracting_entity": false,
+      "independent_custody_role": false
     },
     {
-      "legal_name": "Whale CeFi Services Ltd",
-      "jurisdiction": "Abu Dhabi, United Arab Emirates",
-      "role": "customer-contracting-and-product-operation",
-      "operational_status": "current",
-      "registration_number": null,
-      "official_register": null,
-      "public_identifier_disclosure": "maintained-in-authoritative-corporate-record"
+      "legal_name": "Pulpo Fintech, S.A. de C.V.",
+      "record_type": "customer-contracting-and-operating-entity",
+      "jurisdiction": "El Salvador",
+      "location": "San Salvador, El Salvador",
+      "role": "customer-agreement-cefi-product-operation-regulated-digital-asset-services-and-account-responsibility",
+      "registration_status": "registered-digital-asset-service-provider",
+      "registration_number": "PSAD-0023",
+      "official_register": "https://cnad.gob.sv/assets-providers/pulpo-fintech-s-a-de-c-v/",
+      "customer_principal_is_company_revenue": false
     },
     {
-      "legal_name": "Whale CeFi Custody SPV Ltd",
-      "jurisdiction": "Abu Dhabi, United Arab Emirates",
-      "role": "segregated-custody-and-settlement-perimeter",
-      "operational_status": "current",
-      "registration_number": null,
-      "official_register": null,
-      "public_identifier_disclosure": "maintained-in-authoritative-corporate-record"
+      "legal_name": "Coinbase Custody Trust Company, LLC",
+      "record_type": "institutional-custody-provider",
+      "jurisdiction": "New York, United States",
+      "role": "institutional-cold-storage-via-coinbase-prime-integration",
+      "originates_product_terms": false,
+      "retail_counterparty": false
+    },
+    {
+      "legal_name": "Coinbase Ventures, LLC",
+      "record_type": "strategic-backing-entity",
+      "jurisdiction": "Delaware, United States",
+      "role": "strategic-equity-backing-and-technology-development-support",
+      "guarantees_staking_rewards": false,
+      "retail_custody_role": false
     }
   ]
 }

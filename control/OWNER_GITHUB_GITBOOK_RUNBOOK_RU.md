@@ -128,7 +128,7 @@ Landing page и навигация управляются из GitHub. Ручн�
 | Primary accent | `#7BC9E8` |
 | Secondary text | `#424E56` |
 
-Официальное юридическое имя в site copy: **Whale Foundation**.
+Основной customer-facing контрагент и оператор в site copy: **Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador**.
 
 ## 7. Проведи production QA
 
@@ -156,7 +156,7 @@ Landing page и навигация управляются из GitHub. Ручн�
 - внутренние ссылки работают;
 - mobile layout не обрезает таблицы и код;
 - текущий бренд — Whale CeFi;
-- stewardship entity — Whale Foundation;
+- customer contracting and operating entity — Pulpo Fintech, S.A. de C.V. (PSAD-0023);
 - отсутствуют старое имя stewardship entity, legacy‑домены,
   предрелизные статусы и обещания отдельного позднего выпуска.
 
@@ -220,10 +220,10 @@ Generated files не редактируются вручную:
 
 ## Release identity
 
-- Release ID: `WHALE-CEFI-DOCS-V5.0`
-- Version: `5.0.0`
-- Effective date: `2026-07-29`
-- Git tag: `docs-v5.0.0`
+- Release ID: `WHALE-CEFI-DOCS-V5.1`
+- Version: `5.1.0`
+- Effective date: `2026-08-10`
+- Git tag: `docs-v5.1.0`
 - Canonical branch: `main`
 - Canonical docs origin: `https://docs.whale-cefi.com`
-- Legal stewardship entity: `Whale Foundation`
+- Customer contracting and operating entity: `Pulpo Fintech, S.A. de C.V. (PSAD-0023)`

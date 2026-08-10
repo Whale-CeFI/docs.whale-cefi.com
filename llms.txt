@@ -1,8 +1,8 @@
 # Whale CeFi Documentation
 
-> Official Whale CeFi documentation released on 29 July 2026 at https://docs.whale-cefi.com.
+> Official Whale CeFi documentation release 5.1.0, effective 10 August 2026, at https://docs.whale-cefi.com.
 
-- [Whale CeFi Documentation](https://docs.whale-cefi.com)
+- [Whale CeFi Documentation](https://whale-cefi.com/documentation)
 - [Start Here](https://docs.whale-cefi.com/start-here)
 - [Crypto without Jargon](https://docs.whale-cefi.com/start-here/crypto-without-jargon)
 - [Wallets, Networks, and Addresses](https://docs.whale-cefi.com/start-here/wallets-networks-and-addresses)
@@ -35,7 +35,7 @@
 - [XP](https://docs.whale-cefi.com/points-and-progression/xp)
 - [Levels](https://docs.whale-cefi.com/points-and-progression/levels)
 - [Tasks](https://docs.whale-cefi.com/points-and-progression/tasks)
-- [Daily Bonus and Streaks](https://docs.whale-cefi.com/points-and-progression/daily-bonus-and-streaks)
+- [Daily XP Claim and Balance Rewards](https://docs.whale-cefi.com/points-and-progression/daily-bonus-and-streaks)
 - [Chests](https://docs.whale-cefi.com/points-and-progression/chests)
 - [Rewards and Boosts](https://docs.whale-cefi.com/points-and-progression/rewards-and-boosts)
 - [Achievements](https://docs.whale-cefi.com/points-and-progression/achievements)
@@ -70,6 +70,7 @@
 - [Learn-to-Earn Intelligence](https://docs.whale-cefi.com/weni-native-intelligence/learn-to-earn-intelligence)
 - [Access Tiers and Enterprise Use](https://docs.whale-cefi.com/weni-native-intelligence/access-tiers-and-enterprise-use)
 - [Security and Custody](https://docs.whale-cefi.com/security-and-custody)
+- [Security Assessment and Remediation Verification v3.0](https://docs.whale-cefi.com/security-and-custody/security-assessment-and-remediation-verification)
 - [Proof of Reserves and Liabilities](https://docs.whale-cefi.com/security-and-custody/proof-of-reserves-and-liabilities)
 - [Transaction Policy](https://docs.whale-cefi.com/security-and-custody/transaction-policy)
 - [Administrative Zero Trust](https://docs.whale-cefi.com/security-and-custody/administrative-zero-trust)

@@ -1,15 +1,15 @@
 ---
 title: "Points and Progression"
-description: "Whale CeFi uses progression to make valid product activity, learning, and long-term participation visible. The system includes XP, levels, tasks, daily rewards, streaks, chests, achievements, referrals, leaderboards,…"
+description: "Whale CeFi separates exact XP progression, level multipliers, daily claims, and balance rewards so every unit and calculation remains visible."
 canonical: "https://docs.whale-cefi.com/points-and-progression"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 ---
 
 # Points and Progression
 
-Whale CeFi uses progression to make valid product activity, learning, and long-term participation visible. The system includes XP, levels, tasks, daily rewards, streaks, chests, achievements, referrals, leaderboards, seasons, Learn-to-Earn, credentials, boosts, and reviewable anti-abuse controls.
+Whale CeFi separates exact XP progression, level multipliers, daily claims, and balance rewards so every unit and calculation remains visible. The wider system also includes tasks, streaks, chests, achievements, referrals, leaderboards, seasons, Learn-to-Earn, credentials, boosts, and reviewable anti-abuse controls.
 
 ![The progression archive](./assets/visuals/heroes/v3/02-intelligence-archive.png)
 
@@ -17,7 +17,10 @@ Progression never changes the ownership of customer principal, weakens account s
 
 ## Core rules
 
-- XP is an account progression score, not money or a deposit.
+- XP is an exact account progression score, not money or a deposit.
+- Level multipliers apply to XP only and never change a staking rate.
+- Fractional XP remains in the ledger even when the interface displays a rounded whole number.
+- Level-linked balance rewards use a separate financial record and formula.
 - Every task publishes its eligibility, measurement, reward, timing, and finality rule.
 - Probabilistic rewards disclose their odds and configuration version before opening.
 - Reversals are ledger events; history is not silently rewritten.
@@ -31,7 +34,7 @@ Progression never changes the ownership of customer principal, weakens account s
 3. [XP](points-and-progression/xp.md)
 4. [Levels](points-and-progression/levels.md)
 5. [Tasks](points-and-progression/tasks.md)
-6. [Daily Bonus and Streaks](points-and-progression/daily-bonus-and-streaks.md)
+6. [Daily XP Claim and Balance Rewards](points-and-progression/daily-bonus-and-streaks.md)
 7. [Chests](points-and-progression/chests.md)
 8. [Rewards and Boosts](points-and-progression/rewards-and-boosts.md)
 9. [Achievements](points-and-progression/achievements.md)

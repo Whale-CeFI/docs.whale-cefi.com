@@ -1,49 +1,53 @@
 ---
 title: "Independent Audit Evidence and Finding Closure"
-description: "The supplied independent auditor artefact is real review evidence and is appended unmodified. Its own summary reports nine findings - one Major, three Medium, four Minor and one Informational - with zero…"
+description: "This control separates historical audit status, first-party remediation verification, independent retest, and exact production deployment coverage."
 canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/27-independent-audit-evidence-and-finding-closure"
 document_status: "official-release"
 audience: "technical"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 control_id: "PLATFORM-27"
 ---
 
 # Independent Audit Evidence and Finding Closure
 
-**Independent Audit Evidence and Finding Closure** defines the controlled engineering contract for **Whale CeFi Platform Infrastructure and Financial Core**: normative design, reference architecture, runtime responsibility, failure containment, and acceptance evidence.
+**Independent Audit Evidence and Finding Closure** defines the controlled engineering contract for **Whale CeFi Platform Infrastructure and Financial Core**: evidence type, immutable artifact identity, finding status, remediation, retest, and deployment binding.
 
 {% hint style="info" %}
-**Control rule:** Chapter 27 is part of the 29 July 2026 official release. Its `FM-27-xx` controls and `EVD-27-xx` evidence records are bound to the same released source state and remain continuously reviewable.
+**Control rule:** Historical audit status, first-party verification, independent reviewer status, and production deployment coverage remain separate evidence fields.
 {% endhint %}
 
 ## Core specification
 
 **Claim state:** RELEASED / CONTROLLED SYSTEM SPECIFICATION
 
-The supplied independent auditor artefact is real review evidence and is appended unmodified. Its own summary reports nine findings - one Major, three Medium, four Minor and one Informational - with zero resolved and nine acknowledged. Any later remediation or re-audit is tracked separately until a closure artefact is attached.
+The evidence set contains first-party assessment `WCF-SARV-2026-0810`, version 3.0, prepared by Whale CeFi Security Engineering on 10 August 2026. Its SHA-256 is `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918`.
+
+The report records 17 of 17 findings resolved and 31 of 31 automated checks passed for the exact assessed source, Solidity 0.8.26 build, and isolated chain 31337 deployment identity. Production deployment coverage is empty. Eter and Hashlock remain separate independent-audit programme records.
 
 ### Normative design rules
 
-- Preserve the supplied audit file and its scope exactly as delivered.
-- Do not translate ‘acknowledged’ into ‘resolved’ or ‘remediated’.
-- Tie each finding to code commit, test, reviewer decision and deployed version.
-- Record out-of-scope contracts and infrastructure as separate assurance work.
-- Public claims use only the status supported by the latest controlled artefact.
+- Preserve every supplied report unchanged and verify its hash.
+- Preserve the original finding status alongside later engineering status.
+- Identify the assurance provider and whether it is first-party or independent.
+- Bind remediation to exact source, compiler, dependencies, tests, and environment.
+- Bind a deployment-covered state to exact live runtime bytecode and authority state.
+- Treat an empty production-coverage list as no production coverage.
+- Record scope exclusions and residual operational work.
 
 ### Boundary / not claimed
 
-The presence of a independent auditor report is not represented as proof that every finding is closed or that the entire Whale CeFi platform was audited. independent auditor-2025-12-22 · TEAM-REPORTED FOLLOW-UP
+First-party remediation verification is not an independent audit. Local chain 31337 addresses are not production addresses. Source-level closure does not establish complete custody, liabilities, backend, KYC, oracle, bridge, client, legal, or production-runtime assurance.
 
 ## Reference architecture
 
 | Layer | Component | Responsibility |
 |---|---|---|
-| L5 | Audit scope | src/Stake.sol and identified repository commit. |
-| L4 | Finding register | Severity, location, rationale and recommendation. |
-| L3 | Engineering response | Fix, compensating control or risk acceptance. |
-| L2 | Verification | Reviewer closure, re-audit or reproducible internal test. |
-| L1 | Deployment attestation | Fixed source maps to production bytecode. |
-| L0 | Residual risk | Named owner, expiry, monitoring and approval. |
+| L5 | Evidence identity | Provider, relationship, report ID, version, date, file, and SHA-256. |
+| L4 | Finding register | Original status, severity, root cause, affected source, and closure state. |
+| L3 | Remediation | Exact code and control change linked to the finding. |
+| L2 | Verification | Reproducible tests, compiler, environment, and provider retest. |
+| L1 | Deployment attestation | Chain, address, runtime, roles, source, and applicable review. |
+| L0 | Residual risk | Excluded domains, owner, monitoring, expiry, and decision. |
 
 ## Control contract
 
@@ -51,40 +55,36 @@ Each component receives a narrow responsibility, typed inputs, and an observable
 
 | Component | Responsibility / input | Control invariant |
 |---|---|---|
-| Audit scope | src/Stake.sol and identified repository commit. | Preserve the supplied audit file and its scope exactly as delivered. |
-| Finding register | Severity, location, rationale and recommendation. | Do not translate ‘acknowledged’ into ‘resolved’ or ‘remediated’. |
-| Engineering response | Fix, compensating control or risk acceptance. | Tie each finding to code commit, test, reviewer decision and deployed version. |
-| Verification | Reviewer closure, re-audit or reproducible internal test. | Record out-of-scope contracts and infrastructure as separate assurance work. |
-| Deployment attestation | Fixed source maps to production bytecode. | Public claims use only the status supported by the latest controlled artefact. |
-| Residual risk | Named owner, expiry, monitoring and approval. | Preserve the supplied audit file and its scope exactly as delivered. |
+| Evidence identity | File and machine-readable record. | The calculated artifact SHA-256 equals the registry value. |
+| Finding register | Original and current status. | A later engineering result never overwrites the historical report state. |
+| Remediation | Finding-to-code-to-test link. | Each resolved state names the exact implemented control and check. |
+| Verification | Provider, compiler, environment, and result. | First-party and independent verification remain distinguishable. |
+| Deployment attestation | Live runtime and authority identity. | No deployment inherits coverage without an exact scope match. |
+| Residual risk | Exclusions and operational dependencies. | A resolved source finding does not erase an excluded domain. |
 
-**Interface invariant:** Every runtime handoff is versioned, attributable and rejectable. Partial, stale, unlicensed or schema-incompatible output remains an explicit state; it cannot be silently normalised into success.
+**Interface invariant:** Partial, stale, mismatched, unverified, or schema-incompatible evidence remains an explicit state and cannot be normalised into success.
 
 ## Failure-mode analysis
 
-A control is incomplete unless the system has a defined state transition when it fails, becomes stale, or loses authority.
-
 | ID | Failure mode | Failure effect | Primary control | Required state |
 |---|---|---|---|---|
-| `FM-27-01` | Status inflation | Acknowledged finding is called fixed | Evidence-state register | **CORRECT** |
-| `FM-27-02` | Scope confusion | One file audit implies platform audit | Scope statement | **LIMIT CLAIM** |
-| `FM-27-03` | Code drift | Production differs from reviewed commit | Bytecode attestation | **NO-GO** |
-| `FM-27-04` | Stale audit | Later upgrades bypass review | Change-trigger policy | **REAUDIT** |
+| `FM-27-01` | Status inflation | Internal closure is displayed as independent assurance | Provider-relationship field | **CORRECT** |
+| `FM-27-02` | Scope confusion | Isolated source tests imply platform-wide coverage | Scope and exclusions | **LIMIT CLAIM** |
+| `FM-27-03` | Code drift | Production runtime differs from assessed source | Bytecode and source attestation | **NO-GO** |
+| `FM-27-04` | Artifact substitution | A changed PDF retains the old title or status | SHA-256 verification | **REJECT** |
 
 ## Release evidence
 
-This official release binds each implementation claim to reviewable evidence, reproducible controls, and the deployed source state. Owner approval and independently issued evidence retain separate provenance labels.
-
 | ID | State | Required evidence |
 |---|---|---|
-| `EVD-27-01` | **ACCEPTED** | Delivered 22 December 2025; commit the exact reviewed commit; src/Stake.sol. |
-| `EVD-27-02` | **ACCEPTED** | Nine findings; zero resolved; nine acknowledged in supplied summary. |
-| `EVD-27-03` | **ACCEPTED** | Team reports later fixes and re-audit; closure report is not in this corpus. |
-| `EVD-27-04` | **ACCEPTED** | Finding-to-commit-to-test remediation matrix. |
-| `EVD-27-05` | **ACCEPTED** | Production deployment attestation and residual-risk approval. |
+| `EVD-27-01` | **ACCEPTED** | Original 42-page PDF, assessment ID `WCF-SARV-2026-0810`, SHA-256 `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918`. |
+| `EVD-27-02` | **ACCEPTED** | Baseline commit `6abbb72e994862c912996b042addd26c8c4510c2`, Solidity 0.8.26, optimizer 200, Shanghai EVM. |
+| `EVD-27-03` | **ACCEPTED** | 17 resolved findings and 31 passing checks in isolated chain 31337 through block 82. |
+| `EVD-27-04` | **ACCEPTED** | First-party provider label and empty production-deployment coverage. |
+| `EVD-27-05` | **ACCEPTED** | Eter and Hashlock records remain separate from the first-party assessment. |
 
 ## Related records
 
-- [Controlled Technical Specifications](../platform-infrastructure-and-financial-core.md)
-- [Evidence Center](../../evidence-center.md)
+- [Security Assessment and Remediation Verification](../../security-and-custody/security-assessment-and-remediation-verification.md)
+- [Audit Center](../../evidence-center/audit-center.md)
 - [Release Manifest](../../evidence-center/release-manifest.md)

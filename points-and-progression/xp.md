@@ -1,71 +1,78 @@
 ---
 title: "XP"
-description: "XP is Whale CeFi’s progression score. It records eligible participation across the platform."
+description: "XP is Whale CeFi's exact internal progression score; the interface may show a rounded whole-number view without changing the ledger balance."
 canonical: "https://docs.whale-cefi.com/points-and-progression/xp"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-07-29"
+last_reviewed: "2026-08-10"
 ---
 
 # XP
 
-XP is Whale CeFi’s progression score. It records eligible participation across the platform.
+XP is Whale CeFi's progression score. It records eligible participation in an exact internal ledger and determines the user's current level.
 
-XP may be awarded for:
+XP can be awarded for:
 
-- completing a published task;
-- reaching an eligible product milestone;
-- maintaining a qualifying streak;
-- receiving a configured daily bonus;
-- completing a verified learning module;
-- reaching a valid referral milestone;
-- placing in an eligible leaderboard or season;
-- opening a reward that contains XP;
-- or receiving an approved event or support adjustment.
+- a Daily XP Claim;
+- a published task or achievement;
+- an eligible product milestone;
+- a verified learning module;
+- a valid referral milestone;
+- an eligible leaderboard or season result;
+- a chest outcome containing XP;
+- or an approved event or support correction.
+
+## XP multipliers
+
+Each level has an XP multiplier from 1.00x to 1.50x. The multiplier is an XP-only mechanic. It never changes principal, a staking rate, a locked term reward, a balance-reward percentage, or a company-revenue percentage.
+
+The live Daily XP Claim uses:
+
+$$
+XP_{credited}=XP_{base}\times M_{level}
+$$
+
+Other XP sources identify their own multiplier eligibility. A source without an explicit multiplier rule credits its stated XP amount.
+
+## Exact ledger and rounded interface
+
+Fractional XP is retained internally. Level thresholds and corrections use that exact balance. The standard interface displays no decimal places and rounds to the nearest whole XP using half-up rounding.
+
+| Exact internal value | Standard display |
+|---:|---:|
+| 15.45 XP | 15 XP |
+| 21.20 XP | 21 XP |
+| 159.60 XP | 160 XP |
+| 211.50 XP | 212 XP |
+
+The rounded number is a presentation value only. It never overwrites the XP ledger or changes the moment at which a level threshold is crossed.
 
 ## What XP is not
 
-Unless separate approved terms explicitly say otherwise, XP:
+XP:
 
-- is not money;
+- is not money or customer principal;
 - has no guaranteed cash value;
 - is not a deposit balance;
 - is not a security or ownership interest;
 - is not transferable between accounts;
 - cannot be sold to another user;
-- and does not guarantee any token allocation, reward, product, or benefit.
+- and does not by itself guarantee a token allocation, asset reward, or product right.
 
-## When XP becomes final
+Balance rewards associated with a level are separate financial records. They are described in [Levels](levels.md) and never become XP merely because the same level determines eligibility.
 
-An XP event can move through several states:
+## XP event states
 
 | State | Meaning |
 |---|---|
 | **Tracking** | The system is measuring progress toward an objective. |
-| **Pending** | The visible condition appears complete, but validation is not finished. |
-| **Confirmed** | The event passed the applicable rules and XP was credited. |
+| **Pending** | The visible condition appears complete, but validation is incomplete. |
+| **Confirmed** | The event passed the applicable rules and exact XP was credited. |
 | **Under review** | The event requires automated or manual review. |
 | **Rejected** | The event did not meet the published or integrity conditions. |
-| **Reversed** | Previously credited XP was removed because the underlying event was cancelled, invalid, duplicated, refunded, abusive, or credited in error. |
+| **Reversed** | A correcting entry removed XP after cancellation, duplication, invalidation, abuse, refund, or error. |
 | **Expired** | The required action was not completed within the valid period. |
 
-## XP ledger
+## XP history
 
-The user should have an XP history showing:
-
-- event name;
-- amount;
-- time;
-- source category;
-- related task, referral, chest, achievement, season, or learning module;
-- status;
-- and a support reference where applicable.
-
-The interface may hide confidential anti-abuse detail, but it should not show unexplained balance changes.
-
-## Caps
-
-Some XP sources may have daily, weekly, monthly, seasonal, lifetime, or per-event caps. Caps must be displayed on the relevant mechanic. A cap on one source does not automatically apply to every source.
-
-> **Configuration requirement**  
-> The previous public documentation described a 300 XP monthly cap for daily-streak XP specifically. Do not publish that number in the new guide until the current progression configuration confirms the cap, reset timezone, and which daily events it covers.
+The XP history identifies the event, exact credited amount, displayed amount, base amount, multiplier, source category, time, related programme record, status, configuration ID, and any correcting entry. Confidential anti-abuse detail can remain restricted, but an unexplained XP balance change is not an acceptable user state.
