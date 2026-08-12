@@ -12,8 +12,6 @@ description: >-
 
 # Deposits and Credit Finality
 
-What to check before sending an asset, how confirmation works and when a balance becomes available.
-
 ![Deposits and Credit Finality](../.gitbook/assets/credit-finality.svg)
 
 ![Deposits and Credit Finality — system view 2](../.gitbook/assets/deposit-lifecycle.svg)
