@@ -4,10 +4,6 @@ canonical: https://docs.whale-cefi.com/account-and-access/create-an-account
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  An account gives you a controlled identity inside Whale CeFi. It is the place
-  where eligibility, product consent, balances, positions, progression, support
-  cases, and security events are associated wi
 ---
 
 # Create an Account
