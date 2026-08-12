@@ -1,15 +1,13 @@
 ---
-title: "Plan Catalogue"
-description: "A precise comparison of availability, rate treatment, accrual and closure."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi/plan-catalogue"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Plan Catalogue
+canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/plan-catalogue
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: A precise comparison of availability, rate treatment, accrual and closure.
 ---
 
 # Plan Catalogue
-
-A precise comparison of availability, rate treatment, accrual and closure.
 
 |                 | Flexible plan                                                 | Fixed-term plan                                                                                 |
 | --------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
