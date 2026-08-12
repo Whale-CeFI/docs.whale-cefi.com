@@ -1,10 +1,9 @@
 ---
-title: "Authentication and Sessions"
-description: "Authentication proves control of an account session. It is deliberately separate from product consent, wallet signing, custody approval, and administrative authority."
-canonical: "https://docs.whale-cefi.com/account-and-access/authentication-and-sessions"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Authentication and Sessions
+canonical: https://docs.whale-cefi.com/account-and-access/authentication-and-sessions
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
 ---
 
 # Authentication and Sessions
@@ -13,12 +12,12 @@ Authentication proves control of an account session. It is deliberately separate
 
 ## Authentication layers
 
-- a unique password or passkey;
-- a possession-based second factor;
-- risk-based device and session checks;
-- step-up authentication for sensitive changes;
-- independent confirmation for withdrawals and recovery;
-- signed wallet challenges when a wallet is linked.
+* a unique password or passkey;
+* a possession-based second factor;
+* risk-based device and session checks;
+* step-up authentication for sensitive changes;
+* independent confirmation for withdrawals and recovery;
+* signed wallet challenges when a wallet is linked.
 
 A wallet-link challenge is domain-bound, nonce-bound, expiring, and human-readable. It proves control of an address for the stated purpose; it is not a token approval, transfer, blind signature, or permanent delegation.
 
