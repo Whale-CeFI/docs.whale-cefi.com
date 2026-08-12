@@ -1,15 +1,16 @@
 ---
-title: "Notifications and Confirmations"
-description: "Notifications make material state changes visible outside the screen where they occurred. They are evidence and safety controls, not marketing decoration."
-canonical: "https://docs.whale-cefi.com/account-and-access/notifications-and-confirmations"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Notifications and Confirmations
+canonical: https://docs.whale-cefi.com/account-and-access/notifications-and-confirmations
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Notifications make material state changes visible outside the screen where
+  they occurred. They are evidence and safety controls, not marketing
+  decoration.
 ---
 
 # Notifications and Confirmations
-
-Notifications make material state changes visible outside the screen where they occurred. They are evidence and safety controls, not marketing decoration.
 
 ## Mandatory security events
 
@@ -17,12 +18,12 @@ Whale CeFi notifies the user about new logins, factor changes, recovery attempts
 
 Every material message includes:
 
-- event type and status;
-- time and relevant account context;
-- a safe route to inspect the event;
-- what action is required, if any;
-- what Whale CeFi never asks the user to provide;
-- a case or operation ID.
+* event type and status;
+* time and relevant account context;
+* a safe route to inspect the event;
+* what action is required, if any;
+* what Whale CeFi never asks the user to provide;
+* a case or operation ID.
 
 Links point only to the canonical domain. A notification never asks the user to paste a seed phrase, private key, full one-time code, or remote-access credential.
 
