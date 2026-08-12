@@ -12,8 +12,6 @@ description: >-
 
 # Rates and Reward Mathematics
 
-This page defines the unit, calculation, versioning, display, and rounding rules behind Whale CeFi reward rates.
-
 ![Rates and Reward Mathematics](../.gitbook/assets/gross-to-user-waterfall.svg)
 
 Whale CeFi expresses the current plan percentages for supported assets as **monthly reward rates**. For calculation purposes, one reward month is a fixed 30-day interval of 2,592,000 seconds. It is not a variable-length calendar month, APR, APY, or an implied compounding rate.
