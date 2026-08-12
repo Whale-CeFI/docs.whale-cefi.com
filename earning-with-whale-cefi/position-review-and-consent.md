@@ -12,8 +12,6 @@ description: >-
 
 # Position Review and Consent
 
-The immutable review object a user sees and accepts before a position can be opened.
-
 The final confirmation screen is a cryptographically identified review object, not a transient rendering. It contains every material term needed to reproduce the position and evaluate the action later.
 
 ![Plan confirmation](../.gitbook/assets/product-review.svg)
