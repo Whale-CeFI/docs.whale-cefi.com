@@ -1,15 +1,16 @@
 ---
-title: "Who It Is For"
-description: "The same market creates different problems for different people. WENI operates on one evidence base with different levels of explanation and workflow support."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/who-it-is-for"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Who It Is For
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/who-it-is-for
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The same market creates different problems for different people. WENI operates
+  on one evidence base with different levels of explanation and workflow
+  support.
 ---
 
 # Who It Is For
-
-The same market creates different problems for different people. WENI operates on one evidence base with different levels of explanation and workflow support.
 
 ## Someone entering crypto for the first time
 

@@ -4,9 +4,6 @@ canonical: https://docs.whale-cefi.com/controlled-specifications
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  This section preserves the full engineering depth behind the reader-facing
-  documentation. It is organised as two controlled papers:
 ---
 
 # Controlled Technical Specifications

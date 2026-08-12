@@ -11,8 +11,6 @@ description: >-
 
 # Token Integration Safety
 
-How the contract system handles non-standard ERC-20 behavior without creating unbacked claims.
-
 Token symbols do not define behavior. Every supported asset is admitted through a dedicated adapter profile and a complete adversarial test suite.
 
 ![Token adapter controls](../.gitbook/assets/token-adapter.svg)

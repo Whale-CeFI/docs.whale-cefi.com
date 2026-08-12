@@ -12,8 +12,6 @@ description: >-
 
 # Controlled Action Workflow
 
-How evidence and reasoning become an unsigned proposal that stops before human authorization.
-
 ![Controlled Action Workflow](../.gitbook/assets/controlled-action.svg)
 
 WENI can move from explanation to preparation without acquiring execution authority.

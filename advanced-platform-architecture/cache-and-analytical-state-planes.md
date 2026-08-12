@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Redis serves ephemeral sessions, locks, rate controls and short-lived context;
-  ClickHouse serves analytical projections and abuse detection. Neither system
-  may become the unacknowledged source of fina
 ---
 
 # Cache and Analytical State Planes

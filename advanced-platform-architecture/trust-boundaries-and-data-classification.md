@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Zero trust is implemented as explicit identities, least privilege,
-  authenticated service calls, purpose-bound data and separate control planes.
-  Public blockchain data becomes governed user data when i
 ---
 
 # Trust Boundaries and Data Classification

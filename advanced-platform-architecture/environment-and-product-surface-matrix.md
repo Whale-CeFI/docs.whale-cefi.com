@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Whale CeFi operates distinct web, mobile, conversational,
-  internal-administration, and institutional surfaces under one canonical state
-  contract. Availability resolves per signed production build, reg
 ---
 
 # Environment and Product Surface Matrix

@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-17
-description: >-
-  Every financial record depends on a canonical definition of entity, account,
-  asset, network, quantity, precision and liability. The model prevents symbol
-  ambiguity and separates user liability, platfo
 ---
 
 # Canonical Asset and Account Model

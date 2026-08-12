@@ -11,8 +11,6 @@ description: >-
 
 # On-Chain Position State Machine
 
-The valid states, transitions, and terminal conditions for flexible and locked positions.
-
 ![On-Chain Position State Machine](../.gitbook/assets/position-state.svg)
 
 Position state is explicit; timestamps and balances alone are not used to infer an unrecorded transition.

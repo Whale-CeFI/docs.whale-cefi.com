@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-26
-description: >-
-  Privileged contract operations must be slower, more observable and more
-  independently approved than routine user activity. A reported 48-hour timelock
-  creates review time only when proposals are decod
 ---
 
 # Upgrade, Timelock, Pause, and Governance Controls

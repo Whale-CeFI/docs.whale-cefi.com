@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  The cloud platform foundation isolates production, non-production, security,
-  logging and shared services. Organisation policies, central identity,
-  immutable logging and controlled network connectivity
 ---
 
 # Cloud Organization and Landing Zone

@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-03
-description: >-
-  03 The platform is decomposed by business authority rather than by arbitrary
-  technical layers. Identity, portfolio, transaction, ledger, rewards, staking,
-  custody integration and compliance each own a
 ---
 
 # Bounded Contexts and Service Ownership

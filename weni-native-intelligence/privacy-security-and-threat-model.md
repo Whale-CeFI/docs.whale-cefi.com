@@ -1,15 +1,17 @@
 ---
-title: "Privacy, Security, and Threat Model"
-description: "An intelligence system that reads market, wallet, account, document, or enterprise context creates security and privacy responsibilities beyond a normal chatbot."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/privacy-security-and-threat-model"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Privacy, Security, and Threat Model
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/privacy-security-and-threat-model
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  An intelligence system that reads market, wallet, account, document, or
+  enterprise context creates security and privacy responsibilities beyond a
+  normal chatbot.
 ---
 
 # Privacy, Security, and Threat Model
-
-An intelligence system that reads market, wallet, account, document, or enterprise context creates security and privacy responsibilities beyond a normal chatbot.
 
 ## Identity and consent
 

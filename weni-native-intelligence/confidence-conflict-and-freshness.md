@@ -1,15 +1,16 @@
 ---
-title: "Confidence, Conflict, and Freshness"
-description: "Risk, confidence, evidence quality, and action eligibility are distinct and remain separately visible."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/confidence-conflict-and-freshness"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Confidence, Conflict, and Freshness
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/confidence-conflict-and-freshness
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Risk, confidence, evidence quality, and action eligibility are distinct and
+  remain separately visible.
 ---
 
 # Confidence, Conflict, and Freshness
-
-Risk, confidence, evidence quality, and action eligibility are distinct and remain separately visible.
 
 ## Confidence
 

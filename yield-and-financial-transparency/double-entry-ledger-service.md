@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  The Accounting Ledger Service is the internal financial source of record.
-  Every economic event posts a balanced, immutable journal transaction; balances
-  are projections of entries, not independently m
 ---
 
 # Double-Entry Ledger Service

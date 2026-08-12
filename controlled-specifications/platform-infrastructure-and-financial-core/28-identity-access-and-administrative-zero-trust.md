@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-28
-description: >-
-  Administrative and workload access is governed by identity, device posture,
-  purpose, time and approval rather than network location. Consumer
-  authentication, staff federation, cloud administration, Ku
 ---
 
 # Identity, Access, and Administrative Zero Trust

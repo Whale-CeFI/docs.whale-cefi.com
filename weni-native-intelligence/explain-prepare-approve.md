@@ -1,15 +1,15 @@
 ---
-title: "Explain, Prepare, Approve"
-description: "The action model uses distinct verbs because each verb carries different authority."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/explain-prepare-approve"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Explain, Prepare, Approve
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/explain-prepare-approve
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The action model uses distinct verbs because each verb carries different
+  authority.
 ---
 
 # Explain, Prepare, Approve
-
-The action model uses distinct verbs because each verb carries different authority.
 
 ## Explain
 

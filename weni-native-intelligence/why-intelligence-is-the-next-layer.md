@@ -1,15 +1,17 @@
 ---
-title: "Why Intelligence Is the Next Layer"
-description: "Crypto does not suffer from a shortage of information. It suffers from fragmented evidence, inconsistent terminology, changing state, adversarial content, and irreversible actions."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/why-intelligence-is-the-next-layer"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Why Intelligence Is the Next Layer
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/why-intelligence-is-the-next-layer
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Crypto does not suffer from a shortage of information. It suffers from
+  fragmented evidence, inconsistent terminology, changing state, adversarial
+  content, and irreversible actions.
 ---
 
 # Why Intelligence Is the Next Layer
-
-Crypto does not suffer from a shortage of information. It suffers from fragmented evidence, inconsistent terminology, changing state, adversarial content, and irreversible actions.
 
 A simple-looking decision may depend on several different realities at once:
 

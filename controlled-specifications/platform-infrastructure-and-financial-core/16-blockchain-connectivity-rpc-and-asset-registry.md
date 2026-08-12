@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-16
-description: >-
-  The platform reports Ethereum, Arbitrum, Optimism and Base support with active
-  Solana connectivity and analysis. A governed asset registry binds chain,
-  canonical address, decimals, token behaviour, ac
 ---
 
 # Blockchain Connectivity, RPC, and Asset Registry

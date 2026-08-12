@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-20
-description: >-
-  Withdrawals reverse the deposit path under stricter authority. The platform
-  must authenticate intent, reserve the liability, screen policy, obtain custody
-  approval, broadcast the exact authorised tran
 ---
 
 # Withdrawal Lifecycle and User-Exit Safety

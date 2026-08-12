@@ -11,8 +11,6 @@ description: >-
 
 # Pause and Emergency Exit
 
-Scoped incident controls that stop unsafe behavior without turning pause authority into asset authority.
-
 ![Pause and Emergency Exit](../.gitbook/assets/incident-status.svg)
 
 Emergency control is split by operation, asset, network, product version, and contract module. There is no universal owner switch capable of both freezing and draining the system.

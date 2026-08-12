@@ -11,8 +11,6 @@ description: >-
 
 # Smart Contracts
 
-A compartmentalized on-chain system that replaces the privileged monolithic staking contract.
-
 ![Protocol Architecture](../.gitbook/assets/12-contract-assurance.png)
 
 The canonical contract system separates product definition, asset custody, position accounting, reward funding, strategy allocation, emergency control, and governance. No contract combines all of these powers, and no externally owned account can exercise privileged authority alone.

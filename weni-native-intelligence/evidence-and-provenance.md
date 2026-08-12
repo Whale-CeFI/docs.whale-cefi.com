@@ -11,8 +11,6 @@ description: >-
 
 # Evidence and Provenance
 
-WENI operates on the principle that every statement carries enough context to be inspected.
-
 ![Evidence and Provenance](../.gitbook/assets/evidence-provenance.svg)
 
 A material evidence object identifies:

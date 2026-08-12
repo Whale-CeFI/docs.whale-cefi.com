@@ -11,8 +11,6 @@ description: >-
 
 # Advanced Platform Architecture
 
-How product intent becomes a financial obligation, an authorized asset movement, and independently verifiable evidence.
-
 ![Canonical System Model](../.gitbook/assets/authority-domains.svg)
 
 Whale CeFi exposes one product surface while preserving six independent authority domains. The separation is deliberate: a compromise or defect in one domain cannot silently acquire the powers of another.

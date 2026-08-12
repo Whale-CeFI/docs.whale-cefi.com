@@ -1,15 +1,16 @@
 ---
-title: "The Dynamic Interface"
-description: "WENI is not limited to a chat window. The interface assembles the right combination of explanation, evidence, calculation, simulation, risk, and action controls for the current task."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/the-dynamic-interface"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: The Dynamic Interface
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/the-dynamic-interface
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  WENI is not limited to a chat window. The interface assembles the right
+  combination of explanation, evidence, calculation, simulation, risk, and
+  action controls for the current task.
 ---
 
 # The Dynamic Interface
-
-WENI is not limited to a chat window. The interface assembles the right combination of explanation, evidence, calculation, simulation, risk, and action controls for the current task.
 
 ## Possible interface components
 

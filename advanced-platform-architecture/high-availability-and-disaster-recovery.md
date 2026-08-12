@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Whale CeFi operates independent primary and recovery regions, each distributed
-  across three availability zones. Zonal failover, regional continuity, data
-  recovery, and business resumption use explicit
 ---
 
 # High Availability and Disaster Recovery

@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
-description: >-
-  The controlled platform paper covers authority boundaries, cloud runtime,
-  service ownership, data planes, identity, blockchain connectivity, the
-  double-entry financial core, custody, contracts, resili
 ---
 
 # Platform Infrastructure and Financial Core

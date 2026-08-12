@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-09
-description: >-
-  09 Whale CeFi uses different compute classes for deterministic on-chain
-  services, Go business services, specialised workloads and event-driven
-  triggers. Each class receives explicit latency, isolation
 ---
 
 # Compute Classes, Scheduling, and Serverless Boundaries

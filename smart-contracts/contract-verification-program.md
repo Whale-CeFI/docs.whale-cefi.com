@@ -1,15 +1,15 @@
 ---
-title: "Contract Verification Program"
-description: "The layered test, analysis, formal, deployment, and monitoring controls required for every release."
-canonical: "https://docs.whale-cefi.com/smart-contracts/contract-verification-program"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Contract Verification Program
+canonical: https://docs.whale-cefi.com/smart-contracts/contract-verification-program
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The layered test, analysis, formal, deployment, and monitoring controls
+  required for every release.
 ---
 
 # Contract Verification Program
-
-The layered test, analysis, formal, deployment, and monitoring controls required for every release.
 
 No single audit or tool defines contract safety. Release evidence combines independent methods that fail differently.
 

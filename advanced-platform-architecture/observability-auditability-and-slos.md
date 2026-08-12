@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Observability explains whether users, balances, and settlement are safe — not
-  merely whether workloads are running. Metrics, logs, traces, audit events and
-  business invariants share correlation identi
 ---
 
 # Observability, Auditability, and SLOs

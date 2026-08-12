@@ -11,8 +11,6 @@ description: >-
 
 # Smart-Contract Invariants
 
-Properties that hold across every transaction sequence, including adversarial and failure paths.
-
 An invariant is stronger than an example test: it must hold for every reachable state under the stated assumptions.
 
 ![Contract invariant map](../.gitbook/assets/contract-invariants.svg)

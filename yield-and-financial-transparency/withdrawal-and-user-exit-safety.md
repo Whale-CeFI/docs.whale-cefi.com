@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Withdrawals reverse the deposit path under stricter authority. The platform
-  authenticates intent, reserves the liability, screens policy, obtains custody
-  approval, broadcasts the exact authorised tran
 ---
 
 # Withdrawal and User Exit Safety

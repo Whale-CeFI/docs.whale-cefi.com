@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-11
-description: >-
-  Configuration, credentials, images and dependencies are production artefacts.
-  The platform requires signed builds, immutable versions, secret rotation,
-  admission controls and traceability from source
 ---
 
 # Configuration, Secrets, and Software Supply Chain

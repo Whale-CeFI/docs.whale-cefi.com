@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Settlement is a state machine, not a boolean. Whale CeFi distinguishes
-  requested, observed, included, finalised, custody-confirmed, ledger-posted,
-  reconciled, failed, replaced, reversed and disputed s
 ---
 
 # Settlement Finality and Financial Exceptions

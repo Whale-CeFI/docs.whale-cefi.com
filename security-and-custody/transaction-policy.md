@@ -1,15 +1,15 @@
 ---
-title: "Transaction Policy"
-description: "The deterministic rules that constrain every custody and on-chain asset movement."
-canonical: "https://docs.whale-cefi.com/security-and-custody/transaction-policy"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Transaction Policy
+canonical: https://docs.whale-cefi.com/security-and-custody/transaction-policy
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The deterministic rules that constrain every custody and on-chain asset
+  movement.
 ---
 
 # Transaction Policy
-
-The deterministic rules that constrain every custody and on-chain asset movement.
 
 Transaction policy evaluates a typed request before any signer sees it. Human quorum can approve a permitted request; it cannot override a hard prohibition.
 

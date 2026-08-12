@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Incident response is a controlled state transition across detection,
-  containment, financial authority, custody, contracts, communications, recovery
-  and evidence preservation. Circuit breakers are scop
 ---
 
 # Incident Response and Circuit Breakers

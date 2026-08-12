@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  PostgreSQL is the transactional source for financial and product records, with
-  TimescaleDB for governed time-series workloads. Schema ownership, constraints,
-  isolation, high availability, backup and r
 ---
 
 # Transactional and Time-Series Authority

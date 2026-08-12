@@ -12,8 +12,6 @@ description: >-
 
 # Personalisation and Memory
 
-WENI adapts to the person using it without quietly rewriting truth or retaining more data than necessary.
-
 ![Personalisation and Memory](../.gitbook/assets/personalisation.svg)
 
 ## What may be personalised

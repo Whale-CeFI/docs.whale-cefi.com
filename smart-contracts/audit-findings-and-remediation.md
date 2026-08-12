@@ -1,15 +1,15 @@
 ---
-title: "Audit Findings and Remediation"
-description: "Whale CeFi preserves each finding from its historical report state through remediation, executable retesting, and exact deployment coverage."
-canonical: "https://docs.whale-cefi.com/smart-contracts/audit-findings-and-remediation"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-08-10"
+title: Audit Findings and Remediation
+canonical: https://docs.whale-cefi.com/smart-contracts/audit-findings-and-remediation
+document_status: official-release
+audience: public
+last_reviewed: '2026-08-10'
+description: >-
+  Whale CeFi preserves each finding from its historical report state through
+  remediation, executable retesting, and exact deployment coverage.
 ---
 
 # Audit Findings and Remediation
-
-Whale CeFi preserves each finding from its historical report state through remediation, executable retesting, and exact deployment coverage.
 
 ![Audit remediation chain](../.gitbook/assets/audit-remediation.svg)
 
@@ -29,14 +29,14 @@ A finding can move through reported, remediating, remediated, provider-retested,
 
 Each closure record identifies:
 
-- provider and relationship to Whale CeFi;
-- report identifier, version, date, and artifact hash;
-- finding ID, severity, root cause, and affected code;
-- exact scope commit, compiler, dependencies, and configuration;
-- remediation code and regression checks;
-- retest result and environment;
-- residual risk;
-- and covered production deployment IDs.
+* provider and relationship to Whale CeFi;
+* report identifier, version, date, and artifact hash;
+* finding ID, severity, root cause, and affected code;
+* exact scope commit, compiler, dependencies, and configuration;
+* remediation code and regression checks;
+* retest result and environment;
+* residual risk;
+* and covered production deployment IDs.
 
 ## Deployment binding
 

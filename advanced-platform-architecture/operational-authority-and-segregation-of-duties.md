@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Operational safety depends on who can propose, approve, deploy, pause,
-  reconcile and recover. Automated systems detect and veto within policy; they
-  never become an additional custody signer or sole fi
 ---
 
 # Operational Authority and Segregation of Duties

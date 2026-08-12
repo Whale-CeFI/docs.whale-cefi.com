@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Each client surface carries a different threat model. Browser edge delivery,
-  React Native/Expo mobile storage, privileged administration and institutional
-  APIs require distinct authentication, session
 ---
 
 # Web, Mobile, Admin, and API Security

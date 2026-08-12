@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-02
-description: >-
-  02 Whale CeFi operates multiple surfaces at different maturity levels.
-  Production web, production mobile, developing conversational UI, internal
-  administration and production B2B access must never be
 ---
 
 # Environment and Product-Surface Matrix

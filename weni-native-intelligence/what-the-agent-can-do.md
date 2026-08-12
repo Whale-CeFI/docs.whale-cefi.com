@@ -1,15 +1,15 @@
 ---
-title: "What the Agent Can Do"
-description: "Capabilities are published as explicit classes. Availability is published per release, region, product, asset, protocol, interface, and user tier."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-can-do"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: What the Agent Can Do
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-can-do
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Capabilities are published as explicit classes. Availability is published per
+  release, region, product, asset, protocol, interface, and user tier.
 ---
 
 # What the Agent Can Do
-
-Capabilities are published as explicit classes. Availability is published per release, region, product, asset, protocol, interface, and user tier.
 
 ## Explain
 

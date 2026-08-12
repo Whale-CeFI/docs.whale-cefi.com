@@ -1,15 +1,15 @@
 ---
-title: "Security and Custody"
-canonical: "https://docs.whale-cefi.com/security-and-custody"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-08-10"
-description: "Security and custody separate source-level assessment evidence, production deployment identity, asset authority, and customer entitlement."
+title: Security and Custody
+canonical: https://docs.whale-cefi.com/security-and-custody
+document_status: official-release
+audience: public
+last_reviewed: '2026-08-10'
+description: >-
+  Security and custody separate source-level assessment evidence, production
+  deployment identity, asset authority, and customer entitlement.
 ---
 
 # Security and Custody
-
-Security and custody separate source-level assessment evidence, production deployment identity, asset authority, and customer entitlement.
 
 ![Custody Architecture](../.gitbook/assets/05-custody-boundary.png)
 

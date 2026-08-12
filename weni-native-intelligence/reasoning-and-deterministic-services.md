@@ -1,15 +1,16 @@
 ---
-title: "Reasoning and Deterministic Services"
-description: "WENI separates tasks that benefit from probabilistic reasoning from tasks that require repeatable calculation or hard enforcement."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/reasoning-and-deterministic-services"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Reasoning and Deterministic Services
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/reasoning-and-deterministic-services
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  WENI separates tasks that benefit from probabilistic reasoning from tasks that
+  require repeatable calculation or hard enforcement.
 ---
 
 # Reasoning and Deterministic Services
-
-WENI separates tasks that benefit from probabilistic reasoning from tasks that require repeatable calculation or hard enforcement.
 
 ## Probabilistic reasoning
 

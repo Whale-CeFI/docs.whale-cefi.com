@@ -11,8 +11,6 @@ description: >-
 
 # The Iron Boundary
 
-The Iron Boundary is the non-negotiable separation between intelligence and asset authority.
-
 ![Intelligence stops before signing authority](../.gitbook/assets/iron-boundary.svg)
 
 WENI may be permitted to:

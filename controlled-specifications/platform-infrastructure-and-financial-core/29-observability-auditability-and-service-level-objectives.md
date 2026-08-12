@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-29
-description: >-
-  Observability must explain whether users, balances and settlement are safe -
-  not merely whether pods are running. Metrics, logs, traces, audit events and
-  business invariants share correlation identiti
 ---
 
 # Observability, Auditability, and Service-Level Objectives

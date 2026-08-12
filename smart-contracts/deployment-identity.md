@@ -11,8 +11,6 @@ description: >-
 
 # Deployment Identity
 
-The verifiable chain from reviewed source to the exact runtime code and authority state.
-
 A contract name or repository is not deployment identity. The canonical deployment record binds every relevant artifact to one chain address and one activation interval.
 
 ![Deployment identity chain](../.gitbook/assets/deployment-identity.svg)

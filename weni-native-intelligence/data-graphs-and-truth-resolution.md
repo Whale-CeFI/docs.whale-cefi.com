@@ -1,15 +1,16 @@
 ---
-title: "Data Graphs and Truth Resolution"
-description: "WENI’s data architecture separates three connected but non-interchangeable structures."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/data-graphs-and-truth-resolution"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Data Graphs and Truth Resolution
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/data-graphs-and-truth-resolution
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  WENI’s data architecture separates three connected but non-interchangeable
+  structures.
 ---
 
 # Data Graphs and Truth Resolution
-
-WENI’s data architecture separates three connected but non-interchangeable structures.
 
 ## Evidence Graph
 

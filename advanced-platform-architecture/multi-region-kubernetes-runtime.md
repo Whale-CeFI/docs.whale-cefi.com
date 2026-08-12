@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Production services run on independent managed Kubernetes clusters in primary
-  and recovery regions, each spanning three availability zones. Stateless
-  services operate active-active; financial authorit
 ---
 
 # Multi-Region Kubernetes Runtime

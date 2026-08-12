@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  A deposit becomes an internal user liability only after the platform has
-  identified the canonical asset, observed the transfer, applied the
-  chain-specific finality policy, validated custody evidence a
 ---
 
 # Deposit Credit and Financial Finality

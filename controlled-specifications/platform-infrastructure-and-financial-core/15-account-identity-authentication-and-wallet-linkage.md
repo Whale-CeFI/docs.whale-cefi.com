@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-15
-description: >-
-  A UUIDv4 is an internal identifier, not a privacy control by itself. Whale
-  CeFi must isolate PII, authentication identities and wallet relationships
-  through explicit mapping stores, consent, cryptogra
 ---
 
 # Account Identity, Authentication, and Wallet Linkage

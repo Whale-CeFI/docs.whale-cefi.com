@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Reconciliation proves that internal obligations are supported by external
-  assets and expected movements. It compares ledger control accounts with chain
-  and custody evidence, explains timing difference
 ---
 
 # Reconciliation and Exception Management

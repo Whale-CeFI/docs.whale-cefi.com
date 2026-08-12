@@ -1,15 +1,17 @@
 ---
-title: "Access Tiers and Enterprise Use"
-description: "The access model varies capacity, latency, data depth, workflow tooling, and commercial support. It never creates different truth or removes baseline safety."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/access-tiers-and-enterprise-use"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Access Tiers and Enterprise Use
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/access-tiers-and-enterprise-use
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The access model varies capacity, latency, data depth, workflow tooling, and
+  commercial support. It never creates different truth or removes baseline
+  safety.
 ---
 
 # Access Tiers and Enterprise Use
-
-The access model varies capacity, latency, data depth, workflow tooling, and commercial support. It never creates different truth or removes baseline safety.
 
 ## Tier 0 — Free
 

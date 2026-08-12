@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-12
-description: >-
-  PostgreSQL is reported as the transactional source for financial and product
-  records, with TimescaleDB for governed time-series workloads. Schema
-  ownership, constraints, isolation, high availability,
 ---
 
 # PostgreSQL and Time-Series Authority

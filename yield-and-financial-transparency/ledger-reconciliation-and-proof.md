@@ -12,8 +12,6 @@ description: >-
 
 # Ledger, Reconciliation, and Proof
 
-Reward economics become trustworthy only when the financial record, controlled assets, blockchain state, and proof scope agree.
-
 ## Double-entry financial core
 
 Every economic event posts equal debits and credits in integer asset base units. Balances are projections of journals; they are never edited directly.

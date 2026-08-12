@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  The platform is decomposed by business authority rather than by arbitrary
-  technical layers. Identity, portfolio, transaction, ledger, rewards, staking,
-  custody integration and compliance each own a na
 ---
 
 # Bounded Contexts and Service Ownership

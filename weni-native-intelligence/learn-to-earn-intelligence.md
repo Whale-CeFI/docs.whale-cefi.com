@@ -1,15 +1,16 @@
 ---
-title: "Learn-to-Earn Intelligence"
-description: "Learn-to-Earn connects education, demonstrated competency, and progression without turning a quiz into a claim of financial expertise."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/learn-to-earn-intelligence"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Learn-to-Earn Intelligence
+canonical: >-
+  https://docs.whale-cefi.com/weni-native-intelligence/learn-to-earn-intelligence
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Learn-to-Earn connects education, demonstrated competency, and progression
+  without turning a quiz into a claim of financial expertise.
 ---
 
 # Learn-to-Earn Intelligence
-
-Learn-to-Earn connects education, demonstrated competency, and progression without turning a quiz into a claim of financial expertise.
 
 ## Learning path
 

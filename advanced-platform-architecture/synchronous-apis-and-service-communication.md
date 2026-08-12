@@ -1,15 +1,17 @@
 ---
-title: "Synchronous APIs and Service Communication"
-description: "REST, gRPC, WebSockets and internal streaming endpoints are selected by interaction contract. Every call is authenticated, versioned, bounded by deadline and safe to retry according to its semantics."
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture/synchronous-apis-and-service-communication"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Synchronous APIs and Service Communication
+canonical: >-
+  https://docs.whale-cefi.com/advanced-platform-architecture/synchronous-apis-and-service-communication
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  REST, gRPC, WebSockets and internal streaming endpoints are selected by
+  interaction contract. Every call is authenticated, versioned, bounded by
+  deadline and safe to retry according to its semantics.
 ---
 
 # Synchronous APIs and Service Communication
-
-REST, gRPC, WebSockets and internal streaming endpoints are selected by interaction contract. Every call is authenticated, versioned, bounded by deadline and safe to retry according to its semantics.
 
 ## Control model
 

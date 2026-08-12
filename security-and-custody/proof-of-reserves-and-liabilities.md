@@ -12,8 +12,6 @@ description: >-
 
 # Proof of Reserves and Liabilities
 
-A same-epoch proof that binds customer liabilities, controlled reserves, encumbrances, and wallet authority.
-
 Proof of Reserves is meaningful only when the asset side and liability side refer to the same scope and observation time. A wallet screenshot or list of addresses is not a solvency proof.
 
 ![Proof epoch](../.gitbook/assets/proof-epoch.svg)

@@ -11,8 +11,6 @@ description: >-
 
 # Governance, Roles, and Upgrades
 
-Delayed, independently approved authority with immutable asset-bearing vaults and explicit migration.
-
 Privileged operations are slower, more observable, and more independently approved than routine user actions.
 
 ![Governance and timelock](../.gitbook/assets/governance-timelock.svg)

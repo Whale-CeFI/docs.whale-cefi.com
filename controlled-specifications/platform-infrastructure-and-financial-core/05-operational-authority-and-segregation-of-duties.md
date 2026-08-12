@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-05
-description: >-
-  05 Operational safety depends on who can propose, approve, deploy, pause,
-  reconcile and recover. Automated systems may detect and veto; they should not
-  silently become an additional custody signer or
 ---
 
 # Operational Authority and Segregation of Duties

@@ -1,15 +1,16 @@
 ---
-title: "What the AI Agent Is"
-description: "Whale CeFi AI Agent is the user-facing intelligence product. WENI — the native intelligence system for Whale CeFi — is the wider governed intelligence system that supports it."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/what-the-ai-agent-is"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: What the AI Agent Is
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/what-the-ai-agent-is
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Whale CeFi AI Agent is the user-facing intelligence product. WENI — the native
+  intelligence system for Whale CeFi — is the wider governed intelligence system
+  that supports it.
 ---
 
 # What the AI Agent Is
-
-Whale CeFi AI Agent is the user-facing intelligence product. WENI — the native intelligence system for Whale CeFi — is the wider governed intelligence system that supports it.
 
 The Agent combines four roles without confusing their authority:
 

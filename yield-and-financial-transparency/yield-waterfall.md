@@ -11,8 +11,6 @@ description: >-
 
 # Yield Waterfall
 
-The waterfall converts realized external economics into distributable reward without crossing the principal boundary.
-
 ![Gross-to-user waterfall](../.gitbook/assets/gross-to-user-waterfall.svg)
 
 ## Epoch calculation

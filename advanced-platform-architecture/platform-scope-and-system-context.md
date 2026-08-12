@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  This chapter defines the operating platform beneath Whale CeFi: client
-  surfaces, services, data stores, financial records, blockchain connectivity,
-  custody, contracts, security and release operations.
 ---
 
 # Platform Scope and System Context

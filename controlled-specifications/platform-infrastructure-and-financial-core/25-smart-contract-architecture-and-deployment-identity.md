@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-25
-description: >-
-  Whale CeFi staking contracts are reported to use a UUPS upgradeability
-  pattern. Safe operation requires exact source-to-bytecode identity,
-  initialisation control, storage-layout compatibility, role…
 ---
 
 # Smart-Contract Architecture and Deployment Identity

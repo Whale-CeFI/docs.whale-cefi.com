@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-08-10'
-description: >-
-  Compliance architecture maps legal entity, product, data, custody, user
-  region, and permitted action to enforceable controls. KYC, sanctions, privacy,
-  retention, and geographic restrictions are driven
 ---
 
 # Data Protection and Geographic Controls

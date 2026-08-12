@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-06
-description: >-
-  06 The AWS foundation isolates production, non-production, security, logging
-  and shared services. Organisation policies, central identity, immutable
-  logging and controlled network connectivity establi
 ---
 
 # Cloud Organisation, Accounts, and Landing Zone

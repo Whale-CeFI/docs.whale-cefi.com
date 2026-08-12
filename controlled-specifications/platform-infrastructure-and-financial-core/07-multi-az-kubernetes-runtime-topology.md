@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-07
-description: >-
-  07 Production services are reported on managed Kubernetes across three
-  availability zones in eu-central-1. Availability requires topology-aware
-  scheduling, Pod disruption control, autoscaling, workloa
 ---
 
 # Multi-AZ Kubernetes Runtime Topology

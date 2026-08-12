@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  The platform operates authenticated connectivity for EVM and Solana network
-  families through isolated adapters and a governed asset registry. A governed
-  asset registry binds chain, canonical address,
 ---
 
 # Blockchain Connectivity and Asset Registry

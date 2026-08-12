@@ -1,15 +1,13 @@
 ---
-title: "What the Agent Cannot Do"
-description: "Whale CeFi AI Agent does not become an invisible authority over user assets."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-cannot-do"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: What the Agent Cannot Do
+canonical: https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-cannot-do
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: Whale CeFi AI Agent does not become an invisible authority over user assets.
 ---
 
 # What the Agent Cannot Do
-
-Whale CeFi AI Agent does not become an invisible authority over user assets.
 
 It does not:
 

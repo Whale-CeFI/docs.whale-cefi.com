@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-24
-description: >-
-  The staking contour is reported as hybrid custody using approved MPC custody
-  provider infrastructure. Vault segregation, MPC policy, operator roles,
-  transaction screening and reconciliation define the
 ---
 
 # MPC, Vault, and Custody Policy Architecture

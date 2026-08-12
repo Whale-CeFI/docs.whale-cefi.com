@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Every financial record depends on a canonical definition of entity, account,
-  asset, network, quantity, precision and liability. The model prevents symbol
-  ambiguity and separates user liability, platfo
 ---
 
 # Canonical Asset and Account Model

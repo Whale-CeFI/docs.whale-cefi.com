@@ -4,10 +4,6 @@ canonical: https://docs.whale-cefi.com/security-and-custody/administrative-zero-
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Administrative and workload access is governed by identity, device posture,
-  purpose, time and approval rather than network location. Consumer
-  authentication, staff federation, cloud administration, Ku
 ---
 
 # Administrative Zero Trust

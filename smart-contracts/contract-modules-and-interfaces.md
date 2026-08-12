@@ -1,15 +1,15 @@
 ---
-title: "Contract Modules and Interfaces"
-description: "The responsibility, inputs, outputs, and authority ceiling of each production contract."
-canonical: "https://docs.whale-cefi.com/smart-contracts/contract-modules-and-interfaces"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Contract Modules and Interfaces
+canonical: https://docs.whale-cefi.com/smart-contracts/contract-modules-and-interfaces
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The responsibility, inputs, outputs, and authority ceiling of each production
+  contract.
 ---
 
 # Contract Modules and Interfaces
-
-The responsibility, inputs, outputs, and authority ceiling of each production contract.
 
 Each module exposes a narrow interface. Cross-module calls are typed, versioned, and protected against reentrancy and partial success.
 
