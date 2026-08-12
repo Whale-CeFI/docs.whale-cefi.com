@@ -11,8 +11,6 @@ description: >-
 
 # Product Model
 
-The product boundary between account experience, financial obligation, custody and external networks.
-
 ![Product Model](../.gitbook/assets/product-review.svg)
 
 Whale CeFi provides one product surface for supported crypto earning and staking plans. It coordinates account access, deposit credit, plan opening, daily reward accounting, maturity and withdrawal.
