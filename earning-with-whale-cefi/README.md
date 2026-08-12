@@ -11,8 +11,6 @@ description: >-
 
 # Earning with Whale CeFi
 
-Understand what Whale CeFi does, what happens to an asset and which decisions remain yours.
-
 ![Product Overview](../.gitbook/assets/02-product-journey.png)
 
 Whale CeFi is a centralised crypto earning and staking ecosystem. You choose a supported asset, choose a flexible or fixed-term plan, review the exact rules, and decide whether to open it.
