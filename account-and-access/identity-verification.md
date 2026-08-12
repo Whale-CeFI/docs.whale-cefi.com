@@ -4,10 +4,6 @@ canonical: https://docs.whale-cefi.com/account-and-access/identity-verification
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Identity verification establishes whether a person or organisation is eligible
-  for a specific Whale CeFi service. It supports sanctions controls, fraud
-  prevention, account recovery, transaction review
 ---
 
 # Identity Verification
