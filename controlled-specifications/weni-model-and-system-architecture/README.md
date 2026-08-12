@@ -5,10 +5,6 @@ canonical: >-
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
-description: >-
-  The controlled WENI paper covers model lineage, domain adaptation, evidence
-  graphs, deterministic services, the Iron Boundary, multimodal intake, policy,
-  action preparation, memory, learning, interfac
 ---
 
 # WENI Model and System Architecture

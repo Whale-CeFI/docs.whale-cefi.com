@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-35
-description: >-
-  Release readiness is governed by a signed capability matrix and completed
-  evidence gates rather than by a calendar date. Release scope is converted from
-  a date into a signed capability matrix: surface
 ---
 
 # Release Scope and Acceptance

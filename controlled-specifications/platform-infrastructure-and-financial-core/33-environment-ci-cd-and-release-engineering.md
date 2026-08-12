@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-33
-description: >-
-  Release engineering turns reviewed source into an attributable production
-  state. Repositories, dependencies, tests, artefacts, infrastructure, database
-  migrations, contract deployments and client buil
 ---
 
 # Environment, CI/CD, and Release Engineering

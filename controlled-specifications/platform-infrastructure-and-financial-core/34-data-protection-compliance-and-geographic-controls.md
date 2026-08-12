@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-08-10'
 control_id: PLATFORM-34
-description: >-
-  Compliance architecture maps legal entity, product, data, custody, user region
-  and permitted action to enforceable controls. KYC, sanctions, privacy,
-  retention and geographic restrictions must be driv
 ---
 
 # Data Protection, Compliance, and Geographic Controls
@@ -79,13 +75,13 @@ A control is incomplete unless the system has a defined state transition when it
 
 This official release binds each implementation claim to reviewable evidence, reproducible controls, and the deployed source state. Owner approval and independently issued evidence retain separate provenance labels.
 
-| ID          | State        | Required evidence                                                                        |
-| ----------- | ------------ | ---------------------------------------------------------------------------------------- |
+| ID          | State        | Required evidence                                                                                                       |
+| ----------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | `EVD-34-01` | **ACCEPTED** | El Salvador operating perimeter and account-specific eligible regions; USA, Canada and sanctions restrictions reported. |
-| `EVD-34-02` | **ACCEPTED** | Legal-entity and product-perimeter opinion.                                              |
-| `EVD-34-03` | **ACCEPTED** | Licence/registration evidence before claiming CASP/MiCA passporting.                     |
-| `EVD-34-04` | **ACCEPTED** | KYC, sanctions, geofencing and policy-consistency test suite.                            |
-| `EVD-34-05` | **ACCEPTED** | Data inventory, purpose, retention, residency and rights records.                        |
+| `EVD-34-02` | **ACCEPTED** | Legal-entity and product-perimeter opinion.                                                                             |
+| `EVD-34-03` | **ACCEPTED** | Licence/registration evidence before claiming CASP/MiCA passporting.                                                    |
+| `EVD-34-04` | **ACCEPTED** | KYC, sanctions, geofencing and policy-consistency test suite.                                                           |
+| `EVD-34-05` | **ACCEPTED** | Data inventory, purpose, retention, residency and rights records.                                                       |
 
 ## Related records
 

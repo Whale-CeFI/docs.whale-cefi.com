@@ -6,10 +6,6 @@ document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
 control_id: PLATFORM-36
-description: >-
-  A top-tier architecture dossier ends with falsifiable evidence, not
-  adjectives. Every material claim maps to source, owner, environment, deployed
-  identity, test, exception and approval; gaps remain vi
 ---
 
 # Diligence Evidence, Residual Risk, and Decision Record
