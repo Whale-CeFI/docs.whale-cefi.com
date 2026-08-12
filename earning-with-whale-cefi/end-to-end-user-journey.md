@@ -11,8 +11,6 @@ description: >-
 
 # End-to-End User Journey
 
-A short mental model of the product, financial records, infrastructure, security and intelligence layer.
-
 ![End-to-End User Journey](../.gitbook/assets/10-asset-lifecycle.png)
 
 Think of Whale CeFi as five connected layers.
