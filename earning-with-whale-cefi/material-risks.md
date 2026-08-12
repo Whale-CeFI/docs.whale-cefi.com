@@ -1,15 +1,15 @@
 ---
-title: "Material Risks"
-description: "The main ways value, access or timing can be affected and how each risk is controlled."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi/material-risks"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Material Risks
+canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/material-risks
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The main ways value, access or timing can be affected and how each risk is
+  controlled.
 ---
 
 # Material Risks
-
-The main ways value, access or timing can be affected and how each risk is controlled.
 
 Crypto earning products are not bank deposits and rewards are not guaranteed. Before opening a plan, understand six risk families:
 
