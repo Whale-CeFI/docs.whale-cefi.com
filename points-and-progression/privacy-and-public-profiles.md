@@ -1,38 +1,39 @@
 ---
-title: "Privacy and Public Profiles"
-description: "Progression data can reveal financial behaviour, account activity, social connections, learning history, and inferred experience. It must be treated as governed user data."
-canonical: "https://docs.whale-cefi.com/points-and-progression/privacy-and-public-profiles"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Privacy and Public Profiles
+canonical: https://docs.whale-cefi.com/points-and-progression/privacy-and-public-profiles
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Progression data can reveal financial behaviour, account activity, social
+  connections, learning history, and inferred experience. It must be treated as
+  governed user data.
 ---
 
 # Privacy and Public Profiles
-
-Progression data can reveal financial behaviour, account activity, social connections, learning history, and inferred experience. It must be treated as governed user data.
 
 ## Public by design only
 
 The profile should explain which fields are:
 
-- always private;
-- visible only to the user;
-- visible to approved support or compliance roles;
-- visible to other users by default;
-- optional public fields;
-- or displayed only in a pseudonymous leaderboard.
+* always private;
+* visible only to the user;
+* visible to approved support or compliance roles;
+* visible to other users by default;
+* optional public fields;
+* or displayed only in a pseudonymous leaderboard.
 
 ## Recommended public controls
 
 Users should be able to control the visibility of:
 
-- display name and avatar;
-- level;
-- selected achievements;
-- leaderboard participation where product rules permit;
-- learning credentials;
-- referral statistics;
-- and wallet or account identifiers.
+* display name and avatar;
+* level;
+* selected achievements;
+* leaderboard participation where product rules permit;
+* learning credentials;
+* referral statistics;
+* and wallet or account identifiers.
 
 Balances, exact deposits, withdrawal addresses, identity documents, private learning responses, fraud signals, and support records should not become public merely because a progression profile exists.
 

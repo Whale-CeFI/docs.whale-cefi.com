@@ -1,41 +1,41 @@
 ---
-title: "Credentials and Access"
-description: "Whale CeFi may use verified progression or learning results to unlock selected content, capacity, recognition, or product access where approved."
-canonical: "https://docs.whale-cefi.com/points-and-progression/credentials-and-access"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Credentials and Access
+canonical: https://docs.whale-cefi.com/points-and-progression/credentials-and-access
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Whale CeFi may use verified progression or learning results to unlock selected
+  content, capacity, recognition, or product access where approved.
 ---
 
 # Credentials and Access
 
-Whale CeFi may use verified progression or learning results to unlock selected content, capacity, recognition, or product access where approved.
-
 ## Credential types
 
-- platform account credential;
-- level or achievement status;
-- learning-module completion;
-- verified competency tier;
-- seasonal credential;
-- early-participant or Genesis status;
-- and enterprise role or certification.
+* platform account credential;
+* level or achievement status;
+* learning-module completion;
+* verified competency tier;
+* seasonal credential;
+* early-participant or Genesis status;
+* and enterprise role or certification.
 
 ## Credential requirements
 
 Every credential must define:
 
-- issuer;
-- subject: person, account, wallet, or organisation;
-- eligibility event;
-- issue time;
-- expiry, if any;
-- revocation and suspension conditions;
-- recovery process;
-- privacy and public visibility;
-- duplicate and Sybil controls;
-- appeal process;
-- and the exact entitlement it proves.
+* issuer;
+* subject: person, account, wallet, or organisation;
+* eligibility event;
+* issue time;
+* expiry, if any;
+* revocation and suspension conditions;
+* recovery process;
+* privacy and public visibility;
+* duplicate and Sybil controls;
+* appeal process;
+* and the exact entitlement it proves.
 
 ## On-chain credentials
 

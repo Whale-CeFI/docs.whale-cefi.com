@@ -4,10 +4,6 @@ canonical: https://docs.whale-cefi.com/points-and-progression/tasks
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Tasks are versioned objectives connected to eligible product activity,
-  learning, referrals, profile setup, or seasonal events. A task is complete
-  only when its underlying event reaches the required fi
 ---
 
 # Tasks

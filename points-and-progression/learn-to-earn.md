@@ -1,15 +1,15 @@
 ---
-title: "Learn-to-Earn"
-description: "Learn-to-Earn is the intended bridge between education, verified competency, and progression."
-canonical: "https://docs.whale-cefi.com/points-and-progression/learn-to-earn"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Learn-to-Earn
+canonical: https://docs.whale-cefi.com/points-and-progression/learn-to-earn
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Learn-to-Earn is the intended bridge between education, verified competency,
+  and progression.
 ---
 
 # Learn-to-Earn
-
-Learn-to-Earn is the intended bridge between education, verified competency, and progression.
 
 Its purpose is not to reward passive content consumption. A valid module should define what the user is expected to understand or demonstrate and how the result is assessed.
 
@@ -23,16 +23,16 @@ Its purpose is not to reward passive content consumption. A valid module should 
 
 ## Assessment states
 
-- not started;
-- in progress;
-- submitted;
-- passed;
-- needs review;
-- retry available;
-- failed;
-- invalidated;
-- appealed;
-- and superseded by a newer curriculum version.
+* not started;
+* in progress;
+* submitted;
+* passed;
+* needs review;
+* retry available;
+* failed;
+* invalidated;
+* appealed;
+* and superseded by a newer curriculum version.
 
 ## Integrity
 

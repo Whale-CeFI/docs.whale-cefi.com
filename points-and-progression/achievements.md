@@ -4,10 +4,6 @@ canonical: https://docs.whale-cefi.com/points-and-progression/achievements
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Achievements are permanent or long-lived recognition milestones associated
-  with specific eligible behaviour or learning. Unlike a level, which summarises
-  total XP, an achievement identifies what the u
 ---
 
 # Achievements

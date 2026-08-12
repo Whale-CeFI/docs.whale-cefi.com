@@ -1,15 +1,16 @@
 ---
-title: "Referrals"
-description: "The referral system recognises valid network growth. It is not intended to reward artificial account creation, self-referral, purchased identities, or activity that exists only to manufacture rewards."
-canonical: "https://docs.whale-cefi.com/points-and-progression/referrals"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Referrals
+canonical: https://docs.whale-cefi.com/points-and-progression/referrals
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The referral system recognises valid network growth. It is not intended to
+  reward artificial account creation, self-referral, purchased identities, or
+  activity that exists only to manufacture rewards.
 ---
 
 # Referrals
-
-The referral system recognises valid network growth. It is not intended to reward artificial account creation, self-referral, purchased identities, or activity that exists only to manufacture rewards.
 
 ## Referral lifecycle
 
@@ -29,26 +30,26 @@ The old Product Documentation stated that a referrer receives 5% of the XP an ac
 
 This rule may be republished only after confirming:
 
-- the current percentage;
-- which XP sources qualify;
-- activation conditions;
-- duration;
-- caps;
-- reversals;
-- region and promotion-law eligibility;
-- attribution window;
-- and treatment of deleted, suspended, refunded, duplicated, or abusive accounts.
+* the current percentage;
+* which XP sources qualify;
+* activation conditions;
+* duration;
+* caps;
+* reversals;
+* region and promotion-law eligibility;
+* attribution window;
+* and treatment of deleted, suspended, refunded, duplicated, or abusive accounts.
 
 ## Required dashboard fields
 
-- referral link or code;
-- registered referrals;
-- active referrals;
-- pending or under-review referrals;
-- confirmed rewards;
-- reversed rewards;
-- programme rules and effective version;
-- and support access.
+* referral link or code;
+* registered referrals;
+* active referrals;
+* pending or under-review referrals;
+* confirmed rewards;
+* reversed rewards;
+* programme rules and effective version;
+* and support access.
 
 ## Prohibited conduct
 

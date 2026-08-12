@@ -4,10 +4,6 @@ canonical: https://docs.whale-cefi.com/points-and-progression/chests
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  Chests are controlled reward containers awarded through progression, tasks,
-  achievements, seasons, daily events, or approved purchases. The result is
-  probabilistic, so the configuration is disclosed b
 ---
 
 # Chests

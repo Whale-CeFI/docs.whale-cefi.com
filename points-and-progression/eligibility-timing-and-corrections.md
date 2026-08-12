@@ -1,39 +1,40 @@
 ---
-title: "Eligibility, Timing, and Corrections"
-description: "Progression depends on both the visible objective and the underlying eligible event."
-canonical: "https://docs.whale-cefi.com/points-and-progression/eligibility-timing-and-corrections"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Eligibility, Timing, and Corrections
+canonical: >-
+  https://docs.whale-cefi.com/points-and-progression/eligibility-timing-and-corrections
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Progression depends on both the visible objective and the underlying eligible
+  event.
 ---
 
 # Eligibility, Timing, and Corrections
 
-Progression depends on both the visible objective and the underlying eligible event.
-
 ## Eligibility may depend on
 
-- account and identity status;
-- country or region;
-- age or legal capacity;
-- product availability;
-- asset, network, amount, and plan state;
-- task start and end time;
-- prerequisite completion;
-- account standing;
-- review status;
-- and programme-specific terms.
+* account and identity status;
+* country or region;
+* age or legal capacity;
+* product availability;
+* asset, network, amount, and plan state;
+* task start and end time;
+* prerequisite completion;
+* account standing;
+* review status;
+* and programme-specific terms.
 
 ## Time rules
 
 Every timed mechanic should identify:
 
-- authoritative platform timezone;
-- local-time display;
-- start and end timestamp;
-- whether the deadline applies to user submission, blockchain inclusion, confirmation, reconciliation, or final validation;
-- grace period, if any;
-- and treatment of outages or delayed external systems.
+* authoritative platform timezone;
+* local-time display;
+* start and end timestamp;
+* whether the deadline applies to user submission, blockchain inclusion, confirmation, reconciliation, or final validation;
+* grace period, if any;
+* and treatment of outages or delayed external systems.
 
 ## Duplicate and late events
 
