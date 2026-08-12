@@ -1,15 +1,16 @@
 ---
-title: "Account Recovery"
-description: "Recovery restores account access without silently transferring financial authority to an attacker. It is therefore slower and more evidence-heavy than an ordinary login."
-canonical: "https://docs.whale-cefi.com/account-and-access/account-recovery"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Account Recovery
+canonical: https://docs.whale-cefi.com/account-and-access/account-recovery
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Recovery restores account access without silently transferring financial
+  authority to an attacker. It is therefore slower and more evidence-heavy than
+  an ordinary login.
 ---
 
 # Account Recovery
-
-Recovery restores account access without silently transferring financial authority to an attacker. It is therefore slower and more evidence-heavy than an ordinary login.
 
 ## Recovery principles
 
