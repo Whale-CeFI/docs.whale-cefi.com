@@ -4,11 +4,13 @@ canonical: https://docs.whale-cefi.com/account-and-access/authentication-and-ses
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
+description: >-
+  Authentication proves control of an account session. It is deliberately
+  separate from product consent, wallet signing, custody approval, and
+  administrative authority.
 ---
 
 # Authentication and Sessions
-
-Authentication proves control of an account session. It is deliberately separate from product consent, wallet signing, custody approval, and administrative authority.
 
 ## Authentication layers
 
