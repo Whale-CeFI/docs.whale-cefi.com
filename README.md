@@ -11,8 +11,6 @@ description: >-
 
 # Whale CeFi Documentation
 
-**Understand the product before you move an asset. Verify the evidence before you trust a claim. Keep final authority in human hands.**
-
 ![Whale CeFi system boundary](https://1802730625-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FZFa6pN3a5QS6Ce9qiTur%2Fuploads%2Fgit-blob-24ed6e39475f168ee4e710a6d0ce7632d5c2bf4b%2F01-iron-boundary.png?alt=media)
 
 Whale CeFi is a digital-asset earning platform built around explicit product terms, separately recorded principal and rewards, verifiable operating evidence, and WENI — the platform’s human-controlled intelligence layer.
