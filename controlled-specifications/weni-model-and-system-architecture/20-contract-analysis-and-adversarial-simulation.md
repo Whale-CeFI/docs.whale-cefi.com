@@ -1,7 +1,7 @@
 ---
 title: Contract Analysis and Adversarial Simulation
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/20-contract-analysis-and-adversarial-simulation
+  https://whale-cefi.com/docs/controlled-specifications/weni/20-contract-analysis-and-adversarial-simulation
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

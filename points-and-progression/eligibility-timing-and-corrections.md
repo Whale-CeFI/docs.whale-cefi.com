@@ -1,7 +1,7 @@
 ---
 title: Eligibility, Timing, and Corrections
 canonical: >-
-  https://docs.whale-cefi.com/points-and-progression/eligibility-timing-and-corrections
+  https://whale-cefi.com/docs/points-and-progression/eligibility-timing-and-corrections
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

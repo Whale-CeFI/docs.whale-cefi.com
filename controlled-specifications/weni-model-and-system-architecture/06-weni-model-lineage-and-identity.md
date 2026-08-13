@@ -1,7 +1,7 @@
 ---
 title: WENI Model Lineage and Identity
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/06-weni-model-lineage-and-identity
+  https://whale-cefi.com/docs/controlled-specifications/weni/06-weni-model-lineage-and-identity
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

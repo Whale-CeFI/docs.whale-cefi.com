@@ -8,14 +8,14 @@
 
 GitHub `main` хранит канонический Markdown, историю и release controls.
 GitBook синхронизирует этот source state и отображает официальную
-читательскую версию на `docs.whale-cefi.com`.
+читательскую версию на `whale-cefi.com/docs`.
 
 ```mermaid
 flowchart LR
     A["GitHub Desktop"] --> B["GitHub main"]
     B --> C["Automated QA"]
     C --> D["GitBook Git Sync"]
-    D --> E["docs.whale-cefi.com"]
+    D --> E["whale-cefi.com/docs"]
 ```
 
 ## 1. Проверь аккаунты
@@ -25,7 +25,7 @@ flowchart LR
 3. GitBook‑аккаунт имеет административный доступ к официальной организации
    Whale CeFi.
 4. GitBook GitHub App получает доступ только к репозиторию
-   `docs.whale-cefi.com`.
+   `Whale-CeFI/docs.whale-cefi.com`.
 5. Пароли, recovery codes, токены, приватные ключи и seed phrases не
    передаются исполнителю и не попадают в репозиторий.
 
@@ -121,7 +121,7 @@ Landing page и навигация управляются из GitHub. Ручн�
 | Short title | `WHALE Docs` |
 | Description | `Official product, risk, security, evidence, legal, and technical documentation for Whale CeFi.` |
 | Product link | `https://whale-cefi.com` |
-| Canonical docs origin | `https://docs.whale-cefi.com` |
+| Canonical docs origin | `https://whale-cefi.com/docs` |
 | Header background | `#062739` |
 | Deep background | `#030E16` |
 | Surface | `#094E68` |
@@ -160,14 +160,15 @@ Landing page и навигация управляются из GitHub. Ручн�
 - отсутствуют старое имя stewardship entity, legacy‑домены,
   предрелизные статусы и обещания отдельного позднего выпуска.
 
-## 8. Подключи домен
+## 8. Проверь публичный маршрут
 
-В **Site settings → Custom domain** укажи:
+Канонический публичный маршрут документации:
 
-`docs.whale-cefi.com`
+`https://whale-cefi.com/docs`
 
-В DNS создай запись с точными значениями `Name` и `Target`, которые показывает
-GitBook. После активации проверь:
+Это маршрут внутри основного домена, а не имя GitHub-репозитория. Сохрани
+действующую маршрутизацию основного сайта к опубликованному GitBook Site и не
+подменяй её старым поддоменом. После синхронизации проверь:
 
 - HTTPS;
 - canonical URL;
@@ -225,5 +226,5 @@ Generated files не редактируются вручную:
 - Effective date: `2026-08-10`
 - Git tag: `docs-v5.1.0`
 - Canonical branch: `main`
-- Canonical docs origin: `https://docs.whale-cefi.com`
+- Canonical docs origin: `https://whale-cefi.com/docs`
 - Customer contracting and operating entity: `Pulpo Fintech, S.A. de C.V. (PSAD-0023)`

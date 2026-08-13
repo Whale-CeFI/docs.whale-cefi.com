@@ -1,7 +1,7 @@
 ---
 title: Governance, Legal Perimeter, and Disclosure Control
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control
+  https://whale-cefi.com/docs/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

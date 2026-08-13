@@ -1,7 +1,7 @@
 ---
 title: "Audit Center"
 description: "The Audit Center separates first-party remediation verification, independent audit records, and production deployment coverage."
-canonical: "https://docs.whale-cefi.com/evidence-center/audit-center"
+canonical: "https://whale-cefi.com/docs/evidence-center/audit-center"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

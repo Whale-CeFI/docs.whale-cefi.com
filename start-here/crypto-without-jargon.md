@@ -1,6 +1,6 @@
 ---
 title: Crypto without Jargon
-canonical: https://docs.whale-cefi.com/start-here/crypto-without-jargon
+canonical: https://whale-cefi.com/docs/start-here/crypto-without-jargon
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

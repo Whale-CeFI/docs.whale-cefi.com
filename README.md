@@ -1,6 +1,6 @@
 ---
 title: Whale CeFi Documentation
-canonical: https://whale-cefi.com/documentation
+canonical: https://whale-cefi.com/docs
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

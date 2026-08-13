@@ -1,7 +1,7 @@
 ---
 title: "Eligibility and Geographic Access"
 description: "Availability is determined by the intersection of customer type, country, entity, product classification, asset, network, sanctions policy, verification state, and operational capability."
-canonical: "https://docs.whale-cefi.com/legal-and-support/eligibility-and-geographic-access"
+canonical: "https://whale-cefi.com/docs/legal-and-support/eligibility-and-geographic-access"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

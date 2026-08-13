@@ -1,7 +1,7 @@
 ---
 title: Proprietary Moat, Ownership, and Technology Transfer
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer
+  https://whale-cefi.com/docs/controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

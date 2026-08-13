@@ -1,7 +1,7 @@
 ---
 title: "Legal and Support"
 description: "This section identifies the Whale CeFi interface, customer contracting entity, custody provider, strategic support, asset relationship, eligibility, and support routes."
-canonical: "https://docs.whale-cefi.com/legal-and-support"
+canonical: "https://whale-cefi.com/docs/legal-and-support"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

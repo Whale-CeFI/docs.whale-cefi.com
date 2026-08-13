@@ -1,7 +1,7 @@
 ---
 title: Multi-Region Kubernetes Runtime
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/multi-region-kubernetes-runtime
+  https://whale-cefi.com/docs/advanced-platform-architecture/multi-region-kubernetes-runtime
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: "Smart Contracts"
 description: "A compartmentalized on-chain system that replaces the privileged monolithic staking contract."
-canonical: "https://docs.whale-cefi.com/smart-contracts"
+canonical: "https://whale-cefi.com/docs/smart-contracts"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

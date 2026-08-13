@@ -1,7 +1,7 @@
 ---
 title: WENI Model and System Architecture
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni-model-and-system-architecture
+  https://whale-cefi.com/docs/controlled-specifications/weni-model-and-system-architecture
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

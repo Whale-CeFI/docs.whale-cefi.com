@@ -1,7 +1,7 @@
 ---
 title: "Hard Policy Engine and Fail-Closed Decisions"
 description: "The Hard Policy Engine translates product, security, jurisdictional and risk constraints into signed policy-as-code. Its outputs are typed and enforceable: allow research, require clarification, require…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/21-hard-policy-engine-and-fail-closed-decisions"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/21-hard-policy-engine-and-fail-closed-decisions"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

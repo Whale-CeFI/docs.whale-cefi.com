@@ -1,6 +1,6 @@
 ---
 title: Learn-to-Earn
-canonical: https://docs.whale-cefi.com/points-and-progression/learn-to-earn
+canonical: https://whale-cefi.com/docs/points-and-progression/learn-to-earn
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

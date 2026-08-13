@@ -1,6 +1,6 @@
 ---
 title: Account and Access
-canonical: https://docs.whale-cefi.com/account-and-access
+canonical: https://whale-cefi.com/docs/account-and-access
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: "High Availability, Failover, and Disaster Recovery"
 description: "Three availability zones in Frankfurt provide regional high availability, not geographic disaster recovery. Whale CeFi separates zonal failover, regional continuity, data recovery and business resumption…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/30-high-availability-failover-and-disaster-recovery"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/30-high-availability-failover-and-disaster-recovery"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

@@ -1,7 +1,7 @@
 ---
 title: "Microservices, Event Mesh, and Data Infrastructure"
 description: "The reported production direction uses bounded-context Rust and Go services on managed Kubernetes across multiple availability zones, with Kafka, PostgreSQL/TimescaleDB, Redis and ClickHouse. Reliability…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

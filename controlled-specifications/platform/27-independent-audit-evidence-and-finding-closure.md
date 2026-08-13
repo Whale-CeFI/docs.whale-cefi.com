@@ -1,7 +1,7 @@
 ---
 title: "Independent Audit Evidence and Finding Closure"
 description: "This control separates historical audit status, first-party remediation verification, independent retest, and exact production deployment coverage."
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/27-independent-audit-evidence-and-finding-closure"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/27-independent-audit-evidence-and-finding-closure"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-08-10"

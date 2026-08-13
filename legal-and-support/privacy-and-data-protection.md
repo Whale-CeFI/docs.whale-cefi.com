@@ -1,7 +1,7 @@
 ---
 title: "Privacy and Data Protection"
 description: "Whale CeFi separates account, verification, financial, blockchain, security, progression, support, analytics, and WENI data by purpose and authority."
-canonical: "https://docs.whale-cefi.com/legal-and-support/privacy-and-data-protection"
+canonical: "https://whale-cefi.com/docs/legal-and-support/privacy-and-data-protection"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

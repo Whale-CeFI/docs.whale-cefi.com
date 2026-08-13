@@ -1,7 +1,7 @@
 ---
 title: Configuration, Secrets, and Software Supply Chain
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/configuration-secrets-and-software-supply-chain
+  https://whale-cefi.com/docs/advanced-platform-architecture/configuration-secrets-and-software-supply-chain
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

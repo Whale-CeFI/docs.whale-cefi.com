@@ -1,7 +1,7 @@
 ---
 title: Withdrawal and User Exit Safety
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/withdrawal-and-user-exit-safety
+  https://whale-cefi.com/docs/yield-and-financial-transparency/withdrawal-and-user-exit-safety
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

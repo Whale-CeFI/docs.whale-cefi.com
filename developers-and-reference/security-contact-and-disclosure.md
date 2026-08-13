@@ -1,7 +1,7 @@
 ---
 title: "Security Contact and Disclosure"
 description: "How researchers and users report vulnerabilities, account compromise and suspected fraud."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/security-contact-and-disclosure"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/security-contact-and-disclosure"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

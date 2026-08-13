@@ -1,7 +1,7 @@
 ---
 title: Bounded Contexts and Service Ownership
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/bounded-contexts-and-service-ownership
+  https://whale-cefi.com/docs/advanced-platform-architecture/bounded-contexts-and-service-ownership
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

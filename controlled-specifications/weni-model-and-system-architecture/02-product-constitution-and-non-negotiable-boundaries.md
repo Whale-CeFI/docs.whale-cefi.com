@@ -1,7 +1,7 @@
 ---
 title: Product Constitution and Non-Negotiable Boundaries
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries
+  https://whale-cefi.com/docs/controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

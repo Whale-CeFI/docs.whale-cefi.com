@@ -1,7 +1,7 @@
 ---
 title: "Advanced Platform Architecture"
 description: "How product intent becomes a financial obligation, an authorized asset movement, and independently verifiable evidence."
-canonical: "https://docs.whale-cefi.com/advanced-platform-architecture"
+canonical: "https://whale-cefi.com/docs/advanced-platform-architecture"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

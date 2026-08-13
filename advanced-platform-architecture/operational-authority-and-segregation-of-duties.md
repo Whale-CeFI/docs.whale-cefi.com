@@ -1,7 +1,7 @@
 ---
 title: Operational Authority and Segregation of Duties
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/operational-authority-and-segregation-of-duties
+  https://whale-cefi.com/docs/advanced-platform-architecture/operational-authority-and-segregation-of-duties
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,6 +1,6 @@
 ---
 title: Leaderboards and Seasons
-canonical: https://docs.whale-cefi.com/points-and-progression/leaderboards-and-seasons
+canonical: https://whale-cefi.com/docs/points-and-progression/leaderboards-and-seasons
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

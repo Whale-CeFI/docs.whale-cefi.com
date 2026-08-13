@@ -1,7 +1,7 @@
 ---
 title: Source Attribution
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/source-attribution
+  https://whale-cefi.com/docs/yield-and-financial-transparency/source-attribution
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

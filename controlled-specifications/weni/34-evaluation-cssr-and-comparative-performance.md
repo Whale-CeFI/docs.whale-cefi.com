@@ -1,7 +1,7 @@
 ---
 title: "Evaluation, CSSR, and Comparative Performance"
 description: "The reported advantage is evaluated as compound system performance on crypto workflows, not as a universal intelligence score. CSSR counts a case as successful only when every required evidence, safety…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

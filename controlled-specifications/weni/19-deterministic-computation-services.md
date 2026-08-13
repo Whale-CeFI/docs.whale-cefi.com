@@ -1,7 +1,7 @@
 ---
 title: "Deterministic Computation Services"
 description: "Authoritative arithmetic is removed from free-form model generation. Versioned Rust/Go services operate over pinned, validated inputs and return reproducible calculations with units, precision, rounding…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/19-deterministic-computation-services"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/19-deterministic-computation-services"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

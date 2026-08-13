@@ -1,7 +1,7 @@
 ---
 title: "PostgreSQL and Time-Series Authority"
 description: "PostgreSQL is reported as the transactional source for financial and product records, with TimescaleDB for governed time-series workloads. Schema ownership, constraints, isolation, high availability, backup…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/12-postgresql-and-time-series-authority"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/12-postgresql-and-time-series-authority"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

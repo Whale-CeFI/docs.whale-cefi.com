@@ -1,6 +1,6 @@
 ---
 title: Smart Contracts
-canonical: https://docs.whale-cefi.com/smart-contracts
+canonical: https://whale-cefi.com/docs/smart-contracts
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

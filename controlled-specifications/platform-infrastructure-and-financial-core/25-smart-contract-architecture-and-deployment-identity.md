@@ -1,7 +1,7 @@
 ---
 title: Smart-Contract Architecture and Deployment Identity
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity
+  https://whale-cefi.com/docs/controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

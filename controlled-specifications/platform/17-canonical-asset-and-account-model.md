@@ -1,7 +1,7 @@
 ---
 title: "Canonical Asset and Account Model"
 description: "Every financial record depends on a canonical definition of entity, account, asset, network, quantity, precision and liability. The model prevents symbol ambiguity and separates user liability, platform…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/17-canonical-asset-and-account-model"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/17-canonical-asset-and-account-model"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

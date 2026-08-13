@@ -1,7 +1,7 @@
 ---
 title: "Yield and Financial Transparency"
 description: "Whale CeFi recognizes yield only when value has been produced by an approved source or released from an already funded budget. A reward promise is a liability. A forecast is not funding."
-canonical: "https://docs.whale-cefi.com/yield-and-financial-transparency"
+canonical: "https://whale-cefi.com/docs/yield-and-financial-transparency"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

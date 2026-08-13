@@ -1,7 +1,7 @@
 ---
 title: Learn-to-Earn Intelligence
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/learn-to-earn-intelligence
+  https://whale-cefi.com/docs/weni-native-intelligence/learn-to-earn-intelligence
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

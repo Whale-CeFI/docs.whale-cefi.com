@@ -1,7 +1,7 @@
 ---
 title: "Domain Corpus and Continuous Pre-Training"
 description: "07 Domain adaptation succeeds only when the corpus represents how Web3 actually fails: proxy upgrades, bytecode patterns, transaction traces, liquidity events, exploit families, protocol documents, audits and…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

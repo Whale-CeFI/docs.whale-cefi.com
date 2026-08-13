@@ -1,6 +1,6 @@
 ---
 title: What the AI Agent Is
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/what-the-ai-agent-is
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/what-the-ai-agent-is
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

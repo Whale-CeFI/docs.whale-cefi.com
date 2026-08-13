@@ -1,7 +1,7 @@
 ---
 title: "Chain Ingestion, Pending State, and Finality"
 description: "Ethereum, EVM L2s and additional supported networks expose different pending-state, sequencer and finality semantics. WENI normalises them into chain-specific evidence without pretending that public mempool visibility…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

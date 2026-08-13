@@ -1,7 +1,7 @@
 ---
 title: Market, Oracle, and Social Intelligence
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/15-market-oracle-and-social-intelligence
+  https://whale-cefi.com/docs/controlled-specifications/weni/15-market-oracle-and-social-intelligence
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

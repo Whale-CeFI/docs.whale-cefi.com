@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure Scope and System Context"
 description: "01 This paper defines the operating platform beneath Whale CeFi: client surfaces, services, data stores, financial records, blockchain connectivity, custody, contracts, security and release operations…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/01-infrastructure-scope-and-system-context"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/01-infrastructure-scope-and-system-context"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

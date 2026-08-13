@@ -3,7 +3,7 @@
 - Documentation status: official release
 - Release date: 10 August 2026
 - Product domain: https://whale-cefi.com
-- Documentation origin: https://docs.whale-cefi.com
+- Documentation origin: https://whale-cefi.com/docs
 - Customer contracting and operating entity: Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador
 - Published security assessment: WCF-SARV-2026-0810, first-party, SHA-256 verified
 - Gamification configuration: WCF-GAMIFICATION-LIVE-2026-08-10
@@ -13,7 +13,7 @@
 - Failure-mode controls: 288
 - Evidence requirements: 360
 - Indexed SEO/GEO routes: 225
-- Approximate reader words: 87,195
+- Approximate reader words: 86,166
 - Structural QA: PASS
 - QA errors: 0
 - QA warnings: 0

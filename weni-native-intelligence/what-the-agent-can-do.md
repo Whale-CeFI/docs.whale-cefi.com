@@ -1,6 +1,6 @@
 ---
 title: What the Agent Can Do
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-can-do
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/what-the-agent-can-do
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

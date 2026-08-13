@@ -1,7 +1,7 @@
 ---
 title: "Observability, Auditability, and Service-Level Objectives"
 description: "Observability must explain whether users, balances and settlement are safe - not merely whether pods are running. Metrics, logs, traces, audit events and business invariants share correlation identities while…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/29-observability-auditability-and-service-level-objectives"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/29-observability-auditability-and-service-level-objectives"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

@@ -1,7 +1,7 @@
 ---
 title: Data Graphs and Truth Resolution
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/data-graphs-and-truth-resolution
+  https://whale-cefi.com/docs/weni-native-intelligence/data-graphs-and-truth-resolution
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

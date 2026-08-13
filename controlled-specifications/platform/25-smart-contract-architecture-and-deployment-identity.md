@@ -1,7 +1,7 @@
 ---
 title: "Smart-Contract Architecture and Deployment Identity"
 description: "Whale CeFi staking contracts are reported to use a UUPS upgradeability pattern. Safe operation requires exact source-to-bytecode identity, initialisation control, storage-layout compatibility, role…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

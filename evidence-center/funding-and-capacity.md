@@ -1,6 +1,6 @@
 ---
 title: Funding and Capacity
-canonical: https://docs.whale-cefi.com/evidence-center/funding-and-capacity
+canonical: https://whale-cefi.com/docs/evidence-center/funding-and-capacity
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

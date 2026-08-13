@@ -1,7 +1,7 @@
 ---
 title: "The Decision-Quality Problem in Web3"
 description: "01 The failure WENI addresses is not lack of information. It is the collapse of decision quality when fragmented, time-sensitive and adversarial evidence meets irreversible financial action. A conversational…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/01-the-decision-quality-problem-in-web3"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/01-the-decision-quality-problem-in-web3"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

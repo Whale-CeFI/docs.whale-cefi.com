@@ -5,7 +5,7 @@
 - Версия: `5.1.0`
 - Статус: `official-release`
 - Продуктовый домен: `https://whale-cefi.com`
-- Документация: `https://docs.whale-cefi.com`
+- Документация: `https://whale-cefi.com/docs`
 - Основной customer-facing контрагент и оператор: **Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador**
 - Источник истины: GitHub, ветка `main`
 - Публичная витрина: GitBook
@@ -30,7 +30,7 @@
 5. Project directory: `/`.
 6. Направление синхронизации: **GitHub -> GitBook**.
 7. Проверь навигацию, PDF-аудит, изображения, таблицы и мобильное отображение.
-8. Проверь публикацию `docs.whale-cefi.com`.
+8. Проверь публикацию `whale-cefi.com/docs`.
 
 Полная инструкция: [GitHub -> GitBook runbook](control/OWNER_GITHUB_GITBOOK_RUNBOOK_RU.md).
 

@@ -1,7 +1,7 @@
 ---
 title: "Identity, Access, and Administrative Zero Trust"
 description: "Administrative and workload access is governed by identity, device posture, purpose, time and approval rather than network location. Consumer authentication, staff federation, cloud administration, Kubernetes…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/28-identity-access-and-administrative-zero-trust"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/28-identity-access-and-administrative-zero-trust"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

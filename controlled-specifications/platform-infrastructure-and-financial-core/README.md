@@ -1,7 +1,7 @@
 ---
 title: Platform Infrastructure and Financial Core
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform-infrastructure-and-financial-core
+  https://whale-cefi.com/docs/controlled-specifications/platform-infrastructure-and-financial-core
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

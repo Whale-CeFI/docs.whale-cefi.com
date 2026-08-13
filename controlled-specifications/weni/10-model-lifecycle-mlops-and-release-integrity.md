@@ -1,7 +1,7 @@
 ---
 title: "Model Lifecycle, MLOps, and Release Integrity"
 description: "A WENI model release is a controlled software supply-chain event. Training, evaluation, packaging, signing, staged rollout, monitoring, incident response and rollback must be joined by one immutable…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "release_status": "official-release",
   "canonical_domain": "whale-cefi.com",
-  "canonical_documentation_origin": "https://docs.whale-cefi.com",
+  "canonical_documentation_origin": "https://whale-cefi.com/docs",
   "effective_at": "2026-08-10T00:00:00Z",
   "material_decisions": {
     "product_brand": "Whale CeFi",

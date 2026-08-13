@@ -1,7 +1,7 @@
 ---
 title: "Complaints and Appeals"
 description: "A complaint is different from general support, a security incident, a fraud report, an account-restriction appeal, or a privacy request. Each route has a distinct owner and response clock."
-canonical: "https://docs.whale-cefi.com/legal-and-support/complaints-and-appeals"
+canonical: "https://whale-cefi.com/docs/legal-and-support/complaints-and-appeals"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

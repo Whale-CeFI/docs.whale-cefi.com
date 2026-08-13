@@ -1,6 +1,6 @@
 ---
 title: Material Risks
-canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/material-risks
+canonical: https://whale-cefi.com/docs/earning-with-whale-cefi/material-risks
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: Learn-to-Earn, Credentials, and Anti-Abuse
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse
+  https://whale-cefi.com/docs/controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

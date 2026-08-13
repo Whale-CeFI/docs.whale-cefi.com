@@ -1,6 +1,6 @@
 ---
 title: "Product Yield, Reward Funding, and Accrual"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/21-product-yield-reward-funding-and-accrual"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/21-product-yield-reward-funding-and-accrual"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-08-10"

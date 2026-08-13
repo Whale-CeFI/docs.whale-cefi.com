@@ -1,7 +1,7 @@
 ---
 title: Microservices, Event Mesh, and Data Infrastructure
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure
+  https://whale-cefi.com/docs/controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

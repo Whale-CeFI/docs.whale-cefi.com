@@ -6,7 +6,7 @@ This file is internal control material and is intentionally excluded from SUMMAR
 |---|---|---|---|
 | Product brand | Whale CeFi | Owner approval | Released |
 | Canonical site | https://whale-cefi.com | Owner approval | Current |
-| Documentation origin | https://docs.whale-cefi.com | Owner approval | Current |
+| Documentation origin | https://whale-cefi.com/docs | Owner approval | Current |
 | Product form | Technology interface and brand | Approved Entity and Service Register | Current |
 | Customer contracting and operating entity | Pulpo Fintech, S.A. de C.V. | Approved Entity and Service Register | Current |
 | Operator registration | PSAD-0023, El Salvador | Approved Entity and Service Register | Current |

@@ -1,7 +1,7 @@
 ---
 title: "Document and Terms Control"
 description: "Every material document has an identifier, version, effective time, owner, approval scope, hash, superseded version, and change summary."
-canonical: "https://docs.whale-cefi.com/legal-and-support/document-and-terms-control"
+canonical: "https://whale-cefi.com/docs/legal-and-support/document-and-terms-control"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

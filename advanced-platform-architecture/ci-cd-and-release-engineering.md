@@ -1,7 +1,7 @@
 ---
 title: CI/CD and Release Engineering
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/ci-cd-and-release-engineering
+  https://whale-cefi.com/docs/advanced-platform-architecture/ci-cd-and-release-engineering
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: "Release Scope and Acceptance"
 description: "Release readiness is governed by a signed capability matrix and completed evidence gates rather than by a calendar date. Release scope is converted from a date into a signed capability matrix: surfaces…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/35-release-scope-and-acceptance"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/35-release-scope-and-acceptance"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

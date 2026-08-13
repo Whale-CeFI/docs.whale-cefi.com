@@ -1,7 +1,7 @@
 ---
 title: "Release Manifest"
 description: "Release v5.1 binds the 10 August 2026 documentation, gamification, entity-service, and security-assessment state."
-canonical: "https://docs.whale-cefi.com/evidence-center/release-manifest"
+canonical: "https://whale-cefi.com/docs/evidence-center/release-manifest"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

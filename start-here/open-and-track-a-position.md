@@ -1,6 +1,6 @@
 ---
 title: Open and Track a Position
-canonical: https://docs.whale-cefi.com/start-here/open-and-track-a-position
+canonical: https://whale-cefi.com/docs/start-here/open-and-track-a-position
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

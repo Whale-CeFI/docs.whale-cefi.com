@@ -1,7 +1,7 @@
 ---
 title: Position Review and Consent
 canonical: >-
-  https://docs.whale-cefi.com/earning-with-whale-cefi/position-review-and-consent
+  https://whale-cefi.com/docs/earning-with-whale-cefi/position-review-and-consent
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

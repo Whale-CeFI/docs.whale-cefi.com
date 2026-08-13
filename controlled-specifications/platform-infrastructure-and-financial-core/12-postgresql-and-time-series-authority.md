@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL and Time-Series Authority
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/12-postgresql-and-time-series-authority
+  https://whale-cefi.com/docs/controlled-specifications/platform/12-postgresql-and-time-series-authority
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

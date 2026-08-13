@@ -1,7 +1,7 @@
 ---
 title: "Governance, Legal Perimeter, and Disclosure Control"
 description: "Technical architecture cannot decide legal classification by wording. Explanation, ranking, recommendation, routing, custody, transfer and execution are assessed per service, entity, jurisdiction and user…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

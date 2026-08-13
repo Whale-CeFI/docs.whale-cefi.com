@@ -1,7 +1,7 @@
 ---
 title: Threat Model and Security Assurance
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/33-threat-model-and-security-assurance
+  https://whale-cefi.com/docs/controlled-specifications/weni/33-threat-model-and-security-assurance
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

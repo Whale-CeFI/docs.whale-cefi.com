@@ -1,6 +1,6 @@
 ---
 title: Administrative Zero Trust
-canonical: https://docs.whale-cefi.com/security-and-custody/administrative-zero-trust
+canonical: https://whale-cefi.com/docs/security-and-custody/administrative-zero-trust
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

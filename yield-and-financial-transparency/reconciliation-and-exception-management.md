@@ -1,7 +1,7 @@
 ---
 title: Reconciliation and Exception Management
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/reconciliation-and-exception-management
+  https://whale-cefi.com/docs/yield-and-financial-transparency/reconciliation-and-exception-management
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

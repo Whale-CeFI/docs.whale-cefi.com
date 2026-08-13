@@ -1,7 +1,7 @@
 ---
 title: Domain Corpus and Continuous Pre-Training
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training
+  https://whale-cefi.com/docs/controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

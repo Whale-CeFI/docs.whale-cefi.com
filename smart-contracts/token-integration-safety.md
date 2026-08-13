@@ -1,6 +1,6 @@
 ---
 title: Token Integration Safety
-canonical: https://docs.whale-cefi.com/smart-contracts/token-integration-safety
+canonical: https://whale-cefi.com/docs/smart-contracts/token-integration-safety
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

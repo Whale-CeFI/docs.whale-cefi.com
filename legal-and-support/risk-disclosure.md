@@ -1,6 +1,6 @@
 ---
 title: Risk Disclosure
-canonical: https://docs.whale-cefi.com/legal-and-support/risk-disclosure
+canonical: https://whale-cefi.com/docs/legal-and-support/risk-disclosure
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

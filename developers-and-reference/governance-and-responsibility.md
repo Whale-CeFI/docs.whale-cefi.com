@@ -1,7 +1,7 @@
 ---
 title: "Governance and Responsibility"
 description: "How product, finance, security, custody, AI, risk and legal authority remain separated."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/governance-and-responsibility"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/governance-and-responsibility"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

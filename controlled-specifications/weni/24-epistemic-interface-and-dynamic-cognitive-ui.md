@@ -1,7 +1,7 @@
 ---
 title: "Epistemic Interface and Dynamic Cognitive UI"
 description: "WENI’s interface is an epistemic instrument: it shows what is known, from where, at what state, with what uncertainty, which policy applied and how long an action remains valid. The model selects approved…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

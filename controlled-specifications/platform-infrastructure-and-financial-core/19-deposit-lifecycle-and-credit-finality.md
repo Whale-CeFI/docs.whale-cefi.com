@@ -1,7 +1,7 @@
 ---
 title: Deposit Lifecycle and Credit Finality
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/19-deposit-lifecycle-and-credit-finality
+  https://whale-cefi.com/docs/controlled-specifications/platform/19-deposit-lifecycle-and-credit-finality
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

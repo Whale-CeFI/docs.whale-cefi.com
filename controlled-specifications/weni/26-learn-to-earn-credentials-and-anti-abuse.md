@@ -1,7 +1,7 @@
 ---
 title: "Learn-to-Earn, Credentials, and Anti-Abuse"
 description: "Learn-to-Earn is a competency system, not a click-farm. Adaptive tasks, evidence-backed grading, progression and Whale CeFi credentials must measure demonstrated knowledge while resisting Sybil, collusion…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

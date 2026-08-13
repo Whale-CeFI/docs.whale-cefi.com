@@ -1,6 +1,6 @@
 ---
 title: Credentials and Access
-canonical: https://docs.whale-cefi.com/points-and-progression/credentials-and-access
+canonical: https://whale-cefi.com/docs/points-and-progression/credentials-and-access
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

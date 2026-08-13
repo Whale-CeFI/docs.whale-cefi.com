@@ -1,7 +1,7 @@
 ---
 title: "Change History"
 description: "A chronological record of product, calculation, contract, policy, audit and documentation changes."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/change-history"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/change-history"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

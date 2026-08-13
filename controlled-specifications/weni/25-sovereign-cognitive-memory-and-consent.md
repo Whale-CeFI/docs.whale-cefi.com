@@ -1,7 +1,7 @@
 ---
 title: "Sovereign Cognitive Memory and Consent"
 description: "WENI memory combines explicit profile data, verified competency, episodic summaries and vector retrieval under user control. Memory is permissioned, purpose-limited and inspectable; it is not an unlimited…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

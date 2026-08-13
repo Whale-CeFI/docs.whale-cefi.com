@@ -1,7 +1,7 @@
 ---
 title: Reward Funding, Yield, and Accrual
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/reward-funding-yield-and-accrual
+  https://whale-cefi.com/docs/yield-and-financial-transparency/reward-funding-yield-and-accrual
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

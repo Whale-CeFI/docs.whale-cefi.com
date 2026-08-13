@@ -1,6 +1,6 @@
 ---
 title: Reward Sources
-canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/reward-sources
+canonical: https://whale-cefi.com/docs/earning-with-whale-cefi/reward-sources
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

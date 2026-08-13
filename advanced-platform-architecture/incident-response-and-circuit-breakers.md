@@ -1,7 +1,7 @@
 ---
 title: Incident Response and Circuit Breakers
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/incident-response-and-circuit-breakers
+  https://whale-cefi.com/docs/advanced-platform-architecture/incident-response-and-circuit-breakers
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

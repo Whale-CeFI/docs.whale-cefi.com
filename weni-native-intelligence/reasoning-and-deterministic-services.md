@@ -1,7 +1,7 @@
 ---
 title: Reasoning and Deterministic Services
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/reasoning-and-deterministic-services
+  https://whale-cefi.com/docs/weni-native-intelligence/reasoning-and-deterministic-services
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

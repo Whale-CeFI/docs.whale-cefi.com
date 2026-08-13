@@ -1,4 +1,4 @@
-SOURCE: https://whale-cefi.com/documentation
+SOURCE: https://whale-cefi.com/docs
 
 # Whale CeFi Documentation
 
@@ -68,7 +68,7 @@ An operation is complete only when the user-facing state, financial record, cust
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here
+SOURCE: https://whale-cefi.com/docs/start-here
 
 # Start Here
 
@@ -115,7 +115,7 @@ Never send an asset because a message, advertisement, or support impersonator pr
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/crypto-without-jargon
+SOURCE: https://whale-cefi.com/docs/start-here/crypto-without-jargon
 
 # Crypto without Jargon
 
@@ -169,7 +169,7 @@ A green button or success message is not, by itself, proof that every layer has 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/wallets-networks-and-addresses
+SOURCE: https://whale-cefi.com/docs/start-here/wallets-networks-and-addresses
 
 # Wallets, Networks, and Addresses
 
@@ -217,7 +217,7 @@ When a route is unfamiliar, send a small test amount first. Wait until it is cre
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/your-first-deposit
+SOURCE: https://whale-cefi.com/docs/start-here/your-first-deposit
 
 # Your First Deposit
 
@@ -272,7 +272,7 @@ For the deeper system model, continue to [Deposits and Credit Finality](../earni
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/choosing-a-plan
+SOURCE: https://whale-cefi.com/docs/start-here/choosing-a-plan
 
 # Choosing a Plan
 
@@ -327,7 +327,7 @@ Continue to [Plans and Rates](../earning-with-whale-cefi/plan-catalogue/) for th
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/open-and-track-a-position
+SOURCE: https://whale-cefi.com/docs/start-here/open-and-track-a-position
 
 # Open and Track a Position
 
@@ -377,7 +377,7 @@ Accrued reward does not silently become principal. Auto-Reinvest is a separate, 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/maturity-and-withdrawal
+SOURCE: https://whale-cefi.com/docs/start-here/maturity-and-withdrawal
 
 # Maturity and Withdrawal
 
@@ -419,7 +419,7 @@ The withdrawal is complete only after external finality and financial reconcilia
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/safety-checklist
+SOURCE: https://whale-cefi.com/docs/start-here/safety-checklist
 
 # Safety Checklist
 
@@ -470,7 +470,7 @@ For the complete risk model, read [Material Risks](../earning-with-whale-cefi/ma
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/start-here/beginner-faq
+SOURCE: https://whale-cefi.com/docs/start-here/beginner-faq
 
 # Beginner FAQ
 
@@ -560,7 +560,7 @@ The user statement is derived from append-only double-entry journals. Custody an
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/account-and-access
+SOURCE: https://whale-cefi.com/docs/account-and-access
 
 # Account and Access
 
@@ -581,7 +581,7 @@ Whale CeFi separates identity from asset authority. A verified account establish
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/account-and-access/create-an-account
+SOURCE: https://whale-cefi.com/docs/account-and-access/create-an-account
 
 # Create an Account
 
@@ -621,11 +621,9 @@ Whale CeFi support never needs your wallet seed phrase, private key, full authen
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/account-and-access/identity-verification
+SOURCE: https://whale-cefi.com/docs/account-and-access/identity-verification
 
 # Identity Verification
-
-Identity verification establishes whether a person or organisation is eligible for a specific Whale CeFi service. It supports sanctions controls, fraud prevention, account recovery, transaction review, legal obligations, and regional product rules.
 
 ## Verification states
 
@@ -655,20 +653,18 @@ The interface identifies the category of failure without disclosing fraud-detect
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/account-and-access/authentication-and-sessions
+SOURCE: https://whale-cefi.com/docs/account-and-access/authentication-and-sessions
 
 # Authentication and Sessions
 
-Authentication proves control of an account session. It is deliberately separate from product consent, wallet signing, custody approval, and administrative authority.
-
 ## Authentication layers
 
-- a unique password or passkey;
-- a possession-based second factor;
-- risk-based device and session checks;
-- step-up authentication for sensitive changes;
-- independent confirmation for withdrawals and recovery;
-- signed wallet challenges when a wallet is linked.
+* a unique password or passkey;
+* a possession-based second factor;
+* risk-based device and session checks;
+* step-up authentication for sensitive changes;
+* independent confirmation for withdrawals and recovery;
+* signed wallet challenges when a wallet is linked.
 
 A wallet-link challenge is domain-bound, nonce-bound, expiring, and human-readable. It proves control of an address for the stated purpose; it is not a token approval, transfer, blind signature, or permanent delegation.
 
@@ -686,11 +682,9 @@ When the risk engine detects an unusual login or session transition, it can chal
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/account-and-access/account-recovery
+SOURCE: https://whale-cefi.com/docs/account-and-access/account-recovery
 
 # Account Recovery
-
-Recovery restores account access without silently transferring financial authority to an attacker. It is therefore slower and more evidence-heavy than an ordinary login.
 
 ## Recovery principles
 
@@ -712,11 +706,9 @@ After recovery, the account displays revoked sessions, changed factors, frozen o
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/account-and-access/notifications-and-confirmations
+SOURCE: https://whale-cefi.com/docs/account-and-access/notifications-and-confirmations
 
 # Notifications and Confirmations
-
-Notifications make material state changes visible outside the screen where they occurred. They are evidence and safety controls, not marketing decoration.
 
 ## Mandatory security events
 
@@ -724,12 +716,12 @@ Whale CeFi notifies the user about new logins, factor changes, recovery attempts
 
 Every material message includes:
 
-- event type and status;
-- time and relevant account context;
-- a safe route to inspect the event;
-- what action is required, if any;
-- what Whale CeFi never asks the user to provide;
-- a case or operation ID.
+* event type and status;
+* time and relevant account context;
+* a safe route to inspect the event;
+* what action is required, if any;
+* what Whale CeFi never asks the user to provide;
+* a case or operation ID.
 
 Links point only to the canonical domain. A notification never asks the user to paste a seed phrase, private key, full one-time code, or remote-access credential.
 
@@ -739,11 +731,9 @@ An email or push confirmation can prove that the user acknowledged a request. It
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/account-and-access/account-restrictions-and-appeals
+SOURCE: https://whale-cefi.com/docs/account-and-access/account-restrictions-and-appeals
 
 # Account Restrictions and Appeals
-
-Whale CeFi can restrict a capability when law, sanctions policy, security risk, fraud evidence, unresolved identity, product eligibility, asset-route safety, or an operational incident requires it.
 
 ## Scope-first restriction
 
@@ -751,14 +741,14 @@ The narrowest safe restriction is used. A restriction can apply to a login, with
 
 ## What the notice contains
 
-- restriction category;
-- affected capabilities;
-- effective time;
-- whether balances and open positions remain visible;
-- actions the user can still take;
-- evidence or information required;
-- review eligibility and deadline;
-- case ID and next update time.
+* restriction category;
+* affected capabilities;
+* effective time;
+* whether balances and open positions remain visible;
+* actions the user can still take;
+* evidence or information required;
+* review eligibility and deadline;
+* case ID and next update time.
 
 Confidential detection methods, third-party reports, or legally restricted information may be withheld, but the user is not left with an unexplained balance change.
 
@@ -768,11 +758,9 @@ An appeal is reviewed by a role that did not make the original discretionary dec
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi
 
 # Earning with Whale CeFi
-
-Understand what Whale CeFi does, what happens to an asset and which decisions remain yours.
 
 ![Product Overview](../.gitbook/assets/02-product-journey.png)
 
@@ -811,7 +799,7 @@ The review object binds the account, asset, network, product version, rate unit,
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/current-rate-card
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/current-rate-card
 
 # Current Rate Card
 
@@ -878,11 +866,9 @@ For calculation mechanics, see Rates and Reward Mathematics. For source economic
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/product-model
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/product-model
 
 # Product Model
-
-The product boundary between account experience, financial obligation, custody and external networks.
 
 ![Product Model](../.gitbook/assets/product-review.svg)
 
@@ -914,11 +900,9 @@ The internal ledger represents the platform's obligation to users. Custody and b
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/end-to-end-user-journey
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/end-to-end-user-journey
 
 # End-to-End User Journey
-
-A short mental model of the product, financial records, infrastructure, security and intelligence layer.
 
 ![End-to-End User Journey](../.gitbook/assets/10-asset-lifecycle.png)
 
@@ -959,11 +943,9 @@ Explanation, calculation, accounting, custody, and authorisation remain separate
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/deposits-and-credit-finality
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/deposits-and-credit-finality
 
 # Deposits and Credit Finality
-
-What to check before sending an asset, how confirmation works and when a balance becomes available.
 
 ![Deposits and Credit Finality](../.gitbook/assets/credit-finality.svg)
 
@@ -1001,11 +983,9 @@ Unknown assets, wrong-network transfers, missing memo values, chain reorganisati
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/plan-catalogue
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/plan-catalogue
 
 # Plan Catalogue
-
-A precise comparison of availability, rate treatment, accrual and closure.
 
 |                 | Flexible plan                                                 | Fixed-term plan                                                                                 |
 | --------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -1034,11 +1014,9 @@ Flexible-rate changes create a new effective-dated schedule and a notice event. 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/rates-and-reward-mathematics
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/rates-and-reward-mathematics
 
 # Rates and Reward Mathematics
-
-This page defines the unit, calculation, versioning, display, and rounding rules behind Whale CeFi reward rates.
 
 ![Rates and Reward Mathematics](../.gitbook/assets/gross-to-user-waterfall.svg)
 
@@ -1117,11 +1095,9 @@ Only the first and last can describe an active position. Illustrations are label
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/position-review-and-consent
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/position-review-and-consent
 
 # Position Review and Consent
-
-The immutable review object a user sees and accepts before a position can be opened.
 
 The final confirmation screen is a cryptographically identified review object, not a transient rendering. It contains every material term needed to reproduce the position and evaluate the action later.
 
@@ -1158,7 +1134,7 @@ Successful opening produces a receipt containing the accepted review hash, posit
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/reward-sources
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/reward-sources
 
 # Reward Sources
 
@@ -1274,11 +1250,9 @@ A product stops accepting new exposure when its approved funding, capacity, liqu
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/earning-with-whale-cefi/material-risks
+SOURCE: https://whale-cefi.com/docs/earning-with-whale-cefi/material-risks
 
 # Material Risks
-
-The main ways value, access or timing can be affected and how each risk is controlled.
 
 Crypto earning products are not bank deposits and rewards are not guaranteed. Before opening a plan, understand six risk families:
 
@@ -1303,7 +1277,7 @@ The platform uses scoped states: normal, degraded, read-only, affected-product p
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression
+SOURCE: https://whale-cefi.com/docs/points-and-progression
 
 # Points and Progression
 
@@ -1348,23 +1322,21 @@ Progression never changes the ownership of customer principal, weakens account s
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/guide-overview
+SOURCE: https://whale-cefi.com/docs/points-and-progression/guide-overview
 
-# Gamification Guide
-
-The live progression layer separates XP, levels, Daily XP Claims, balance rewards, and other mechanics into exact versioned records.
+# Guide Overview
 
 The system may include:
 
-- XP and levels;
-- tasks;
-- Daily XP Claims, balance rewards, and streaks;
-- chests and reward pools;
-- achievements;
-- referrals;
-- leaderboards and seasons;
-- Learn-to-Earn modules;
-- and progression-based access or credentials where enabled.
+* XP and levels;
+* tasks;
+* Daily XP Claims, balance rewards, and streaks;
+* chests and reward pools;
+* achievements;
+* referrals;
+* leaderboards and seasons;
+* Learn-to-Earn modules;
+* and progression-based access or credentials where enabled.
 
 These mechanics are connected, but they do not share one unit or ledger. XP remains progression data. Deposit-based and company-revenue rewards remain balance entries. A level multiplier never changes a staking rate.
 
@@ -1372,19 +1344,19 @@ The current level table includes all ten XP thresholds, multipliers, base Daily 
 
 This guide explains the visible system. It does not publish confidential fraud thresholds, internal balancing formulas, or detection methods.
 
-> **Short version**  
+> **Short version**\
 > Progress comes from valid activity and verified learning. Every reward identifies its unit, formula, eligibility, and ledger destination.
 
 ## On-page actions
 
-- `See How XP Works`
-- `View Current Tasks`
-- `View Current Chest Odds`
-- `Read Fair Use Rules`
+* `See How XP Works`
+* `View Current Tasks`
+* `View Current Chest Odds`
+* `Read Fair Use Rules`
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/progression-principles
+SOURCE: https://whale-cefi.com/docs/points-and-progression/progression-principles
 
 # Progression Principles
 
@@ -1420,7 +1392,7 @@ Where practical, users should be able to see whether progress is pending, confir
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/xp
+SOURCE: https://whale-cefi.com/docs/points-and-progression/xp
 
 # XP
 
@@ -1494,26 +1466,26 @@ The XP history identifies the event, exact credited amount, displayed amount, ba
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/levels
+SOURCE: https://whale-cefi.com/docs/points-and-progression/levels
 
 # Levels
 
-The live level registry binds each cumulative XP threshold to an XP-only multiplier, a Daily XP Claim, and a separately calculated balance reward. A level does not change the Monthly Reward Rate of a staking position.
+&#x20;A level does not change the Monthly Reward Rate of a staking position.
 
 ## Live level registry
 
-| Level | Name | Cumulative XP | XP multiplier | Base Daily XP | Exact XP credited | XP displayed | Balance reward |
-|---:|---|---:|---:|---:|---:|---:|---|
-| 1 | Plankton | 0 | 1.00x | 10 | 10.00 | 10 | Daily: 0.005% of eligible deposit |
-| 2 | Minnow | 2,100 | 1.03x | 15 | 15.45 | 15 | Daily: 0.0075% of eligible deposit |
-| 3 | Puffer | 5,900 | 1.06x | 20 | 21.20 | 21 | Daily: 0.001% of eligible deposit |
-| 4 | Dolphin | 11,600 | 1.10x | 30 | 33.00 | 33 | Daily: 0.0125% of eligible deposit |
-| 5 | Orca | 19,200 | 1.15x | 40 | 46.00 | 46 | Daily: 0.015% of eligible deposit |
-| 6 | Blue Whale | 29,400 | 1.20x | 60 | 72.00 | 72 | Daily: 0.02% of eligible deposit |
-| 7 | Shark | 44,100 | 1.26x | 90 | 113.40 | 113 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
-| 8 | Leviathan | 62,800 | 1.33x | 120 | 159.60 | 160 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
-| 9 | Kraken | 87,300 | 1.41x | 150 | 211.50 | 212 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
-| 10 | Megalodon | 120,000 | 1.50x | 180 | 270.00 | 270 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
+| Level | Name       | Cumulative XP | XP multiplier | Base Daily XP | Exact XP credited | XP displayed | Balance reward                                                   |
+| ----: | ---------- | ------------: | ------------: | ------------: | ----------------: | -----------: | ---------------------------------------------------------------- |
+|     1 | Plankton   |             0 |         1.00x |            10 |             10.00 |           10 | Daily: 0.005% of eligible deposit                                |
+|     2 | Minnow     |         2,100 |         1.03x |            15 |             15.45 |           15 | Daily: 0.0075% of eligible deposit                               |
+|     3 | Puffer     |         5,900 |         1.06x |            20 |             21.20 |           21 | Daily: 0.001% of eligible deposit                                |
+|     4 | Dolphin    |        11,600 |         1.10x |            30 |             33.00 |           33 | Daily: 0.0125% of eligible deposit                               |
+|     5 | Orca       |        19,200 |         1.15x |            40 |             46.00 |           46 | Daily: 0.015% of eligible deposit                                |
+|     6 | Blue Whale |        29,400 |         1.20x |            60 |             72.00 |           72 | Daily: 0.02% of eligible deposit                                 |
+|     7 | Shark      |        44,100 |         1.26x |            90 |            113.40 |          113 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
+|     8 | Leviathan  |        62,800 |         1.33x |           120 |            159.60 |          160 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
+|     9 | Kraken     |        87,300 |         1.41x |           150 |            211.50 |          212 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
+|    10 | Megalodon  |       120,000 |         1.50x |           180 |            270.00 |          270 | Monthly: 0.002% of company Net Monthly Revenue per eligible user |
 
 The Puffer balance-reward rate is **0.001%**. This value is intentionally recorded exactly and must not be normalised to 0.01%.
 
@@ -1531,9 +1503,9 @@ Fractional XP remains in the internal XP ledger and counts toward level threshol
 
 Examples:
 
-- Minnow: `15 x 1.03 = 15.45 XP` internally and `15 XP` displayed.
-- Leviathan: `120 x 1.33 = 159.60 XP` internally and `160 XP` displayed.
-- Kraken: `150 x 1.41 = 211.50 XP` internally and `212 XP` displayed.
+* Minnow: `15 x 1.03 = 15.45 XP` internally and `15 XP` displayed.
+* Leviathan: `120 x 1.33 = 159.60 XP` internally and `160 XP` displayed.
+* Kraken: `150 x 1.41 = 211.50 XP` internally and `212 XP` displayed.
 
 ## Daily eligible-deposit reward: Levels 1-6
 
@@ -1573,7 +1545,7 @@ Higher levels never bypass identity checks, geographic restrictions, security ch
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/tasks
+SOURCE: https://whale-cefi.com/docs/points-and-progression/tasks
 
 # Tasks
 
@@ -1608,7 +1580,7 @@ Action-based tasks require a new event after activation. State-based tasks inspe
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/daily-bonus-and-streaks
+SOURCE: https://whale-cefi.com/docs/points-and-progression/daily-bonus-and-streaks
 
 # Daily XP Claim and Balance Rewards
 
@@ -1653,7 +1625,7 @@ Duplicate requests are idempotent. A correction posts a new reversing or adjusti
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/chests
+SOURCE: https://whale-cefi.com/docs/points-and-progression/chests
 
 # Chests
 
@@ -1683,20 +1655,18 @@ An asset bonus or rate boost is not mixed into a chest merely as visual flair. I
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/rewards-and-boosts
+SOURCE: https://whale-cefi.com/docs/points-and-progression/rewards-and-boosts
 
 # Rewards and Boosts
-
-Level XP multipliers, balance rewards, temporary boosts, and other reward items remain separate records with explicit units and calculation rules.
 
 ## Live level-linked rewards
 
 The current level configuration contains:
 
-- a permanent XP multiplier while the account remains at the applicable level;
-- a level-specific base Daily XP Claim;
-- a daily eligible-deposit balance reward for Levels 1-6;
-- and an individual monthly company Net Revenue reward for Levels 7-10.
+* a permanent XP multiplier while the account remains at the applicable level;
+* a level-specific base Daily XP Claim;
+* a daily eligible-deposit balance reward for Levels 1-6;
+* and an individual monthly company Net Revenue reward for Levels 7-10.
 
 The exact values and formulas are published in [Levels](levels.md).
 
@@ -1710,34 +1680,34 @@ A Locked position keeps the exact product version and term reward accepted when 
 
 An approved reward pool can also contain:
 
-- task-specific XP or referral XP;
-- a time-bounded XP multiplier;
-- profile frames, titles, badges, or visual effects;
-- chest fragments, keys, or collectibles;
-- time-bounded access or compute credits;
-- or a separately disclosed asset or product benefit.
+* task-specific XP or referral XP;
+* a time-bounded XP multiplier;
+* profile frames, titles, badges, or visual effects;
+* chest fragments, keys, or collectibles;
+* time-bounded access or compute credits;
+* or a separately disclosed asset or product benefit.
 
 ## Required reward record
 
 Every reward identifies:
 
-- unit and calculation base;
-- eligibility and source event;
-- activation time, cadence, and expiry where applicable;
-- stacking behavior;
-- maximum effect or programme liability rule;
-- funding account;
-- transferability;
-- reversal and correction conditions;
-- region and account scope;
-- applicable tax or legal disclosure;
-- and the configuration version that produced the result.
+* unit and calculation base;
+* eligibility and source event;
+* activation time, cadence, and expiry where applicable;
+* stacking behavior;
+* maximum effect or programme liability rule;
+* funding account;
+* transferability;
+* reversal and correction conditions;
+* region and account scope;
+* applicable tax or legal disclosure;
+* and the configuration version that produced the result.
 
 Temporary, seasonal, experimental, and permanent benefits retain distinct statuses. A label such as `boost`, `cashback`, `share`, or `bonus` never replaces the exact unit and formula.
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/achievements
+SOURCE: https://whale-cefi.com/docs/points-and-progression/achievements
 
 # Achievements
 
@@ -1783,11 +1753,9 @@ The old documentation proposed Bronze, Epic, Legendary, and Mythic rarities and 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/referrals
+SOURCE: https://whale-cefi.com/docs/points-and-progression/referrals
 
 # Referrals
-
-The referral system recognises valid network growth. It is not intended to reward artificial account creation, self-referral, purchased identities, or activity that exists only to manufacture rewards.
 
 ## Referral lifecycle
 
@@ -1807,26 +1775,26 @@ The old Product Documentation stated that a referrer receives 5% of the XP an ac
 
 This rule may be republished only after confirming:
 
-- the current percentage;
-- which XP sources qualify;
-- activation conditions;
-- duration;
-- caps;
-- reversals;
-- region and promotion-law eligibility;
-- attribution window;
-- and treatment of deleted, suspended, refunded, duplicated, or abusive accounts.
+* the current percentage;
+* which XP sources qualify;
+* activation conditions;
+* duration;
+* caps;
+* reversals;
+* region and promotion-law eligibility;
+* attribution window;
+* and treatment of deleted, suspended, refunded, duplicated, or abusive accounts.
 
 ## Required dashboard fields
 
-- referral link or code;
-- registered referrals;
-- active referrals;
-- pending or under-review referrals;
-- confirmed rewards;
-- reversed rewards;
-- programme rules and effective version;
-- and support access.
+* referral link or code;
+* registered referrals;
+* active referrals;
+* pending or under-review referrals;
+* confirmed rewards;
+* reversed rewards;
+* programme rules and effective version;
+* and support access.
 
 ## Prohibited conduct
 
@@ -1834,34 +1802,32 @@ Self-referral, multi-accounting, identity rental, automated sign-ups, circular f
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/leaderboards-and-seasons
+SOURCE: https://whale-cefi.com/docs/points-and-progression/leaderboards-and-seasons
 
 # Leaderboards and Seasons
 
-Leaderboards display standing in selected, published categories. They are designed for visibility and engagement; they do not reveal every internal fraud or moderation signal.
-
 Possible categories include:
 
-- total confirmed XP;
-- seasonal XP;
-- level or cohort standing;
-- eligible asset or product categories;
-- verified learning progress;
-- or another metric announced for a specific event.
+* total confirmed XP;
+* seasonal XP;
+* level or cohort standing;
+* eligible asset or product categories;
+* verified learning progress;
+* or another metric announced for a specific event.
 
 ## Leaderboard entry
 
 The page should show:
 
-- category;
-- scoring metric;
-- season or measurement window;
-- update time;
-- eligibility;
-- tie-breaking rule;
-- reward positions;
-- moderation status where relevant;
-- and finalisation date.
+* category;
+* scoring metric;
+* season or measurement window;
+* update time;
+* eligibility;
+* tie-breaking rule;
+* reward positions;
+* moderation status where relevant;
+* and finalisation date.
 
 ## Provisional and final results
 
@@ -1871,14 +1837,14 @@ Live rankings should be labelled provisional. A season becomes final only after 
 
 Every season should publish:
 
-- name;
-- start and end time with timezone;
-- eligible population;
-- scoring method;
-- rewards;
-- review window;
-- finalisation date;
-- and rules for cancellations, outages, or material configuration errors.
+* name;
+* start and end time with timezone;
+* eligible population;
+* scoring method;
+* rewards;
+* review window;
+* finalisation date;
+* and rules for cancellations, outages, or material configuration errors.
 
 ## Historical reward claims
 
@@ -1886,11 +1852,9 @@ The old documentation referred to specific Top 100, Top 10, Top 3, and first-pla
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/learn-to-earn
+SOURCE: https://whale-cefi.com/docs/points-and-progression/learn-to-earn
 
 # Learn-to-Earn
-
-Learn-to-Earn is the intended bridge between education, verified competency, and progression.
 
 Its purpose is not to reward passive content consumption. A valid module should define what the user is expected to understand or demonstrate and how the result is assessed.
 
@@ -1904,16 +1868,16 @@ Its purpose is not to reward passive content consumption. A valid module should 
 
 ## Assessment states
 
-- not started;
-- in progress;
-- submitted;
-- passed;
-- needs review;
-- retry available;
-- failed;
-- invalidated;
-- appealed;
-- and superseded by a newer curriculum version.
+* not started;
+* in progress;
+* submitted;
+* passed;
+* needs review;
+* retry available;
+* failed;
+* invalidated;
+* appealed;
+* and superseded by a newer curriculum version.
 
 ## Integrity
 
@@ -1927,37 +1891,35 @@ Passing a module demonstrates performance against that module’s defined criter
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/credentials-and-access
+SOURCE: https://whale-cefi.com/docs/points-and-progression/credentials-and-access
 
 # Credentials and Access
 
-Whale CeFi may use verified progression or learning results to unlock selected content, capacity, recognition, or product access where approved.
-
 ## Credential types
 
-- platform account credential;
-- level or achievement status;
-- learning-module completion;
-- verified competency tier;
-- seasonal credential;
-- early-participant or Genesis status;
-- and enterprise role or certification.
+* platform account credential;
+* level or achievement status;
+* learning-module completion;
+* verified competency tier;
+* seasonal credential;
+* early-participant or Genesis status;
+* and enterprise role or certification.
 
 ## Credential requirements
 
 Every credential must define:
 
-- issuer;
-- subject: person, account, wallet, or organisation;
-- eligibility event;
-- issue time;
-- expiry, if any;
-- revocation and suspension conditions;
-- recovery process;
-- privacy and public visibility;
-- duplicate and Sybil controls;
-- appeal process;
-- and the exact entitlement it proves.
+* issuer;
+* subject: person, account, wallet, or organisation;
+* eligibility event;
+* issue time;
+* expiry, if any;
+* revocation and suspension conditions;
+* recovery process;
+* privacy and public visibility;
+* duplicate and Sybil controls;
+* appeal process;
+* and the exact entitlement it proves.
 
 ## On-chain credentials
 
@@ -1971,52 +1933,50 @@ Competency and access may change explanation density or eligible workflows. They
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/fair-use-and-anti-abuse
+SOURCE: https://whale-cefi.com/docs/points-and-progression/fair-use-and-anti-abuse
 
 # Fair Use and Anti-Abuse
 
-Gamification is available to real users acting within the platform rules.
-
 Whale CeFi may apply controls such as:
 
-- account and activity validation;
-- identity and eligibility checks;
-- linked-account and device review;
-- referral-abuse detection;
-- velocity and suspicious-pace monitoring;
-- purchase and reward limits;
-- duplicate-event detection;
-- funding-pattern analysis;
-- assessment-integrity signals;
-- temporary holds;
-- and manual review.
+* account and activity validation;
+* identity and eligibility checks;
+* linked-account and device review;
+* referral-abuse detection;
+* velocity and suspicious-pace monitoring;
+* purchase and reward limits;
+* duplicate-event detection;
+* funding-pattern analysis;
+* assessment-integrity signals;
+* temporary holds;
+* and manual review.
 
 ## Examples of prohibited conduct
 
-- creating or controlling multiple accounts to obtain duplicate progress;
-- self-referral or referral rings;
-- using false, rented, stolen, or synthetic identity material;
-- bots, scripts, macros, or automation not expressly permitted;
-- circular deposits or withdrawals designed only to trigger tasks;
-- manipulating timing, refunds, or reversals to retain a reward;
-- exploiting a bug or configuration mistake;
-- buying, selling, transferring, or sharing accounts or credentials;
-- misleading other users about rewards or guaranteed outcomes;
-- and attempting to discover or bypass confidential anti-abuse controls.
+* creating or controlling multiple accounts to obtain duplicate progress;
+* self-referral or referral rings;
+* using false, rented, stolen, or synthetic identity material;
+* bots, scripts, macros, or automation not expressly permitted;
+* circular deposits or withdrawals designed only to trigger tasks;
+* manipulating timing, refunds, or reversals to retain a reward;
+* exploiting a bug or configuration mistake;
+* buying, selling, transferring, or sharing accounts or credentials;
+* misleading other users about rewards or guaranteed outcomes;
+* and attempting to discover or bypass confidential anti-abuse controls.
 
 ## Possible outcomes
 
 Depending on severity and evidence, Whale CeFi may:
 
-- delay credit;
-- request additional verification;
-- exclude an event;
-- reverse XP or rewards;
-- remove leaderboard eligibility;
-- suspend a credential;
-- restrict the progression system;
-- suspend or terminate an account under the applicable terms;
-- or refer the matter for legal or compliance review.
+* delay credit;
+* request additional verification;
+* exclude an event;
+* reverse XP or rewards;
+* remove leaderboard eligibility;
+* suspend a credential;
+* restrict the progression system;
+* suspend or terminate an account under the applicable terms;
+* or refer the matter for legal or compliance review.
 
 ## Proportionality
 
@@ -2024,35 +1984,33 @@ An anomaly is not automatically proof of abuse. Material adverse action should b
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/eligibility-timing-and-corrections
+SOURCE: https://whale-cefi.com/docs/points-and-progression/eligibility-timing-and-corrections
 
 # Eligibility, Timing, and Corrections
 
-Progression depends on both the visible objective and the underlying eligible event.
-
 ## Eligibility may depend on
 
-- account and identity status;
-- country or region;
-- age or legal capacity;
-- product availability;
-- asset, network, amount, and plan state;
-- task start and end time;
-- prerequisite completion;
-- account standing;
-- review status;
-- and programme-specific terms.
+* account and identity status;
+* country or region;
+* age or legal capacity;
+* product availability;
+* asset, network, amount, and plan state;
+* task start and end time;
+* prerequisite completion;
+* account standing;
+* review status;
+* and programme-specific terms.
 
 ## Time rules
 
 Every timed mechanic should identify:
 
-- authoritative platform timezone;
-- local-time display;
-- start and end timestamp;
-- whether the deadline applies to user submission, blockchain inclusion, confirmation, reconciliation, or final validation;
-- grace period, if any;
-- and treatment of outages or delayed external systems.
+* authoritative platform timezone;
+* local-time display;
+* start and end timestamp;
+* whether the deadline applies to user submission, blockchain inclusion, confirmation, reconciliation, or final validation;
+* grace period, if any;
+* and treatment of outages or delayed external systems.
 
 ## Duplicate and late events
 
@@ -2068,33 +2026,31 @@ If a task, rate boost, chest, or leaderboard was configured incorrectly, Whale C
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/reviews-appeals-and-support
+SOURCE: https://whale-cefi.com/docs/points-and-progression/reviews-appeals-and-support
 
 # Reviews, Appeals, and Support
-
-A legitimate user should have a clear path when an eligible action appears not to have counted.
 
 ## Before contacting support
 
 Check:
 
-- task status and time window;
-- progress counter;
-- account eligibility;
-- whether the underlying financial event is final;
-- whether a review period applies;
-- and whether the XP or reward history shows pending, rejected, or reversed status.
+* task status and time window;
+* progress counter;
+* account eligibility;
+* whether the underlying financial event is final;
+* whether a review period applies;
+* and whether the XP or reward history shows pending, rejected, or reversed status.
 
 ## Appeal request
 
 The support form should collect only the information needed to investigate:
 
-- account reference;
-- task, achievement, referral, chest, leaderboard, or module reference;
-- date and time;
-- transaction hash or product-event reference where relevant;
-- explanation;
-- and supporting evidence.
+* account reference;
+* task, achievement, referral, chest, leaderboard, or module reference;
+* date and time;
+* transaction hash or product-event reference where relevant;
+* explanation;
+* and supporting evidence.
 
 Users should never be asked to provide a private key, seed phrase, complete authentication secret, or wallet-signing approval to resolve a gamification issue.
 
@@ -2102,12 +2058,12 @@ Users should never be asked to provide a private key, seed phrase, complete auth
 
 The user should receive:
 
-- decision category;
-- affected event;
-- confirmed correction, if any;
-- reason that can be disclosed safely;
-- effective time;
-- and further appeal or complaint route where applicable.
+* decision category;
+* affected event;
+* confirmed correction, if any;
+* reason that can be disclosed safely;
+* effective time;
+* and further appeal or complaint route where applicable.
 
 ## Service targets
 
@@ -2115,34 +2071,32 @@ Do not promise a response time until support capacity, severity classes, busines
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/privacy-and-public-profiles
+SOURCE: https://whale-cefi.com/docs/points-and-progression/privacy-and-public-profiles
 
 # Privacy and Public Profiles
-
-Progression data can reveal financial behaviour, account activity, social connections, learning history, and inferred experience. It must be treated as governed user data.
 
 ## Public by design only
 
 The profile should explain which fields are:
 
-- always private;
-- visible only to the user;
-- visible to approved support or compliance roles;
-- visible to other users by default;
-- optional public fields;
-- or displayed only in a pseudonymous leaderboard.
+* always private;
+* visible only to the user;
+* visible to approved support or compliance roles;
+* visible to other users by default;
+* optional public fields;
+* or displayed only in a pseudonymous leaderboard.
 
 ## Recommended public controls
 
 Users should be able to control the visibility of:
 
-- display name and avatar;
-- level;
-- selected achievements;
-- leaderboard participation where product rules permit;
-- learning credentials;
-- referral statistics;
-- and wallet or account identifiers.
+* display name and avatar;
+* level;
+* selected achievements;
+* leaderboard participation where product rules permit;
+* learning credentials;
+* referral statistics;
+* and wallet or account identifiers.
 
 Balances, exact deposits, withdrawal addresses, identity documents, private learning responses, fraud signals, and support records should not become public merely because a progression profile exists.
 
@@ -2156,23 +2110,21 @@ Progression and learning data may calibrate explanation only under the approved 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/points-and-progression/risks-legal-notes-and-change-log
+SOURCE: https://whale-cefi.com/docs/points-and-progression/risks-legal-notes-and-change-log
 
 # Risks, Legal Notes, and Change Log
 
-Progression helps users understand participation; it does not remove product, security, legal, tax, or financial risk.
-
 ## Important distinctions
 
-- XP is a progression score, not money, principal, a security, or a guaranteed asset.
-- The level XP multiplier never changes a staking rate, locked reward, deposit-based percentage, or company-revenue percentage.
-- A Daily XP Claim and a balance reward are separate ledger events even when one user action triggers both.
-- The monthly Level 7-10 reward is calculated per eligible user as 0.002% of company Net Monthly Revenue; it is not a shared pool and is not a percentage of customer principal.
-- A level, credential, or achievement is not proof of investment competence and does not weaken a mandatory safety control.
-- A randomised reward does not guarantee a specific outcome. Published probability describes the configuration across a large number of draws.
-- Referral and leaderboard rewards remain subject to valid attribution, eligibility, finalisation, anti-abuse review, and regional rules.
-- A temporary boost is not a permanent right. Its funding, scope, duration, cap, stacking rule, and expiry are part of the reward record.
-- Product activity performed to obtain XP or another reward carries the same underlying product risk as activity performed for any other reason.
+* XP is a progression score, not money, principal, a security, or a guaranteed asset.
+* The level XP multiplier never changes a staking rate, locked reward, deposit-based percentage, or company-revenue percentage.
+* A Daily XP Claim and a balance reward are separate ledger events even when one user action triggers both.
+* The monthly Level 7-10 reward is calculated per eligible user as 0.002% of company Net Monthly Revenue; it is not a shared pool and is not a percentage of customer principal.
+* A level, credential, or achievement is not proof of investment competence and does not weaken a mandatory safety control.
+* A randomised reward does not guarantee a specific outcome. Published probability describes the configuration across a large number of draws.
+* Referral and leaderboard rewards remain subject to valid attribution, eligibility, finalisation, anti-abuse review, and regional rules.
+* A temporary boost is not a permanent right. Its funding, scope, duration, cap, stacking rule, and expiry are part of the reward record.
+* Product activity performed to obtain XP or another reward carries the same underlying product risk as activity performed for any other reason.
 
 ## Regional availability
 
@@ -2188,14 +2140,14 @@ Material changes identify the affected mechanic, old and new version, effective 
 
 ## Change log
 
-| Version | Effective time | Change | Existing-user treatment |
-|---|---|---|---|
-| 3.1.0 | 10 August 2026 | Published the live ten-level XP multipliers, Daily XP Claim calculations, fractional-ledger and display-rounding rules, Levels 1-6 deposit-based balance rewards, and Levels 7-10 per-user monthly Net Revenue reward | Exact internal XP remains authoritative; current level and reward eligibility follow configuration `WCF-GAMIFICATION-LIVE-2026-08-10` |
-| 3.0.0 | 29 July 2026, 00:00 UTC | Canonical XP, level, task, chest, referral, season, Learn-to-Earn, privacy, and review model | Existing confirmed XP and completed achievements remain recorded; active mechanics follow their accepted version until completion or published migration |
+| Version | Effective time          | Change                                                                                                                                                                                                                | Existing-user treatment                                                                                                                                  |
+| ------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3.1.0   | 10 August 2026          | Published the live ten-level XP multipliers, Daily XP Claim calculations, fractional-ledger and display-rounding rules, Levels 1-6 deposit-based balance rewards, and Levels 7-10 per-user monthly Net Revenue reward | Exact internal XP remains authoritative; current level and reward eligibility follow configuration `WCF-GAMIFICATION-LIVE-2026-08-10`                    |
+| 3.0.0   | 29 July 2026, 00:00 UTC | Canonical XP, level, task, chest, referral, season, Learn-to-Earn, privacy, and review model                                                                                                                          | Existing confirmed XP and completed achievements remain recorded; active mechanics follow their accepted version until completion or published migration |
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence
 
 # WENI - Native Intelligence
 
@@ -2219,11 +2171,9 @@ This is not a generic chatbot with crypto added on top. It is not an autonomous 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/what-the-ai-agent-is
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/what-the-ai-agent-is
 
 # What the AI Agent Is
-
-Whale CeFi AI Agent is the user-facing intelligence product. WENI — the native intelligence system for Whale CeFi — is the wider governed intelligence system that supports it.
 
 The Agent combines four roles without confusing their authority:
 
@@ -2252,11 +2202,9 @@ The Agent also does not replace the user’s judgment. It improves the quality a
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/why-intelligence-is-the-next-layer
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/why-intelligence-is-the-next-layer
 
 # Why Intelligence Is the Next Layer
-
-Crypto does not suffer from a shortage of information. It suffers from fragmented evidence, inconsistent terminology, changing state, adversarial content, and irreversible actions.
 
 A simple-looking decision may depend on several different realities at once:
 
@@ -2285,11 +2233,9 @@ The value is not artificial certainty. It is a better decision process: less tim
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/who-it-is-for
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/who-it-is-for
 
 # Who It Is For
-
-The same market creates different problems for different people. WENI operates on one evidence base with different levels of explanation and workflow support.
 
 ## Someone entering crypto for the first time
 
@@ -2317,11 +2263,9 @@ Safety-critical information cannot disappear because a user selects a simpler in
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-can-do
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/what-the-agent-can-do
 
 # What the Agent Can Do
-
-Capabilities are published as explicit classes. Availability is published per release, region, product, asset, protocol, interface, and user tier.
 
 ## Explain
 
@@ -2361,11 +2305,9 @@ Every capability exposes its release, region, product, asset, protocol, interfac
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/what-the-agent-cannot-do
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/what-the-agent-cannot-do
 
 # What the Agent Cannot Do
-
-Whale CeFi AI Agent does not become an invisible authority over user assets.
 
 It does not:
 
@@ -2389,7 +2331,7 @@ When a material limitation exists, the interface shows it in plain language. The
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/weni-system-architecture
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/weni-system-architecture
 
 # WENI System Architecture
 
@@ -2429,11 +2371,9 @@ No single layer is allowed to silently become every authority. The language mode
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/data-graphs-and-truth-resolution
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/data-graphs-and-truth-resolution
 
 # Data Graphs and Truth Resolution
-
-WENI’s data architecture separates three connected but non-interchangeable structures.
 
 ## Evidence Graph
 
@@ -2464,11 +2404,9 @@ If a conflict cannot be resolved, the conflict remains part of the answer. The s
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/evidence-and-provenance
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/evidence-and-provenance
 
 # Evidence and Provenance
-
-WENI operates on the principle that every statement carries enough context to be inspected.
 
 ![Evidence and Provenance](../.gitbook/assets/evidence-provenance.svg)
 
@@ -2497,11 +2435,9 @@ The Agent may summarise and explain evidence, but generated language is a projec
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/confidence-conflict-and-freshness
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/confidence-conflict-and-freshness
 
 # Confidence, Conflict, and Freshness
-
-Risk, confidence, evidence quality, and action eligibility are distinct and remain separately visible.
 
 ## Confidence
 
@@ -2540,11 +2476,9 @@ The interface explains which factor caused the restriction.
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/reasoning-and-deterministic-services
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/reasoning-and-deterministic-services
 
 # Reasoning and Deterministic Services
-
-WENI separates tasks that benefit from probabilistic reasoning from tasks that require repeatable calculation or hard enforcement.
 
 ## Probabilistic reasoning
 
@@ -2572,11 +2506,9 @@ Where supported, a reviewed service may construct an unsigned request only after
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/the-dynamic-interface
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/the-dynamic-interface
 
 # The Dynamic Interface
-
-WENI is not limited to a chat window. The interface assembles the right combination of explanation, evidence, calculation, simulation, risk, and action controls for the current task.
 
 ## Possible interface components
 
@@ -2606,11 +2538,9 @@ The visual system never makes an uncertain or blocked state look complete. Loadi
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/personalisation-and-memory
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/personalisation-and-memory
 
 # Personalisation and Memory
-
-WENI adapts to the person using it without quietly rewriting truth or retaining more data than necessary.
 
 ![Personalisation and Memory](../.gitbook/assets/personalisation.svg)
 
@@ -2644,11 +2574,9 @@ Inferred emotion, sophistication, or behaviour never becomes a hidden reason to 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/privacy-security-and-threat-model
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/privacy-security-and-threat-model
 
 # Privacy, Security, and Threat Model
-
-An intelligence system that reads market, wallet, account, document, or enterprise context creates security and privacy responsibilities beyond a normal chatbot.
 
 ## Identity and consent
 
@@ -2680,11 +2608,9 @@ Sensitive workloads run inside attested confidential-computing boundaries when t
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/the-iron-boundary
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/the-iron-boundary
 
 # The Iron Boundary
-
-The Iron Boundary is the non-negotiable separation between intelligence and asset authority.
 
 ![Intelligence stops before signing authority](../.gitbook/assets/iron-boundary.svg)
 
@@ -2723,11 +2649,9 @@ AI errors are possible. Data can be stale. Tools can fail. Providers can disagre
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/explain-prepare-approve
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/explain-prepare-approve
 
 # Explain, Prepare, Approve
-
-The action model uses distinct verbs because each verb carries different authority.
 
 ## Explain
 
@@ -2765,11 +2689,9 @@ No interface compresses these states into one ambiguous button such as “AI exe
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/controlled-action-workflow
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/controlled-action-workflow
 
 # Controlled Action Workflow
-
-How evidence and reasoning become an unsigned proposal that stops before human authorization.
 
 ![Controlled Action Workflow](../.gitbook/assets/controlled-action.svg)
 
@@ -2810,7 +2732,7 @@ The boundary is technical, not rhetorical:
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/the-user-journey
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/the-user-journey
 
 # The User Journey
 
@@ -2844,11 +2766,9 @@ The journey may end earlier. If evidence is insufficient, a contract cannot be v
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/evaluation-and-model-governance
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/evaluation-and-model-governance
 
 # Evaluation and Model Governance
-
-Continuous assurance for factuality, numerical accuracy, tool safety, privacy, and authority preservation.
 
 ![Evaluation and Model Governance](../.gitbook/assets/06-weni-human-control.png)
 
@@ -2887,11 +2807,9 @@ Every release has a signed predecessor, compatible policy, and rollback path. Ro
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/learn-to-earn-intelligence
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/learn-to-earn-intelligence
 
 # Learn-to-Earn Intelligence
-
-Learn-to-Earn connects education, demonstrated competency, and progression without turning a quiz into a claim of financial expertise.
 
 ## Learning path
 
@@ -2919,11 +2837,9 @@ XP or other rewards connected to learning remain governed by the Gamification Gu
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/weni-native-intelligence/access-tiers-and-enterprise-use
+SOURCE: https://whale-cefi.com/docs/weni-native-intelligence/access-tiers-and-enterprise-use
 
 # Access Tiers and Enterprise Use
-
-The access model varies capacity, latency, data depth, workflow tooling, and commercial support. It never creates different truth or removes baseline safety.
 
 ## Tier 0 — Free
 
@@ -2958,11 +2874,9 @@ Every tier and enterprise capability is activated through a signed entitlement a
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/security-and-custody
+SOURCE: https://whale-cefi.com/docs/security-and-custody
 
 # Security and Custody
-
-Security and custody separate source-level assessment evidence, production deployment identity, asset authority, and customer entitlement.
 
 ![Custody Architecture](../.gitbook/assets/05-custody-boundary.png)
 
@@ -3013,7 +2927,7 @@ Custody balances and transaction states are reconciled against the ledger and in
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/security-and-custody/security-assessment-and-remediation-verification
+SOURCE: https://whale-cefi.com/docs/security-and-custody/security-assessment-and-remediation-verification
 
 # Security Assessment and Remediation Verification v3.0
 
@@ -3088,11 +3002,9 @@ The canonical structured record is [security-assessments.json](../data/security-
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/security-and-custody/proof-of-reserves-and-liabilities
+SOURCE: https://whale-cefi.com/docs/security-and-custody/proof-of-reserves-and-liabilities
 
 # Proof of Reserves and Liabilities
-
-A same-epoch proof that binds customer liabilities, controlled reserves, encumbrances, and wallet authority.
 
 Proof of Reserves is meaningful only when the asset side and liability side refer to the same scope and observation time. A wallet screenshot or list of addresses is not a solvency proof.
 
@@ -3140,11 +3052,9 @@ Coverage is computed per canonical asset before any consolidated or cross-asset 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/security-and-custody/transaction-policy
+SOURCE: https://whale-cefi.com/docs/security-and-custody/transaction-policy
 
 # Transaction Policy
-
-The deterministic rules that constrain every custody and on-chain asset movement.
 
 Transaction policy evaluates a typed request before any signer sees it. Human quorum can approve a permitted request; it cannot override a hard prohibition.
 
@@ -3176,7 +3086,7 @@ Every policy evaluation stores input hash, policy version, facts used, result, r
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/security-and-custody/administrative-zero-trust
+SOURCE: https://whale-cefi.com/docs/security-and-custody/administrative-zero-trust
 
 # Administrative Zero Trust
 
@@ -3224,7 +3134,7 @@ VPN membership is not treated as proof of identity, authorisation or device trus
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/security-and-custody/web-mobile-admin-and-api-security
+SOURCE: https://whale-cefi.com/docs/security-and-custody/web-mobile-admin-and-api-security
 
 # Web, Mobile, Admin, and API Security
 
@@ -3272,7 +3182,7 @@ A shared frontend framework or VPN does not make consumer, mobile, admin and B2B
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/security-and-custody/data-protection-and-geographic-controls
+SOURCE: https://whale-cefi.com/docs/security-and-custody/data-protection-and-geographic-controls
 
 # Data Protection and Geographic Controls
 
@@ -3320,7 +3230,7 @@ A regulated capability is enabled only when the contracting entity, product, reg
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency
 
 # Yield and Financial Transparency
 
@@ -3460,7 +3370,7 @@ Each product position is bound to a versioned funding and source policy. The pol
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/source-attribution
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/source-attribution
 
 # Source Attribution
 
@@ -3536,11 +3446,9 @@ Incoming customer principal, later customer deposits, circular borrowing, self-i
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/yield-waterfall
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/yield-waterfall
 
 # Yield Waterfall
-
-The waterfall converts realized external economics into distributable reward without crossing the principal boundary.
 
 ![Gross-to-user waterfall](../.gitbook/assets/gross-to-user-waterfall.svg)
 
@@ -3586,7 +3494,7 @@ Platform revenue is recognized only after the epoch closes, external income sett
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/rates-capacity-and-prefunding
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/rates-capacity-and-prefunding
 
 # Rates, Capacity, and Prefunding
 
@@ -3684,7 +3592,7 @@ Flexible reward liability is measured continuously. A Flexible rate reduction ap
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/liquidity-shortfall-and-resolution
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/liquidity-shortfall-and-resolution
 
 # Liquidity, Shortfall, and Resolution
 
@@ -3734,11 +3642,9 @@ The result sets capacity, liquidity buffers, and exit controls. It is not reduce
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/ledger-reconciliation-and-proof
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/ledger-reconciliation-and-proof
 
 # Ledger, Reconciliation, and Proof
-
-Reward economics become trustworthy only when the financial record, controlled assets, blockchain state, and proof scope agree.
 
 ## Double-entry financial core
 
@@ -3782,7 +3688,7 @@ A proof verifies a closed state. It cannot authorize a transaction, change a bal
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/canonical-asset-and-account-model
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/canonical-asset-and-account-model
 
 # Canonical Asset and Account Model
 
@@ -3832,7 +3738,7 @@ The public token symbol is never treated as sufficient financial or technical id
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/double-entry-ledger-service
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/double-entry-ledger-service
 
 # Double-Entry Ledger Service
 
@@ -3884,7 +3790,7 @@ Kafka, UI balances and analytical projections are not permitted to replace the l
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/deposit-credit-and-financial-finality
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/deposit-credit-and-financial-finality
 
 # Deposit Credit and Financial Finality
 
@@ -3932,7 +3838,7 @@ A transaction seen in the mempool or included in one block is not represented as
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/withdrawal-and-user-exit-safety
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/withdrawal-and-user-exit-safety
 
 # Withdrawal and User Exit Safety
 
@@ -3984,7 +3890,7 @@ Emergency control is operation-, asset-, and network-scoped; a risk-increasing p
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/reward-funding-yield-and-accrual
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/reward-funding-yield-and-accrual
 
 # Reward Funding, Yield, and Accrual
 
@@ -4073,7 +3979,7 @@ The evidence set for an active product includes:
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/reconciliation-and-exception-management
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/reconciliation-and-exception-management
 
 # Reconciliation and Exception Management
 
@@ -4125,7 +4031,7 @@ Exact conservation, timing tolerance, and operational materiality are evaluated 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/yield-and-financial-transparency/settlement-finality-and-financial-exceptions
+SOURCE: https://whale-cefi.com/docs/yield-and-financial-transparency/settlement-finality-and-financial-exceptions
 
 # Settlement Finality and Financial Exceptions
 
@@ -4175,11 +4081,9 @@ No single confirmation count is declared safe for every supported network, asset
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts
+SOURCE: https://whale-cefi.com/docs/smart-contracts
 
 # Smart Contracts
-
-A compartmentalized on-chain system that replaces the privileged monolithic staking contract.
 
 ![Protocol Architecture](../.gitbook/assets/12-contract-assurance.png)
 
@@ -4229,11 +4133,9 @@ Registered principal assets are permanently protected from generic rescue functi
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/contract-modules-and-interfaces
+SOURCE: https://whale-cefi.com/docs/smart-contracts/contract-modules-and-interfaces
 
 # Contract Modules and Interfaces
-
-The responsibility, inputs, outputs, and authority ceiling of each production contract.
 
 Each module exposes a narrow interface. Cross-module calls are typed, versioned, and protected against reentrancy and partial success.
 
@@ -4273,11 +4175,9 @@ Requests are uniquely identified and cannot be fulfilled twice. A request moves 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/on-chain-position-state-machine
+SOURCE: https://whale-cefi.com/docs/smart-contracts/on-chain-position-state-machine
 
 # On-Chain Position State Machine
-
-The valid states, transitions, and terminal conditions for flexible and locked positions.
 
 ![On-Chain Position State Machine](../.gitbook/assets/position-state.svg)
 
@@ -4314,11 +4214,9 @@ Restaking does not mutate the original term enum. At maturity, the old position 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/token-integration-safety
+SOURCE: https://whale-cefi.com/docs/smart-contracts/token-integration-safety
 
 # Token Integration Safety
-
-How the contract system handles non-standard ERC-20 behavior without creating unbacked claims.
 
 Token symbols do not define behavior. Every supported asset is admitted through a dedicated adapter profile and a complete adversarial test suite.
 
@@ -4368,11 +4266,9 @@ The calculation is performed on-chain where possible and corroborated by the fin
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/smart-contract-invariants
+SOURCE: https://whale-cefi.com/docs/smart-contracts/smart-contract-invariants
 
 # Smart-Contract Invariants
-
-Properties that hold across every transaction sequence, including adversarial and failure paths.
 
 An invariant is stronger than an example test: it must hold for every reachable state under the stated assumptions.
 
@@ -4418,11 +4314,9 @@ The invariant suite runs under randomized callers, amounts, tokens, time jumps, 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/governance-roles-and-upgrades
+SOURCE: https://whale-cefi.com/docs/smart-contracts/governance-roles-and-upgrades
 
 # Governance, Roles, and Upgrades
-
-Delayed, independently approved authority with immutable asset-bearing vaults and explicit migration.
 
 Privileged operations are slower, more observable, and more independently approved than routine user actions.
 
@@ -4460,11 +4354,9 @@ Execution is followed by automated checks of bytecode, implementation slots, rol
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/pause-and-emergency-exit
+SOURCE: https://whale-cefi.com/docs/smart-contracts/pause-and-emergency-exit
 
 # Pause and Emergency Exit
-
-Scoped incident controls that stop unsafe behavior without turning pause authority into asset authority.
 
 ![Pause and Emergency Exit](../.gitbook/assets/incident-status.svg)
 
@@ -4500,11 +4392,9 @@ Reopening proceeds from read-only observation to limited canary activity, then t
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/deployment-identity
+SOURCE: https://whale-cefi.com/docs/smart-contracts/deployment-identity
 
 # Deployment Identity
-
-The verifiable chain from reviewed source to the exact runtime code and authority state.
 
 A contract name or repository is not deployment identity. The canonical deployment record binds every relevant artifact to one chain address and one activation interval.
 
@@ -4537,11 +4427,9 @@ The documentation and API resolve a product position to its product version, vau
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/audit-findings-and-remediation
+SOURCE: https://whale-cefi.com/docs/smart-contracts/audit-findings-and-remediation
 
 # Audit Findings and Remediation
-
-Whale CeFi preserves each finding from its historical report state through remediation, executable retesting, and exact deployment coverage.
 
 ![Audit remediation chain](../.gitbook/assets/audit-remediation.svg)
 
@@ -4561,14 +4449,14 @@ A finding can move through reported, remediating, remediated, provider-retested,
 
 Each closure record identifies:
 
-- provider and relationship to Whale CeFi;
-- report identifier, version, date, and artifact hash;
-- finding ID, severity, root cause, and affected code;
-- exact scope commit, compiler, dependencies, and configuration;
-- remediation code and regression checks;
-- retest result and environment;
-- residual risk;
-- and covered production deployment IDs.
+* provider and relationship to Whale CeFi;
+* report identifier, version, date, and artifact hash;
+* finding ID, severity, root cause, and affected code;
+* exact scope commit, compiler, dependencies, and configuration;
+* remediation code and regression checks;
+* retest result and environment;
+* residual risk;
+* and covered production deployment IDs.
 
 ## Deployment binding
 
@@ -4580,11 +4468,9 @@ Independent Eter and Hashlock programme records remain separate from the first-p
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/smart-contracts/contract-verification-program
+SOURCE: https://whale-cefi.com/docs/smart-contracts/contract-verification-program
 
 # Contract Verification Program
-
-The layered test, analysis, formal, deployment, and monitoring controls required for every release.
 
 No single audit or tool defines contract safety. Release evidence combines independent methods that fail differently.
 
@@ -4618,11 +4504,9 @@ The deployment monitor observes contract code hash, implementation pointers, rol
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture
 
 # Advanced Platform Architecture
-
-How product intent becomes a financial obligation, an authorized asset movement, and independently verifiable evidence.
 
 ![Canonical System Model](../.gitbook/assets/authority-domains.svg)
 
@@ -4692,7 +4576,7 @@ An operation is complete only when the business state, financial state, external
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/platform-scope-and-system-context
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/platform-scope-and-system-context
 
 # Platform Scope and System Context
 
@@ -4744,7 +4628,7 @@ WENI internals are specified in the dedicated WENI section and remain outside pl
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/environment-and-product-surface-matrix
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/environment-and-product-surface-matrix
 
 # Environment and Product Surface Matrix
 
@@ -4792,7 +4676,7 @@ Only surfaces with an active production record in the capability registry are ex
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/bounded-contexts-and-service-ownership
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/bounded-contexts-and-service-ownership
 
 # Bounded Contexts and Service Ownership
 
@@ -4840,7 +4724,7 @@ The platform is decomposed by business authority rather than by arbitrary techni
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/trust-boundaries-and-data-classification
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/trust-boundaries-and-data-classification
 
 # Trust Boundaries and Data Classification
 
@@ -4888,7 +4772,7 @@ A private VPC or VPN is not represented as sufficient zero-trust security by its
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/operational-authority-and-segregation-of-duties
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/operational-authority-and-segregation-of-duties
 
 # Operational Authority and Segregation of Duties
 
@@ -4936,7 +4820,7 @@ Approval quorum and signing mechanism are recorded independently: an MPC custody
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/cloud-organization-and-landing-zone
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/cloud-organization-and-landing-zone
 
 # Cloud Organization and Landing Zone
 
@@ -4984,7 +4868,7 @@ Geographic availability is claimed only for capabilities with replicated authori
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/multi-region-kubernetes-runtime
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/multi-region-kubernetes-runtime
 
 # Multi-Region Kubernetes Runtime
 
@@ -5032,7 +4916,7 @@ Stateless execution is active-active across regions; stateful financial authorit
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/network-ingress-and-egress
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/network-ingress-and-egress
 
 # Network Ingress and Egress
 
@@ -5080,7 +4964,7 @@ Private networking reduces exposure but does not replace authenticated service i
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/compute-classes-and-scheduling
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/compute-classes-and-scheduling
 
 # Compute Classes and Scheduling
 
@@ -5128,11 +5012,9 @@ Specialised compute is documented only as a runtime class; application internals
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/synchronous-apis-and-service-communication
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/synchronous-apis-and-service-communication
 
 # Synchronous APIs and Service Communication
-
-REST, gRPC, WebSockets and internal streaming endpoints are selected by interaction contract. Every call is authenticated, versioned, bounded by deadline and safe to retry according to its semantics.
 
 ## Control model
 
@@ -5176,7 +5058,7 @@ An interface contract does not acquire authority over the financial state that i
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/configuration-secrets-and-software-supply-chain
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/configuration-secrets-and-software-supply-chain
 
 # Configuration, Secrets, and Software Supply Chain
 
@@ -5224,7 +5106,7 @@ A successful vulnerability scan does not prove an artefact is trustworthy or fre
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/transactional-and-time-series-authority
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/transactional-and-time-series-authority
 
 # Transactional and Time-Series Authority
 
@@ -5274,7 +5156,7 @@ A database marked Multi-AZ is not assumed to meet recovery objectives until fail
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/event-mesh-and-delivery-semantics
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/event-mesh-and-delivery-semantics
 
 # Event Mesh and Delivery Semantics
 
@@ -5322,7 +5204,7 @@ Kafka replay is not claimed to reconstruct authoritative balances from nothing w
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/cache-and-analytical-state-planes
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/cache-and-analytical-state-planes
 
 # Cache and Analytical State Planes
 
@@ -5370,7 +5252,7 @@ Redis and ClickHouse are explicitly classified as derived or transient planes, n
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/identity-authentication-and-wallet-linkage
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/identity-authentication-and-wallet-linkage
 
 # Identity, Authentication, and Wallet Linkage
 
@@ -5418,7 +5300,7 @@ A UUID does not ‘fully isolate’ personal and on-chain data without separate 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/blockchain-connectivity-and-asset-registry
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/blockchain-connectivity-and-asset-registry
 
 # Blockchain Connectivity and Asset Registry
 
@@ -5466,7 +5348,7 @@ Solana actions use a dedicated adapter, finality policy, token identity model, a
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/observability-auditability-and-slos
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/observability-auditability-and-slos
 
 # Observability, Auditability, and SLOs
 
@@ -5514,7 +5396,7 @@ A millisecond component metric is not promoted to an end-to-end user or financia
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/high-availability-and-disaster-recovery
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/high-availability-and-disaster-recovery
 
 # High Availability and Disaster Recovery
 
@@ -5564,7 +5446,7 @@ Multi-region status applies only to capabilities whose failover, authority fenci
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/incident-response-and-circuit-breakers
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/incident-response-and-circuit-breakers
 
 # Incident Response and Circuit Breakers
 
@@ -5612,7 +5494,7 @@ Incident response is a controlled state transition across detection, containment
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/advanced-platform-architecture/ci-cd-and-release-engineering
+SOURCE: https://whale-cefi.com/docs/advanced-platform-architecture/ci-cd-and-release-engineering
 
 # CI/CD and Release Engineering
 
@@ -5660,7 +5542,7 @@ A successful CI job is not represented as production readiness without environme
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications
+SOURCE: https://whale-cefi.com/docs/controlled-specifications
 
 # Controlled Technical Specifications
 
@@ -5675,7 +5557,7 @@ Each chapter follows the same five-part contract: core specification, reference 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform-infrastructure-and-financial-core
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform-infrastructure-and-financial-core
 
 # Platform Infrastructure and Financial Core
 
@@ -5722,7 +5604,7 @@ The reader-facing chapters explain how to use and verify the product. These cont
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/01-infrastructure-scope-and-system-context
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/01-infrastructure-scope-and-system-context
 
 # Infrastructure Scope and System Context
 
@@ -5807,7 +5689,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/02-environment-and-product-surface-matrix
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/02-environment-and-product-surface-matrix
 
 # Environment and Product-Surface Matrix
 
@@ -5891,7 +5773,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/03-bounded-contexts-and-service-ownership
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/03-bounded-contexts-and-service-ownership
 
 # Bounded Contexts and Service Ownership
 
@@ -5976,7 +5858,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/04-trust-boundaries-and-data-classification
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/04-trust-boundaries-and-data-classification
 
 # Trust Boundaries and Data Classification
 
@@ -6061,7 +5943,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/05-operational-authority-and-segregation-of-duties
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/05-operational-authority-and-segregation-of-duties
 
 # Operational Authority and Segregation of Duties
 
@@ -6146,7 +6028,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/06-cloud-organisation-accounts-and-landing-zone
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/06-cloud-organisation-accounts-and-landing-zone
 
 # Cloud Organisation, Accounts, and Landing Zone
 
@@ -6231,7 +6113,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology
 
 # Multi-AZ Kubernetes Runtime Topology
 
@@ -6315,7 +6197,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/08-network-ingress-and-egress-architecture
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/08-network-ingress-and-egress-architecture
 
 # Network, Ingress, and Egress Architecture
 
@@ -6400,7 +6282,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries
 
 # Compute Classes, Scheduling, and Serverless Boundaries
 
@@ -6485,7 +6367,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/10-synchronous-apis-and-service-communication
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/10-synchronous-apis-and-service-communication
 
 # Synchronous APIs and Service Communication
 
@@ -6570,7 +6452,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain
 
 # Configuration, Secrets, and Software Supply Chain
 
@@ -6655,7 +6537,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/12-postgresql-and-time-series-authority
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/12-postgresql-and-time-series-authority
 
 # PostgreSQL and Time-Series Authority
 
@@ -6739,7 +6621,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/13-event-mesh-and-delivery-semantics
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/13-event-mesh-and-delivery-semantics
 
 # Event Mesh and Delivery Semantics
 
@@ -6824,7 +6706,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/14-cache-and-analytical-state-planes
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/14-cache-and-analytical-state-planes
 
 # Cache and Analytical State Planes
 
@@ -6909,7 +6791,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/15-account-identity-authentication-and-wallet-linkage
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/15-account-identity-authentication-and-wallet-linkage
 
 # Account Identity, Authentication, and Wallet Linkage
 
@@ -6994,7 +6876,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry
 
 # Blockchain Connectivity, RPC, and Asset Registry
 
@@ -7079,7 +6961,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/17-canonical-asset-and-account-model
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/17-canonical-asset-and-account-model
 
 # Canonical Asset and Account Model
 
@@ -7163,7 +7045,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/18-double-entry-ledger-service
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/18-double-entry-ledger-service
 
 # Double-Entry Ledger Service
 
@@ -7248,7 +7130,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/19-deposit-lifecycle-and-credit-finality
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/19-deposit-lifecycle-and-credit-finality
 
 # Deposit Lifecycle and Credit Finality
 
@@ -7333,7 +7215,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety
 
 # Withdrawal Lifecycle and User-Exit Safety
 
@@ -7418,7 +7300,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/21-product-yield-reward-funding-and-accrual
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/21-product-yield-reward-funding-and-accrual
 
 # Product Yield, Reward Funding, and Accrual
 
@@ -7529,7 +7411,7 @@ A rate change produces a new product version. It does not mutate an accepted Loc
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/22-reconciliation-and-exception-management
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/22-reconciliation-and-exception-management
 
 # Reconciliation and Exception Management
 
@@ -7614,7 +7496,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/23-settlement-finality-and-financial-exceptions
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/23-settlement-finality-and-financial-exceptions
 
 # Settlement Finality and Financial Exceptions
 
@@ -7699,7 +7581,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture
 
 # MPC, Vault, and Custody Policy Architecture
 
@@ -7784,7 +7666,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/25-smart-contract-architecture-and-deployment-identity
 
 # Smart-Contract Architecture and Deployment Identity
 
@@ -7869,7 +7751,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls
 
 # Upgrade, Timelock, Pause, and Governance Controls
 
@@ -7954,7 +7836,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/27-independent-audit-evidence-and-finding-closure
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/27-independent-audit-evidence-and-finding-closure
 
 # Independent Audit Evidence and Finding Closure
 
@@ -8039,7 +7921,7 @@ Each component receives a narrow responsibility, typed inputs, and an observable
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/28-identity-access-and-administrative-zero-trust
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/28-identity-access-and-administrative-zero-trust
 
 # Identity, Access, and Administrative Zero Trust
 
@@ -8124,7 +8006,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/29-observability-auditability-and-service-level-objectives
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/29-observability-auditability-and-service-level-objectives
 
 # Observability, Auditability, and Service-Level Objectives
 
@@ -8209,7 +8091,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/30-high-availability-failover-and-disaster-recovery
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/30-high-availability-failover-and-disaster-recovery
 
 # High Availability, Failover, and Disaster Recovery
 
@@ -8293,7 +8175,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/31-incident-response-and-circuit-breaker-architecture
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/31-incident-response-and-circuit-breaker-architecture
 
 # Incident Response and Circuit-Breaker Architecture
 
@@ -8378,7 +8260,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/32-web-mobile-admin-and-api-security
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/32-web-mobile-admin-and-api-security
 
 # Web, Mobile, Admin, and API Security
 
@@ -8463,7 +8345,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/33-environment-ci-cd-and-release-engineering
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/33-environment-ci-cd-and-release-engineering
 
 # Environment, CI/CD, and Release Engineering
 
@@ -8548,7 +8430,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/34-data-protection-compliance-and-geographic-controls
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/34-data-protection-compliance-and-geographic-controls
 
 # Data Protection, Compliance, and Geographic Controls
 
@@ -8617,13 +8499,13 @@ A control is incomplete unless the system has a defined state transition when it
 
 This official release binds each implementation claim to reviewable evidence, reproducible controls, and the deployed source state. Owner approval and independently issued evidence retain separate provenance labels.
 
-| ID          | State        | Required evidence                                                                        |
-| ----------- | ------------ | ---------------------------------------------------------------------------------------- |
+| ID          | State        | Required evidence                                                                                                       |
+| ----------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | `EVD-34-01` | **ACCEPTED** | El Salvador operating perimeter and account-specific eligible regions; USA, Canada and sanctions restrictions reported. |
-| `EVD-34-02` | **ACCEPTED** | Legal-entity and product-perimeter opinion.                                              |
-| `EVD-34-03` | **ACCEPTED** | Licence/registration evidence before claiming CASP/MiCA passporting.                     |
-| `EVD-34-04` | **ACCEPTED** | KYC, sanctions, geofencing and policy-consistency test suite.                            |
-| `EVD-34-05` | **ACCEPTED** | Data inventory, purpose, retention, residency and rights records.                        |
+| `EVD-34-02` | **ACCEPTED** | Legal-entity and product-perimeter opinion.                                                                             |
+| `EVD-34-03` | **ACCEPTED** | Licence/registration evidence before claiming CASP/MiCA passporting.                                                    |
+| `EVD-34-04` | **ACCEPTED** | KYC, sanctions, geofencing and policy-consistency test suite.                                                           |
+| `EVD-34-05` | **ACCEPTED** | Data inventory, purpose, retention, residency and rights records.                                                       |
 
 ## Related records
 
@@ -8633,7 +8515,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/35-release-scope-and-acceptance
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/35-release-scope-and-acceptance
 
 # Release Scope and Acceptance
 
@@ -8718,7 +8600,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/platform/36-diligence-evidence-residual-risk-and-decision-record
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/platform/36-diligence-evidence-residual-risk-and-decision-record
 
 # Diligence Evidence, Residual Risk, and Decision Record
 
@@ -8803,7 +8685,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni-model-and-system-architecture
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni-model-and-system-architecture
 
 # WENI Model and System Architecture
 
@@ -8850,7 +8732,7 @@ WENI is documented as a compound system rather than a single model call. Each la
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/01-the-decision-quality-problem-in-web3
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/01-the-decision-quality-problem-in-web3
 
 # The Decision-Quality Problem in Web3
 
@@ -8933,7 +8815,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries
 
 # Product Constitution and Non-Negotiable Boundaries
 
@@ -9018,7 +8900,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/03-system-definition-and-canonical-nomenclature
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/03-system-definition-and-canonical-nomenclature
 
 # System Definition and Canonical Nomenclature
 
@@ -9101,7 +8983,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/04-user-analyst-and-institutional-workflows
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/04-user-analyst-and-institutional-workflows
 
 # User, Analyst, and Institutional Workflows
 
@@ -9186,7 +9068,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer
 
 # Proprietary Moat, Ownership, and Technology Transfer
 
@@ -9271,7 +9153,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/06-weni-model-lineage-and-identity
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/06-weni-model-lineage-and-identity
 
 # WENI Model Lineage and Identity
 
@@ -9356,7 +9238,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/07-domain-corpus-and-continuous-pre-training
 
 # Domain Corpus and Continuous Pre-Training
 
@@ -9441,7 +9323,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/08-peft-and-adapter-composition
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/08-peft-and-adapter-composition
 
 # PEFT and Adapter Composition
 
@@ -9526,7 +9408,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/09-dpo-and-financial-safety-alignment
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/09-dpo-and-financial-safety-alignment
 
 # DPO and Financial-Safety Alignment
 
@@ -9609,7 +9491,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity
 
 # Model Lifecycle, MLOps, and Release Integrity
 
@@ -9694,7 +9576,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/11-representation-grafting-and-confidential-compute
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/11-representation-grafting-and-confidential-compute
 
 # Representation Grafting and Confidential Compute
 
@@ -9779,7 +9661,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/12-evidence-graph-and-truth-hierarchy
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/12-evidence-graph-and-truth-hierarchy
 
 # Evidence Graph and Truth Hierarchy
 
@@ -9864,7 +9746,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality
 
 # Chain Ingestion, Pending State, and Finality
 
@@ -9949,7 +9831,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/14-protocol-and-smart-contract-evidence
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/14-protocol-and-smart-contract-evidence
 
 # Protocol and Smart-Contract Evidence
 
@@ -10034,7 +9916,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/15-market-oracle-and-social-intelligence
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/15-market-oracle-and-social-intelligence
 
 # Market, Oracle, and Social Intelligence
 
@@ -10119,7 +10001,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/16-global-private-and-decision-graph-separation
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/16-global-private-and-decision-graph-separation
 
 # Global, Private, and Decision Graph Separation
 
@@ -10202,7 +10084,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts
 
 # Secure Multimodal Intake and Intent Contracts
 
@@ -10287,7 +10169,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/18-weni-domain-planner-and-tool-orchestrator
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/18-weni-domain-planner-and-tool-orchestrator
 
 # WENI Domain Planner and Tool Orchestrator
 
@@ -10372,7 +10254,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/19-deterministic-computation-services
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/19-deterministic-computation-services
 
 # Deterministic Computation Services
 
@@ -10457,7 +10339,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/20-contract-analysis-and-adversarial-simulation
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/20-contract-analysis-and-adversarial-simulation
 
 # Contract Analysis and Adversarial Simulation
 
@@ -10542,7 +10424,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/21-hard-policy-engine-and-fail-closed-decisions
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/21-hard-policy-engine-and-fail-closed-decisions
 
 # Hard Policy Engine and Fail-Closed Decisions
 
@@ -10627,7 +10509,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/22-deterministic-action-builder-and-the-iron-boundary
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/22-deterministic-action-builder-and-the-iron-boundary
 
 # Deterministic Action Builder and the Iron Boundary
 
@@ -10712,7 +10594,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints
 
 # Bifurcated Verifiability and ZK Action Constraints
 
@@ -10797,7 +10679,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui
 
 # Epistemic Interface and Dynamic Cognitive UI
 
@@ -10882,7 +10764,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent
 
 # Sovereign Cognitive Memory and Consent
 
@@ -10967,7 +10849,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/26-learn-to-earn-credentials-and-anti-abuse
 
 # Learn-to-Earn, Credentials, and Anti-Abuse
 
@@ -11052,7 +10934,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/27-one-truth-multiple-cognitive-projections
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/27-one-truth-multiple-cognitive-projections
 
 # One Truth, Multiple Cognitive Projections
 
@@ -11135,7 +11017,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/28-product-surfaces-and-frontend-topology
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/28-product-surfaces-and-frontend-topology
 
 # Product Surfaces and Frontend Topology
 
@@ -11220,7 +11102,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/29-microservices-event-mesh-and-data-infrastructure
 
 # Microservices, Event Mesh, and Data Infrastructure
 
@@ -11305,7 +11187,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/30-double-entry-ledger-and-reconciliation
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/30-double-entry-ledger-and-reconciliation
 
 # Double-Entry Ledger and Reconciliation
 
@@ -11390,7 +11272,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/31-custody-contract-governance-and-audit-evidence
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/31-custody-contract-governance-and-audit-evidence
 
 # Custody, Contract Governance, and Audit Evidence
 
@@ -11475,7 +11357,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/32-resilience-incident-response-and-recovery
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/32-resilience-incident-response-and-recovery
 
 # Resilience, Incident Response, and Recovery
 
@@ -11560,7 +11442,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/33-threat-model-and-security-assurance
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/33-threat-model-and-security-assurance
 
 # Threat Model and Security Assurance
 
@@ -11645,7 +11527,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance
 
 # Evaluation, CSSR, and Comparative Performance
 
@@ -11730,7 +11612,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/35-release-acceptance-and-capability-control
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/35-release-acceptance-and-capability-control
 
 # Release Acceptance and Capability Control
 
@@ -11815,7 +11697,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control
+SOURCE: https://whale-cefi.com/docs/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control
 
 # Governance, Legal Perimeter, and Disclosure Control
 
@@ -11899,7 +11781,7 @@ This official release binds each implementation claim to reviewable evidence, re
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center
+SOURCE: https://whale-cefi.com/docs/evidence-center
 
 # Evidence Center
 
@@ -11930,7 +11812,7 @@ Every record identifies scope, observation time, source, owner, status, freshnes
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/product-version-register
+SOURCE: https://whale-cefi.com/docs/evidence-center/product-version-register
 
 # Product Version Register
 
@@ -11946,7 +11828,7 @@ The machine-readable source is [product-versions.json](../data/product-versions.
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/reserves-and-liabilities
+SOURCE: https://whale-cefi.com/docs/evidence-center/reserves-and-liabilities
 
 # Reserves and Liabilities
 
@@ -11975,7 +11857,7 @@ The machine-readable target contract is [proof-epochs.json](../data/proof-epochs
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/funding-and-capacity
+SOURCE: https://whale-cefi.com/docs/evidence-center/funding-and-capacity
 
 # Funding and Capacity
 
@@ -12051,7 +11933,7 @@ If the record cannot cover a new obligation, remediation can include prospective
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/audit-center
+SOURCE: https://whale-cefi.com/docs/evidence-center/audit-center
 
 # Audit Center
 
@@ -12099,7 +11981,7 @@ The independent audit programme is recorded in [audits.json](../data/audits.json
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/deployment-registry
+SOURCE: https://whale-cefi.com/docs/evidence-center/deployment-registry
 
 # Deployment Registry
 
@@ -12115,7 +11997,7 @@ The machine-readable source is [deployments.json](../data/deployments.json).
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/asset-registry
+SOURCE: https://whale-cefi.com/docs/evidence-center/asset-registry
 
 # Asset Registry
 
@@ -12129,7 +12011,7 @@ The machine-readable source is [supported-assets.json](../data/supported-assets.
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/service-status-and-incidents
+SOURCE: https://whale-cefi.com/docs/evidence-center/service-status-and-incidents
 
 # Service Status and Incidents
 
@@ -12145,7 +12027,7 @@ Status communication cannot replace the in-product operation timeline. A global 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/weni-system-card
+SOURCE: https://whale-cefi.com/docs/evidence-center/weni-system-card
 
 # WENI System Card
 
@@ -12163,7 +12045,7 @@ The machine-readable source is [weni-capabilities.json](../data/weni-capabilitie
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/evidence-center/release-manifest
+SOURCE: https://whale-cefi.com/docs/evidence-center/release-manifest
 
 # Release Manifest
 
@@ -12177,7 +12059,7 @@ The machine-readable source is [release-manifest.json](../data/release-manifest.
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference
+SOURCE: https://whale-cefi.com/docs/developers-and-reference
 
 # Developers and Reference
 
@@ -12206,7 +12088,7 @@ The documentation index exposes content version, language, audience, classificat
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/machine-readable-contracts
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/machine-readable-contracts
 
 # Machine-Readable Contracts
 
@@ -12252,7 +12134,7 @@ The documentation build parses every JSON and YAML artifact, resolves local sche
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/deployment-registry
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/deployment-registry
 
 # Deployment Registry
 
@@ -12290,7 +12172,7 @@ The JSON Schema in the repository defines the complete record and validation rul
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/asset-registry
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/asset-registry
 
 # Asset Registry
 
@@ -12320,7 +12202,7 @@ The registry does not imply that every network route or product remains continuo
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/audit-center
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/audit-center
 
 # Audit Integration Reference
 
@@ -12368,7 +12250,7 @@ The exact PDF hash is `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/governance-and-responsibility
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/governance-and-responsibility
 
 # Governance and Responsibility
 
@@ -12397,7 +12279,7 @@ Every material decision produces a signed record with scope, evidence, dissent, 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/risk-register
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/risk-register
 
 # Risk Register
 
@@ -12417,7 +12299,7 @@ Residual risk cannot be accepted through an unowned note. Acceptance names the a
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/incident-response
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/incident-response
 
 # Incident Response
 
@@ -12444,7 +12326,7 @@ Reopening requires root-cause containment, ledger and settlement reconciliation,
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/service-status
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/service-status
 
 # Service Status
 
@@ -12464,7 +12346,7 @@ Scheduled maintenance lists affected capability, start and end window, rollback 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/security-contact-and-disclosure
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/security-contact-and-disclosure
 
 # Security Contact and Disclosure
 
@@ -12480,7 +12362,7 @@ The disclosure policy defines safe-harbour conditions, prohibited testing, in-sc
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/glossary
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/glossary
 
 # Glossary
 
@@ -12510,7 +12392,7 @@ The machine-readable glossary is published as a stable JSON collection with uniq
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/technical-references
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/technical-references
 
 # Technical References
 
@@ -12549,7 +12431,7 @@ External standards do not replace the Whale CeFi product, financial, risk, or au
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/developers-and-reference/change-history
+SOURCE: https://whale-cefi.com/docs/developers-and-reference/change-history
 
 # Change History
 
@@ -12576,7 +12458,7 @@ Documentation changes are reviewed with the product or system change that makes 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support
+SOURCE: https://whale-cefi.com/docs/legal-and-support
 
 # Legal and Support
 
@@ -12599,7 +12481,7 @@ The separation is intentional: product interface, customer contracting, custody,
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/entity-and-service-register
+SOURCE: https://whale-cefi.com/docs/legal-and-support/entity-and-service-register
 
 # Entity and Service Register
 
@@ -12619,7 +12501,7 @@ The plan review identifies the exact contracting entity before confirmation. A c
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/customer-relationship-and-asset-rights
+SOURCE: https://whale-cefi.com/docs/legal-and-support/customer-relationship-and-asset-rights
 
 # Customer Relationship and Asset Rights
 
@@ -12653,7 +12535,7 @@ Whale CeFi earning positions are digital asset strategies and are not protected 
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/eligibility-and-geographic-access
+SOURCE: https://whale-cefi.com/docs/legal-and-support/eligibility-and-geographic-access
 
 # Eligibility and Geographic Access
 
@@ -12669,7 +12551,7 @@ WENI can explain the published rule and gather information. It cannot make the f
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/risk-disclosure
+SOURCE: https://whale-cefi.com/docs/legal-and-support/risk-disclosure
 
 # Risk Disclosure
 
@@ -12696,7 +12578,7 @@ Controls reduce probability or impact. They do not make loss impossible.
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/privacy-and-data-protection
+SOURCE: https://whale-cefi.com/docs/legal-and-support/privacy-and-data-protection
 
 # Privacy and Data Protection
 
@@ -12714,7 +12596,7 @@ The data-rights route supports access, correction, deletion where legally availa
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/complaints-and-appeals
+SOURCE: https://whale-cefi.com/docs/legal-and-support/complaints-and-appeals
 
 # Complaints and Appeals
 
@@ -12732,7 +12614,7 @@ Progression, eligibility, fraud, and account restrictions use their own review r
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/contact-routes
+SOURCE: https://whale-cefi.com/docs/legal-and-support/contact-routes
 
 # Contact Routes
 
@@ -12753,7 +12635,7 @@ The repository includes an RFC 9116-compatible [security.txt](../public/.well-kn
 
 ---
 
-SOURCE: https://docs.whale-cefi.com/legal-and-support/document-and-terms-control
+SOURCE: https://whale-cefi.com/docs/legal-and-support/document-and-terms-control
 
 # Document and Terms Control
 

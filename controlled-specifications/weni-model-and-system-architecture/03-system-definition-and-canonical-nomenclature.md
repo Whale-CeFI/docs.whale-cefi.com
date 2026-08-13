@@ -1,7 +1,7 @@
 ---
 title: System Definition and Canonical Nomenclature
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/03-system-definition-and-canonical-nomenclature
+  https://whale-cefi.com/docs/controlled-specifications/weni/03-system-definition-and-canonical-nomenclature
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

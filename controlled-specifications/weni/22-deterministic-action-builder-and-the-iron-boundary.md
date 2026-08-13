@@ -1,7 +1,7 @@
 ---
 title: "Deterministic Action Builder and the Iron Boundary"
 description: "Only a deterministic, chain-specific builder may turn policy-approved typed parameters into transaction data. An independent decoder reconstructs human-readable effects; simulation and payload hashes bind…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/22-deterministic-action-builder-and-the-iron-boundary"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/22-deterministic-action-builder-and-the-iron-boundary"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

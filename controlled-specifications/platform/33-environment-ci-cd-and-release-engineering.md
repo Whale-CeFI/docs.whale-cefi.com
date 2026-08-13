@@ -1,7 +1,7 @@
 ---
 title: "Environment, CI/CD, and Release Engineering"
 description: "Release engineering turns reviewed source into an attributable production state. Repositories, dependencies, tests, artefacts, infrastructure, database migrations, contract deployments and client builds are…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/33-environment-ci-cd-and-release-engineering"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/33-environment-ci-cd-and-release-engineering"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

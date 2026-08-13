@@ -1,7 +1,7 @@
 ---
 title: "System Definition and Canonical Nomenclature"
 description: "03 WENI names the complete Whale CeFi-controlled intelligence and governance stack. The Whale CeFi AI Agent is a user-facing product surface. The WENI model artefact, Cognitive Execution Graph, deterministic…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/03-system-definition-and-canonical-nomenclature"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/03-system-definition-and-canonical-nomenclature"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

@@ -1,6 +1,6 @@
 ---
 title: The Dynamic Interface
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/the-dynamic-interface
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/the-dynamic-interface
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: "Diligence Evidence, Residual Risk, and Decision Record"
 description: "A top-tier architecture dossier ends with falsifiable evidence, not adjectives. Every material claim maps to source, owner, environment, deployed identity, test, exception and approval; gaps remain visible as…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/36-diligence-evidence-residual-risk-and-decision-record"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/36-diligence-evidence-residual-risk-and-decision-record"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

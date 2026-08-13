@@ -1,7 +1,7 @@
 ---
 title: Epistemic Interface and Dynamic Cognitive UI
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui
+  https://whale-cefi.com/docs/controlled-specifications/weni/24-epistemic-interface-and-dynamic-cognitive-ui
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

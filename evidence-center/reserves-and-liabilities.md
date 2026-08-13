@@ -1,7 +1,7 @@
 ---
 title: "Reserves and Liabilities"
 description: "Proof of reserves is meaningful only when reserves, customer liabilities, encumbrances, and observation time refer to the same scope."
-canonical: "https://docs.whale-cefi.com/evidence-center/reserves-and-liabilities"
+canonical: "https://whale-cefi.com/docs/evidence-center/reserves-and-liabilities"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

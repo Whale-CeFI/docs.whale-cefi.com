@@ -1,7 +1,7 @@
 ---
 title: "Evidence Center"
 description: "The Evidence Center connects each material Whale CeFi claim to a record that can be inspected, versioned, and independently checked."
-canonical: "https://docs.whale-cefi.com/evidence-center"
+canonical: "https://whale-cefi.com/docs/evidence-center"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

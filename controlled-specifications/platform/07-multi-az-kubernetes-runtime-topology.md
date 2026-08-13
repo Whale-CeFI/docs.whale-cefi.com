@@ -1,7 +1,7 @@
 ---
 title: "Multi-AZ Kubernetes Runtime Topology"
 description: "07 Production services are reported on managed Kubernetes across three availability zones in eu-central-1. Availability requires topology-aware scheduling, Pod disruption control, autoscaling, workload…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

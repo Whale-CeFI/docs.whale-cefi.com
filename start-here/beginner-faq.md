@@ -1,6 +1,6 @@
 ---
 title: Beginner FAQ
-canonical: https://docs.whale-cefi.com/start-here/beginner-faq
+canonical: https://whale-cefi.com/docs/start-here/beginner-faq
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

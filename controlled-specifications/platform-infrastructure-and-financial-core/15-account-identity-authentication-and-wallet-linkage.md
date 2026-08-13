@@ -1,7 +1,7 @@
 ---
 title: Account Identity, Authentication, and Wallet Linkage
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/15-account-identity-authentication-and-wallet-linkage
+  https://whale-cefi.com/docs/controlled-specifications/platform/15-account-identity-authentication-and-wallet-linkage
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

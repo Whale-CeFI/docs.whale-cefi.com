@@ -1,7 +1,7 @@
 ---
 title: Release Scope and Acceptance
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/35-release-scope-and-acceptance
+  https://whale-cefi.com/docs/controlled-specifications/platform/35-release-scope-and-acceptance
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

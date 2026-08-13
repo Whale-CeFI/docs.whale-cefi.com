@@ -1,6 +1,6 @@
 ---
 title: Security and Custody
-canonical: https://docs.whale-cefi.com/security-and-custody
+canonical: https://whale-cefi.com/docs/security-and-custody
 document_status: official-release
 audience: public
 last_reviewed: '2026-08-10'

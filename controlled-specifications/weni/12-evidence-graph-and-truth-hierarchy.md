@@ -1,7 +1,7 @@
 ---
 title: "Evidence Graph and Truth Hierarchy"
 description: "WENI does not ask a model to decide what is true from a bag of documents. It creates typed Evidence Envelopes and resolves authority fact by fact: chain state, contract code, price, protocol claim, user…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/12-evidence-graph-and-truth-hierarchy"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/12-evidence-graph-and-truth-hierarchy"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

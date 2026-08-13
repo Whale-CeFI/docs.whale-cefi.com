@@ -1,7 +1,7 @@
 ---
 title: "Secure Multimodal Intake and Intent Contracts"
 description: "Text, voice, screen, documents, contract code and authorised account context enter through different consent and trust classes. WENI converts ambiguous expression into a typed Intent Contract that remains a…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

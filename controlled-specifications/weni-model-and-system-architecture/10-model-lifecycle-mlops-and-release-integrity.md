@@ -1,7 +1,7 @@
 ---
 title: Model Lifecycle, MLOps, and Release Integrity
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity
+  https://whale-cefi.com/docs/controlled-specifications/weni/10-model-lifecycle-mlops-and-release-integrity
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

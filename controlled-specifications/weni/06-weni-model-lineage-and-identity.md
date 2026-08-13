@@ -1,7 +1,7 @@
 ---
 title: "WENI Model Lineage and Identity"
 description: "06 The canonical lineage begins with a licensed foundation checkpoint and ends with a signed WENI deployment artefact. Every transformation must be reproducible and rights-aware: domain CPT, PEFT, DPO…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/06-weni-model-lineage-and-identity"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/06-weni-model-lineage-and-identity"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

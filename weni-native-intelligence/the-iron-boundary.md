@@ -1,6 +1,6 @@
 ---
 title: The Iron Boundary
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/the-iron-boundary
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/the-iron-boundary
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

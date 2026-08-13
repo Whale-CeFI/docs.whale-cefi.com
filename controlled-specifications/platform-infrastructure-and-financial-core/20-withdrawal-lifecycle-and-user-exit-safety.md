@@ -1,7 +1,7 @@
 ---
 title: Withdrawal Lifecycle and User-Exit Safety
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety
+  https://whale-cefi.com/docs/controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

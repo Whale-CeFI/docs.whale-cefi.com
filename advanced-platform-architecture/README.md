@@ -1,6 +1,6 @@
 ---
 title: Advanced Platform Architecture
-canonical: https://docs.whale-cefi.com/advanced-platform-architecture
+canonical: https://whale-cefi.com/docs/advanced-platform-architecture
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

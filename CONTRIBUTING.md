@@ -1,7 +1,7 @@
 ---
 title: "Documentation Contribution Policy"
 description: "How controlled changes enter the Whale CeFi canonical documentation repository."
-canonical: "https://docs.whale-cefi.com/contributing"
+canonical: "https://whale-cefi.com/docs/contributing"
 document_status: "internal-control"
 audience: "internal"
 last_reviewed: "2026-07-29"

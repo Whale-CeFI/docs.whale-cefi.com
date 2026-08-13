@@ -1,7 +1,7 @@
 ---
 title: Ledger, Reconciliation, and Proof
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/ledger-reconciliation-and-proof
+  https://whale-cefi.com/docs/yield-and-financial-transparency/ledger-reconciliation-and-proof
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

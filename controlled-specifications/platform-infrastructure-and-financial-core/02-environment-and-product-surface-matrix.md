@@ -1,7 +1,7 @@
 ---
 title: Environment and Product-Surface Matrix
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/02-environment-and-product-surface-matrix
+  https://whale-cefi.com/docs/controlled-specifications/platform/02-environment-and-product-surface-matrix
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

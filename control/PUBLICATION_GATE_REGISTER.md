@@ -21,6 +21,6 @@ Public release decision: approved and effective
 | Privacy and data protection | Data purpose, retention, residency, processors, rights, and assessment controls | Accepted |
 | Official support routes | Security, privacy, complaints, and customer-support ownership | Accepted |
 | Documentation governance | GitHub `main`, required checks, reviewer workflow, GitBook sync, and release approval | Accepted |
-| Canonical docs origin | `https://docs.whale-cefi.com` | Accepted |
+| Canonical docs origin | `https://whale-cefi.com/docs` | Accepted |
 
 This register records the assurance decision for the 10 August 2026 release. Restricted corporate, security, and operational artifacts remain in their authoritative evidence systems and are referenced without exposing confidential material.

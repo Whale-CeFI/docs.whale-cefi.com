@@ -1,7 +1,7 @@
 ---
 title: "WENI System Card"
 description: "The WENI System Card identifies the exact model-and-system release that supports a documented capability."
-canonical: "https://docs.whale-cefi.com/evidence-center/weni-system-card"
+canonical: "https://whale-cefi.com/docs/evidence-center/weni-system-card"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

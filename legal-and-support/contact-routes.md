@@ -1,7 +1,7 @@
 ---
 title: "Contact Routes"
 description: "Use the route that matches the issue. Do not rely on unsolicited direct messages, Telegram administrators, or addresses on a non-canonical domain."
-canonical: "https://docs.whale-cefi.com/legal-and-support/contact-routes"
+canonical: "https://whale-cefi.com/docs/legal-and-support/contact-routes"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

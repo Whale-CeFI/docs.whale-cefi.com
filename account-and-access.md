@@ -1,7 +1,7 @@
 ---
 title: "Account and Access"
 description: "Account security begins before a deposit. This section explains registration, identity verification, authentication, recovery, device controls, sessions, notifications, and the conditions that can limit account access."
-canonical: "https://docs.whale-cefi.com/account-and-access"
+canonical: "https://whale-cefi.com/docs/account-and-access"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

@@ -1,6 +1,6 @@
 ---
 title: Governance, Roles, and Upgrades
-canonical: https://docs.whale-cefi.com/smart-contracts/governance-roles-and-upgrades
+canonical: https://whale-cefi.com/docs/smart-contracts/governance-roles-and-upgrades
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

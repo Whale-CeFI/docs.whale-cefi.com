@@ -1,7 +1,7 @@
 ---
 title: Canonical Asset and Account Model
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/17-canonical-asset-and-account-model
+  https://whale-cefi.com/docs/controlled-specifications/platform/17-canonical-asset-and-account-model
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: Secure Multimodal Intake and Intent Contracts
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts
+  https://whale-cefi.com/docs/controlled-specifications/weni/17-secure-multimodal-intake-and-intent-contracts
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

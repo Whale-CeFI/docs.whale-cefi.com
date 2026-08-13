@@ -1,7 +1,7 @@
 ---
 title: Global, Private, and Decision Graph Separation
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/16-global-private-and-decision-graph-separation
+  https://whale-cefi.com/docs/controlled-specifications/weni/16-global-private-and-decision-graph-separation
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

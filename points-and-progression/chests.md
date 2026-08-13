@@ -1,6 +1,6 @@
 ---
 title: Chests
-canonical: https://docs.whale-cefi.com/points-and-progression/chests
+canonical: https://whale-cefi.com/docs/points-and-progression/chests
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

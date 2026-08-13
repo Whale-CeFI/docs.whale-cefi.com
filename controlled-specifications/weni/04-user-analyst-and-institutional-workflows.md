@@ -1,7 +1,7 @@
 ---
 title: "User, Analyst, and Institutional Workflows"
 description: "04 One evidence state must support very different cognitive and organisational contexts. WENI changes explanation density, control sequencing and approval integration without changing the underlying material…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/04-user-analyst-and-institutional-workflows"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/04-user-analyst-and-institutional-workflows"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"
