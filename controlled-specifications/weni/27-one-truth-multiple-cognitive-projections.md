@@ -1,7 +1,7 @@
 ---
 title: "One Truth, Multiple Cognitive Projections"
 description: "Tier-0, active, professional and enterprise users consume the same governed evidence through different projections. WENI changes language, density and control sequencing; it never hides material risk or…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/27-one-truth-multiple-cognitive-projections"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/27-one-truth-multiple-cognitive-projections"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

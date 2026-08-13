@@ -1,7 +1,7 @@
 ---
 title: "Service Status and Incidents"
 description: "Service status reports the current state of login, verification, deposits by route, withdrawals by route, position opening, reward posting, WENI, API, progression, and support."
-canonical: "https://docs.whale-cefi.com/evidence-center/service-status-and-incidents"
+canonical: "https://whale-cefi.com/docs/evidence-center/service-status-and-incidents"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

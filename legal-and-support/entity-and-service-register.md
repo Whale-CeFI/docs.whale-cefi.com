@@ -1,6 +1,6 @@
 ---
 title: "Entity and Service Register"
-canonical: "https://docs.whale-cefi.com/legal-and-support/entity-and-service-register"
+canonical: "https://whale-cefi.com/docs/legal-and-support/entity-and-service-register"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

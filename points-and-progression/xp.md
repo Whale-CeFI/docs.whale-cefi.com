@@ -1,7 +1,7 @@
 ---
 title: "XP"
 description: "XP is Whale CeFi's exact internal progression score; the interface may show a rounded whole-number view without changing the ledger balance."
-canonical: "https://docs.whale-cefi.com/points-and-progression/xp"
+canonical: "https://whale-cefi.com/docs/points-and-progression/xp"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

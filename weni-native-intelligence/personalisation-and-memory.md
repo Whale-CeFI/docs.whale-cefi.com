@@ -1,7 +1,7 @@
 ---
 title: Personalisation and Memory
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/personalisation-and-memory
+  https://whale-cefi.com/docs/weni-native-intelligence/personalisation-and-memory
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,6 +1,6 @@
 ---
 title: Product Version Register
-canonical: https://docs.whale-cefi.com/evidence-center/product-version-register
+canonical: https://whale-cefi.com/docs/evidence-center/product-version-register
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

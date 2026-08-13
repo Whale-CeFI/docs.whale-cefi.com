@@ -1,6 +1,6 @@
 ---
 title: Smart-Contract Invariants
-canonical: https://docs.whale-cefi.com/smart-contracts/smart-contract-invariants
+canonical: https://whale-cefi.com/docs/smart-contracts/smart-contract-invariants
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

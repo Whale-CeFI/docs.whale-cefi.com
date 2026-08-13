@@ -1,7 +1,7 @@
 ---
 title: "Security Assessment and Remediation Verification v3.0"
 description: "Assessment WCF-SARV-2026-0810 records first-party smart-contract remediation verification for the exact assessed source and isolated chain 31337 environment."
-canonical: "https://docs.whale-cefi.com/security-and-custody/security-assessment-and-remediation-verification"
+canonical: "https://whale-cefi.com/docs/security-and-custody/security-assessment-and-remediation-verification"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

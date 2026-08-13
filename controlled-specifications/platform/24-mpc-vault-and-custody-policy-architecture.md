@@ -1,7 +1,7 @@
 ---
 title: "MPC, Vault, and Custody Policy Architecture"
 description: "The staking contour is reported as hybrid custody using approved MPC custody provider infrastructure. Vault segregation, MPC policy, operator roles, transaction screening and reconciliation define the actual…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

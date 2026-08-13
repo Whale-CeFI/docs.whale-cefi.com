@@ -1,6 +1,6 @@
 ---
 title: Notifications and Confirmations
-canonical: https://docs.whale-cefi.com/account-and-access/notifications-and-confirmations
+canonical: https://whale-cefi.com/docs/account-and-access/notifications-and-confirmations
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

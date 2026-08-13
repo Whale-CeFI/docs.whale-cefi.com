@@ -1,7 +1,7 @@
 ---
 title: Transactional and Time-Series Authority
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/transactional-and-time-series-authority
+  https://whale-cefi.com/docs/advanced-platform-architecture/transactional-and-time-series-authority
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

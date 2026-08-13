@@ -1,7 +1,7 @@
 ---
 title: "Safety Checklist"
 description: "Most preventable losses begin with a rushed confirmation. Use this checklist before moving value."
-canonical: "https://docs.whale-cefi.com/start-here/safety-checklist"
+canonical: "https://whale-cefi.com/docs/start-here/safety-checklist"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

@@ -1,6 +1,6 @@
 ---
 title: Fair Use and Anti-Abuse
-canonical: https://docs.whale-cefi.com/points-and-progression/fair-use-and-anti-abuse
+canonical: https://whale-cefi.com/docs/points-and-progression/fair-use-and-anti-abuse
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

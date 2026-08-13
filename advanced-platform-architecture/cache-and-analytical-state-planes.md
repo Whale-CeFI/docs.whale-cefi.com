@@ -1,7 +1,7 @@
 ---
 title: Cache and Analytical State Planes
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/cache-and-analytical-state-planes
+  https://whale-cefi.com/docs/advanced-platform-architecture/cache-and-analytical-state-planes
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

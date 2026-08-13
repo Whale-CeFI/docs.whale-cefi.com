@@ -1,7 +1,7 @@
 ---
 title: Sovereign Cognitive Memory and Consent
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent
+  https://whale-cefi.com/docs/controlled-specifications/weni/25-sovereign-cognitive-memory-and-consent
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

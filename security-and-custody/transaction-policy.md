@@ -1,6 +1,6 @@
 ---
 title: Transaction Policy
-canonical: https://docs.whale-cefi.com/security-and-custody/transaction-policy
+canonical: https://whale-cefi.com/docs/security-and-custody/transaction-policy
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: "DPO and Financial-Safety Alignment"
 description: "09 DPO shapes learned preferences: retrieve instead of invent, clarify instead of guess, abstain when evidence is insufficient and preserve user authority. These are soft behavioural tendencies; deterministic…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/09-dpo-and-financial-safety-alignment"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/09-dpo-and-financial-safety-alignment"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

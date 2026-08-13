@@ -1,7 +1,7 @@
 ---
 title: Compute Classes and Scheduling
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/compute-classes-and-scheduling
+  https://whale-cefi.com/docs/advanced-platform-architecture/compute-classes-and-scheduling
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

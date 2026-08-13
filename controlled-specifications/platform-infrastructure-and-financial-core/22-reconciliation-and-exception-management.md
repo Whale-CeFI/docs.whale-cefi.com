@@ -1,7 +1,7 @@
 ---
 title: Reconciliation and Exception Management
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/22-reconciliation-and-exception-management
+  https://whale-cefi.com/docs/controlled-specifications/platform/22-reconciliation-and-exception-management
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

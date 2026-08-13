@@ -1,7 +1,7 @@
 ---
 title: "Cloud Organisation, Accounts, and Landing Zone"
 description: "06 The AWS foundation isolates production, non-production, security, logging and shared services. Organisation policies, central identity, immutable logging and controlled network connectivity establish the…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/06-cloud-organisation-accounts-and-landing-zone"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/06-cloud-organisation-accounts-and-landing-zone"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

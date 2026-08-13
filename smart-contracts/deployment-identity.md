@@ -1,6 +1,6 @@
 ---
 title: Deployment Identity
-canonical: https://docs.whale-cefi.com/smart-contracts/deployment-identity
+canonical: https://whale-cefi.com/docs/smart-contracts/deployment-identity
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

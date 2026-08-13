@@ -1,7 +1,7 @@
 ---
 title: "Security and Custody"
 description: "Security and custody separate source-level assessment evidence, production deployment identity, asset authority, and customer entitlement."
-canonical: "https://docs.whale-cefi.com/security-and-custody"
+canonical: "https://whale-cefi.com/docs/security-and-custody"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

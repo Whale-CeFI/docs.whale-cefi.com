@@ -1,6 +1,6 @@
 ---
 title: Explain, Prepare, Approve
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/explain-prepare-approve
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/explain-prepare-approve
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

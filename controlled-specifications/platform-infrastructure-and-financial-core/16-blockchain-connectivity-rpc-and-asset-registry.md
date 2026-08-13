@@ -1,7 +1,7 @@
 ---
 title: Blockchain Connectivity, RPC, and Asset Registry
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry
+  https://whale-cefi.com/docs/controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: "WENI Domain Planner and Tool Orchestrator"
 description: "The planner decomposes a confirmed goal into bounded research, retrieval, calculation, analysis, simulation and policy tasks. It cannot directly construct or submit a transaction and cannot call an…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/18-weni-domain-planner-and-tool-orchestrator"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/18-weni-domain-planner-and-tool-orchestrator"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

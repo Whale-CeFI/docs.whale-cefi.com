@@ -1,7 +1,7 @@
 ---
 title: Confidence, Conflict, and Freshness
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/confidence-conflict-and-freshness
+  https://whale-cefi.com/docs/weni-native-intelligence/confidence-conflict-and-freshness
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

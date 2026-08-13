@@ -1,6 +1,6 @@
 ---
 title: Privacy and Public Profiles
-canonical: https://docs.whale-cefi.com/points-and-progression/privacy-and-public-profiles
+canonical: https://whale-cefi.com/docs/points-and-progression/privacy-and-public-profiles
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

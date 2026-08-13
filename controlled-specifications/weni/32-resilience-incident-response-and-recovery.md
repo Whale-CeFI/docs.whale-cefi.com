@@ -1,7 +1,7 @@
 ---
 title: "Resilience, Incident Response, and Recovery"
 description: "Whale CeFi requires controlled degradation across chain ingestion, inference, policy, ledger, custody and user surfaces. Failover is valuable only when it preserves correctness and does not convert…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/32-resilience-incident-response-and-recovery"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/32-resilience-incident-response-and-recovery"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

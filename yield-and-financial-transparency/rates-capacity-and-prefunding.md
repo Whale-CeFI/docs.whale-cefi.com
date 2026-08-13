@@ -1,7 +1,7 @@
 ---
 title: Rates, Capacity, and Prefunding
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/rates-capacity-and-prefunding
+  https://whale-cefi.com/docs/yield-and-financial-transparency/rates-capacity-and-prefunding
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: Compute Classes, Scheduling, and Serverless Boundaries
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries
+  https://whale-cefi.com/docs/controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

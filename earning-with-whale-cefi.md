@@ -1,7 +1,7 @@
 ---
 title: "Earning with Whale CeFi"
 description: "Understand what Whale CeFi does, what happens to an asset and which decisions remain yours."
-canonical: "https://docs.whale-cefi.com/earning-with-whale-cefi"
+canonical: "https://whale-cefi.com/docs/earning-with-whale-cefi"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

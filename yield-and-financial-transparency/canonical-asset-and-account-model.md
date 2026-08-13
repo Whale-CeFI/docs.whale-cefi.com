@@ -1,7 +1,7 @@
 ---
 title: Canonical Asset and Account Model
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/canonical-asset-and-account-model
+  https://whale-cefi.com/docs/yield-and-financial-transparency/canonical-asset-and-account-model
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

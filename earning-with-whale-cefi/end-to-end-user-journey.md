@@ -1,6 +1,6 @@
 ---
 title: End-to-End User Journey
-canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/end-to-end-user-journey
+canonical: https://whale-cefi.com/docs/earning-with-whale-cefi/end-to-end-user-journey
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

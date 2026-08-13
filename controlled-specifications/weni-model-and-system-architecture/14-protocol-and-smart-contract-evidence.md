@@ -1,7 +1,7 @@
 ---
 title: Protocol and Smart-Contract Evidence
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/14-protocol-and-smart-contract-evidence
+  https://whale-cefi.com/docs/controlled-specifications/weni/14-protocol-and-smart-contract-evidence
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

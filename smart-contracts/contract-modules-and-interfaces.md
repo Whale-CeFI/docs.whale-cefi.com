@@ -1,6 +1,6 @@
 ---
 title: Contract Modules and Interfaces
-canonical: https://docs.whale-cefi.com/smart-contracts/contract-modules-and-interfaces
+canonical: https://whale-cefi.com/docs/smart-contracts/contract-modules-and-interfaces
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

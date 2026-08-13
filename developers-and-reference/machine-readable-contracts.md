@@ -1,6 +1,6 @@
 ---
 title: "Machine-Readable Contracts"
-canonical: "https://docs.whale-cefi.com/developers-and-reference/machine-readable-contracts"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/machine-readable-contracts"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

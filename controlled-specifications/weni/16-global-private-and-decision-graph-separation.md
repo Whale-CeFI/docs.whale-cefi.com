@@ -1,7 +1,7 @@
 ---
 title: "Global, Private, and Decision Graph Separation"
 description: "The Cognitive Execution Graph is implemented as separated authorities: a global evidence graph, a private user intelligence graph and a decision/audit graph. Their relationship is permissioned and…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/16-global-private-and-decision-graph-separation"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/16-global-private-and-decision-graph-separation"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

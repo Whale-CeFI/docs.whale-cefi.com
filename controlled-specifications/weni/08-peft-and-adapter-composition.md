@@ -1,7 +1,7 @@
 ---
 title: "PEFT and Adapter Composition"
 description: "08 Parameter-efficient adaptation is treated as a controlled method family, not a magic compression claim. The chosen technique, targeted modules, trainable parameter count, composition, merging, quantisation…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/08-peft-and-adapter-composition"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/08-peft-and-adapter-composition"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

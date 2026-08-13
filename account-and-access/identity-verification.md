@@ -1,6 +1,6 @@
 ---
 title: Identity Verification
-canonical: https://docs.whale-cefi.com/account-and-access/identity-verification
+canonical: https://whale-cefi.com/docs/account-and-access/identity-verification
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

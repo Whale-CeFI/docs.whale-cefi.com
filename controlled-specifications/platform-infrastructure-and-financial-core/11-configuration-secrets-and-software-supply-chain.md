@@ -1,7 +1,7 @@
 ---
 title: Configuration, Secrets, and Software Supply Chain
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain
+  https://whale-cefi.com/docs/controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

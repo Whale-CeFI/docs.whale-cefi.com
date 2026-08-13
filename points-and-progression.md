@@ -1,7 +1,7 @@
 ---
 title: "Points and Progression"
 description: "Whale CeFi separates exact XP progression, level multipliers, daily claims, and balance rewards so every unit and calculation remains visible."
-canonical: "https://docs.whale-cefi.com/points-and-progression"
+canonical: "https://whale-cefi.com/docs/points-and-progression"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

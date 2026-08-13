@@ -1,7 +1,7 @@
 ---
 title: High Availability and Disaster Recovery
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/high-availability-and-disaster-recovery
+  https://whale-cefi.com/docs/advanced-platform-architecture/high-availability-and-disaster-recovery
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

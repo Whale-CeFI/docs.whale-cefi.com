@@ -1,7 +1,7 @@
 ---
 title: Settlement Finality and Financial Exceptions
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/23-settlement-finality-and-financial-exceptions
+  https://whale-cefi.com/docs/controlled-specifications/platform/23-settlement-finality-and-financial-exceptions
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

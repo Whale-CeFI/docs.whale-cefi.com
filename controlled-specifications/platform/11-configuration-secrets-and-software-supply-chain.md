@@ -1,7 +1,7 @@
 ---
 title: "Configuration, Secrets, and Software Supply Chain"
 description: "Configuration, credentials, images and dependencies are production artefacts. The platform requires signed builds, immutable versions, secret rotation, admission controls and traceability from source commit…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/11-configuration-secrets-and-software-supply-chain"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

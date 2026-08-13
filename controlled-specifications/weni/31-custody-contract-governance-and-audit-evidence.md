@@ -1,7 +1,7 @@
 ---
 title: "Custody, Contract Governance, and Audit Evidence"
 description: "Whale CeFi separates the non-custodial WENI action-preparation boundary from the reported hybrid-custody staking contour. approved MPC custody provider-based key policy, contract administration, upgrades…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/31-custody-contract-governance-and-audit-evidence"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/31-custody-contract-governance-and-audit-evidence"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

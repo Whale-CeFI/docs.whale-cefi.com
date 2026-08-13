@@ -1,6 +1,6 @@
 ---
 title: Create an Account
-canonical: https://docs.whale-cefi.com/account-and-access/create-an-account
+canonical: https://whale-cefi.com/docs/account-and-access/create-an-account
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

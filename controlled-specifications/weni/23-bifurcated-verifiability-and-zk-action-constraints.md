@@ -1,7 +1,7 @@
 ---
 title: "Bifurcated Verifiability and ZK Action Constraints"
 description: "The fast deterministic path and the proof path solve different problems. Rust/Go services provide responsive calculations; the production ZK Action-Constraint Proof establishes that committed code processed…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

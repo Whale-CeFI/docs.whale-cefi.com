@@ -1,7 +1,7 @@
 ---
 title: "Representation Grafting and Confidential Compute"
 description: "Representation Grafting is Whale CeFi’s internal architecture for connecting contract-permitted non-public partner representations or truncated artefacts to Whale CeFi-controlled domain components…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/11-representation-grafting-and-confidential-compute"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/11-representation-grafting-and-confidential-compute"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

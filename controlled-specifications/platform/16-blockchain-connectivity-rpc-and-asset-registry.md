@@ -1,7 +1,7 @@
 ---
 title: "Blockchain Connectivity, RPC, and Asset Registry"
 description: "The platform reports Ethereum, Arbitrum, Optimism and Base support with active Solana connectivity and analysis. A governed asset registry binds chain, canonical address, decimals, token behaviour, action eligibility…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/16-blockchain-connectivity-rpc-and-asset-registry"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

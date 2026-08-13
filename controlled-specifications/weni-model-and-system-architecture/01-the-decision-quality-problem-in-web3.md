@@ -1,7 +1,7 @@
 ---
 title: The Decision-Quality Problem in Web3
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/01-the-decision-quality-problem-in-web3
+  https://whale-cefi.com/docs/controlled-specifications/weni/01-the-decision-quality-problem-in-web3
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

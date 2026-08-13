@@ -1,7 +1,7 @@
 ---
 title: DPO and Financial-Safety Alignment
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/09-dpo-and-financial-safety-alignment
+  https://whale-cefi.com/docs/controlled-specifications/weni/09-dpo-and-financial-safety-alignment
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

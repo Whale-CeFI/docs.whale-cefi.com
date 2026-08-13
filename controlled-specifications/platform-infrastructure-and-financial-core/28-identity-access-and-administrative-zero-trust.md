@@ -1,7 +1,7 @@
 ---
 title: Identity, Access, and Administrative Zero Trust
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/28-identity-access-and-administrative-zero-trust
+  https://whale-cefi.com/docs/controlled-specifications/platform/28-identity-access-and-administrative-zero-trust
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

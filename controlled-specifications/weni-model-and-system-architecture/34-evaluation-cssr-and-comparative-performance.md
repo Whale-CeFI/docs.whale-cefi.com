@@ -1,7 +1,7 @@
 ---
 title: Evaluation, CSSR, and Comparative Performance
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance
+  https://whale-cefi.com/docs/controlled-specifications/weni/34-evaluation-cssr-and-comparative-performance
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

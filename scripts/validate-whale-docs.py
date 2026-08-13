@@ -233,7 +233,7 @@ def validate_markdown(
             if not canonical:
                 findings.warning(f"Reader page has no canonical URL: {relative}")
             else:
-                root_landing = relative == Path("README.md") and canonical == "https://whale-cefi.com/documentation"
+                root_landing = relative == Path("README.md") and canonical == "https://whale-cefi.com/docs"
                 if (
                     not root_landing
                     and not canonical.startswith(canonical_origin.rstrip("/") + "/")
@@ -489,7 +489,7 @@ def main() -> int:
     parser.add_argument("root", type=Path, help="Root of the Whale CeFi GitBook repository")
     parser.add_argument(
         "--canonical-origin",
-        default="https://docs.whale-cefi.com",
+        default="https://whale-cefi.com/docs",
         help="Expected canonical documentation origin",
     )
     parser.add_argument(

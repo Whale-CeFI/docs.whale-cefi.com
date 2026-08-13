@@ -1,7 +1,7 @@
 ---
 title: Risks, Legal Notes, and Change Log
 canonical: >-
-  https://docs.whale-cefi.com/points-and-progression/risks-legal-notes-and-change-log
+  https://whale-cefi.com/docs/points-and-progression/risks-legal-notes-and-change-log
 document_status: official-release
 audience: public
 last_reviewed: '2026-08-10'

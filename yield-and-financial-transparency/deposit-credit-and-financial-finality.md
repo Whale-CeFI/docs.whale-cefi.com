@@ -1,7 +1,7 @@
 ---
 title: Deposit Credit and Financial Finality
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/deposit-credit-and-financial-finality
+  https://whale-cefi.com/docs/yield-and-financial-transparency/deposit-credit-and-financial-finality
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

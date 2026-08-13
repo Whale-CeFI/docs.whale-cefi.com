@@ -1,7 +1,7 @@
 ---
 title: Trust Boundaries and Data Classification
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/trust-boundaries-and-data-classification
+  https://whale-cefi.com/docs/advanced-platform-architecture/trust-boundaries-and-data-classification
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

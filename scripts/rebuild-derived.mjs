@@ -48,17 +48,25 @@ function searchableText(markdown) {
     .trim();
 }
 
+function optionalFrontmatterValue(frontmatter, key) {
+  return new RegExp(`^${key}:\\s*`, "m").test(frontmatter)
+    ? frontmatterValue(frontmatter, key)
+    : null;
+}
+
 function routeFor(source, canonical) {
   const body = fs.readFileSync(path.join(root, source), "utf8");
   const frontmatterMatch = body.match(/^---\n([\s\S]*?)\n---\n/);
   if (!frontmatterMatch) throw new Error(`${source} has no frontmatter`);
   const frontmatter = frontmatterMatch[1];
   const text = searchableText(body);
+  const title = frontmatterValue(frontmatter, "title");
+  const description = optionalFrontmatterValue(frontmatter, "description");
   return {
     source,
     path: canonical,
-    title: frontmatterValue(frontmatter, "title"),
-    description: frontmatterValue(frontmatter, "description"),
+    title,
+    ...(description ? { description } : {}),
     indexable: true,
     schema_type: "TechArticle",
     last_modified: frontmatterValue(frontmatter, "last_reviewed"),
@@ -80,7 +88,7 @@ outputs.set(
   "seo/routes.json",
   JSON.stringify(
     {
-      origin: "https://docs.whale-cefi.com",
+      origin: "https://whale-cefi.com/docs",
       generated_at: generatedAt,
       routes: routes.map(({ text, markdown, ...route }) => route),
     },
@@ -97,7 +105,7 @@ outputs.set(
         source: route.source,
         url: route.path,
         title: route.title,
-        description: route.description,
+        ...(route.description ? { description: route.description } : {}),
       })),
     },
     null,
@@ -111,7 +119,7 @@ outputs.set(
       project: "Whale CeFi Canonical Documentation",
       version: releaseManifest.version,
       status: "official-release",
-      canonical_origin: "https://docs.whale-cefi.com",
+      canonical_origin: "https://whale-cefi.com/docs",
       generated_at: generatedAt,
       page_count: routes.length,
       pages: routes.map(({ text, markdown, ...route }) => route),
@@ -126,7 +134,7 @@ outputs.set(
     routes.map((route) => ({
       url: route.path,
       title: route.title,
-      description: route.description,
+      ...(route.description ? { description: route.description } : {}),
       text: route.text,
     })),
     null,
@@ -138,7 +146,7 @@ outputs.set(
   [
     "# Whale CeFi Documentation",
     "",
-    `> Official Whale CeFi documentation release ${releaseManifest.version}, effective ${releaseDateLabel}, at https://docs.whale-cefi.com.`,
+    `> Official Whale CeFi documentation release ${releaseManifest.version}, effective ${releaseDateLabel}, at https://whale-cefi.com/docs.`,
     "",
     ...routes.map((route) => `- [${route.title}](${route.path})`),
     "",

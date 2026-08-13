@@ -1,6 +1,6 @@
 ---
 title: Asset Registry
-canonical: https://docs.whale-cefi.com/evidence-center/asset-registry
+canonical: https://whale-cefi.com/docs/evidence-center/asset-registry
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

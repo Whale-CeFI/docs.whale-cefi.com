@@ -1,6 +1,6 @@
 ---
 title: Account Recovery
-canonical: https://docs.whale-cefi.com/account-and-access/account-recovery
+canonical: https://whale-cefi.com/docs/account-and-access/account-recovery
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

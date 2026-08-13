@@ -1,7 +1,7 @@
 ---
 title: Synchronous APIs and Service Communication
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/synchronous-apis-and-service-communication
+  https://whale-cefi.com/docs/advanced-platform-architecture/synchronous-apis-and-service-communication
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

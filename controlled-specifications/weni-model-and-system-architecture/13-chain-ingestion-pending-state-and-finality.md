@@ -1,7 +1,7 @@
 ---
 title: Chain Ingestion, Pending State, and Finality
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality
+  https://whale-cefi.com/docs/controlled-specifications/weni/13-chain-ingestion-pending-state-and-finality
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

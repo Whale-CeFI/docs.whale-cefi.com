@@ -1,7 +1,7 @@
 ---
 title: "Market, Oracle, and Social Intelligence"
 description: "Prices and market risk are resolved from liquidity-aware, time-aligned evidence. Social streams are behavioural signals, never authoritative price or protocol facts. WENI retains disagreement rather than…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/15-market-oracle-and-social-intelligence"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/15-market-oracle-and-social-intelligence"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

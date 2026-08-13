@@ -1,7 +1,7 @@
 ---
 title: Controlled Action Workflow
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/controlled-action-workflow
+  https://whale-cefi.com/docs/weni-native-intelligence/controlled-action-workflow
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

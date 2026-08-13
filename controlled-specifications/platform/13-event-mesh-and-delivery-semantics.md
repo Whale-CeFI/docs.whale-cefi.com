@@ -1,7 +1,7 @@
 ---
 title: "Event Mesh and Delivery Semantics"
 description: "Kafka carries immutable domain events for balances, XP, tasks and operational workflows. It is a transport and history plane; the financial journal remains independently authoritative unless a formally…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/13-event-mesh-and-delivery-semantics"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/13-event-mesh-and-delivery-semantics"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

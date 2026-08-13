@@ -1,7 +1,7 @@
 ---
 title: "Incident Response"
 description: "The exact operational states used when safety, availability or financial integrity is uncertain."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/incident-response"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/incident-response"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

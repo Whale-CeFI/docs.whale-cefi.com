@@ -1,7 +1,7 @@
 ---
 title: "Proprietary Moat, Ownership, and Technology Transfer"
 description: "05 Whale CeFi’s moat is the compound system: crypto-specific model adaptation, proprietary evidence and behavioural datasets, Cognitive Execution Graph, deterministic controls, policy, evaluation and observed…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/05-proprietary-moat-ownership-and-technology-transfer"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

@@ -1,7 +1,7 @@
 ---
 title: Customer Relationship and Asset Rights
 canonical: >-
-  https://docs.whale-cefi.com/legal-and-support/customer-relationship-and-asset-rights
+  https://whale-cefi.com/docs/legal-and-support/customer-relationship-and-asset-rights
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

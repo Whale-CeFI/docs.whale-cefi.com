@@ -1,6 +1,6 @@
 ---
 title: Pause and Emergency Exit
-canonical: https://docs.whale-cefi.com/smart-contracts/pause-and-emergency-exit
+canonical: https://whale-cefi.com/docs/smart-contracts/pause-and-emergency-exit
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

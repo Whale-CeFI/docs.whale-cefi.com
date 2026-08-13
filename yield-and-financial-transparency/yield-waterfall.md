@@ -1,6 +1,6 @@
 ---
 title: Yield Waterfall
-canonical: https://docs.whale-cefi.com/yield-and-financial-transparency/yield-waterfall
+canonical: https://whale-cefi.com/docs/yield-and-financial-transparency/yield-waterfall
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: Observability, Auditability, and SLOs
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/observability-auditability-and-slos
+  https://whale-cefi.com/docs/advanced-platform-architecture/observability-auditability-and-slos
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

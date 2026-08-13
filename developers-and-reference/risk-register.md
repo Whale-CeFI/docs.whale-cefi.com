@@ -1,7 +1,7 @@
 ---
 title: "Risk Register"
 description: "How product, market, liquidity, custody, contract, operational and AI risks are governed."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/risk-register"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/risk-register"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

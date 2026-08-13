@@ -1,6 +1,6 @@
 ---
 title: Gamification Guide
-canonical: https://docs.whale-cefi.com/points-and-progression/guide-overview
+canonical: https://whale-cefi.com/docs/points-and-progression/guide-overview
 document_status: official-release
 audience: public
 last_reviewed: '2026-08-10'

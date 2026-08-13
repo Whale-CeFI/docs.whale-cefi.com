@@ -1,6 +1,6 @@
 ---
 title: Achievements
-canonical: https://docs.whale-cefi.com/points-and-progression/achievements
+canonical: https://whale-cefi.com/docs/points-and-progression/achievements
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

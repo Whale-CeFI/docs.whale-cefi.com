@@ -1,6 +1,6 @@
 ---
 title: Wallets, Networks, and Addresses
-canonical: https://docs.whale-cefi.com/start-here/wallets-networks-and-addresses
+canonical: https://whale-cefi.com/docs/start-here/wallets-networks-and-addresses
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

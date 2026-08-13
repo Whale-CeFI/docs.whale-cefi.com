@@ -1,7 +1,7 @@
 ---
 title: Access Tiers and Enterprise Use
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/access-tiers-and-enterprise-use
+  https://whale-cefi.com/docs/weni-native-intelligence/access-tiers-and-enterprise-use
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

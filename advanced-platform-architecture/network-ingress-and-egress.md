@@ -1,7 +1,7 @@
 ---
 title: Network Ingress and Egress
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/network-ingress-and-egress
+  https://whale-cefi.com/docs/advanced-platform-architecture/network-ingress-and-egress
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

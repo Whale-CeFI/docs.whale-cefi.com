@@ -1,7 +1,7 @@
 ---
 title: "Withdrawal Lifecycle and User-Exit Safety"
 description: "Withdrawals reverse the deposit path under stricter authority. The platform must authenticate intent, reserve the liability, screen policy, obtain custody approval, broadcast the exact authorised transfer…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/20-withdrawal-lifecycle-and-user-exit-safety"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

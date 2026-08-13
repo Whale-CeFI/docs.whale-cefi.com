@@ -1,7 +1,7 @@
 ---
 title: Product Surfaces and Frontend Topology
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/28-product-surfaces-and-frontend-topology
+  https://whale-cefi.com/docs/controlled-specifications/weni/28-product-surfaces-and-frontend-topology
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: Multi-AZ Kubernetes Runtime Topology
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology
+  https://whale-cefi.com/docs/controlled-specifications/platform/07-multi-az-kubernetes-runtime-topology
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

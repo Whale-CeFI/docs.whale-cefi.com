@@ -1,7 +1,7 @@
 ---
 title: Observability, Auditability, and Service-Level Objectives
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/29-observability-auditability-and-service-level-objectives
+  https://whale-cefi.com/docs/controlled-specifications/platform/29-observability-auditability-and-service-level-objectives
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

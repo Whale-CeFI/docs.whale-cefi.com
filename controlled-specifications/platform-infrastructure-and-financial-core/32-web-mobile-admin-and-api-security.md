@@ -1,7 +1,7 @@
 ---
 title: Web, Mobile, Admin, and API Security
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/32-web-mobile-admin-and-api-security
+  https://whale-cefi.com/docs/controlled-specifications/platform/32-web-mobile-admin-and-api-security
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

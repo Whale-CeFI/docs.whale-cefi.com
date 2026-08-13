@@ -1,7 +1,7 @@
 ---
 title: "Upgrade, Timelock, Pause, and Governance Controls"
 description: "Privileged contract operations must be slower, more observable and more independently approved than routine user activity. A reported 48-hour timelock creates review time only when proposals are decoded…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

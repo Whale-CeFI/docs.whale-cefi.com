@@ -1,6 +1,6 @@
 ---
 title: Controlled Technical Specifications
-canonical: https://docs.whale-cefi.com/controlled-specifications
+canonical: https://whale-cefi.com/docs/controlled-specifications
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

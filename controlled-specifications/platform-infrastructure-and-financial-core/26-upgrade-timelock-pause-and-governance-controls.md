@@ -1,7 +1,7 @@
 ---
 title: Upgrade, Timelock, Pause, and Governance Controls
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls
+  https://whale-cefi.com/docs/controlled-specifications/platform/26-upgrade-timelock-pause-and-governance-controls
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

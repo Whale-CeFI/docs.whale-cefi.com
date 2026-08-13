@@ -1,7 +1,7 @@
 ---
 title: Event Mesh and Delivery Semantics
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/13-event-mesh-and-delivery-semantics
+  https://whale-cefi.com/docs/controlled-specifications/platform/13-event-mesh-and-delivery-semantics
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

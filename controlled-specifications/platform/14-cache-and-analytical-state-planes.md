@@ -1,7 +1,7 @@
 ---
 title: "Cache and Analytical State Planes"
 description: "Redis serves ephemeral sessions, locks, rate controls and short-lived context; ClickHouse serves analytical projections and abuse detection. Neither system may become the unacknowledged source of financial…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/14-cache-and-analytical-state-planes"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/14-cache-and-analytical-state-planes"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

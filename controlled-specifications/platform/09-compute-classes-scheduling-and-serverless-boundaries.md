@@ -1,7 +1,7 @@
 ---
 title: "Compute Classes, Scheduling, and Serverless Boundaries"
 description: "09 Whale CeFi uses different compute classes for deterministic on-chain services, Go business services, specialised workloads and event-driven triggers. Each class receives explicit latency, isolation…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/09-compute-classes-scheduling-and-serverless-boundaries"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

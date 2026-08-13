@@ -1,6 +1,6 @@
 ---
 title: Plan Catalogue
-canonical: https://docs.whale-cefi.com/earning-with-whale-cefi/plan-catalogue
+canonical: https://whale-cefi.com/docs/earning-with-whale-cefi/plan-catalogue
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

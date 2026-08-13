@@ -1,7 +1,7 @@
 ---
 title: Rates and Reward Mathematics
 canonical: >-
-  https://docs.whale-cefi.com/earning-with-whale-cefi/rates-and-reward-mathematics
+  https://whale-cefi.com/docs/earning-with-whale-cefi/rates-and-reward-mathematics
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

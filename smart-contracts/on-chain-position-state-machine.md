@@ -1,6 +1,6 @@
 ---
 title: On-Chain Position State Machine
-canonical: https://docs.whale-cefi.com/smart-contracts/on-chain-position-state-machine
+canonical: https://whale-cefi.com/docs/smart-contracts/on-chain-position-state-machine
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

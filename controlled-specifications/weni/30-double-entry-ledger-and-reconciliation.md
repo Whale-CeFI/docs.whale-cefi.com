@@ -1,7 +1,7 @@
 ---
 title: "Double-Entry Ledger and Reconciliation"
 description: "The Accounting Ledger Service is the internal financial source of record; chain and custody systems provide external settlement evidence. Every monetary movement creates balanced, immutable journal entries…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/30-double-entry-ledger-and-reconciliation"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/30-double-entry-ledger-and-reconciliation"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

@@ -1,7 +1,7 @@
 ---
 title: "Trust Boundaries and Data Classification"
 description: "04 Zero trust is implemented as explicit identities, least privilege, authenticated service calls, purpose-bound data and separate control planes. Public blockchain data becomes governed user data when it is…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/04-trust-boundaries-and-data-classification"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/04-trust-boundaries-and-data-classification"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

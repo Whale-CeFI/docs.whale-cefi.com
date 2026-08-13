@@ -1,7 +1,7 @@
 ---
 title: "Threat Model and Security Assurance"
 description: "WENI’s threat model spans models, data, tools, chain state, contracts, cloud, custody, identities, users and insiders. Security assurance maps every control to an asset, threat, trust boundary, detection path…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/33-threat-model-and-security-assurance"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/33-threat-model-and-security-assurance"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

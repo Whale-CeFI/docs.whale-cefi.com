@@ -1,7 +1,7 @@
 ---
 title: "WENI — Native Intelligence"
 description: "Whale CeFi AI Agent is a crypto-native mentor and intelligence system. It understands the person using it — their experience, their goal, the evidence available, and the way they make sense of the market."
-canonical: "https://docs.whale-cefi.com/weni-native-intelligence"
+canonical: "https://whale-cefi.com/docs/weni-native-intelligence"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

@@ -1,7 +1,7 @@
 ---
 title: User, Analyst, and Institutional Workflows
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/04-user-analyst-and-institutional-workflows
+  https://whale-cefi.com/docs/controlled-specifications/weni/04-user-analyst-and-institutional-workflows
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

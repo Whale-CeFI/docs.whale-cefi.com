@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 description: "Plain definitions for the words used across Whale CeFi product, finance, infrastructure and AI documentation."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/glossary"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/glossary"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

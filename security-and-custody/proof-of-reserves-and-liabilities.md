@@ -1,7 +1,7 @@
 ---
 title: Proof of Reserves and Liabilities
 canonical: >-
-  https://docs.whale-cefi.com/security-and-custody/proof-of-reserves-and-liabilities
+  https://whale-cefi.com/docs/security-and-custody/proof-of-reserves-and-liabilities
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

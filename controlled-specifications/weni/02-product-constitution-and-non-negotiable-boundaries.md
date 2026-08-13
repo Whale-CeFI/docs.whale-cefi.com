@@ -1,7 +1,7 @@
 ---
 title: "Product Constitution and Non-Negotiable Boundaries"
 description: "02 The product constitution is the highest-order design control. It defines what no model, operator, commercial tier or partner integration may override: no private-key access, no autonomous signing, no…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/02-product-constitution-and-non-negotiable-boundaries"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

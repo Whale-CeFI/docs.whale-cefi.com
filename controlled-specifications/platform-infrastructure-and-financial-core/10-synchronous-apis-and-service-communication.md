@@ -1,7 +1,7 @@
 ---
 title: Synchronous APIs and Service Communication
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/10-synchronous-apis-and-service-communication
+  https://whale-cefi.com/docs/controlled-specifications/platform/10-synchronous-apis-and-service-communication
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

@@ -1,6 +1,6 @@
 ---
 title: Maturity and Withdrawal
-canonical: https://docs.whale-cefi.com/start-here/maturity-and-withdrawal
+canonical: https://whale-cefi.com/docs/start-here/maturity-and-withdrawal
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

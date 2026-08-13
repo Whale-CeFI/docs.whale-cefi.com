@@ -1,7 +1,7 @@
 ---
 title: Account Restrictions and Appeals
 canonical: >-
-  https://docs.whale-cefi.com/account-and-access/account-restrictions-and-appeals
+  https://whale-cefi.com/docs/account-and-access/account-restrictions-and-appeals
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: Blockchain Connectivity and Asset Registry
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/blockchain-connectivity-and-asset-registry
+  https://whale-cefi.com/docs/advanced-platform-architecture/blockchain-connectivity-and-asset-registry
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

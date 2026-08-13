@@ -1,6 +1,6 @@
 ---
 title: Contract Verification Program
-canonical: https://docs.whale-cefi.com/smart-contracts/contract-verification-program
+canonical: https://whale-cefi.com/docs/smart-contracts/contract-verification-program
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

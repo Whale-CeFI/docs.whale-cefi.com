@@ -1,7 +1,7 @@
 ---
 title: "Settlement Finality and Financial Exceptions"
 description: "Settlement is a state machine, not a boolean. Whale CeFi distinguishes requested, observed, included, finalised, custody-confirmed, ledger-posted, reconciled, failed, replaced, reversed and disputed states…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/23-settlement-finality-and-financial-exceptions"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/23-settlement-finality-and-financial-exceptions"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

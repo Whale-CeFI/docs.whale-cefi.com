@@ -1,7 +1,7 @@
 ---
 title: "Reconciliation and Exception Management"
 description: "Reconciliation proves that internal obligations are supported by external assets and expected movements. It compares ledger control accounts with chain and custody evidence, explains timing differences…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/22-reconciliation-and-exception-management"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/22-reconciliation-and-exception-management"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

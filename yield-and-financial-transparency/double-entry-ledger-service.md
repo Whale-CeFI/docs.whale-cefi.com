@@ -1,7 +1,7 @@
 ---
 title: Double-Entry Ledger Service
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/double-entry-ledger-service
+  https://whale-cefi.com/docs/yield-and-financial-transparency/double-entry-ledger-service
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

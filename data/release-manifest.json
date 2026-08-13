@@ -4,7 +4,7 @@
   "status": "released",
   "public_release_status": "released",
   "canonical_domain": "whale-cefi.com",
-  "canonical_documentation_origin": "https://docs.whale-cefi.com",
+  "canonical_documentation_origin": "https://whale-cefi.com/docs",
   "effective_at": "2026-08-10T00:00:00Z",
   "customer_contracting_and_operating_entity": "Pulpo Fintech, S.A. de C.V.",
   "operator_registration": "PSAD-0023",
@@ -12,7 +12,7 @@
   "approved_publication_targets": [
     "github-main",
     "gitbook-production",
-    "docs.whale-cefi.com"
+    "whale-cefi.com/docs"
   ],
   "release_assurance": [
     "owner-approved",

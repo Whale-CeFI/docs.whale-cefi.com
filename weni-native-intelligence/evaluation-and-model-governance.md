@@ -1,7 +1,7 @@
 ---
 title: Evaluation and Model Governance
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/evaluation-and-model-governance
+  https://whale-cefi.com/docs/weni-native-intelligence/evaluation-and-model-governance
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

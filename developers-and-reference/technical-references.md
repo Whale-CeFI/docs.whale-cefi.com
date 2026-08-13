@@ -1,7 +1,7 @@
 ---
 title: "Technical References"
 description: "Primary standards and specifications used by the canonical architecture."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/technical-references"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/technical-references"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

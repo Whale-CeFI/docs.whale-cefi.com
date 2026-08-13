@@ -1,6 +1,6 @@
 ---
 title: WENI System Architecture
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/weni-system-architecture
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/weni-system-architecture
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

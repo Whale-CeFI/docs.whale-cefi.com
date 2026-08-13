@@ -1,7 +1,7 @@
 ---
 title: "Deployment Registry"
 description: "The machine-readable index of every production contract, service release, authority snapshot, and evidence relationship."
-canonical: "https://docs.whale-cefi.com/developers-and-reference/deployment-registry"
+canonical: "https://whale-cefi.com/docs/developers-and-reference/deployment-registry"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

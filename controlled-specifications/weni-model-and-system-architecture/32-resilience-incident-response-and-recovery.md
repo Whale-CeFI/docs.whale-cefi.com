@@ -1,7 +1,7 @@
 ---
 title: Resilience, Incident Response, and Recovery
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/32-resilience-incident-response-and-recovery
+  https://whale-cefi.com/docs/controlled-specifications/weni/32-resilience-incident-response-and-recovery
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

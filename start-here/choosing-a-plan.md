@@ -1,6 +1,6 @@
 ---
 title: Choosing a Plan
-canonical: https://docs.whale-cefi.com/start-here/choosing-a-plan
+canonical: https://whale-cefi.com/docs/start-here/choosing-a-plan
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

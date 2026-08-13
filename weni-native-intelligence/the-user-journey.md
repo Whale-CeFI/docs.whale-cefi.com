@@ -1,6 +1,6 @@
 ---
 title: The User Journey
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/the-user-journey
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/the-user-journey
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

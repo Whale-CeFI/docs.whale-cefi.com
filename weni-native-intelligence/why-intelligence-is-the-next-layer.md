@@ -1,7 +1,7 @@
 ---
 title: Why Intelligence Is the Next Layer
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/why-intelligence-is-the-next-layer
+  https://whale-cefi.com/docs/weni-native-intelligence/why-intelligence-is-the-next-layer
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

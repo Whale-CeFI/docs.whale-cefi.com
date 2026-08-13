@@ -1,7 +1,7 @@
 ---
 title: Privacy, Security, and Threat Model
 canonical: >-
-  https://docs.whale-cefi.com/weni-native-intelligence/privacy-security-and-threat-model
+  https://whale-cefi.com/docs/weni-native-intelligence/privacy-security-and-threat-model
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

@@ -1,7 +1,7 @@
 ---
 title: Environment, CI/CD, and Release Engineering
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/33-environment-ci-cd-and-release-engineering
+  https://whale-cefi.com/docs/controlled-specifications/platform/33-environment-ci-cd-and-release-engineering
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

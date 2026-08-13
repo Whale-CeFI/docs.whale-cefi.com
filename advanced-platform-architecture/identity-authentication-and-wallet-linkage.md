@@ -1,7 +1,7 @@
 ---
 title: Identity, Authentication, and Wallet Linkage
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/identity-authentication-and-wallet-linkage
+  https://whale-cefi.com/docs/advanced-platform-architecture/identity-authentication-and-wallet-linkage
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

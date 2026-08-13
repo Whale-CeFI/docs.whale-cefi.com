@@ -1,7 +1,7 @@
 ---
 title: "Start Here"
 description: "Crypto can feel difficult because several systems are usually compressed into a single word. A wallet is not a blockchain. A token symbol is not a complete asset identity. A displayed balance is not the same thing as…"
-canonical: "https://docs.whale-cefi.com/start-here"
+canonical: "https://whale-cefi.com/docs/start-here"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-07-29"

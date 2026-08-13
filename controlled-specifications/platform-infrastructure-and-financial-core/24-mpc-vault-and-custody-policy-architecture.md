@@ -1,7 +1,7 @@
 ---
 title: MPC, Vault, and Custody Policy Architecture
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture
+  https://whale-cefi.com/docs/controlled-specifications/platform/24-mpc-vault-and-custody-policy-architecture
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

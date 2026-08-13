@@ -1,7 +1,7 @@
 ---
 title: Liquidity, Shortfall, and Resolution
 canonical: >-
-  https://docs.whale-cefi.com/yield-and-financial-transparency/liquidity-shortfall-and-resolution
+  https://whale-cefi.com/docs/yield-and-financial-transparency/liquidity-shortfall-and-resolution
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

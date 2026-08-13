@@ -1,7 +1,7 @@
 ---
 title: Double-Entry Ledger Service
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/platform/18-double-entry-ledger-service
+  https://whale-cefi.com/docs/controlled-specifications/platform/18-double-entry-ledger-service
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'

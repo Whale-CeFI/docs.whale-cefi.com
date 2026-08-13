@@ -1,7 +1,7 @@
 ---
 title: "Network, Ingress, and Egress Architecture"
 description: "08 Network architecture separates public edge, private application services, financial workloads, data stores and administrative control. Egress is treated as an explicit capability because unrestricted…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/08-network-ingress-and-egress-architecture"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/08-network-ingress-and-egress-architecture"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

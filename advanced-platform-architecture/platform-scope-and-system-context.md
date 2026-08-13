@@ -1,7 +1,7 @@
 ---
 title: Platform Scope and System Context
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/platform-scope-and-system-context
+  https://whale-cefi.com/docs/advanced-platform-architecture/platform-scope-and-system-context
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

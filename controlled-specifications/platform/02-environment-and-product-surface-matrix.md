@@ -1,7 +1,7 @@
 ---
 title: "Environment and Product-Surface Matrix"
 description: "02 Whale CeFi operates multiple surfaces at different maturity levels. Production web, production mobile, developing conversational UI, internal administration and production B2B access must never be collapsed…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/02-environment-and-product-surface-matrix"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/02-environment-and-product-surface-matrix"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

@@ -1,6 +1,6 @@
 ---
 title: Levels
-canonical: https://docs.whale-cefi.com/points-and-progression/levels
+canonical: https://whale-cefi.com/docs/points-and-progression/levels
 document_status: official-release
 audience: public
 last_reviewed: '2026-08-10'

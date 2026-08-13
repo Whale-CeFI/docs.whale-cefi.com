@@ -1,6 +1,6 @@
 ---
 title: Who It Is For
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/who-it-is-for
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/who-it-is-for
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

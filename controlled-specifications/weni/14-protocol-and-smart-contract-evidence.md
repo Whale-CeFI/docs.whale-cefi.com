@@ -1,7 +1,7 @@
 ---
 title: "Protocol and Smart-Contract Evidence"
 description: "Contract safety requires more than source retrieval. WENI resolves proxies and implementations, compiler metadata, bytecode, privileged roles, upgrade history, token behaviour, external calls and…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/14-protocol-and-smart-contract-evidence"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/14-protocol-and-smart-contract-evidence"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

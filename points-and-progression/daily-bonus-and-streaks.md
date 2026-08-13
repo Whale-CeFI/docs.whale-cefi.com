@@ -1,7 +1,7 @@
 ---
 title: "Daily XP Claim and Balance Rewards"
 description: "The daily flow separates the XP credited to progression from any deposit-based amount credited to the user's balance."
-canonical: "https://docs.whale-cefi.com/points-and-progression/daily-bonus-and-streaks"
+canonical: "https://whale-cefi.com/docs/points-and-progression/daily-bonus-and-streaks"
 document_status: "official-release"
 audience: "public"
 last_reviewed: "2026-08-10"

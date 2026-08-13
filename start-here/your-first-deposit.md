@@ -1,6 +1,6 @@
 ---
 title: Your First Deposit
-canonical: https://docs.whale-cefi.com/start-here/your-first-deposit
+canonical: https://whale-cefi.com/docs/start-here/your-first-deposit
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

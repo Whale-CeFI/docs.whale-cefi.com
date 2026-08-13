@@ -1,7 +1,7 @@
 ---
 title: "Release Acceptance and Capability Control"
 description: "Release readiness is governed by a signed capability matrix and completed evidence gates rather than by a calendar date. Release 1 is the Whale CeFi-controlled WENI model-and-system stack with strict human…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni/35-release-acceptance-and-capability-control"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni/35-release-acceptance-and-capability-control"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

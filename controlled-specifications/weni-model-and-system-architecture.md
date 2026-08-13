@@ -1,7 +1,7 @@
 ---
 title: "WENI Model and System Architecture"
 description: "The controlled WENI paper covers model lineage, domain adaptation, evidence graphs, deterministic services, the Iron Boundary, multimodal intake, policy, action preparation, memory, learning, interface behaviour,…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/weni-model-and-system-architecture"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/weni-model-and-system-architecture"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

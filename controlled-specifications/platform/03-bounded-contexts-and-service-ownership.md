@@ -1,7 +1,7 @@
 ---
 title: "Bounded Contexts and Service Ownership"
 description: "03 The platform is decomposed by business authority rather than by arbitrary technical layers. Identity, portfolio, transaction, ledger, rewards, staking, custody integration and compliance each own a narrow…"
-canonical: "https://docs.whale-cefi.com/controlled-specifications/platform/03-bounded-contexts-and-service-ownership"
+canonical: "https://whale-cefi.com/docs/controlled-specifications/platform/03-bounded-contexts-and-service-ownership"
 document_status: "official-release"
 audience: "technical"
 last_reviewed: "2026-07-29"

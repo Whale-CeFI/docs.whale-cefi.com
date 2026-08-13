@@ -73,9 +73,9 @@ for (const link of new Set(links)) {
   const canonical = frontmatterValue(frontmatterMatch[1], "canonical");
   const documentStatus = frontmatterValue(frontmatterMatch[1], "document_status");
   const validRootLanding =
-    link === "README.md" && canonical === "https://whale-cefi.com/documentation";
-  if (!validRootLanding && !canonical?.startsWith("https://docs.whale-cefi.com")) {
-    errors.push(link + " has no canonical docs.whale-cefi.com URL");
+    link === "README.md" && canonical === "https://whale-cefi.com/docs";
+  if (!validRootLanding && !canonical?.startsWith("https://whale-cefi.com/docs")) {
+    errors.push(link + " has no canonical whale-cefi.com/docs URL");
   }
   if (documentStatus !== "official-release") {
     errors.push(link + " is not marked as the official release");
@@ -197,8 +197,8 @@ if (new Set(routes.routes.map((route) => route.path)).size !== routes.routes.len
 if (
   routes.routes.some(
     (route) =>
-      !route.path.startsWith("https://docs.whale-cefi.com") &&
-      !(route.source === "README.md" && route.path === "https://whale-cefi.com/documentation"),
+      !route.path.startsWith("https://whale-cefi.com/docs") &&
+      !(route.source === "README.md" && route.path === "https://whale-cefi.com/docs"),
   )
 ) {
   errors.push("SEO routes contain a non-canonical origin");
@@ -382,7 +382,7 @@ if (
 ) {
   errors.push("Release manifest is not bound to the v5.1 official public release");
 }
-if (releaseManifest.canonical_documentation_origin !== "https://docs.whale-cefi.com") {
+if (releaseManifest.canonical_documentation_origin !== "https://whale-cefi.com/docs") {
   errors.push("Release manifest has an incorrect canonical documentation origin");
 }
 
@@ -430,7 +430,7 @@ const buildReport = [
   "- Documentation status: official release",
   "- Release date: 10 August 2026",
   "- Product domain: https://whale-cefi.com",
-  "- Documentation origin: https://docs.whale-cefi.com",
+  "- Documentation origin: https://whale-cefi.com/docs",
   "- Customer contracting and operating entity: Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador",
   "- Published security assessment: WCF-SARV-2026-0810, first-party, SHA-256 verified",
   "- Gamification configuration: WCF-GAMIFICATION-LIVE-2026-08-10",

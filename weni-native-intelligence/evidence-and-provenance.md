@@ -1,6 +1,6 @@
 ---
 title: Evidence and Provenance
-canonical: https://docs.whale-cefi.com/weni-native-intelligence/evidence-and-provenance
+canonical: https://whale-cefi.com/docs/weni-native-intelligence/evidence-and-provenance
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

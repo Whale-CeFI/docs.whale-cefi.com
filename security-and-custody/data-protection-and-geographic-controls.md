@@ -1,7 +1,7 @@
 ---
 title: Data Protection and Geographic Controls
 canonical: >-
-  https://docs.whale-cefi.com/security-and-custody/data-protection-and-geographic-controls
+  https://whale-cefi.com/docs/security-and-custody/data-protection-and-geographic-controls
 document_status: official-release
 audience: public
 last_reviewed: '2026-08-10'

@@ -1,7 +1,7 @@
 ---
 title: Cloud Organization and Landing Zone
 canonical: >-
-  https://docs.whale-cefi.com/advanced-platform-architecture/cloud-organization-and-landing-zone
+  https://whale-cefi.com/docs/advanced-platform-architecture/cloud-organization-and-landing-zone
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'

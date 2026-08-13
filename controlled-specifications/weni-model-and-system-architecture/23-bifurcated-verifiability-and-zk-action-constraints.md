@@ -1,7 +1,7 @@
 ---
 title: Bifurcated Verifiability and ZK Action Constraints
 canonical: >-
-  https://docs.whale-cefi.com/controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints
+  https://whale-cefi.com/docs/controlled-specifications/weni/23-bifurcated-verifiability-and-zk-action-constraints
 document_status: official-release
 audience: technical
 last_reviewed: '2026-07-29'
