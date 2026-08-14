@@ -1,15 +1,16 @@
 ---
-title: "Entity and Service Register"
-canonical: "https://whale-cefi.com/docs/legal-and-support/entity-and-service-register"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-08-10"
-description: "Whale CeFi uses an explicit service map so the user can identify the interface, customer counterparty, custody provider, and strategic-support role."
+title: Entity and Service Register
+canonical: https://whale-cefi.com/docs/legal-and-support/entity-and-service-register
+document_status: official-release
+audience: public
+last_reviewed: '2026-08-10'
+description: >-
+  Whale CeFi uses an explicit service map so the user can identify the
+  interface, customer counterparty, custody provider, and strategic-support
+  role.
 ---
 
 # Entity and Service Register
-
-Whale CeFi uses an explicit service map so the user can identify the interface, customer counterparty, custody provider, and strategic-support role.
 
 ## Current group perimeter
 

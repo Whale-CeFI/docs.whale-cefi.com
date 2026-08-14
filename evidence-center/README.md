@@ -11,8 +11,6 @@ description: >-
 
 # Evidence Center
 
-The Evidence Center connects each material Whale CeFi claim to a record that can be inspected, versioned, and independently checked.
-
 ![The open ledger](../.gitbook/assets/06-open-ledger.png)
 
 A diagram explains how a control is designed. Evidence shows what release, balance, deployment, audit, proof epoch, incident, or decision actually exists.

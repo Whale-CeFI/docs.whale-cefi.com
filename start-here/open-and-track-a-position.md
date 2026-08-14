@@ -11,8 +11,6 @@ description: >-
 
 # Open and Track a Position
 
-Opening a position converts an available balance into a versioned financial obligation. It is not just a button state.
-
 ## Before confirmation
 
 The review screen answers eight questions in plain language:

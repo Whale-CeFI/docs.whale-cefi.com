@@ -1,15 +1,16 @@
 ---
-title: "Legal and Support"
-description: "This section identifies the Whale CeFi interface, customer contracting entity, custody provider, strategic support, asset relationship, eligibility, and support routes."
-canonical: "https://whale-cefi.com/docs/legal-and-support"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-08-10"
+title: Legal and Support
+canonical: https://whale-cefi.com/docs/legal-and-support
+document_status: official-release
+audience: public
+last_reviewed: '2026-08-10'
+description: >-
+  This section identifies the Whale CeFi interface, customer contracting entity,
+  custody provider, strategic support, asset relationship, eligibility, and
+  support routes.
 ---
 
 # Legal and Support
-
-This section identifies the Whale CeFi interface, customer contracting entity, custody provider, strategic support, asset relationship, eligibility, and support routes.
 
 Whale CeFi is the technology interface and product brand. **Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador**, is the primary customer contracting and operating entity recorded in the approved Entity and Service Register. Institutional custody and strategic-support roles remain separately identified; neither role silently replaces the customer counterparty.
 

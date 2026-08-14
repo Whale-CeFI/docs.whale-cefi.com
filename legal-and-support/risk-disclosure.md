@@ -4,10 +4,6 @@ canonical: https://whale-cefi.com/docs/legal-and-support/risk-disclosure
 document_status: official-release
 audience: public
 last_reviewed: '2026-07-29'
-description: >-
-  You can lose some or all of your principal and any expected reward. Whale CeFi
-  earning products are not bank deposits and are not covered by deposit
-  insurance unless an exact verified policy explicitl
 ---
 
 # Risk Disclosure

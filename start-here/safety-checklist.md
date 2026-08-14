@@ -1,15 +1,15 @@
 ---
-title: "Safety Checklist"
-description: "Most preventable losses begin with a rushed confirmation. Use this checklist before moving value."
-canonical: "https://whale-cefi.com/docs/start-here/safety-checklist"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Safety Checklist
+canonical: https://whale-cefi.com/docs/start-here/safety-checklist
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Most preventable losses begin with a rushed confirmation. Use this checklist
+  before moving value.
 ---
 
 # Safety Checklist
-
-Most preventable losses begin with a rushed confirmation. Use this checklist before moving value.
 
 ## Protect access
 
@@ -52,4 +52,4 @@ Treat any unsolicited message as untrusted. A legitimate support process does no
 Never pay an unknown party to “unlock,” “verify,” or “recover” a Whale CeFi balance.
 {% endhint %}
 
-For the complete risk model, read [Material Risks](../earning-with-whale-cefi/material-risks).
+For the complete risk model, read [Material Risks](../earning-with-whale-cefi/material-risks/).

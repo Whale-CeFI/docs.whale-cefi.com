@@ -11,8 +11,6 @@ description: >-
 
 # Maturity and Withdrawal
 
-Maturity, position closure, and blockchain withdrawal are related but separate events.
-
 ## Maturity
 
 A fixed-term position reaches maturity at the timestamp defined by its accepted product version. Maturity makes the position eligible for settlement; it does not mean an external blockchain transaction has already finalized.

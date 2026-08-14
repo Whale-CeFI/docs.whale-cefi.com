@@ -1,15 +1,15 @@
 ---
-title: "Privacy and Data Protection"
-description: "Whale CeFi separates account, verification, financial, blockchain, security, progression, support, analytics, and WENI data by purpose and authority."
-canonical: "https://whale-cefi.com/docs/legal-and-support/privacy-and-data-protection"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Privacy and Data Protection
+canonical: https://whale-cefi.com/docs/legal-and-support/privacy-and-data-protection
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Whale CeFi separates account, verification, financial, blockchain, security,
+  progression, support, analytics, and WENI data by purpose and authority.
 ---
 
 # Privacy and Data Protection
-
-Whale CeFi separates account, verification, financial, blockchain, security, progression, support, analytics, and WENI data by purpose and authority.
 
 The Privacy Notice identifies controller, processing purpose, legal basis, categories, recipients, subprocessors, processing regions, retention, security measures, automated decision involvement, user rights, contact route, and effective version.
 

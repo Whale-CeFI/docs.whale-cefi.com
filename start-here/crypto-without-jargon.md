@@ -12,8 +12,6 @@ description: >-
 
 # Crypto without Jargon
 
-You do not need to become a blockchain engineer to use a digital asset safely. You only need a reliable mental model for the few decisions that can move value.
-
 ## Think of a shared notebook
 
 Imagine a notebook copied across many independent computers. When a valid transfer is added, the computers agree on the next page. Old pages are difficult to change without the network noticing. That shared, tamper-evident notebook is a useful first model of a **blockchain**.

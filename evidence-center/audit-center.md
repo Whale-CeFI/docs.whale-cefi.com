@@ -1,30 +1,32 @@
 ---
-title: "Audit Center"
-description: "The Audit Center separates first-party remediation verification, independent audit records, and production deployment coverage."
-canonical: "https://whale-cefi.com/docs/evidence-center/audit-center"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-08-10"
+title: Audit Center
+canonical: https://whale-cefi.com/docs/evidence-center/audit-center
+document_status: official-release
+audience: public
+last_reviewed: '2026-08-10'
+description: >-
+  The Audit Center separates first-party remediation verification, independent
+  audit records, and production deployment coverage.
 ---
 
 # Audit Center
 
-The Audit Center separates first-party remediation verification, independent audit records, and production deployment coverage. A report title or resolved source finding does not automatically cover production runtime code.
+A report title or resolved source finding does not automatically cover production runtime code.
 
 ## Published security assessment
 
-| Field | Current record |
-|---|---|
-| Assessment | `WCF-SARV-2026-0810` |
-| Title | Whale CeFi Security Assessment and Remediation Verification |
-| Version and date | v3.0, 10 August 2026 |
-| Provider | Whale CeFi Security Engineering |
-| Relationship | First-party |
-| Findings | 17 resolved in the exact assessed build; 0 open |
-| Automated checks | 31 passed; 0 failed |
-| Environment | Isolated chain 31337; block 82 |
-| Production deployments covered | None |
-| Artifact integrity | SHA-256 `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918` |
+| Field                          | Current record                                                             |
+| ------------------------------ | -------------------------------------------------------------------------- |
+| Assessment                     | `WCF-SARV-2026-0810`                                                       |
+| Title                          | Whale CeFi Security Assessment and Remediation Verification                |
+| Version and date               | v3.0, 10 August 2026                                                       |
+| Provider                       | Whale CeFi Security Engineering                                            |
+| Relationship                   | First-party                                                                |
+| Findings                       | 17 resolved in the exact assessed build; 0 open                            |
+| Automated checks               | 31 passed; 0 failed                                                        |
+| Environment                    | Isolated chain 31337; block 82                                             |
+| Production deployments covered | None                                                                       |
+| Artifact integrity             | SHA-256 `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918` |
 
 [Read the assessment summary and scope boundary](../security-and-custody/security-assessment-and-remediation-verification.md) or [download the original PDF](../.gitbook/assets/audits/Whale_CeFi_Security_Assessment_Remediation_Verification_v3.0_2026-08-10.pdf).
 
@@ -36,12 +38,12 @@ An internal test result never upgrades an independent auditor's status. Likewise
 
 ## Status language
 
-- **Open** - remediation is not accepted.
-- **Remediated** - implementation evidence exists; independent closure remains separate where applicable.
-- **Retested** - the named provider verified the named remediation scope.
-- **Deployment-covered** - the reviewed source and configuration resolve to the exact active runtime identity.
-- **Superseded** - a later report or deployment replaced the scope.
-- **Not covered** - the component or deployment falls outside the record.
+* **Open** - remediation is not accepted.
+* **Remediated** - implementation evidence exists; independent closure remains separate where applicable.
+* **Retested** - the named provider verified the named remediation scope.
+* **Deployment-covered** - the reviewed source and configuration resolve to the exact active runtime identity.
+* **Superseded** - a later report or deployment replaced the scope.
+* **Not covered** - the component or deployment falls outside the record.
 
 ## Closure chain
 

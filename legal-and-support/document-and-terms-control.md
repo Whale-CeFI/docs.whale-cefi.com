@@ -1,15 +1,15 @@
 ---
-title: "Document and Terms Control"
-description: "Every material document has an identifier, version, effective time, owner, approval scope, hash, superseded version, and change summary."
-canonical: "https://whale-cefi.com/docs/legal-and-support/document-and-terms-control"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Document and Terms Control
+canonical: https://whale-cefi.com/docs/legal-and-support/document-and-terms-control
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Every material document has an identifier, version, effective time, owner,
+  approval scope, hash, superseded version, and change summary.
 ---
 
 # Document and Terms Control
-
-Every material document has an identifier, version, effective time, owner, approval scope, hash, superseded version, and change summary.
 
 Material changes include contracting entity, product classification, asset rights, custody model, rate nature, calculation method, fees, early exit, maturity, supported network, risk allocation, privacy purpose, WENI authority, and dispute route.
 

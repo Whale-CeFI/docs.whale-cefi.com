@@ -11,8 +11,6 @@ description: >-
 
 # Choosing a Plan
 
-A higher percentage is only one part of the decision. The useful question is: **what exactly am I accepting in exchange for this reward?**
-
 ## Flexible and fixed-term plans
 
 |                | Flexible                                       | Fixed term                                   |

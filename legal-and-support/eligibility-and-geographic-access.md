@@ -1,15 +1,17 @@
 ---
-title: "Eligibility and Geographic Access"
-description: "Availability is determined by the intersection of customer type, country, entity, product classification, asset, network, sanctions policy, verification state, and operational capability."
-canonical: "https://whale-cefi.com/docs/legal-and-support/eligibility-and-geographic-access"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: Eligibility and Geographic Access
+canonical: >-
+  https://whale-cefi.com/docs/legal-and-support/eligibility-and-geographic-access
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  Availability is determined by the intersection of customer type, country,
+  entity, product classification, asset, network, sanctions policy, verification
+  state, and operational capability.
 ---
 
 # Eligibility and Geographic Access
-
-Availability is determined by the intersection of customer type, country, entity, product classification, asset, network, sanctions policy, verification state, and operational capability.
 
 The website, onboarding, application, API, documentation, and Client Agreement read from the same versioned eligibility matrix. If the matrix denies a capability, the interface does not merely display a disclaimer; it blocks the operation.
 

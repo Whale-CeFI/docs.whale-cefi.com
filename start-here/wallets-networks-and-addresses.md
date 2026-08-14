@@ -9,8 +9,6 @@ description: These three ideas appear together, but they answer different questi
 
 # Wallets, Networks, and Addresses
 
-These three ideas appear together, but they answer different questions.
-
 ![Network, asset, and authority must match](../.gitbook/assets/route-match.svg)
 
 ## Wallet: who can authorize?

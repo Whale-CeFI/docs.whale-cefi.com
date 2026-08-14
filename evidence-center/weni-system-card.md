@@ -1,15 +1,15 @@
 ---
-title: "WENI System Card"
-description: "The WENI System Card identifies the exact model-and-system release that supports a documented capability."
-canonical: "https://whale-cefi.com/docs/evidence-center/weni-system-card"
-document_status: "official-release"
-audience: "public"
-last_reviewed: "2026-07-29"
+title: WENI System Card
+canonical: https://whale-cefi.com/docs/evidence-center/weni-system-card
+document_status: official-release
+audience: public
+last_reviewed: '2026-07-29'
+description: >-
+  The WENI System Card identifies the exact model-and-system release that
+  supports a documented capability.
 ---
 
 # WENI System Card
-
-The WENI System Card identifies the exact model-and-system release that supports a documented capability.
 
 It records release ID, model lineage and checkpoint, CPT and adapter hashes, system policy, tool manifest, evidence sources and licences, freshness rules, authority boundaries, retention matrix, regions, subprocessors, evaluation datasets, methodology, aggregate results, failure thresholds, red-team scope, known limitations, monitoring, incident history, and rollback target.
 
