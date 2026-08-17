@@ -7,13 +7,13 @@
 - Customer contracting and operating entity: Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador
 - Published security assessment: WCF-SARV-2026-0810, first-party, SHA-256 verified
 - Gamification configuration: WCF-GAMIFICATION-LIVE-2026-08-10
-- GitBook navigation entries: 225
-- Unique reader pages: 225
+- GitBook navigation entries: 226
+- Unique reader pages: 226
 - Semantically verified controlled specifications: 72
 - Failure-mode controls: 288
 - Evidence requirements: 360
-- Indexed SEO/GEO routes: 225
-- Approximate reader words: 86,166
+- Indexed SEO/GEO routes: 226
+- Approximate reader words: 87,833
 - Structural QA: PASS
 - QA errors: 0
 - QA warnings: 0
