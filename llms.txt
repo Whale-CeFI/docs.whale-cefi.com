@@ -196,6 +196,7 @@
 - [Release Acceptance and Capability Control](https://whale-cefi.com/docs/controlled-specifications/weni/35-release-acceptance-and-capability-control)
 - [Governance, Legal Perimeter, and Disclosure Control](https://whale-cefi.com/docs/controlled-specifications/weni/36-governance-legal-perimeter-and-disclosure-control)
 - [Evidence Center](https://whale-cefi.com/docs/evidence-center)
+- [Digital Identity and Canonical Domain](https://whale-cefi.com/docs/evidence-center/digital-identity-and-canonical-domain)
 - [Product Version Register](https://whale-cefi.com/docs/evidence-center/product-version-register)
 - [Reserves and Liabilities](https://whale-cefi.com/docs/evidence-center/reserves-and-liabilities)
 - [Funding and Capacity](https://whale-cefi.com/docs/evidence-center/funding-and-capacity)

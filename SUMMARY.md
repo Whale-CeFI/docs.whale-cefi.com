@@ -194,6 +194,7 @@
     * [Release Acceptance and Capability Control](controlled-specifications/weni-model-and-system-architecture/35-release-acceptance-and-capability-control.md)
     * [Governance, Legal Perimeter, and Disclosure Control](controlled-specifications/weni-model-and-system-architecture/36-governance-legal-perimeter-and-disclosure-control.md)
 * [Evidence Center](evidence-center/README.md)
+  * [Digital Identity and Canonical Domain](evidence-center/digital-identity-and-canonical-domain.md)
   * [Product Version Register](evidence-center/product-version-register.md)
   * [Reserves and Liabilities](evidence-center/reserves-and-liabilities.md)
   * [Funding and Capacity](evidence-center/funding-and-capacity.md)

@@ -4,7 +4,7 @@
   "status": "official-release",
   "canonical_origin": "https://whale-cefi.com/docs",
   "generated_at": "2026-08-10T00:00:00Z",
-  "page_count": 225,
+  "page_count": 226,
   "pages": [
     {
       "source": "README.md",
@@ -14,7 +14,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 606
+      "words": 584
     },
     {
       "source": "start-here/README.md",
@@ -34,7 +34,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 395
+      "words": 365
     },
     {
       "source": "start-here/wallets-networks-and-addresses.md",
@@ -44,7 +44,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 343
+      "words": 333
     },
     {
       "source": "start-here/your-first-deposit.md",
@@ -64,7 +64,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 332
+      "words": 308
     },
     {
       "source": "start-here/open-and-track-a-position.md",
@@ -74,7 +74,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 255
+      "words": 236
     },
     {
       "source": "start-here/maturity-and-withdrawal.md",
@@ -84,7 +84,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 274
+      "words": 263
     },
     {
       "source": "start-here/safety-checklist.md",
@@ -94,7 +94,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 278
+      "words": 264
     },
     {
       "source": "start-here/beginner-faq.md",
@@ -1875,13 +1875,21 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 170
+      "words": 150
+    },
+    {
+      "source": "evidence-center/digital-identity-and-canonical-domain.md",
+      "path": "https://whale-cefi.com/docs/evidence-center/digital-identity-and-canonical-domain",
+      "title": "Digital Identity and Canonical Domain",
+      "indexable": true,
+      "schema_type": "TechArticle",
+      "last_modified": "2026-08-17",
+      "words": 2051
     },
     {
       "source": "evidence-center/product-version-register.md",
       "path": "https://whale-cefi.com/docs/evidence-center/product-version-register",
       "title": "Product Version Register",
-      "description": "Every position is bound to an immutable product version. The version record contains product ID, asset and network scope, minimum and maximum principal, rate nature, rate unit, exact term reward, accr",
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
@@ -1895,7 +1903,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 157
+      "words": 138
     },
     {
       "source": "evidence-center/funding-and-capacity.md",
@@ -1915,7 +1923,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-08-10",
-      "words": 310
+      "words": 295
     },
     {
       "source": "evidence-center/deployment-registry.md",
@@ -1925,13 +1933,12 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 108
+      "words": 93
     },
     {
       "source": "evidence-center/asset-registry.md",
       "path": "https://whale-cefi.com/docs/evidence-center/asset-registry",
       "title": "Asset Registry",
-      "description": "An asset symbol is not a complete asset identity. Whale CeFi identifies an asset by network namespace, chain reference, native or token standard, contract where applicable, decimals, custody route, co",
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
@@ -1945,7 +1952,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 109
+      "words": 85
     },
     {
       "source": "evidence-center/weni-system-card.md",
@@ -1955,7 +1962,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 134
+      "words": 118
     },
     {
       "source": "evidence-center/release-manifest.md",
@@ -1965,7 +1972,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-08-10",
-      "words": 98
+      "words": 83
     },
     {
       "source": "developers-and-reference/README.md",
@@ -2105,7 +2112,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-08-10",
-      "words": 138
+      "words": 118
     },
     {
       "source": "legal-and-support/entity-and-service-register.md",
@@ -2115,7 +2122,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-08-10",
-      "words": 317
+      "words": 295
     },
     {
       "source": "legal-and-support/customer-relationship-and-asset-rights.md",
@@ -2135,13 +2142,12 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 112
+      "words": 90
     },
     {
       "source": "legal-and-support/risk-disclosure.md",
       "path": "https://whale-cefi.com/docs/legal-and-support/risk-disclosure",
       "title": "Risk Disclosure",
-      "description": "You can lose some or all of your principal and any expected reward. Whale CeFi earning products are not bank deposits and are not covered by deposit insurance unless an exact verified policy explicitl",
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
@@ -2155,7 +2161,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 128
+      "words": 110
     },
     {
       "source": "legal-and-support/complaints-and-appeals.md",
@@ -2165,7 +2171,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 124
+      "words": 94
     },
     {
       "source": "legal-and-support/contact-routes.md",
@@ -2185,7 +2191,7 @@
       "indexable": true,
       "schema_type": "TechArticle",
       "last_modified": "2026-07-29",
-      "words": 109
+      "words": 91
     }
   ]
 }
