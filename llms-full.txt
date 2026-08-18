@@ -94,14 +94,14 @@ Behind that simple experience, the platform keeps five records aligned:
 
 ## Your learning path
 
-1. [Crypto without jargon](crypto-without-jargon/)
-2. [Wallets, networks, and addresses](wallets-networks-and-addresses/)
-3. [Your first deposit](your-first-deposit/)
-4. [Choosing a plan](choosing-a-plan/)
-5. [Opening and tracking a position](open-and-track-a-position/)
-6. [Maturity and withdrawal](maturity-and-withdrawal/)
-7. [Safety checklist](safety-checklist/)
-8. [Beginner FAQ](beginner-faq/)
+1. [Crypto without jargon](crypto-without-jargon.md)
+2. [Wallets, networks, and addresses](wallets-networks-and-addresses.md)
+3. [Your first deposit](your-first-deposit.md)
+4. [Choosing a plan](choosing-a-plan.md)
+5. [Opening and tracking a position](open-and-track-a-position.md)
+6. [Maturity and withdrawal](maturity-and-withdrawal.md)
+7. [Safety checklist](safety-checklist.md)
+8. [Beginner FAQ](beginner-faq.md)
 
 ## One rule before every confirmation
 
@@ -262,7 +262,7 @@ A test transfer reduces the cost of a copied-address or wrong-network mistake. I
 The transaction hash is your external receipt. Keep it until the deposit appears as `Reconciled`.
 {% endhint %}
 
-For the deeper system model, continue to [Deposits and Credit Finality](../earning-with-whale-cefi/deposits-and-credit-finality/).
+For the deeper system model, continue to [Deposits and Credit Finality](../earning-with-whale-cefi/deposits-and-credit-finality.md).
 
 ---
 
@@ -315,7 +315,7 @@ Open the reward-source disclosure. It separates realized external economics from
 
 The final screen binds the amount, asset, network, product version, rate unit, rate value, calculation method, term, fees, risks, source policy, maturity, and exit rule. Any material change expires the review and requires a new confirmation.
 
-Continue to [Plans and Rates](../earning-with-whale-cefi/plan-catalogue/) for the current catalogue and [Reward Sources](../earning-with-whale-cefi/reward-sources/) for source attribution.
+Continue to [Plans and Rates](../earning-with-whale-cefi/plan-catalogue.md) for the current catalogue and [Reward Sources](../earning-with-whale-cefi/reward-sources.md) for source attribution.
 
 ---
 
@@ -452,7 +452,7 @@ Treat any unsolicited message as untrusted. A legitimate support process does no
 Never pay an unknown party to “unlock,” “verify,” or “recover” a Whale CeFi balance.
 {% endhint %}
 
-For the complete risk model, read [Material Risks](../earning-with-whale-cefi/material-risks/).
+For the complete risk model, read [Material Risks](../earning-with-whale-cefi/material-risks.md).
 
 ---
 

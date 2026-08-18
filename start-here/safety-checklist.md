@@ -52,4 +52,4 @@ Treat any unsolicited message as untrusted. A legitimate support process does no
 Never pay an unknown party to “unlock,” “verify,” or “recover” a Whale CeFi balance.
 {% endhint %}
 
-For the complete risk model, read [Material Risks](../earning-with-whale-cefi/material-risks/).
+For the complete risk model, read [Material Risks](../earning-with-whale-cefi/material-risks.md).

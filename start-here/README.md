@@ -36,14 +36,14 @@ Behind that simple experience, the platform keeps five records aligned:
 
 ## Your learning path
 
-1. [Crypto without jargon](crypto-without-jargon/)
-2. [Wallets, networks, and addresses](wallets-networks-and-addresses/)
-3. [Your first deposit](your-first-deposit/)
-4. [Choosing a plan](choosing-a-plan/)
-5. [Opening and tracking a position](open-and-track-a-position/)
-6. [Maturity and withdrawal](maturity-and-withdrawal/)
-7. [Safety checklist](safety-checklist/)
-8. [Beginner FAQ](beginner-faq/)
+1. [Crypto without jargon](crypto-without-jargon.md)
+2. [Wallets, networks, and addresses](wallets-networks-and-addresses.md)
+3. [Your first deposit](your-first-deposit.md)
+4. [Choosing a plan](choosing-a-plan.md)
+5. [Opening and tracking a position](open-and-track-a-position.md)
+6. [Maturity and withdrawal](maturity-and-withdrawal.md)
+7. [Safety checklist](safety-checklist.md)
+8. [Beginner FAQ](beginner-faq.md)
 
 ## One rule before every confirmation
 

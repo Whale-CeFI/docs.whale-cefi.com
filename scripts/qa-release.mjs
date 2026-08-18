@@ -111,10 +111,22 @@ for (const link of new Set(links)) {
     }
     target = decodeURIComponent(target);
     const candidate = path.resolve(path.dirname(file), target);
+    const flatMarkdownCandidate = candidate + ".md";
+    const directoryReadmeCandidate = path.join(candidate, "README.md");
+    if (
+      target.endsWith("/") &&
+      fs.existsSync(flatMarkdownCandidate) &&
+      !fs.existsSync(directoryReadmeCandidate)
+    ) {
+      errors.push(
+        link + " uses a directory-style link for a flat Markdown page: " + match[1],
+      );
+      continue;
+    }
     const candidates = [
       candidate,
-      candidate + ".md",
-      path.join(candidate, "README.md"),
+      flatMarkdownCandidate,
+      directoryReadmeCandidate,
     ];
     if (!candidates.some((item) => fs.existsSync(item))) {
       errors.push(link + " has broken local link: " + match[1]);
@@ -410,9 +422,11 @@ function collectFiles(directory) {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     const fullPath = path.join(directory, entry.name);
     const relative = path.relative(root, fullPath).replaceAll(path.sep, "/");
+    const topLevel = relative.split("/")[0];
+    if (topLevel === ".git") continue;
     if (
       entry.isDirectory() &&
-      ([".git", "node_modules", "tmp"].includes(relative.split("/")[0]) ||
+      (["node_modules", "tmp"].includes(topLevel) ||
         entry.name === "__pycache__")
     ) {
       continue;

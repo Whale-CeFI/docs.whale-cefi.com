@@ -56,4 +56,4 @@ Open the reward-source disclosure. It separates realized external economics from
 
 The final screen binds the amount, asset, network, product version, rate unit, rate value, calculation method, term, fees, risks, source policy, maturity, and exit rule. Any material change expires the review and requires a new confirmation.
 
-Continue to [Plans and Rates](../earning-with-whale-cefi/plan-catalogue/) for the current catalogue and [Reward Sources](../earning-with-whale-cefi/reward-sources/) for source attribution.
+Continue to [Plans and Rates](../earning-with-whale-cefi/plan-catalogue.md) for the current catalogue and [Reward Sources](../earning-with-whale-cefi/reward-sources.md) for source attribution.
