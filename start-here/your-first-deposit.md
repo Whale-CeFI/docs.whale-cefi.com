@@ -59,4 +59,4 @@ A test transfer reduces the cost of a copied-address or wrong-network mistake. I
 The transaction hash is your external receipt. Keep it until the deposit appears as `Reconciled`.
 {% endhint %}
 
-For the deeper system model, continue to [Deposits and Credit Finality](../earning-with-whale-cefi/deposits-and-credit-finality/).
+For the deeper system model, continue to [Deposits and Credit Finality](../earning-with-whale-cefi/deposits-and-credit-finality.md).
