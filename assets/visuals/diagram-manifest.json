@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T20:03:42.190Z",
-  "count": 48,
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "count": 51,
   "diagrams": [
     {
       "id": "authority-domains",
@@ -383,6 +383,30 @@
       "filename": "reconciliation-decision.svg",
       "title": "Reconciliation Decision",
       "type": "triangle",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "black-tide-control-cut-map",
+      "filename": "black-tide-control-cut-map.svg",
+      "title": "BLACK TIDE Authority-Conversion Control Cuts",
+      "type": "attack-control-map",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "black-tide-containment-timeline",
+      "filename": "black-tide-containment-timeline.svg",
+      "title": "BLACK TIDE Containment Timeline",
+      "type": "timeline",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "black-tide-assurance-boundary",
+      "filename": "black-tide-assurance-boundary.svg",
+      "title": "BLACK TIDE Assurance Boundary",
+      "type": "assurance-boundary",
       "width": 1600,
       "height": 900
     }

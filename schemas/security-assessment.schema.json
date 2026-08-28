@@ -89,9 +89,21 @@
         "production_deployment_coverage"
       ],
       "properties": {
+        "baseline_report": {
+          "type": "string",
+          "minLength": 1
+        },
         "environment": {
           "type": "string",
           "minLength": 1
+        },
+        "assurance_grade": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_source_root_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
         },
         "production_deployment_coverage": {
           "type": "array",
@@ -103,10 +115,88 @@
       "additionalProperties": true
     },
     "finding_summary": {
-      "type": "object"
+      "type": "object",
+      "required": [
+        "total",
+        "resolved",
+        "open"
+      ],
+      "properties": {
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "resolved": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "open": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
     },
     "automated_revalidation": {
-      "type": "object"
+      "type": "object",
+      "required": [
+        "total_checks",
+        "passed",
+        "failed"
+      ],
+      "properties": {
+        "total_checks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "passed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "scenario_outcome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "simulated_principal_loss_usd": {
+          "type": "number",
+          "minimum": 0
+        },
+        "event_chain_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "event_chain_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidence_pack": {
+      "type": "object",
+      "required": [
+        "status",
+        "pdf_embedded_file_count",
+        "independent_reproduction_by_documentation_team"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pdf_embedded_file_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "independent_reproduction_by_documentation_team": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
     }
   },
   "additionalProperties": true

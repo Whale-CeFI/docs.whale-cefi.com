@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="btab-title btab-desc">
+  <title id="btab-title">Operation BLACK TIDE assurance boundary</title>
+  <desc id="btab-desc">The report achieves O1 isolated assurance while O1 production and O2 independent reproduction remain open evidence gates.</desc>
+  <defs>
+    <pattern id="btab-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#10232D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="btab-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061018"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <filter id="btab-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#btab-bg)"/>
+  <rect width="1600" height="900" fill="url(#btab-grid)" opacity=".44"/>
+  <circle cx="1438" cy="78" r="190" fill="#69D2E7" opacity=".055" filter="url(#btab-glow)"/>
+
+  <text x="88" y="65" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="3">SHERLOCK / BLACK TIDE / SYSTEM VIEW 03</text>
+  <text x="88" y="124" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="43" font-weight="650">Assurance Boundary and Production Gate</text>
+  <text x="88" y="166" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="19">One report, one isolated result, and an explicit boundary that documentation cannot silently cross.</text>
+  <line x1="88" y1="205" x2="1512" y2="205" stroke="#34505C"/>
+
+  <!-- Left: grade ladder -->
+  <text x="88" y="252" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.6">ASSURANCE LADDER</text>
+  <g transform="translate(88 278)">
+    <rect width="380" height="520" rx="12" fill="#091721" stroke="#34505C"/>
+    <line x1="70" y1="55" x2="70" y2="462" stroke="#34505C" stroke-width="4"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+      <circle cx="70" cy="65" r="10" fill="#34505C"/><text x="104" y="70" fill="#91A6AF" font-size="13" font-weight="700">D1 / CONTROL INTENTION</text>
+      <text x="104" y="91" fill="#91A6AF" font-size="11">SUPERSEDED BY EXECUTION</text>
+      <circle cx="70" cy="145" r="10" fill="#34505C"/><text x="104" y="150" fill="#91A6AF" font-size="13" font-weight="700">D2 / DOCUMENTED DESIGN</text>
+      <text x="104" y="171" fill="#91A6AF" font-size="11">ARCHITECTURAL BASIS</text>
+      <circle cx="70" cy="225" r="10" fill="#34505C"/><text x="104" y="230" fill="#91A6AF" font-size="13" font-weight="700">T1 / TABLETOP OBSERVATION</text>
+      <text x="104" y="251" fill="#91A6AF" font-size="11">ATTACK NARRATIVE</text>
+      <circle cx="70" cy="315" r="16" fill="#7BC2A5"/><circle cx="70" cy="315" r="28" fill="none" stroke="#7BC2A5" opacity=".35"/>
+      <text x="104" y="311" fill="#7BC2A5" font-size="14" font-weight="700">O1-ISOLATED</text>
+      <text x="104" y="334" fill="#EAF1F3" font-size="12">ACHIEVED / 10 OF 10</text>
+      <circle cx="70" cy="405" r="13" fill="#22171A" stroke="#D56A6A" stroke-width="2"/>
+      <text x="104" y="401" fill="#D56A6A" font-size="14" font-weight="700">O1-PRODUCTION</text>
+      <text x="104" y="424" fill="#EAF1F3" font-size="12">NOT ASSERTED</text>
+      <circle cx="70" cy="475" r="10" fill="#211D16" stroke="#D7A75F" stroke-width="2"/>
+      <text x="104" y="470" fill="#D7A75F" font-size="14" font-weight="700">O2 / INDEPENDENT</text>
+      <text x="104" y="493" fill="#EAF1F3" font-size="12">FUTURE TARGET</text>
+    </g>
+  </g>
+
+  <!-- Center: evidence identity -->
+  <text x="510" y="252" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.6">EVIDENCE IDENTITY / CURRENTLY SUPPORTABLE CLAIM</text>
+  <g transform="translate(510 278)">
+    <rect width="510" height="520" rx="12" fill="#0B1B25" stroke="#69D2E7" stroke-opacity=".7"/>
+    <text x="26" y="46" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">SHL-WCF-RV-2026-0814 / v2.0</text>
+    <text x="26" y="78" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="650">Verified inside the isolated harness</text>
+    <line x1="26" y1="102" x2="484" y2="102" stroke="#34505C"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+      <text x="26" y="139" fill="#91A6AF" font-size="11">FINDINGS</text><text x="220" y="139" fill="#7BC2A5" font-size="13" font-weight="700">10 / 10 RESOLVED</text>
+      <text x="26" y="177" fill="#91A6AF" font-size="11">AUTOMATION</text><text x="220" y="177" fill="#7BC2A5" font-size="13" font-weight="700">89 / 89 PASSED</text>
+      <text x="26" y="215" fill="#91A6AF" font-size="11">EVENT CHAIN</text><text x="220" y="215" fill="#7BC2A5" font-size="13" font-weight="700">22 EVENTS / VALID</text>
+      <text x="26" y="253" fill="#91A6AF" font-size="11">SCENARIO</text><text x="220" y="253" fill="#7BC2A5" font-size="13" font-weight="700">CONTAINED / USD 0 SIMULATED LOSS</text>
+      <text x="26" y="291" fill="#91A6AF" font-size="11">PDF SHA-256</text><text x="220" y="291" fill="#EAF1F3" font-size="11">373576273053d791...8920a4b0</text>
+      <text x="26" y="329" fill="#91A6AF" font-size="11">SOURCE ROOT</text><text x="220" y="329" fill="#EAF1F3" font-size="11">d3a843604a213fb8...8e2d65fa</text>
+    </g>
+
+    <rect x="26" y="350" width="458" height="150" rx="9" fill="#211D16" stroke="#D7A75F"/>
+    <text x="48" y="380" fill="#D7A75F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">REPRODUCTION STATUS / HOLD</text>
+    <text x="48" y="410" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="14">The supplied PDF contains no embedded evidence pack.</text>
+    <text x="48" y="433" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">The page may record the report and its PDF hash.</text>
+    <text x="48" y="456" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Independent reproduction remains unclaimed until the source</text>
+    <text x="48" y="479" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">pack is supplied and its root hash is reproduced.</text>
+  </g>
+
+  <!-- Boundary -->
+  <rect x="1047" y="278" width="42" height="520" rx="12" fill="#130F12" stroke="#D56A6A" stroke-width="2"/>
+  <text x="1068" y="538" transform="rotate(-90 1068 538)" text-anchor="middle" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="2.4">NO PRODUCTION EQUIVALENCE CLAIM</text>
+
+  <!-- Right: production gate -->
+  <text x="1120" y="252" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.6">PRODUCTION MAPPING / OPEN GATE</text>
+  <g transform="translate(1120 278)">
+    <rect width="392" height="520" rx="12" fill="#091721" stroke="#D56A6A" stroke-opacity=".72"/>
+    <text x="24" y="47" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">O1-PRODUCTION / NOT ASSERTED</text>
+    <text x="24" y="78" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650">Required evidence</text>
+    <line x1="24" y1="102" x2="368" y2="102" stroke="#34505C"/>
+    <g font-family="Inter, Arial, sans-serif">
+      <circle cx="34" cy="143" r="6" fill="#D56A6A"/><text x="56" y="149" fill="#EAF1F3" font-size="14">Exact source, policy, and config mapping</text>
+      <text x="56" y="171" fill="#91A6AF" font-size="12">No material drift from tested identities</text>
+      <circle cx="34" cy="211" r="6" fill="#D56A6A"/><text x="56" y="217" fill="#EAF1F3" font-size="14">Live runtime and deployment identity</text>
+      <text x="56" y="239" fill="#91A6AF" font-size="12">Workloads, custody, contracts, ledgers, WENI</text>
+      <circle cx="34" cy="279" r="6" fill="#D56A6A"/><text x="56" y="285" fill="#EAF1F3" font-size="14">Environment-specific control events</text>
+      <text x="56" y="307" fill="#91A6AF" font-size="12">Current decisions, logs, hashes, and state</text>
+      <circle cx="34" cy="347" r="6" fill="#D56A6A"/><text x="56" y="353" fill="#EAF1F3" font-size="14">Reconciliation and no-drift proof</text>
+      <text x="56" y="375" fill="#91A6AF" font-size="12">Observed custody, chain, and ledger result</text>
+      <circle cx="34" cy="415" r="6" fill="#D7A75F"/><text x="56" y="421" fill="#EAF1F3" font-size="14">Independent reproduction target</text>
+      <text x="56" y="443" fill="#91A6AF" font-size="12">O2 against the mapped environment</text>
+    </g>
+    <rect x="24" y="468" width="344" height="32" rx="6" fill="#22171A" stroke="#D56A6A"/>
+    <text x="196" y="489" text-anchor="middle" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">PUBLIC CLAIM REMAINS O1-ISOLATED</text>
+  </g>
+
+  <line x1="88" y1="838" x2="1512" y2="838" stroke="#34505C"/>
+  <text x="88" y="870" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.7">REPORT SHL-WCF-RV-2026-0814 / SOURCE-BOUND EXPLANATORY VISUAL / PDF REMAINS AUTHORITATIVE</text>
+  <text x="1512" y="870" text-anchor="end" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">PRODUCTION COVERAGE: NONE ASSERTED</text>
+</svg>

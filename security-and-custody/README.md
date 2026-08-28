@@ -3,7 +3,7 @@ title: Security and Custody
 canonical: https://whale-cefi.com/docs/security-and-custody
 document_status: official-release
 audience: public
-last_reviewed: '2026-08-10'
+last_reviewed: '2026-08-28'
 description: >-
   Security and custody separate source-level assessment evidence, production
   deployment identity, asset authority, and customer entitlement.
@@ -15,7 +15,14 @@ description: >-
 
 Custody controls private-key authority and external asset movement. The financial ledger controls what Whale CeFi owes. Neither system can replace the other.
 
-The published [Security Assessment and Remediation Verification v3.0](security-assessment-and-remediation-verification.md) records 17 resolved findings and 31 passing checks for its exact internally assessed build. Its isolated chain 31337 scope is not represented as production deployment coverage or as an independent Eter or Hashlock audit.
+Whale CeFi publishes two first-party security-assurance records with separate scopes and evidence boundaries.
+
+| Record | Reported result | Exact boundary |
+|---|---|---|
+| [Security Assessment and Remediation Verification v3.0](security-assessment-and-remediation-verification.md) | 17 resolved findings and 31 passing checks | Exact internally assessed smart-contract build on isolated chain 31337; no production deployment coverage |
+| [Operation BLACK TIDE - Isolated Remediation Verification](operation-black-tide-remediation-verification.md) | 10/10 resolved findings, 89/89 report-recorded tests, and a valid 22-event scenario chain | `ISOLATED_REVALIDATION` at `O1-ISOLATED`; no production equivalence; executable evidence pack not supplied with the public PDF |
+
+Neither record is represented as an independent Eter or Hashlock audit. A report-scoped result does not establish that the same control is deployed or operating in production.
 
 ![Custody zones](../.gitbook/assets/custody-zones.svg)
 

@@ -1,9 +1,9 @@
 {
-  "schema_version": "3.0.0",
+  "schema_version": "3.1.0",
   "release_status": "official-release",
   "canonical_domain": "whale-cefi.com",
   "canonical_documentation_origin": "https://whale-cefi.com/docs",
-  "effective_at": "2026-08-10T00:00:00Z",
+  "effective_at": "2026-08-28T00:00:00Z",
   "material_decisions": {
     "product_brand": "Whale CeFi",
     "product_form": "technology-interface-and-brand",
@@ -23,6 +23,7 @@
       "Eter",
       "Hashlock"
     ],
-    "published_first_party_security_assessment": "WCF-SARV-2026-0810"
+    "published_first_party_security_assessment": "WCF-SARV-2026-0810",
+    "published_first_party_adversary_emulation_revalidation": "SHL-WCF-RV-2026-0814"
   }
 }

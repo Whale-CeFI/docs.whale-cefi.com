@@ -430,6 +430,8 @@ def validate_security_assessment(root: Path, findings: Findings) -> None:
     if not isinstance(records, list):
         findings.error("Security assessment records must be an array")
         return
+    if payload.get("schema_version") != "1.1.0":
+        findings.error("Security assessment registry is not bound to schema version 1.1.0")
     assessment = next(
         (
             record
@@ -469,6 +471,60 @@ def validate_security_assessment(root: Path, findings: Findings) -> None:
         findings.error("Security assessment scope or result metadata is incorrect")
     else:
         findings.ok("Checked WCF-SARV-2026-0810 artifact and scope")
+
+    black_tide = next(
+        (
+            record
+            for record in records
+            if isinstance(record, dict) and record.get("assessment_id") == "SHL-WCF-RV-2026-0814"
+        ),
+        None,
+    )
+    if black_tide is None:
+        findings.error("Security assessment SHL-WCF-RV-2026-0814 is missing")
+        return
+    expected_black_tide_hash = "373576273053d791d45fa2628437c7b593e1ab993aa6b17e078321438920a4b0"
+    artifact = black_tide.get("artifact", {})
+    artifact_path = (root / str(artifact.get("path", ""))).resolve()
+    try:
+        artifact_path.relative_to(root.resolve())
+    except ValueError:
+        findings.error("BLACK TIDE artifact path escapes the repository")
+        return
+    if not artifact_path.is_file():
+        findings.error("BLACK TIDE PDF is missing")
+        return
+    actual_hash = hashlib.sha256(artifact_path.read_bytes()).hexdigest()
+    if (
+        artifact.get("pages") != 57
+        or artifact.get("sha256") != expected_black_tide_hash
+        or actual_hash != expected_black_tide_hash
+    ):
+        findings.error("BLACK TIDE PDF identity or hash mismatch")
+    scope = black_tide.get("scope", {})
+    results = black_tide.get("finding_summary", {})
+    checks = black_tide.get("automated_revalidation", {})
+    evidence_pack = black_tide.get("evidence_pack", {})
+    if (
+        black_tide.get("provider_relationship") != "first-party"
+        or black_tide.get("independent_third_party_audit") is not False
+        or black_tide.get("issue_date") != "2026-08-14"
+        or scope.get("environment") != "ISOLATED_REVALIDATION"
+        or scope.get("assurance_grade") != "O1-ISOLATED"
+        or scope.get("production_deployment_coverage") != []
+        or (results.get("total"), results.get("resolved"), results.get("open")) != (10, 10, 0)
+        or (checks.get("total_checks"), checks.get("passed"), checks.get("failed")) != (89, 89, 0)
+        or checks.get("scenario_outcome") != "CONTAINED"
+        or checks.get("simulated_principal_loss_usd") != 0
+        or checks.get("event_chain_count") != 22
+        or checks.get("event_chain_status") != "VALID"
+        or evidence_pack.get("status") != "not-supplied-with-public-release"
+        or evidence_pack.get("pdf_embedded_file_count") != 0
+        or evidence_pack.get("independent_reproduction_by_documentation_team") is not False
+    ):
+        findings.error("BLACK TIDE result, scope, or evidence-pack boundary is incorrect")
+    else:
+        findings.ok("Checked SHL-WCF-RV-2026-0814 artifact and isolated-assurance boundary")
 
 
 def print_report(findings: Findings) -> None:

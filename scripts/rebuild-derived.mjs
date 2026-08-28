@@ -6,7 +6,12 @@ const releaseManifest = JSON.parse(
   fs.readFileSync(path.join(root, "data", "release-manifest.json"), "utf8"),
 );
 const generatedAt = releaseManifest.effective_at;
-const releaseDateLabel = "10 August 2026";
+const releaseDateLabel = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+}).format(new Date(generatedAt));
 const summary = fs.readFileSync(path.join(root, "SUMMARY.md"), "utf8");
 const links = [...summary.matchAll(/\[[^\]]+\]\(([^)]+\.md)\)/g)].map((match) => match[1]);
 

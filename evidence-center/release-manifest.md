@@ -3,10 +3,10 @@ title: Release Manifest
 canonical: https://whale-cefi.com/docs/evidence-center/release-manifest
 document_status: official-release
 audience: public
-last_reviewed: '2026-08-10'
+last_reviewed: '2026-08-28'
 description: >-
-  Release v5.1 binds the 10 August 2026 documentation, gamification,
-  entity-service, and security-assessment state.
+  Release v5.2 binds the 28 August 2026 documentation, gamification,
+  entity-service, and security-assurance state.
 ---
 
 # Release Manifest

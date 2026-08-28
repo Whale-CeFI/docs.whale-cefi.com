@@ -1,10 +1,10 @@
 {
   "project": "Whale CeFi Canonical Documentation",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "status": "official-release",
   "canonical_origin": "https://whale-cefi.com/docs",
-  "generated_at": "2026-08-10T00:00:00Z",
-  "page_count": 226,
+  "generated_at": "2026-08-28T00:00:00Z",
+  "page_count": 227,
   "pages": [
     {
       "source": "README.md",
@@ -678,8 +678,8 @@
       "description": "Security and custody separate source-level assessment evidence, production deployment identity, asset authority, and customer entitlement.",
       "indexable": true,
       "schema_type": "TechArticle",
-      "last_modified": "2026-08-10",
-      "words": 362
+      "last_modified": "2026-08-28",
+      "words": 433
     },
     {
       "source": "security-and-custody/security-assessment-and-remediation-verification.md",
@@ -690,6 +690,16 @@
       "schema_type": "TechArticle",
       "last_modified": "2026-08-10",
       "words": 396
+    },
+    {
+      "source": "security-and-custody/operation-black-tide-remediation-verification.md",
+      "path": "https://whale-cefi.com/docs/security-and-custody/operation-black-tide-remediation-verification",
+      "title": "Operation BLACK TIDE - Isolated Remediation Verification",
+      "description": "SHERLOCK report SHL-WCF-RV-2026-0814 records 10 resolved findings and 89 passing automated tests in an isolated revalidation harness; it does not assert production equivalence.",
+      "indexable": true,
+      "schema_type": "TechArticle",
+      "last_modified": "2026-08-28",
+      "words": 1302
     },
     {
       "source": "security-and-custody/proof-of-reserves-and-liabilities.md",
@@ -1919,11 +1929,11 @@
       "source": "evidence-center/audit-center.md",
       "path": "https://whale-cefi.com/docs/evidence-center/audit-center",
       "title": "Audit Center",
-      "description": "The Audit Center separates first-party remediation verification, independent audit records, and production deployment coverage.",
+      "description": "The Audit Center separates first-party assessment and adversary-emulation records, independent audits, and production deployment coverage.",
       "indexable": true,
       "schema_type": "TechArticle",
-      "last_modified": "2026-08-10",
-      "words": 295
+      "last_modified": "2026-08-28",
+      "words": 370
     },
     {
       "source": "evidence-center/deployment-registry.md",
@@ -1968,10 +1978,10 @@
       "source": "evidence-center/release-manifest.md",
       "path": "https://whale-cefi.com/docs/evidence-center/release-manifest",
       "title": "Release Manifest",
-      "description": "Release v5.1 binds the 10 August 2026 documentation, gamification, entity-service, and security-assessment state.",
+      "description": "Release v5.2 binds the 28 August 2026 documentation, gamification, entity-service, and security-assurance state.",
       "indexable": true,
       "schema_type": "TechArticle",
-      "last_modified": "2026-08-10",
+      "last_modified": "2026-08-28",
       "words": 83
     },
     {
@@ -1991,8 +2001,8 @@
       "description": "Schemas and interface definitions make the documentation testable by services, reviewers, and automated controls.",
       "indexable": true,
       "schema_type": "TechArticle",
-      "last_modified": "2026-08-10",
-      "words": 315
+      "last_modified": "2026-08-28",
+      "words": 322
     },
     {
       "source": "developers-and-reference/deployment-registry.md",
@@ -2021,8 +2031,8 @@
       "description": "This reference defines how consumers resolve audit programmes, first-party security assessments, remediation status, artifact integrity, and deployment coverage.",
       "indexable": true,
       "schema_type": "TechArticle",
-      "last_modified": "2026-08-10",
-      "words": 275
+      "last_modified": "2026-08-28",
+      "words": 430
     },
     {
       "source": "developers-and-reference/governance-and-responsibility.md",
@@ -2101,8 +2111,8 @@
       "description": "A chronological record of product, calculation, contract, policy, audit and documentation changes.",
       "indexable": true,
       "schema_type": "TechArticle",
-      "last_modified": "2026-08-10",
-      "words": 245
+      "last_modified": "2026-08-28",
+      "words": 326
     },
     {
       "source": "legal-and-support/README.md",

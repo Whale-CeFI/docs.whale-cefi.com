@@ -221,10 +221,10 @@ Generated files не редактируются вручную:
 
 ## Release identity
 
-- Release ID: `WHALE-CEFI-DOCS-V5.1`
-- Version: `5.1.0`
-- Effective date: `2026-08-10`
-- Git tag: `docs-v5.1.0`
+- Release ID: `WHALE-CEFI-DOCS-V5.2`
+- Version: `5.2.0`
+- Effective date: `2026-08-28`
+- Git tag: `docs-v5.2.0`
 - Canonical branch: `main`
 - Canonical docs origin: `https://whale-cefi.com/docs`
 - Customer contracting and operating entity: `Pulpo Fintech, S.A. de C.V. (PSAD-0023)`

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "status": "current-public-disclosure-registry",
   "records": [
     {
@@ -68,6 +68,63 @@
         "Reconcile custodian and on-chain assets against the complete customer-liability ledger at one cutoff",
         "Validate oracle freshness, liquidation execution, backend authorization, and database-event reconciliation",
         "Operate signer monitoring, incident response, and controlled upgrade procedures"
+      ]
+    },
+    {
+      "assessment_id": "SHL-WCF-RV-2026-0814",
+      "title": "Operation BLACK TIDE - Remediation Verification",
+      "version": "2.0",
+      "assessment_type": "adversary-emulation-remediation-verification",
+      "assurance_provider": "SHERLOCK Internal Security Assurance",
+      "provider_relationship": "first-party",
+      "independent_third_party_audit": false,
+      "issue_date": "2026-08-14",
+      "status": "resolved-in-isolated-revalidation",
+      "artifact": {
+        "path": ".gitbook/assets/audits/SHERLOCK_Whale_CeFi_Operation_BLACK_TIDE_Remediation_Verification_v2.0_2026-08-14.pdf",
+        "media_type": "application/pdf",
+        "pages": 57,
+        "sha256": "373576273053d791d45fa2628437c7b593e1ab993aa6b17e078321438920a4b0"
+      },
+      "scope": {
+        "baseline_report": "SHL-WCF-AE-2026-0814 v1.0",
+        "environment": "ISOLATED_REVALIDATION",
+        "assurance_grade": "O1-ISOLATED",
+        "reported_source_root_sha256": "d3a843604a213fb8aed9062c4a0193c819401985390a64ac72f4a3a78e2d65fa",
+        "production_deployment_coverage": []
+      },
+      "finding_summary": {
+        "total": 10,
+        "resolved": 10,
+        "open": 0
+      },
+      "automated_revalidation": {
+        "total_checks": 89,
+        "passed": 89,
+        "failed": 0,
+        "scenario_outcome": "CONTAINED",
+        "simulated_principal_loss_usd": 0,
+        "event_chain_count": 22,
+        "event_chain_status": "VALID"
+      },
+      "evidence_pack": {
+        "status": "not-supplied-with-public-release",
+        "pdf_embedded_file_count": 0,
+        "independent_reproduction_by_documentation_team": false
+      },
+      "scope_limitations": [
+        "No real-world attacker attribution or production incident is asserted",
+        "No production code, policy, configuration, or runtime equivalence is asserted",
+        "No production deployment coverage is asserted",
+        "The report is not an independent Eter or Hashlock audit",
+        "The executable evidence pack referenced by the report was not supplied with the PDF"
+      ],
+      "highest_priority_residual_work": [
+        "Supply and hash the executable evidence pack referenced by the report",
+        "Reproduce the 89-test run and source-root hash from the supplied pack",
+        "Map the tested controls to exact live source, policy, configuration, workload, custody, contract, ledger, WENI, and incident identities",
+        "Collect environment-specific operating evidence before any O1-PRODUCTION claim",
+        "Use independent reproduction against the mapped environment for any future O2 claim"
       ]
     }
   ]

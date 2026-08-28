@@ -4,7 +4,7 @@ description: "A chronological record of product, calculation, contract, policy, 
 canonical: "https://whale-cefi.com/docs/developers-and-reference/change-history"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-08-10"
+last_reviewed: "2026-08-28"
 ---
 
 # Change History
@@ -21,6 +21,8 @@ Historical URLs remain valid. A superseded page points to its replacement and ex
 
 | Date | Class | Change |
 |---|---|---|
+| 28 August 2026 | Security assurance | Published `SHL-WCF-RV-2026-0814` v2.0 as a first-party, PDF-only adversary-emulation revalidation record: 10/10 findings resolved, 89/89 report-recorded tests passed, 22-event chain `VALID`, `O1-ISOLATED`, no production equivalence or deployment coverage asserted. |
+| 28 August 2026 | Evidence boundary | Recorded that the BLACK TIDE executable evidence pack was not supplied with the public PDF and that documentation-team reproduction is not asserted; added hash and scope checks to release QA. |
 | 10 August 2026 | Gamification | Added all ten XP multipliers, base and exact Daily XP Claims, fractional-ledger and interface-rounding rules, Levels 1-6 daily eligible-deposit rewards, and Levels 7-10 per-user monthly Net Revenue reward. |
 | 10 August 2026 | Security assessment | Published `WCF-SARV-2026-0810` v3.0 PDF and SHA-256; recorded 17/17 exact-build closure, 31/31 isolated checks, first-party provider status, and no production coverage. |
 | 10 August 2026 | Legal-service map | Reconciled current records with Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador, and removed the superseded entity map. |

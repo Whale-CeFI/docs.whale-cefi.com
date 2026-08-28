@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="btcc-title btcc-desc">
+  <title id="btcc-title">Operation BLACK TIDE resolved adversary path</title>
+  <desc id="btcc-desc">Eight attempted conversions from a human foothold into privileged or financial authority, with independent fail-closed controls and evidence.</desc>
+  <defs>
+    <pattern id="btcc-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#10232D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="btcc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061018"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <linearGradient id="btcc-cut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D56A6A" stop-opacity=".12"/>
+      <stop offset=".5" stop-color="#D56A6A" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#D56A6A" stop-opacity=".12"/>
+    </linearGradient>
+    <filter id="btcc-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <marker id="btcc-arrow-red" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5 0 9Z" fill="#D56A6A"/>
+    </marker>
+    <marker id="btcc-arrow-cyan" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5 0 9Z" fill="#69D2E7"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#btcc-bg)"/>
+  <rect width="1600" height="900" fill="url(#btcc-grid)" opacity=".44"/>
+  <circle cx="1450" cy="72" r="190" fill="#69D2E7" opacity=".055" filter="url(#btcc-glow)"/>
+
+  <text x="88" y="65" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="3">SHERLOCK / BLACK TIDE / SYSTEM VIEW 01</text>
+  <text x="88" y="124" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="43" font-weight="650">Resolved Adversary Path</text>
+  <text x="88" y="166" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="19">Initial human compromise is assumed. Every conversion into stronger authority is independently cut and evidenced.</text>
+
+  <g transform="translate(1090 57)">
+    <rect width="130" height="78" rx="10" fill="#0B1B25" stroke="#34505C"/>
+    <text x="16" y="26" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">FINDINGS</text>
+    <text x="16" y="59" fill="#7BC2A5" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650">10 / 10</text>
+  </g>
+  <g transform="translate(1235 57)">
+    <rect width="130" height="78" rx="10" fill="#0B1B25" stroke="#34505C"/>
+    <text x="16" y="26" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">TESTS</text>
+    <text x="16" y="59" fill="#7BC2A5" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650">89 / 89</text>
+  </g>
+  <g transform="translate(1380 57)">
+    <rect width="130" height="78" rx="10" fill="#0B1B25" stroke="#34505C"/>
+    <text x="16" y="26" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">OPEN</text>
+    <text x="16" y="59" fill="#7BC2A5" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650">0</text>
+  </g>
+
+  <line x1="88" y1="205" x2="1512" y2="205" stroke="#34505C"/>
+  <text x="128" y="238" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">ADVERSARY VECTOR</text>
+  <text x="348" y="238" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">AUTHORITY SOUGHT</text>
+  <text x="646" y="238" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">CONTROL CUT</text>
+  <text x="910" y="238" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">DECISION</text>
+  <text x="1118" y="238" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">EVIDENCE OBJECT</text>
+
+  <rect x="604" y="252" width="18" height="540" rx="9" fill="url(#btcc-cut)" stroke="#D56A6A" stroke-opacity=".65"/>
+
+  <!-- Row 00 -->
+  <g transform="translate(88 258)">
+    <rect width="1424" height="58" rx="8" fill="#0B1B25" stroke="#34505C"/>
+    <text x="18" y="23" fill="#D7A75F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">00</text>
+    <text x="58" y="24" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">Recruiter lure</text>
+    <text x="58" y="44" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Initial human compromise</text>
+    <line x1="244" y1="29" x2="500" y2="29" stroke="#D7A75F" stroke-width="2" marker-end="url(#btcc-arrow-red)"/>
+    <text x="260" y="20" fill="#D7A75F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">ASSUMED SUCCESS</text>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#161A1B" stroke="#D7A75F"/>
+    <text x="665" y="34" text-anchor="middle" fill="#D7A75F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">SCENARIO ENTRY</text>
+    <text x="820" y="35" fill="#D7A75F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">FOOTHOLD ONLY</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">No privileged or financial authority granted</text>
+  </g>
+
+  <!-- Row 01 -->
+  <g transform="translate(88 324)">
+    <rect width="1424" height="58" rx="8" fill="#091721" stroke="#243B46"/>
+    <text x="18" y="34" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">01</text>
+    <text x="58" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Session replay</text>
+    <text x="260" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15">Privileged session</text>
+    <line x1="448" y1="29" x2="500" y2="29" stroke="#D56A6A" stroke-width="2" marker-end="url(#btcc-arrow-red)"/>
+    <path d="M506 20l18 18m0-18l-18 18" stroke="#D56A6A" stroke-width="2.5"/>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#0B202A" stroke="#69D2E7"/>
+    <text x="665" y="34" text-anchor="middle" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">IDENTITY_GATE</text>
+    <text x="820" y="35" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">BLOCKED</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Device + phishing-resistant factor + JIT + role + risk</text>
+  </g>
+
+  <!-- Row 02 -->
+  <g transform="translate(88 390)">
+    <rect width="1424" height="58" rx="8" fill="#0B1B25" stroke="#243B46"/>
+    <text x="18" y="34" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">02</text>
+    <text x="58" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Artifact substitution</text>
+    <text x="260" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15">Release authority</text>
+    <line x1="448" y1="29" x2="500" y2="29" stroke="#D56A6A" stroke-width="2" marker-end="url(#btcc-arrow-red)"/>
+    <path d="M506 20l18 18m0-18l-18 18" stroke="#D56A6A" stroke-width="2.5"/>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#0B202A" stroke="#69D2E7"/>
+    <text x="665" y="34" text-anchor="middle" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">BUILD_PROVENANCE</text>
+    <text x="820" y="35" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">QUARANTINED</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Source + artifact + SBOM + commit + builder + signature</text>
+  </g>
+
+  <!-- Row 03 -->
+  <g transform="translate(88 456)">
+    <rect width="1424" height="58" rx="8" fill="#091721" stroke="#243B46"/>
+    <text x="18" y="34" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">03</text>
+    <text x="58" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Unapproved egress</text>
+    <text x="260" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15">Outbound capability</text>
+    <line x1="448" y1="29" x2="500" y2="29" stroke="#D56A6A" stroke-width="2" marker-end="url(#btcc-arrow-red)"/>
+    <path d="M506 20l18 18m0-18l-18 18" stroke="#D56A6A" stroke-width="2.5"/>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#0B202A" stroke="#69D2E7"/>
+    <text x="665" y="34" text-anchor="middle" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">EGRESS_POLICY</text>
+    <text x="820" y="35" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">DENIED</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Workload + normalized hostname + port; raw IP rejected</text>
+  </g>
+
+  <!-- Row 04 -->
+  <g transform="translate(88 522)">
+    <rect width="1424" height="58" rx="8" fill="#0B1B25" stroke="#243B46"/>
+    <text x="18" y="34" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">04</text>
+    <text x="58" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Custody mutation</text>
+    <text x="260" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15">Asset movement</text>
+    <line x1="448" y1="29" x2="500" y2="29" stroke="#D56A6A" stroke-width="2" marker-end="url(#btcc-arrow-red)"/>
+    <path d="M506 20l18 18m0-18l-18 18" stroke="#D56A6A" stroke-width="2.5"/>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#0B202A" stroke="#69D2E7"/>
+    <text x="665" y="34" text-anchor="middle" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">CUSTODY_CONTROL</text>
+    <text x="820" y="35" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">BLOCK / FREEZE</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Bound intent hash + independent policy quorum</text>
+  </g>
+
+  <!-- Row 05 -->
+  <g transform="translate(88 588)">
+    <rect width="1424" height="58" rx="8" fill="#091721" stroke="#243B46"/>
+    <text x="18" y="34" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">05</text>
+    <text x="58" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Malicious upgrade</text>
+    <text x="260" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15">Contract authority</text>
+    <line x1="448" y1="29" x2="500" y2="29" stroke="#D56A6A" stroke-width="2" marker-end="url(#btcc-arrow-red)"/>
+    <path d="M506 20l18 18m0-18l-18 18" stroke="#D56A6A" stroke-width="2.5"/>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#0B202A" stroke="#69D2E7"/>
+    <text x="665" y="34" text-anchor="middle" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">GOVERNANCE_TIMELOCK</text>
+    <text x="820" y="35" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">CANCELED</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Proposal identity + independent review + 48-hour delay</text>
+  </g>
+
+  <!-- Row 06 -->
+  <g transform="translate(88 654)">
+    <rect width="1424" height="58" rx="8" fill="#0B1B25" stroke="#243B46"/>
+    <text x="18" y="34" fill="#D56A6A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">06</text>
+    <text x="58" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">WENI substitution</text>
+    <text x="260" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15">Signing authority</text>
+    <line x1="448" y1="29" x2="500" y2="29" stroke="#D56A6A" stroke-width="2" marker-end="url(#btcc-arrow-red)"/>
+    <path d="M506 20l18 18m0-18l-18 18" stroke="#D56A6A" stroke-width="2.5"/>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#0B202A" stroke="#69D2E7"/>
+    <text x="665" y="34" text-anchor="middle" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">WENI_BOUNDARY</text>
+    <text x="820" y="35" fill="#D7A75F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">RETURN_TO_REVIEW</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">Canonical evidence + state-bound unsigned request</text>
+  </g>
+
+  <!-- Row 07 -->
+  <g transform="translate(88 720)">
+    <rect width="1424" height="58" rx="8" fill="#091721" stroke="#7BC2A5" stroke-opacity=".72"/>
+    <text x="18" y="34" fill="#7BC2A5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">07</text>
+    <text x="58" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Financial settlement</text>
+    <text x="260" y="34" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="15">Settled ledger fact</text>
+    <line x1="448" y1="29" x2="500" y2="29" stroke="#69D2E7" stroke-width="2" marker-end="url(#btcc-arrow-cyan)"/>
+    <rect x="558" y="10" width="214" height="38" rx="7" fill="#0B202A" stroke="#7BC2A5"/>
+    <text x="665" y="34" text-anchor="middle" fill="#7BC2A5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">RECONCILIATION</text>
+    <text x="820" y="35" fill="#7BC2A5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">MATCH / USD 0</text>
+    <text x="1030" y="35" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="13">No custody broadcast; expected no-movement state</text>
+  </g>
+
+  <line x1="88" y1="838" x2="1512" y2="838" stroke="#34505C"/>
+  <text x="88" y="870" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.7">REPORT SHL-WCF-RV-2026-0814 / O1-ISOLATED / EXPLANATORY VISUAL - PDF REMAINS AUTHORITATIVE</text>
+  <text x="1512" y="870" text-anchor="end" fill="#7BC2A5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">CONTAINED</text>
+</svg>
