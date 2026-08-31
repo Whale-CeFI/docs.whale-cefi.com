@@ -3027,7 +3027,7 @@ Within the defined isolated scope, SHERLOCK records all ten baseline findings as
 
 {% file src="../.gitbook/assets/audits/SHERLOCK_Whale_CeFi_Operation_BLACK_TIDE_Remediation_Verification_v2.0_2026-08-14.pdf" %}
 
-[Download the original 57-page PDF](../.gitbook/assets/audits/SHERLOCK_Whale_CeFi_Operation_BLACK_TIDE_Remediation_Verification_v2.0_2026-08-14.pdf)
+[Download the original 57-page PDF](https://github.com/Whale-CeFI/docs.whale-cefi.com/blob/main/.gitbook/assets/audits/SHERLOCK_Whale_CeFi_Operation_BLACK_TIDE_Remediation_Verification_v2.0_2026-08-14.pdf)
 
 | Field | Value |
 |---|---|
