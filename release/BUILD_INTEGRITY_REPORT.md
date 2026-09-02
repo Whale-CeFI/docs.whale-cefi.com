@@ -15,7 +15,7 @@
 - Failure-mode controls: 288
 - Evidence requirements: 360
 - Indexed SEO/GEO routes: 227
-- Approximate reader words: 89,524
+- Approximate reader words: 90,673
 - Structural QA: PASS
 - QA errors: 0
 - QA warnings: 0
