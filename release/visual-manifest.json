@@ -1,14 +1,14 @@
 {
   "brand": "Whale CeFi",
   "version": "2.0",
-  "generatedAt": "2026-07-23T20:06:53.340Z",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
   "visualDirection": "Institutional oceanography with human-controlled authority",
   "logoPolicy": "No legacy logo or generated substitute is included",
-  "assetCount": 58,
+  "assetCount": 61,
   "heroCount": 10,
-  "diagramCount": 48,
-  "placementCount": 75,
-  "uniqueUsedAssets": 58,
+  "diagramCount": 51,
+  "placementCount": 78,
+  "uniqueUsedAssets": 61,
   "unusedAssets": [],
   "assets": [
     {
@@ -355,6 +355,24 @@
     },
     {
       "file": "assets/visuals/diagrams/yield-waterfall.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/black-tide-control-cut-map.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/black-tide-containment-timeline.svg",
+      "width": 1600,
+      "height": 900,
+      "format": "svg"
+    },
+    {
+      "file": "assets/visuals/diagrams/black-tide-assurance-boundary.svg",
       "width": 1600,
       "height": 900,
       "format": "svg"
@@ -735,6 +753,21 @@
       "file": "developers-and-reference/machine-readable-contracts.md",
       "alt": "Machine-Readable Contracts",
       "target": "../assets/visuals/heroes/09-evidence-archive.png"
+    },
+    {
+      "file": "security-and-custody/operation-black-tide-remediation-verification.md",
+      "alt": "Resolved adversary path and independent control cuts",
+      "target": "../assets/visuals/diagrams/black-tide-control-cut-map.svg"
+    },
+    {
+      "file": "security-and-custody/operation-black-tide-remediation-verification.md",
+      "alt": "BLACK TIDE containment timeline",
+      "target": "../assets/visuals/diagrams/black-tide-containment-timeline.svg"
+    },
+    {
+      "file": "security-and-custody/operation-black-tide-remediation-verification.md",
+      "alt": "Assurance grade and production-mapping gate",
+      "target": "../assets/visuals/diagrams/black-tide-assurance-boundary.svg"
     }
   ]
 }

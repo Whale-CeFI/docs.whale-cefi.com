@@ -1,8 +1,8 @@
 # Владельцу: начни отсюда
 
-Это официальный релиз документации Whale CeFi от **10 августа 2026 года**.
+Это официальный релиз документации Whale CeFi от **28 августа 2026 года**.
 
-- Версия: `5.1.0`
+- Версия: `5.2.0`
 - Статус: `official-release`
 - Продуктовый домен: `https://whale-cefi.com`
 - Документация: `https://whale-cefi.com/docs`
@@ -41,4 +41,4 @@ npm run build:indexes
 npm run check
 ```
 
-Нормальный результат: 225 reader routes, 72 controlled specifications, 288 failure-mode controls, 360 release-evidence records, 0 errors и 0 warnings.
+Нормальный результат: 227 reader routes, 72 controlled specifications, 288 failure-mode controls, 360 release-evidence records, 0 errors и 0 warnings.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T00:00:00Z",
+  "generated_at": "2026-08-28T00:00:00Z",
   "documents": [
     {
       "source": "README.md",
@@ -409,6 +409,12 @@
       "url": "https://whale-cefi.com/docs/security-and-custody/security-assessment-and-remediation-verification",
       "title": "Security Assessment and Remediation Verification v3.0",
       "description": "Assessment WCF-SARV-2026-0810 records first-party smart-contract remediation verification for the exact assessed source and isolated chain 31337 environment."
+    },
+    {
+      "source": "security-and-custody/operation-black-tide-remediation-verification.md",
+      "url": "https://whale-cefi.com/docs/security-and-custody/operation-black-tide-remediation-verification",
+      "title": "Operation BLACK TIDE - Isolated Remediation Verification",
+      "description": "SHERLOCK report SHL-WCF-RV-2026-0814 records 10 resolved findings and 89 passing automated tests in an isolated revalidation harness; it does not assert production equivalence."
     },
     {
       "source": "security-and-custody/proof-of-reserves-and-liabilities.md",
@@ -1122,7 +1128,7 @@
       "source": "evidence-center/audit-center.md",
       "url": "https://whale-cefi.com/docs/evidence-center/audit-center",
       "title": "Audit Center",
-      "description": "The Audit Center separates first-party remediation verification, independent audit records, and production deployment coverage."
+      "description": "The Audit Center separates first-party assessment and adversary-emulation records, independent audits, and production deployment coverage."
     },
     {
       "source": "evidence-center/deployment-registry.md",
@@ -1151,7 +1157,7 @@
       "source": "evidence-center/release-manifest.md",
       "url": "https://whale-cefi.com/docs/evidence-center/release-manifest",
       "title": "Release Manifest",
-      "description": "Release v5.1 binds the 10 August 2026 documentation, gamification, entity-service, and security-assessment state."
+      "description": "Release v5.2 binds the 28 August 2026 documentation, gamification, entity-service, and security-assurance state."
     },
     {
       "source": "developers-and-reference/README.md",

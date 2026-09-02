@@ -1,6 +1,6 @@
 # Whale CeFi Documentation
 
-> Official Whale CeFi documentation release 5.1.0, effective 10 August 2026, at https://whale-cefi.com/docs.
+> Official Whale CeFi documentation release 5.2.0, effective 28 August 2026, at https://whale-cefi.com/docs.
 
 - [Whale CeFi Documentation](https://whale-cefi.com/docs)
 - [Start Here](https://whale-cefi.com/docs/start-here)
@@ -71,6 +71,7 @@
 - [Access Tiers and Enterprise Use](https://whale-cefi.com/docs/weni-native-intelligence/access-tiers-and-enterprise-use)
 - [Security and Custody](https://whale-cefi.com/docs/security-and-custody)
 - [Security Assessment and Remediation Verification v3.0](https://whale-cefi.com/docs/security-and-custody/security-assessment-and-remediation-verification)
+- [Operation BLACK TIDE - Isolated Remediation Verification](https://whale-cefi.com/docs/security-and-custody/operation-black-tide-remediation-verification)
 - [Proof of Reserves and Liabilities](https://whale-cefi.com/docs/security-and-custody/proof-of-reserves-and-liabilities)
 - [Transaction Policy](https://whale-cefi.com/docs/security-and-custody/transaction-policy)
 - [Administrative Zero Trust](https://whale-cefi.com/docs/security-and-custody/administrative-zero-trust)

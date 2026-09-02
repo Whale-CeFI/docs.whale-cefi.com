@@ -3,7 +3,7 @@ title: "Machine-Readable Contracts"
 canonical: "https://whale-cefi.com/docs/developers-and-reference/machine-readable-contracts"
 document_status: "official-release"
 audience: "public"
-last_reviewed: "2026-08-10"
+last_reviewed: "2026-08-28"
 description: "Schemas and interface definitions make the documentation testable by services, reviewers, and automated controls."
 ---
 
@@ -25,7 +25,7 @@ Narrative documentation explains intent. Machine-readable contracts define field
 | `data/product-versions.json` | Effective-dated reward-rate and calculation catalogue |
 | `data/gamification-config.json` | Live levels, XP multipliers, Daily XP Claims, rounding, and balance rewards |
 | `data/audits.json` | Independent Eter and Hashlock audit-programme records |
-| `data/security-assessments.json` | Published first-party assessment identity, result, scope, and PDF hash |
+| `data/security-assessments.json` | Published first-party assessment and adversary-emulation identities, results, scope boundaries, evidence-pack state, and PDF hashes |
 | `data/deployments.json` | Production deployment-coverage registry |
 | `data/proof-epochs.json` | Reserve and liability proof-epoch registry |
 | `data/release-manifest.json` | Current documentation release identity and publication targets |

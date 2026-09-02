@@ -67,8 +67,9 @@
   <url><loc>https://whale-cefi.com/docs/weni-native-intelligence/evaluation-and-model-governance</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/weni-native-intelligence/learn-to-earn-intelligence</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/weni-native-intelligence/access-tiers-and-enterprise-use</loc><lastmod>2026-07-29</lastmod></url>
-  <url><loc>https://whale-cefi.com/docs/security-and-custody</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://whale-cefi.com/docs/security-and-custody</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/security-and-custody/security-assessment-and-remediation-verification</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://whale-cefi.com/docs/security-and-custody/operation-black-tide-remediation-verification</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/security-and-custody/proof-of-reserves-and-liabilities</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/security-and-custody/transaction-policy</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/security-and-custody/administrative-zero-trust</loc><lastmod>2026-07-29</lastmod></url>
@@ -198,17 +199,17 @@
   <url><loc>https://whale-cefi.com/docs/evidence-center/product-version-register</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/evidence-center/reserves-and-liabilities</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/evidence-center/funding-and-capacity</loc><lastmod>2026-07-29</lastmod></url>
-  <url><loc>https://whale-cefi.com/docs/evidence-center/audit-center</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://whale-cefi.com/docs/evidence-center/audit-center</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/evidence-center/deployment-registry</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/evidence-center/asset-registry</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/evidence-center/service-status-and-incidents</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/evidence-center/weni-system-card</loc><lastmod>2026-07-29</lastmod></url>
-  <url><loc>https://whale-cefi.com/docs/evidence-center/release-manifest</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://whale-cefi.com/docs/evidence-center/release-manifest</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference</loc><lastmod>2026-07-29</lastmod></url>
-  <url><loc>https://whale-cefi.com/docs/developers-and-reference/machine-readable-contracts</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://whale-cefi.com/docs/developers-and-reference/machine-readable-contracts</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/deployment-registry</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/asset-registry</loc><lastmod>2026-07-29</lastmod></url>
-  <url><loc>https://whale-cefi.com/docs/developers-and-reference/audit-center</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://whale-cefi.com/docs/developers-and-reference/audit-center</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/governance-and-responsibility</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/risk-register</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/incident-response</loc><lastmod>2026-07-29</lastmod></url>
@@ -216,7 +217,7 @@
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/security-contact-and-disclosure</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/glossary</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/developers-and-reference/technical-references</loc><lastmod>2026-07-29</lastmod></url>
-  <url><loc>https://whale-cefi.com/docs/developers-and-reference/change-history</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://whale-cefi.com/docs/developers-and-reference/change-history</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/legal-and-support</loc><lastmod>2026-08-10</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/legal-and-support/entity-and-service-register</loc><lastmod>2026-08-10</lastmod></url>
   <url><loc>https://whale-cefi.com/docs/legal-and-support/customer-relationship-and-asset-rights</loc><lastmod>2026-07-29</lastmod></url>

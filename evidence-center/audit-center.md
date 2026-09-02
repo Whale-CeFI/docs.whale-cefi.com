@@ -3,32 +3,32 @@ title: Audit Center
 canonical: https://whale-cefi.com/docs/evidence-center/audit-center
 document_status: official-release
 audience: public
-last_reviewed: '2026-08-10'
+last_reviewed: '2026-08-28'
 description: >-
-  The Audit Center separates first-party remediation verification, independent
-  audit records, and production deployment coverage.
+  The Audit Center separates first-party assessment and adversary-emulation
+  records, independent audits, and production deployment coverage.
 ---
 
 # Audit Center
 
 A report title or resolved source finding does not automatically cover production runtime code.
 
-## Published security assessment
+## Published first-party security-assurance records
 
-| Field                          | Current record                                                             |
-| ------------------------------ | -------------------------------------------------------------------------- |
-| Assessment                     | `WCF-SARV-2026-0810`                                                       |
-| Title                          | Whale CeFi Security Assessment and Remediation Verification                |
-| Version and date               | v3.0, 10 August 2026                                                       |
-| Provider                       | Whale CeFi Security Engineering                                            |
-| Relationship                   | First-party                                                                |
-| Findings                       | 17 resolved in the exact assessed build; 0 open                            |
-| Automated checks               | 31 passed; 0 failed                                                        |
-| Environment                    | Isolated chain 31337; block 82                                             |
-| Production deployments covered | None                                                                       |
-| Artifact integrity             | SHA-256 `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918` |
+| Field | Smart-contract assessment | Operation BLACK TIDE |
+|---|---|---|
+| Record | `WCF-SARV-2026-0810` | `SHL-WCF-RV-2026-0814` |
+| Version and date | v3.0, 10 August 2026 | v2.0, 14 August 2026 |
+| Provider | Whale CeFi Security Engineering | SHERLOCK Internal Security Assurance |
+| Relationship | First-party | First-party / internal assurance |
+| Reported result | 17/17 resolved; 31/31 checks passed | 10/10 resolved; 89/89 tests passed; 22-event chain `VALID`; scenario `CONTAINED` |
+| Environment | Isolated chain 31337 through block 82 | `ISOLATED_REVALIDATION` |
+| Assurance boundary | Exact assessed build | `O1-ISOLATED` |
+| Production deployments covered | None | None asserted |
+| Artifact integrity | SHA-256 `c34dfed3f00802fa51b1fecb6d0f4cff2148160cb72afaf81cef91cf1ebb6918` | SHA-256 `373576273053d791d45fa2628437c7b593e1ab993aa6b17e078321438920a4b0` |
+| Evidence-pack state | Not applicable to the published record | Referenced executable pack not supplied with the public PDF; documentation-team reproduction not asserted |
 
-[Read the assessment summary and scope boundary](../security-and-custody/security-assessment-and-remediation-verification.md) or [download the original PDF](../.gitbook/assets/audits/Whale_CeFi_Security_Assessment_Remediation_Verification_v3.0_2026-08-10.pdf).
+Read the [smart-contract assessment summary](../security-and-custody/security-assessment-and-remediation-verification.md) or [download its original PDF](../.gitbook/assets/audits/Whale_CeFi_Security_Assessment_Remediation_Verification_v3.0_2026-08-10.pdf). Read the [BLACK TIDE adversary path, containment trace, and assurance boundary](../security-and-custody/operation-black-tide-remediation-verification.md) or [download its original PDF](../.gitbook/assets/audits/SHERLOCK_Whale_CeFi_Operation_BLACK_TIDE_Remediation_Verification_v2.0_2026-08-14.pdf).
 
 ## Independent audit programme
 
@@ -51,4 +51,4 @@ An internal test result never upgrades an independent auditor's status. Likewise
 
 No finding is described as deployment-covered merely because the implementation team changed code or passed a local check. Production coverage requires a deployment record that binds chain, address, runtime bytecode, source, compiler, roles, applicable assessment or audit, and activation interval.
 
-The independent audit programme is recorded in [audits.json](../data/audits.json). The published first-party assessment is recorded in [security-assessments.json](../data/security-assessments.json).
+The independent audit programme is recorded in [audits.json](../data/audits.json). Both published first-party security-assurance records are recorded in [security-assessments.json](../data/security-assessments.json).

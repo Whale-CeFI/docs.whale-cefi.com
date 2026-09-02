@@ -1,11 +1,11 @@
 {
-  "release_id": "WHALE-CEFI-DOCS-V5.1",
-  "version": "5.1.0",
+  "release_id": "WHALE-CEFI-DOCS-V5.2",
+  "version": "5.2.0",
   "status": "released",
   "public_release_status": "released",
   "canonical_domain": "whale-cefi.com",
   "canonical_documentation_origin": "https://whale-cefi.com/docs",
-  "effective_at": "2026-08-10T00:00:00Z",
+  "effective_at": "2026-08-28T00:00:00Z",
   "customer_contracting_and_operating_entity": "Pulpo Fintech, S.A. de C.V.",
   "operator_registration": "PSAD-0023",
   "governing_jurisdiction": "El Salvador",
@@ -20,6 +20,9 @@
     "entity-service-map-approved",
     "gamification-configuration-approved",
     "security-assessment-artifact-hash-verified",
+    "black-tide-pdf-hash-verified",
+    "black-tide-pdf-only-disclosure-owner-approved",
+    "black-tide-o1-isolated-boundary-published",
     "legal-and-product-copy-approved",
     "security-and-weni-controls-approved"
   ]

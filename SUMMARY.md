@@ -69,6 +69,7 @@
   * [Access Tiers and Enterprise Use](weni-native-intelligence/access-tiers-and-enterprise-use.md)
 * [Security and Custody](security-and-custody/README.md)
   * [Security Assessment and Remediation Verification v3.0](security-and-custody/security-assessment-and-remediation-verification.md)
+  * [Operation BLACK TIDE - Isolated Remediation Verification](security-and-custody/operation-black-tide-remediation-verification.md)
   * [Proof of Reserves and Liabilities](security-and-custody/proof-of-reserves-and-liabilities.md)
   * [Transaction Policy](security-and-custody/transaction-policy.md)
   * [Administrative Zero Trust](security-and-custody/administrative-zero-trust.md)

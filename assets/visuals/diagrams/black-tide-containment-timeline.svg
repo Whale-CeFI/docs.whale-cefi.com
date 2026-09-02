@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="btct-title btct-desc">
+  <title id="btct-title">Operation BLACK TIDE containment timeline</title>
+  <desc id="btct-desc">The isolated scenario from session replay at T plus zero through evidence-chain verification at T plus ninety, with containment states and a 22-event hash chain.</desc>
+  <defs>
+    <pattern id="btct-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#10232D" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="btct-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061018"/>
+      <stop offset="1" stop-color="#081A24"/>
+    </linearGradient>
+    <filter id="btct-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <marker id="btct-arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5 0 9Z" fill="#69D2E7"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#btct-bg)"/>
+  <rect width="1600" height="900" fill="url(#btct-grid)" opacity=".44"/>
+  <circle cx="1435" cy="90" r="190" fill="#69D2E7" opacity=".055" filter="url(#btct-glow)"/>
+
+  <text x="88" y="65" fill="#69D2E7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700" letter-spacing="3">SHERLOCK / BLACK TIDE / SYSTEM VIEW 02</text>
+  <text x="88" y="124" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="43" font-weight="650">End-to-End Containment Trace</text>
+  <text x="88" y="166" fill="#91A6AF" font-family="Inter, Arial, sans-serif" font-size="19">Eleven scenario checkpoints, seven recovery-state transitions, and one append-only evidence rail.</text>
+  <line x1="88" y1="205" x2="1512" y2="205" stroke="#34505C"/>
+
+  <text x="88" y="252" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.6">SCENARIO INJECT</text>
+  <line x1="160" y1="340" x2="1470" y2="340" stroke="#34505C" stroke-width="2" marker-end="url(#btct-arrow)"/>
+
+  <!-- Eleven checkpoint columns -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <g transform="translate(145 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+00</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">SESSION</text><text x="0" y="319" fill="#EAF1F3" font-size="12">REPLAY</text>
+      <circle cx="15" cy="340" r="7" fill="#D56A6A"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#D56A6A" stroke-width="2"/>
+      <rect x="-14" y="392" width="78" height="32" rx="6" fill="#22171A" stroke="#D56A6A"/>
+      <text x="25" y="413" text-anchor="middle" fill="#D56A6A" font-size="11" font-weight="700">BLOCKED</text>
+    </g>
+    <g transform="translate(270 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+10</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">TAMPERED</text><text x="0" y="319" fill="#EAF1F3" font-size="12">ARTIFACT</text>
+      <circle cx="15" cy="340" r="7" fill="#D56A6A"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#D56A6A" stroke-width="2"/>
+      <rect x="-20" y="392" width="92" height="32" rx="6" fill="#22171A" stroke="#D56A6A"/>
+      <text x="26" y="413" text-anchor="middle" fill="#D56A6A" font-size="10" font-weight="700">QUARANTINE</text>
+    </g>
+    <g transform="translate(395 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+20</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">UNAPPROVED</text><text x="0" y="319" fill="#EAF1F3" font-size="12">EGRESS</text>
+      <circle cx="15" cy="340" r="7" fill="#D56A6A"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#D56A6A" stroke-width="2"/>
+      <rect x="-14" y="392" width="78" height="32" rx="6" fill="#22171A" stroke="#D56A6A"/>
+      <text x="25" y="413" text-anchor="middle" fill="#D56A6A" font-size="11" font-weight="700">DENIED</text>
+    </g>
+    <g transform="translate(520 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+30</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">DESTINATION</text><text x="0" y="319" fill="#EAF1F3" font-size="12">MUTATION</text>
+      <circle cx="15" cy="340" r="7" fill="#D56A6A"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#D56A6A" stroke-width="2"/>
+      <rect x="-14" y="392" width="78" height="32" rx="6" fill="#22171A" stroke="#D56A6A"/>
+      <text x="25" y="413" text-anchor="middle" fill="#D56A6A" font-size="11" font-weight="700">BLOCKED</text>
+    </g>
+    <g transform="translate(645 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+31</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">POLICY</text><text x="0" y="319" fill="#EAF1F3" font-size="12">TAKEOVER</text>
+      <circle cx="15" cy="340" r="7" fill="#D56A6A"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#D56A6A" stroke-width="2"/>
+      <rect x="-14" y="392" width="78" height="32" rx="6" fill="#22171A" stroke="#D56A6A"/>
+      <text x="25" y="413" text-anchor="middle" fill="#D56A6A" font-size="11" font-weight="700">FROZEN</text>
+    </g>
+    <g transform="translate(770 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+40</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">MALICIOUS</text><text x="0" y="319" fill="#EAF1F3" font-size="12">UPGRADE</text>
+      <circle cx="15" cy="340" r="7" fill="#D56A6A"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#D56A6A" stroke-width="2"/>
+      <rect x="-14" y="392" width="82" height="32" rx="6" fill="#22171A" stroke="#D56A6A"/>
+      <text x="27" y="413" text-anchor="middle" fill="#D56A6A" font-size="10" font-weight="700">CANCELED</text>
+    </g>
+    <g transform="translate(895 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+50</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">WENI</text><text x="0" y="319" fill="#EAF1F3" font-size="12">SUBSTITUTE</text>
+      <circle cx="15" cy="340" r="7" fill="#D7A75F"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#D7A75F" stroke-width="2"/>
+      <rect x="-25" y="392" width="108" height="32" rx="6" fill="#211D16" stroke="#D7A75F"/>
+      <text x="29" y="413" text-anchor="middle" fill="#D7A75F" font-size="9.5" font-weight="700">RETURN_TO_REVIEW</text>
+    </g>
+    <g transform="translate(1020 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+60</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">LEDGER</text><text x="0" y="319" fill="#EAF1F3" font-size="12">RECONCILE</text>
+      <circle cx="15" cy="340" r="7" fill="#7BC2A5"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#7BC2A5" stroke-width="2"/>
+      <rect x="-14" y="392" width="78" height="32" rx="6" fill="#12211C" stroke="#7BC2A5"/>
+      <text x="25" y="413" text-anchor="middle" fill="#7BC2A5" font-size="11" font-weight="700">MATCH</text>
+    </g>
+    <g transform="translate(1145 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+70</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">SCOPED</text><text x="0" y="319" fill="#EAF1F3" font-size="12">SAFE EXIT</text>
+      <circle cx="15" cy="340" r="7" fill="#7BC2A5"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#7BC2A5" stroke-width="2"/>
+      <rect x="-18" y="392" width="92" height="32" rx="6" fill="#12211C" stroke="#7BC2A5"/>
+      <text x="28" y="413" text-anchor="middle" fill="#7BC2A5" font-size="10" font-weight="700">PRESERVED</text>
+    </g>
+    <g transform="translate(1270 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+80</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">STAGED</text><text x="0" y="319" fill="#EAF1F3" font-size="12">REOPENING</text>
+      <circle cx="15" cy="340" r="7" fill="#7BC2A5"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#7BC2A5" stroke-width="2"/>
+      <rect x="-14" y="392" width="78" height="32" rx="6" fill="#12211C" stroke="#7BC2A5"/>
+      <text x="25" y="413" text-anchor="middle" fill="#7BC2A5" font-size="11" font-weight="700">CLOSED</text>
+    </g>
+    <g transform="translate(1395 0)">
+      <text x="0" y="280" fill="#69D2E7" font-size="12" font-weight="700">T+90</text>
+      <text x="0" y="303" fill="#EAF1F3" font-size="12">EVIDENCE</text><text x="0" y="319" fill="#EAF1F3" font-size="12">CHAIN</text>
+      <circle cx="15" cy="340" r="7" fill="#7BC2A5"/>
+      <line x1="15" y1="347" x2="15" y2="392" stroke="#7BC2A5" stroke-width="2"/>
+      <rect x="-14" y="392" width="84" height="32" rx="6" fill="#12211C" stroke="#7BC2A5"/>
+      <text x="28" y="413" text-anchor="middle" fill="#7BC2A5" font-size="10" font-weight="700">VERIFIED</text>
+    </g>
+  </g>
+
+  <text x="88" y="485" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.6">INCIDENT CONTROLLER / ALLOWED STATE PATH</text>
+  <line x1="160" y1="548" x2="1470" y2="548" stroke="#243B46" stroke-width="6"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700">
+    <g transform="translate(160 0)"><circle cx="0" cy="548" r="10" fill="#69D2E7"/><text x="0" y="579" text-anchor="middle" fill="#EAF1F3">NORMAL</text></g>
+    <path d="M170 548H350" stroke="#69D2E7" stroke-width="3" marker-end="url(#btct-arrow)"/>
+    <g transform="translate(365 0)"><circle cx="0" cy="548" r="10" fill="#D7A75F"/><text x="0" y="579" text-anchor="middle" fill="#EAF1F3">DEGRADED</text></g>
+    <path d="M375 548H555" stroke="#69D2E7" stroke-width="3" marker-end="url(#btct-arrow)"/>
+    <g transform="translate(570 0)"><circle cx="0" cy="548" r="10" fill="#D7A75F"/><text x="0" y="579" text-anchor="middle" fill="#EAF1F3">READ_ONLY</text></g>
+    <path d="M580 548H760" stroke="#69D2E7" stroke-width="3" marker-end="url(#btct-arrow)"/>
+    <g transform="translate(775 0)"><circle cx="0" cy="548" r="10" fill="#D56A6A"/><text x="0" y="579" text-anchor="middle" fill="#EAF1F3">SCOPED_PAUSE</text></g>
+    <path d="M785 548H965" stroke="#69D2E7" stroke-width="3" marker-end="url(#btct-arrow)"/>
+    <g transform="translate(980 0)"><circle cx="0" cy="548" r="10" fill="#D56A6A"/><text x="0" y="579" text-anchor="middle" fill="#EAF1F3">MANUAL_CONTROL</text></g>
+    <path d="M990 548H1170" stroke="#69D2E7" stroke-width="3" marker-end="url(#btct-arrow)"/>
+    <g transform="translate(1185 0)"><circle cx="0" cy="548" r="10" fill="#69D2E7"/><text x="0" y="579" text-anchor="middle" fill="#EAF1F3">RECOVERY</text></g>
+    <path d="M1195 548H1375" stroke="#69D2E7" stroke-width="3" marker-end="url(#btct-arrow)"/>
+    <g transform="translate(1390 0)"><circle cx="0" cy="548" r="12" fill="#7BC2A5"/><text x="0" y="579" text-anchor="middle" fill="#7BC2A5">CLOSED</text></g>
+  </g>
+
+  <text x="88" y="650" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.6">APPEND-ONLY SCENARIO EVENT CHAIN / 22 EVENTS</text>
+  <line x1="160" y1="706" x2="1470" y2="706" stroke="#34505C" stroke-width="2"/>
+  <g fill="#0B1B25" stroke="#69D2E7" stroke-width="2">
+    <circle cx="160" cy="706" r="8"/><circle cx="222" cy="706" r="8"/><circle cx="284" cy="706" r="8"/><circle cx="346" cy="706" r="8"/>
+    <circle cx="408" cy="706" r="8"/><circle cx="470" cy="706" r="8"/><circle cx="532" cy="706" r="8"/><circle cx="594" cy="706" r="8"/>
+    <circle cx="656" cy="706" r="8"/><circle cx="718" cy="706" r="8"/><circle cx="780" cy="706" r="8"/><circle cx="842" cy="706" r="8"/>
+    <circle cx="904" cy="706" r="8"/><circle cx="966" cy="706" r="8"/><circle cx="1028" cy="706" r="8"/><circle cx="1090" cy="706" r="8"/>
+    <circle cx="1152" cy="706" r="8"/><circle cx="1214" cy="706" r="8"/><circle cx="1276" cy="706" r="8"/><circle cx="1338" cy="706" r="8"/>
+    <circle cx="1400" cy="706" r="8"/><circle cx="1462" cy="706" r="10" fill="#12211C" stroke="#7BC2A5"/>
+  </g>
+  <g fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle">
+    <text x="160" y="730">00</text><text x="222" y="730">01</text><text x="284" y="730">02</text><text x="346" y="730">03</text>
+    <text x="408" y="730">04</text><text x="470" y="730">05</text><text x="532" y="730">06</text><text x="594" y="730">07</text>
+    <text x="656" y="730">08</text><text x="718" y="730">09</text><text x="780" y="730">10</text><text x="842" y="730">11</text>
+    <text x="904" y="730">12</text><text x="966" y="730">13</text><text x="1028" y="730">14</text><text x="1090" y="730">15</text>
+    <text x="1152" y="730">16</text><text x="1214" y="730">17</text><text x="1276" y="730">18</text><text x="1338" y="730">19</text>
+    <text x="1400" y="730">20</text><text x="1462" y="730" fill="#7BC2A5">21</text>
+  </g>
+  <text x="160" y="768" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">IDENTITY_GATE / 49f57edff471...</text>
+  <text x="1462" y="768" text-anchor="end" fill="#7BC2A5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">RECOVERY-&gt;CLOSED / 71e4099e1f1...</text>
+
+  <rect x="88" y="790" width="1424" height="48" rx="8" fill="#0B1B25" stroke="#7BC2A5" stroke-opacity=".72"/>
+  <text x="112" y="820" fill="#7BC2A5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700">CONTAINED</text>
+  <text x="255" y="820" fill="#EAF1F3" font-family="Inter, Arial, sans-serif" font-size="14">No custody broadcast / reconciliation MATCH / safe exit preserved / USD 0 simulated principal loss</text>
+  <text x="1488" y="820" text-anchor="end" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">O1-ISOLATED</text>
+
+  <line x1="88" y1="858" x2="1512" y2="858" stroke="#34505C"/>
+  <text x="88" y="883" fill="#91A6AF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.5">REPORT SHL-WCF-RV-2026-0814 / EXPLANATORY VISUAL - PDF REMAINS AUTHORITATIVE</text>
+</svg>

@@ -321,6 +321,9 @@ if (audits.records.some((item) => item.artifact_hash !== null)) {
 const securityAssessments = JSON.parse(
   fs.readFileSync(path.join(root, "data", "security-assessments.json"), "utf8"),
 );
+if (securityAssessments.schema_version !== "1.1.0") {
+  errors.push("Security assessment registry is not bound to schema version 1.1.0");
+}
 const assessment = securityAssessments.records.find(
   (item) => item.assessment_id === "WCF-SARV-2026-0810",
 );
@@ -358,6 +361,55 @@ if (!assessment) {
   }
 }
 
+const blackTide = securityAssessments.records.find(
+  (item) => item.assessment_id === "SHL-WCF-RV-2026-0814",
+);
+const expectedBlackTideHash = "373576273053d791d45fa2628437c7b593e1ab993aa6b17e078321438920a4b0";
+if (!blackTide) {
+  errors.push("Security assessment registry is missing SHL-WCF-RV-2026-0814");
+} else {
+  const scope = blackTide.scope ?? {};
+  const results = blackTide.finding_summary ?? {};
+  const checks = blackTide.automated_revalidation ?? {};
+  const evidencePack = blackTide.evidence_pack ?? {};
+  if (
+    blackTide.provider_relationship !== "first-party" ||
+    blackTide.independent_third_party_audit !== false ||
+    blackTide.issue_date !== "2026-08-14" ||
+    scope.environment !== "ISOLATED_REVALIDATION" ||
+    scope.assurance_grade !== "O1-ISOLATED" ||
+    scope.production_deployment_coverage?.length !== 0 ||
+    results.total !== 10 ||
+    results.resolved !== 10 ||
+    results.open !== 0 ||
+    checks.total_checks !== 89 ||
+    checks.passed !== 89 ||
+    checks.failed !== 0 ||
+    checks.scenario_outcome !== "CONTAINED" ||
+    checks.simulated_principal_loss_usd !== 0 ||
+    checks.event_chain_count !== 22 ||
+    checks.event_chain_status !== "VALID" ||
+    evidencePack.status !== "not-supplied-with-public-release" ||
+    evidencePack.pdf_embedded_file_count !== 0 ||
+    evidencePack.independent_reproduction_by_documentation_team !== false
+  ) {
+    errors.push("SHL-WCF-RV-2026-0814 result, scope, or evidence-pack boundary is incorrect");
+  }
+  const blackTidePath = path.join(root, blackTide.artifact?.path ?? "");
+  if (!fs.existsSync(blackTidePath)) {
+    errors.push("SHL-WCF-RV-2026-0814 PDF is missing");
+  } else {
+    const actualHash = crypto.createHash("sha256").update(fs.readFileSync(blackTidePath)).digest("hex");
+    if (
+      blackTide.artifact.pages !== 57 ||
+      blackTide.artifact.sha256 !== expectedBlackTideHash ||
+      actualHash !== expectedBlackTideHash
+    ) {
+      errors.push("SHL-WCF-RV-2026-0814 PDF identity or hash mismatch");
+    }
+  }
+}
+
 const legalEntities = JSON.parse(
   fs.readFileSync(path.join(root, "data", "legal-entities.json"), "utf8"),
 );
@@ -387,12 +439,13 @@ const releaseManifest = JSON.parse(
   fs.readFileSync(path.join(root, "data", "release-manifest.json"), "utf8"),
 );
 if (
-  releaseManifest.release_id !== "WHALE-CEFI-DOCS-V5.1" ||
-  releaseManifest.version !== "5.1.0" ||
+  releaseManifest.release_id !== "WHALE-CEFI-DOCS-V5.2" ||
+  releaseManifest.version !== "5.2.0" ||
+  releaseManifest.effective_at !== "2026-08-28T00:00:00Z" ||
   releaseManifest.status !== "released" ||
   releaseManifest.public_release_status !== "released"
 ) {
-  errors.push("Release manifest is not bound to the v5.1 official public release");
+  errors.push("Release manifest is not bound to the v5.2 official public release");
 }
 if (releaseManifest.canonical_documentation_origin !== "https://whale-cefi.com/docs") {
   errors.push("Release manifest has an incorrect canonical documentation origin");
@@ -413,7 +466,7 @@ const report = {
 
 fs.mkdirSync(path.join(root, "release"), { recursive: true });
 fs.writeFileSync(
-  path.join(root, "release", "qa-v5.1-report.json"),
+  path.join(root, "release", "qa-v5.2-report.json"),
   JSON.stringify(report, null, 2) + "\n",
 );
 
@@ -439,14 +492,16 @@ collectFiles(root);
 
 const totalWords = routes.routes.reduce((sum, route) => sum + route.words, 0);
 const buildReport = [
-  "# Whale CeFi v5.1 GitHub + GitBook Release Integrity",
+  "# Whale CeFi v5.2 GitHub + GitBook Release Integrity",
   "",
   "- Documentation status: official release",
-  "- Release date: 10 August 2026",
+  "- Release date: 28 August 2026",
   "- Product domain: https://whale-cefi.com",
   "- Documentation origin: https://whale-cefi.com/docs",
   "- Customer contracting and operating entity: Pulpo Fintech, S.A. de C.V. (PSAD-0023), El Salvador",
   "- Published security assessment: WCF-SARV-2026-0810, first-party, SHA-256 verified",
+  "- Published adversary-emulation revalidation: SHL-WCF-RV-2026-0814, first-party, O1-ISOLATED, SHA-256 verified",
+  "- BLACK TIDE evidence pack: not supplied; documentation-team reproduction not asserted",
   "- Gamification configuration: WCF-GAMIFICATION-LIVE-2026-08-10",
   "- GitBook navigation entries: " + links.length,
   "- Unique reader pages: " + new Set(links).size,
@@ -461,7 +516,7 @@ const buildReport = [
   "",
   "The Product Truth Register, reference transfer map, and visual usage register are internal control files and are intentionally excluded from GitBook navigation.",
   "",
-  "This report verifies the released documentation package. The first-party security assessment remains separate from independent audit records and has no production-deployment coverage. Restricted corporate and operational artifacts retain their own provenance.",
+  "This report verifies the released documentation package. Both first-party security-assurance records remain separate from independent audit records and have no production-deployment coverage. The BLACK TIDE evidence pack remains an explicitly disclosed open follow-up gate. Restricted corporate and operational artifacts retain their own provenance.",
 ].join("\n");
 fs.writeFileSync(
   path.join(root, "release", "BUILD_INTEGRITY_REPORT.md"),
